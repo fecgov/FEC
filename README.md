@@ -1,6 +1,6 @@
 # Federal Election Commission
 
-18F is exploring a reimagined website for the [Federal Election Commission](http://www.fec.gov). We're still in the early stages of this project, but would love your ideas about how we can help make the FEC's online presence more user-friendly, accessible, and elegant. Our project is focused on technical solutions we can provide to improving the FEC's online presence and will not address antyhing that falls under regulatory or legislative changes.
+18F is exploring a reimagined website for the [Federal Election Commission](http://www.fec.gov). We're still in the early stages of this project, but would love your ideas about how we can help make the FEC's online presence more user-friendly, accessible, and elegant. Our project is focused on technical solutions we can provide to improving the FEC's online presence and will not address anything that falls under regulatory or legislative changes.
 
 We encourage use of the [issues tracker](https://github.com/18F/fec/issues) for specific requests or ideas. We also welcome [pull requests](https://github.com/18F/fec/pulls) if you want to be bold and suggest a specific approach or implementation!
 
