@@ -1,0 +1,98 @@
+{
+    "api_version": "1",
+    "other_field": "other_value",
+    "pagination": {
+        "count": 1,
+        "page": 1,
+        "per_page": 1
+    },
+    "result": {
+        "cand_id": "H0AK00097",
+        "last_updated": "2013-01-01",
+        "properties": {
+            "first_name": "Elizabeth",
+            "last_name": "Smith",
+            "middle_name": "Robot",
+            "prefix": "Dr.",
+            "street1": "3 Los Angeles Ave",
+            "street2": "Suite 100",
+            "city": "Los Angeles",
+            "zip": "91381"
+        },
+        "committees": {
+            "principal": "C000011",
+            "authorized": [
+                "C00002",
+                "C00003"
+            ]
+        },
+        "elections": [
+            {
+                "year": "2012",
+                "district": "12",
+                "state": "ca",
+                "office": "house",
+                "incumbent_status": "incumbent",
+                "party": "dem"
+            },
+            {
+                "year": "2010",
+                "district": "12",
+                "state": "ca",
+                "office": "house",
+                "incumbent_status": "incumbent",
+                "party": "dem"
+            },
+            {
+                "year": "2008",
+                "district": "12",
+                "state": "ca",
+                "office": "house",
+                "incumbent_status": "incumbent",
+                "party": "dem"
+            }
+        ],
+        "history": {
+            "properties": [
+                {
+                    "first_name": "Elizabeth",
+                    "last_name": "Smith",
+                    "middle_name": "Robot",
+                    "prefix": "Dr.",
+                    "street1": "10 Buffalo Ave",
+                    "street2": "Suite 100",
+                    "city": "Los Angeles",
+                    "zip": "91381",
+                    "date_filed": "2007-12-21"
+                },
+                {
+                    "first_name": "Elizabeth",
+                    "last_name": "Smith",
+                    "middle_name": "Robot",
+                    "prefix": "Dr.",
+                    "street1": "52 Hollywood Drive",
+                    "street2": "Suite 100",
+                    "city": "Los Angeles",
+                    "zip": "91381",
+                    "date_filed": "2004-12-21"
+                }
+            ],
+            "committees": {
+                "principal": [
+                    {
+                        "id": "C00008",
+                        "date_added": "2001-01-08",
+                        "date_removed": "2001-08-05"
+                    }
+                ],
+                "authorized": [
+                    {
+                        "id": "C00003",
+                        "date_added": "2001-01-08",
+                        "date_removed": "2001-08-05"
+                    }
+                ]
+            }    
+        }
+    }
+}
