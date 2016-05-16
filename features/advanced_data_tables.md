@@ -4,7 +4,7 @@
 
 ## Filtering & Searching
 
-![assets/advanced_data_tables-20899.png](assets/advanced_data_tables-20899.png)
+![Image of data tables receipts table](features/assets/advanced_data_tables-20899.png)
 
 feature                   | issues                                             | last tested
 :------------------------ | :------------------------------------------------- | :------------
