@@ -4,6 +4,5 @@
 
 ## Filtering & Searching
 
-|
-
-<insert picture="">| type-ahead: <a href="https://github.com/18F/openFEC/issues/1652">1652</a> filtering: <a href="https://github.com/18F/openFEC/issues/1653">1653</a> |</insert>
+- autocomplete / type-ahead: [1652](https://github.com/18F/openFEC/issues/1652) [5/12/2016]
+- filtering: [1653](https://github.com/18F/openFEC/issues/1653) [5/12/2016]
