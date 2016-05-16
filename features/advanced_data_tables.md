@@ -4,7 +4,7 @@
 
 ## Filtering & Searching
 
-![assets/advanced_data_tables-20899.png](paste-image-2016-05-16-19-24-10-480.png)
+![assets/advanced_data_tables-20899.png](paste-image-2016-05-16-19-29-08-677.png)
 
 feature                   | issues                                             | last tested
 :------------------------ | :------------------------------------------------- | :------------
