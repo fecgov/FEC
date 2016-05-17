@@ -1,10 +1,10 @@
 # Advanced Data Tables
 
-# Linked Issues
-
-## Filtering & Searching
+These tables are meant to provide expert users with the ability to browse and filter candidates, committee, receipts and disbursements, filtering by a range of dimensions.
 
 ![Image of data tables receipts table](assets/receipts.png)
+
+## Filtering & Searching
 
 feature                   | issues                                             | last tested
 :------------------------ | :------------------------------------------------- | :------------
