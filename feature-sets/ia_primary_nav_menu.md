@@ -1,4 +1,4 @@
-# Primary nav feature set
+# IA & Primary nav feature set
 
 - To help users navigate to the different site sections
 - To show the structure of the site and what it makes available
