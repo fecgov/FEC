@@ -14,7 +14,7 @@ In developing the first public release of beta.fec.gov, we uncovered that there 
 
 From this, two mock-ups were created for concept testing, representing two possible flows and interaction concepts: [flow A](https://gsa.invisionapp.com/share/UP70ZUQFD#/screens), [flow B](https://gsa.invisionapp.com/share/UP70ZUQFD#/screens/152282020).
 
-## Spending & Fundraising Overview {4, 6}
+## Spending & Fundraising Overview {4, 7}
 
 feature                                     | issues                                             | last tested                                                                    | gif/pic | test notes
 :------------------------------------------ | :------------------------------------------------- | :----------------------------------------------------------------------------- | :------ | :---------
