@@ -16,13 +16,13 @@ From this, two mock-ups were created for concept testing, representing two possi
 
 ## Spending & Fundraising Overview {4, 6}
 
-feature                                            | issues | last tested                                                                    | gif/pic | test notes
-:------------------------------------------------- | :----- | :----------------------------------------------------------------------------- | :------ | :---------
-[1596](https://github.com/18F/openFEC/issues/1596) |        | see [dashboard research summary](../directional_research/dashboard_summary.md) |         |
-[322](https://github.com/18F/fec-style/issues/322) |        | not yet tested                                                                 |
+feature                                     | issues                                             | last tested                                                                    | gif/pic | test notes
+:------------------------------------------ | :------------------------------------------------- | :----------------------------------------------------------------------------- | :------ | :---------
+Spending & Fundraising Charts Wireframes    | [1596](https://github.com/18F/openFEC/issues/1596) | see [dashboard research summary](../directional_research/dashboard_summary.md) |         |
+Spending & Fundraising Charts Visual Design | [322](https://github.com/18F/fec-style/issues/322) | not yet tested                                                                 |
 
 ## Engagement Widget {5}
 
-feature                                            | issues | last tested    | gif/pic | test notes
-:------------------------------------------------- | :----- | :------------- | :------ | :---------
-[1596](https://github.com/18F/openFEC/issues/1596) |        | not yet tested |
+feature                 | issues                                             | last tested    | gif/pic | test notes
+:---------------------- | :------------------------------------------------- | :------------- | :------ | :---------
+Chart Engagement Widget | [1596](https://github.com/18F/openFEC/issues/1596) | not yet tested |
