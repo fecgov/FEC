@@ -35,10 +35,6 @@ These tables are meant to provide expert users with the ability to browse and fi
 
 - :large_orange_diamond: [5/12/2016]() before attempting filter tasks, many users seek to sort on name first. Seems they are using sorting as a "fuzzy" filter that lets them see things that are close to their desired term. This may be a coping mechanism for data which is inevitably imperfect. [1652](https://github.com/18F/openFEC/issues/1652)
 
-### detail panel
-
-## Download 4
-
 ## Keep an eye on
 
 feature                    | note
@@ -47,3 +43,5 @@ employer text box          | expressed desire for including multiple employers
 `received from` checkboxes | default should have both checked?
 
 ## Initial directional research
+
+to be added
