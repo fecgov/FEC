@@ -7,9 +7,10 @@ These tables are meant to provide expert users with the ability to browse and fi
 ## key:
 
 :red_circle:           | needs action now (`red_circle`)
-:--------------------- | :------------------------------------------
+:--------------------- | :-------------------------------------------------------------------------------------------------------------------------
 :large_orange_diamond: | needs action later (`large_orange_diamond`)
 :white_circle:         | no actions at this time (`white_circle`)
+decision bullet format | `- [needs action indicator]` `[tested date link]` documented decision overview `[documented issue link]` `[demo gif link]`
 
 ## filtering and searching 2, 5
 
@@ -26,6 +27,7 @@ These tables are meant to provide expert users with the ability to browse and fi
 
 #### tested dates, decisions & issues
 
+- :red_circle: [6/9/2016]() users felt like blah [issue]()
 - :red_circle: [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) many users interpreted the filters as "or" as opposed to an "and", only some of the users comprehended what was happening after the search results were shown [1653](https://github.com/18F/openFEC/issues/1653) [:tv:](assets/gates-sample.gif)
 - :white_circle: [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) sticky filter panel more likely to be seen
 
