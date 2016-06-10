@@ -23,6 +23,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
   - :wrench: Clarify interlinkages between candidate and candidate data; enhance committee links to candidate --- particularly apparent in mobile. The fix?: Collapse some information in mobile that appeared overlooked by testers today
 
   - :wrench: Interlinkages between candidate and candidate data (whether the candidate data is in the committee or candidate advanced data table )
+
   - :wrench: (?) Visual difference between a link that take you to a profile page, and links that take you to a data table
 
 ## mega menu
@@ -34,9 +35,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 - :large_orange_diamond: PROBLEM: User expected to see a search box right away on the mobile view. Something they could type into. Did not know the visual cues for the menu in mobile view. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
 
-<assets menu-open.png=""> a picture of the megamenu open.</assets>
-
-[Style 313](https://github.com/18F/fec-style/issues/313) | [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) | ![assets/megamega.gif](assets/megamega.gif) | :small_blue_diamond: mega menu taking over full screen size is problematic :small_blue_diamond: language - getters versus givers. contributions from individuals. |
+- :large_orange_diamond: mega menu taking over full screen size is problematic :small_blue_diamond: language - getters versus givers. contributions from individuals. [tested 5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: Style 313](https://github.com/18F/fec-style/issues/313)[:tv:](assets/megamega.gif)
 
 ## mobile menu
 
