@@ -4,11 +4,11 @@ Feature set overview `![name of key image of feature set](assets/feature-set-key
 
 ## key:
 
-:red_circle:           | needs action now (`red_circle`)
-:--------------------- | :-------------------------------------------------------------------------------------------------------------------------
-:large_orange_diamond: | needs action later (`large_orange_diamond`)
-:white_circle:         | no actions at this time (`white_circle`)
-decision bullet format | `- [needs action indicator]` `[tested date link]` documented decision overview `[documented issue link]` `[demo gif link]`
+:red_circle:           | Relatively severe, insurmountable experience issue, failures endemic. Recommend that action is taken (`red_circle`)
+:--------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:large_orange_diamond: | Moderate experience issue; reasons for failure or success are complicated, inconsistent and/or may be addressed by other fixes (`large_orange_diamond`)
+:white_circle:         | Minor or nonexistent experience issue, or unclear finding, no action indicated (`white_circle`)
+decision bullet format | `- [needs action indicator]` Problem: "Users thought this happened, or expected this, when really this" if :large_orange_diamond: Why to address this later (any dependent issues or pre-fix fixes) or if :white_circle: The thing we were looking for in testing / Recap of why no action : Inconclusive test / Not enough data / Good enough!`[Assigned in GitHub issue #]` `[tested date link]` `[demo gif link]` then if any Fix/hypothesis statements exist: :wrench: "we think that by making this X do Y, it will improve" or
 
 ## feature set feature group `[feature set feature group number from image]`
 
