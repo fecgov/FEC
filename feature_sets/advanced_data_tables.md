@@ -12,11 +12,11 @@ These tables are meant to provide expert users with the ability to browse and fi
 :white_circle:         | Minor or nonexistent experience issue, or unclear finding, no action indicated (`white_circle`)
 decision bullet format | `- [needs action indicator]` Problem: "Users thought this happened, or expected this, when really this" then if :red_circle: :wrench: Fix/hypothesis statement: "we think that by making this X do Y, it will improve" or if :large_orange_diamond: Why to address this later (any dependent issues or pre-fix fixes) or if :white_circle: The thing we were looking for in testing / Recap of why no action : Inconclusive test / Not enough data / Good enough!`[Assigned in GitHub issue #]` `[tested date link]` `[demo gif link]`
 
-## filtering and searching 2, 5
+## Filtering and searching :two:, :five:
 
-### autocomplete & type-ahead
+### Autocomplete and type-ahead
 
-#### tested dates, decisions & issues
+#### Tested dates, decisions, and issues
 
 - :red_circle: PROBLEM: Once users have added filters they did not close the panel, it was not clear that the filter panel could be closed. This led users to think they had to reset the filters in order to add more. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
 
@@ -46,16 +46,16 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
   - :wrench: filter input boxes that function differently should indicate that they do (this may be sufficiently accomplished by the presence of the free-text search prompt appearing in the contextual menu)
 
-### filtering
+### Filtering
 
-#### tested dates, decisions & issues
+#### Tested dates, decisions, and issues
 
 - :red_circle: many users interpreted the filters as "or" as opposed to an "and", only some of the users comprehended what was happening after the search results were shown [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: 1653](https://github.com/18F/openFEC/issues/1653) [:tv:](assets/gates-sample.gif)
 - :white_circle: sticky filter panel more likely to be seen [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
 
-## Results Listing 3
+## Results listing :three:
 
-### sorting
+### Sorting
 
 - :large_orange_diamond: Before attempting filter tasks, many users seek to sort on name first. Seems they are using sorting as a "fuzzy" filter that lets them see things that are close to their desired term. This may be a coping mechanism for data which is inevitably imperfect. [5/12/2016] [issue: 1652](https://github.com/18F/openFEC/issues/1652)
 
