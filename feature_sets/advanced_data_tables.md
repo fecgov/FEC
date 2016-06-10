@@ -42,23 +42,22 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 - :white_circle: [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md), [5/26/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-26.md) users used search button, enter, and selecting an item from the pop-up to trigger search. [1594](https://github.com/18F/openFEC/issues/1594), [1652](https://github.com/18F/openFEC/issues/1652) [:tv:](assets/right_to_rise.gif)
 
-- :large_orange_diamond: search icon may confuse, but not as much as drop down icon.
+- :large_orange_diamond: search icon may confuse, but not as much as drop down icon. [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
 
-  - [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) filter input boxes that function differently should indicate that they do (this may be sufficiently accomplished by the presence of the free-text search prompt appearing in the contextual menu)
+  - :wrench: filter input boxes that function differently should indicate that they do (this may be sufficiently accomplished by the presence of the free-text search prompt appearing in the contextual menu)
 
 ### filtering
 
 #### tested dates, decisions & issues
 
-- :red_circle: [6/9/2016]() users felt like blah [issue]()
-- :red_circle: [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) many users interpreted the filters as "or" as opposed to an "and", only some of the users comprehended what was happening after the search results were shown [1653](https://github.com/18F/openFEC/issues/1653) [:tv:](assets/gates-sample.gif)
-- :white_circle: [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) sticky filter panel more likely to be seen
+- :red_circle: many users interpreted the filters as "or" as opposed to an "and", only some of the users comprehended what was happening after the search results were shown [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: 1653](https://github.com/18F/openFEC/issues/1653) [:tv:](assets/gates-sample.gif)
+- :white_circle: sticky filter panel more likely to be seen [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
 
 ## Results Listing 3
 
 ### sorting
 
-- :large_orange_diamond: [5/12/2016]() before attempting filter tasks, many users seek to sort on name first. Seems they are using sorting as a "fuzzy" filter that lets them see things that are close to their desired term. This may be a coping mechanism for data which is inevitably imperfect. [1652](https://github.com/18F/openFEC/issues/1652)
+- :large_orange_diamond: Before attempting filter tasks, many users seek to sort on name first. Seems they are using sorting as a "fuzzy" filter that lets them see things that are close to their desired term. This may be a coping mechanism for data which is inevitably imperfect. [5/12/2016] [issue: 1652](https://github.com/18F/openFEC/issues/1652)
 
 ## Keep an eye on
 

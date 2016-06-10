@@ -21,6 +21,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
   - :wrench: Create prominent pathways from registration and reporting to calendar deadlines
 
   - :wrench: Clarify interlinkages between candidate and candidate data; enhance committee links to candidate --- particularly apparent in mobile. The fix?: Collapse some information in mobile that appeared overlooked by testers today
+
   - :wrench: Interlinkages between candidate and candidate data (whether the candidate data is in the committee or candidate advanced data table )
   - :wrench: (?) Visual difference between a link that take you to a profile page, and links that take you to a data table
 
@@ -53,15 +54,3 @@ feature                    | note
 :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 nav item for donor look up | "individual contributions" was slightly confusing, it might make sense to change to "contributions from individuals" [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
 feature description        | feature note
-
-## mobile menu
-
-# Feature set title
-
-Feature set overview `![name of key image of feature set](assets/feature-set-key.png)`
-
-## feature set feature group `[feature set feature group number from image]`
-
-### feature set feature
-
-#### tested dates, decisions & issues
