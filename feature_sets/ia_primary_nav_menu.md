@@ -35,7 +35,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 - :large_orange_diamond: PROBLEM: User expected to see a search box right away on the mobile view. Something they could type into. Did not know the visual cues for the menu in mobile view. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
 
-- :large_orange_diamond: mega menu taking over full screen size is problematic :small_blue_diamond: language - getters versus givers. contributions from individuals. [tested 5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: Style 313](https://github.com/18F/fec-style/issues/313)[:tv:](assets/megamega.gif)
+- :large_orange_diamond: mega menu taking over full screen size is problematic [tested 5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: Style 313](https://github.com/18F/fec-style/issues/313)[:tv:](assets/megamega.gif)
 
 ## mobile menu
 
@@ -52,4 +52,4 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 feature                    | note
 :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 nav item for donor look up | "individual contributions" was slightly confusing, it might make sense to change to "contributions from individuals" [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
-feature description        | feature note
+nav item for donor look up | language - getters versus givers. contributions from individuals.
