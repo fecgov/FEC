@@ -15,7 +15,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 ## navigation / information architecture / hierarchy
 
-- :red_circle: PROBLEM: Users get lost when moving between the candidate profile pages and financial data that the user associates with those candidates. That data is already legally (and hierarchically on the site) linked to committees (and advanced data tables such as receipts and disbursements). E.g.: "How much has Bernie Sanders raised in big dollar donations?" [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :red_circle: PROBLEM: Users get lost when moving between the candidate profile pages and financial data that the user associates with those candidates. That data is already legally (and hierarchically on the site) linked to committees (and advanced data tables such as receipts and disbursements). E.g.: "How much has Bernie Sanders raised in big dollar donations?" [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: cms-341](https://github.com/18F/fec-cms/issues/341)
 - :red_circle: PROBLEM: Users routinely seek out filing deadline information by going first to the registration and reporting, rather than calendar where this information is. This finding is robust across a few weeks of testing. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: 1721](https://github.com/18F/openFEC/issues/1721)
 
   - :wrench: Create prominent pathways from registration and reporting to calendar deadlines
@@ -33,7 +33,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
   - :wrench: Integrate recognizable phrases between receipts and donor lookup
   - :wrench: create prominent separate linked donor look-up tool
 
-- :large_orange_diamond: PROBLEM: User expected to see a search box right away on the mobile view. Something they could type into. Did not know the visual cues for the menu in mobile view. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :large_orange_diamond: PROBLEM: User expected to see a search box right away on the mobile view. Something they could type into. Did not know the visual cues for the menu in mobile view. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: cms 342](https://github.com/18F/fec-cms/issues/342)
 
 - :large_orange_diamond: mega menu taking over full screen size is problematic [tested 5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: Style 313](https://github.com/18F/fec-style/issues/313)[:tv:](assets/megamega.gif)
 
