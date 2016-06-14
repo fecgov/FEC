@@ -20,7 +20,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 - :red_circle: PROBLEM: Once users have added filters they did not close the panel, it was not clear that the filter panel could be closed. This led users to think they had to reset the filters in order to add more. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
 
-  - :wrench: Make sure the process(order/placement) of using filters and tags : a. Feels like it's part of the same tool, and b. reflects the process that users would go through in using it [desktop & mobile]
+  - :wrench: Make sure the process (order/placement) of using filters and tags : a. Feels like it's part of the same tool, and b. reflects the process that users would go through in using it [desktop & mobile]
 
 - :red_circle: PROBLEM: Users did not necessarily understand that the results were updating upon changing filters, as this was happening off-screen with no discernable alert.[tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
 
