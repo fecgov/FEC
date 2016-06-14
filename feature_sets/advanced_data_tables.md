@@ -16,17 +16,17 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 ### Filtering and the filter panel
 
-- :red_circle: PROBLEM: Once users have added filters they did not close the panel, it was not clear that the filter panel could be closed. This led users to think they had to reset the filters in order to add more. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :red_circle: PROBLEM: Once users have added filters they did not close the panel, it was not clear that the filter panel could be closed. This led users to think they had to reset the filters in order to add more. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: open-1726](https://github.com/18F/openFEC/issues/1726)
 
   - :wrench: Make sure the process (order/placement) of using filters and tags : a. Feels like it's part of the same tool, and b. reflects the process that users would go through in using it [desktop & mobile]
 
-- :red_circle: PROBLEM: Users did not necessarily understand that the results were updating upon changing filters, as this was happening off-screen with no discernable alert.[tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :red_circle: PROBLEM: Users did not necessarily understand that the results were updating upon changing filters, as this was happening off-screen with no discernable alert.[tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: open-1726](https://github.com/18F/openFEC/issues/1726)
 
-- :red_circle: PROBLEM: On desktop (as well as mobile, see above) users did not necessarily see when a small results set was shown from their position down screen. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :red_circle: PROBLEM: On desktop (as well as mobile, see above) users did not necessarily see when a small results set was shown from their position down screen. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: open-1726](https://github.com/18F/openFEC/issues/1726)
 
   - :wrench: Differentiate between results state and no-results state and an error state
 
-- :red_circle: PROBLEM: Users interpreted the call to action on the page as export data, as it is the largest button. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :red_circle: PROBLEM: Users interpreted the call to action on the page as export data, as it is the largest button. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: open-1726](https://github.com/18F/openFEC/issues/1726)
 
   - :wrench: In mobile: Add a reminder that results/updates are happening as filters are selected
   - :wrench: Keep the export button, but make it less sticky (a non-sticky version of the blue bar)
@@ -34,7 +34,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
   - :wrench: Make the filter panel modal take up the full screen to open & close.
   - :wrench: Make it more obvious how to get out of the filter panel and apply the filters at any point
 
-- :large_orange_diamond: PROBLEM: Some users struggled editing pre-filled date text or text they had entered in the date fields. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :large_orange_diamond: PROBLEM: Some users struggled editing pre-filled date text or text they had entered in the date fields. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: open-1727](https://github.com/18F/openFEC/issues/1727)
 
   - :wrench: Alter way for users enter information in date fields
 

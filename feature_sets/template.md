@@ -27,13 +27,6 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 - - `:needs action indicator:` `[tested date link]` documented decision overview `[documented issue link]` `[demo gif link]`
 
-## Keep an eye on
-
-feature             | note
-:------------------ | :-----------
-feature description | feature note
-feature description | feature note
-
 ## Initial directional research
 
 to be added
