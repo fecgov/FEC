@@ -14,9 +14,7 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 ## Filtering and searching :two:, :five:
 
-### Autocomplete and type-ahead
-
-#### Tested dates, decisions, and issues
+### Filtering and the filter panel
 
 - :red_circle: PROBLEM: Once users have added filters they did not close the panel, it was not clear that the filter panel could be closed. This led users to think they had to reset the filters in order to add more. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
 
@@ -40,31 +38,29 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
   - :wrench: Alter way for users enter information in date fields
 
-- :white_circle: [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md), [5/26/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-26.md) users used search button, enter, and selecting an item from the pop-up to trigger search. [1594](https://github.com/18F/openFEC/issues/1594), [1652](https://github.com/18F/openFEC/issues/1652) [:tv:](assets/right_to_rise.gif)
+- :white_circle: Users used search button, enter, and selecting an item from the pop-up to trigger search. [tested 5-19](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md), and [5-26](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-26.md) [1594](https://github.com/18F/openFEC/issues/1594), [1652](https://github.com/18F/openFEC/issues/1652) [:tv:](assets/right_to_rise.gif)
+
+- :red_circle: many users interpreted the filters as "or" as opposed to an "and", only some of the users comprehended what was happening after the search results were shown [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: 1653](https://github.com/18F/openFEC/issues/1653) [:tv:](assets/gates-sample.gif)
+
+- :white_circle: sticky filter panel more likely to be seen [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
+
+- :large_orange_diamond: User expressed desire for including multiple employers in the employer text box. [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
+
+- :large_orange_diamond: Filter panel starts with neither `individuals` or `committees` checked, but both types of results appear in results pane. this could conceivably contribute to confusion about how filters work. [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
+
+  - :wrench: having both checked by default would more closely mirror how checkboxes are used in other filters
+
+### Autocomplete and type-ahead
 
 - :large_orange_diamond: search icon may confuse, but not as much as drop down icon. [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
 
   - :wrench: filter input boxes that function differently should indicate that they do (this may be sufficiently accomplished by the presence of the free-text search prompt appearing in the contextual menu)
-
-### Filtering
-
-#### Tested dates, decisions, and issues
-
-- :red_circle: many users interpreted the filters as "or" as opposed to an "and", only some of the users comprehended what was happening after the search results were shown [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md) [issue: 1653](https://github.com/18F/openFEC/issues/1653) [:tv:](assets/gates-sample.gif)
-- :white_circle: sticky filter panel more likely to be seen [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md)
 
 ## Results listing :three:
 
 ### Sorting
 
 - :large_orange_diamond: Before attempting filter tasks, many users seek to sort on name first. Seems they are using sorting as a "fuzzy" filter that lets them see things that are close to their desired term. This may be a coping mechanism for data which is inevitably imperfect. [5/12/2016] [issue: 1652](https://github.com/18F/openFEC/issues/1652)
-
-## Keep an eye on
-
-feature                    | note
-:------------------------- | :------------------------------------------------
-employer text box          | expressed desire for including multiple employers
-`received from` checkboxes | default should have both checked?
 
 ## Initial directional research
 
