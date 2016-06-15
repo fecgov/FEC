@@ -39,13 +39,13 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 ## mobile menu
 
-- :large_orange_diamond: PROBLEM: User did not understand the hamburger icon was the trigger for the menu. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+- :large_orange_diamond: PROBLEM: User did not understand the hamburger icon was the trigger for the menu. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: style-396](https://github.com/18F/fec-style/issues/396)
 
   - :wrench: Hamburger menu might not be effective for various users different levels of computer literacy/less text and mobile savvy users.
 
 - :red_circle: PROBLEM: One tester noted that she couldn't find her way from the candidates' date filter screen to the home screen. Even though it was only one user, our team believes this will be good design practice
 
-  - :wrench: Add home as a discrete link on the mobile menu. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) :construction: `to be issued`
+  - :wrench: Add home as a discrete link on the mobile menu. [tested 6-9](https://github.com/18F/FEC/blob/master/test_scripts/2016-6-9.md) [issue: open-1732](https://github.com/18F/openFEC/issues/1732)
 
 ## Keep an eye on
 
