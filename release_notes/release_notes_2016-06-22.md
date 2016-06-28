@@ -1,4 +1,4 @@
-# June 22, 2016 Release Notes
+# June 28, 2016 Release Notes
 
 ## Campaign finance data
 - You can now download itemized receipts and disbursements
