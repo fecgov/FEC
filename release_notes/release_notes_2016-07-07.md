@@ -22,8 +22,10 @@
 
 ## Calendar
 - Filing deadlines now include links to the report notices page on fec.gov
+- Links to reporting pages for reporting dates
 
 ## API
 - Added a new endpoint to find the Reports and Analysis Division analyst for a particular committee ID
 - Added a new endpoint to view financial totals for all PACs: `/totals/pac`
 - Added a new endpoint to view financial totals for all party committees: `/totals/party/`
+- Upgraded data source for candidate and committee totals
