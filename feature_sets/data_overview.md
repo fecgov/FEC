@@ -12,6 +12,13 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 ## feature set feature group `[feature set feature group number from image]`
 
+### Graph Overview Notes
+
+- User failed to find or see the date of the `in-progress date` fast enough to satisfy their experience.
+
+  - :wrench: Increase prominence of when the data in each chart has been most recently updated
+  - :wrench: to clarify or indicate when data was last updated use timestamp or other feature that communicates timeliness
+
 ### Graphic visualization style
 
 - :large_orange_diamond: On the Totals Graph, Diagonal lines (grey lines over colored bars) may be hard for users to read.:no_issue: [link to script]()
