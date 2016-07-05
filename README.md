@@ -14,6 +14,7 @@ This repository, [FEC](https://github.com/18F/fec), is a general discussion foru
 - [FEC](https://github.com/18F/fec): a general discussion forum. We [compile feedback](https://github.com/18F/fec/issues) from betaFEC’s feedback widget here, and this is the best place to submit general feedback.
 - [openFEC](https://github.com/18F/openfec): betaFEC’s API
 - [openFEC-web-app](https://github.com/18f/openfec-web-app): the betaFEC web app for exploring campaign finance data
+- [fec-eregs](https://github.com/18F/fec-eregs): the FEC's new Code of Federal Regulations explorer
 - [fec-style](https://github.com/18F/fec-style): shared styles and user interface components
 - [fec-cms](https://github.com/18F/fec-cms): the content management system (CMS) for betaFEC
 
