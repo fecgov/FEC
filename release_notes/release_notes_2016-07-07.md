@@ -1,4 +1,4 @@
-# July 7, 2016 Release Notes
+# July 7, 2016 release notes
 
 ## Campaign finance data
 - Increased the speed and accuracy of financial totals with under-the-hood data improvements
