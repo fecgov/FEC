@@ -2,7 +2,7 @@
 
 ## Campaign finance data
 - Increased the speed and accuracy of financial totals with under-the-hood data improvements
-- Added top raising and spending candidates, PACs and party committees to the beta.fec.gov/data
+- Added top raising and spending candidates, PACs and party committees to beta.fec.gov/data
 - Improved the design of data tables: 
   - Columns are arranged and sized to get a better view of the data.
   - Cells no longer truncate long text.
