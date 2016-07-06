@@ -4,10 +4,10 @@
 - Increased the speed and accuracy of financial totals with under-the-hood data improvements
 - Added top raising and spending candidates, PACs and party committees to beta.fec.gov/data
 - Improved the design of data tables: 
-  - Columns are arranged and sized to get a better view of the data.
-  - Cells no longer truncate long text.
-  - Currency is right-aligned for easier comparison.
-  - An updated visual design makes it easier to read tables.
+  - Arranged and sized columns to get a better view of the data
+  - No longer truncate long text in cells
+  - Right-aligned currency for easier comparison
+  - Updated the visual design to make tables easier to read
 - On committee pages, adjusted the the filings table to only shows the "independent expenditures" column if it's for a committee that can make independent expenditures
 - On tables with mini-bars in the cells, made the scale of the bars constent across pages, rather than resetting to the max of that page
 - Improved the design of the financial summary accordions on committee pages
@@ -15,7 +15,7 @@
 - Fixed a bug that casued the mobile menu to be missing items at times
 
 ## Legal resources
-- Added a new, searchable section with the latest annual edition of Title 11 of the Code of Federal Regulations
+- Added a new, searchable section with the 2016 edition of Title 11 of the Code of Federal Regulations
 
 ## Registration and reporting
 - Added registration and reporting essentials for nonconnected committees
