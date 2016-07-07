@@ -23,8 +23,7 @@
 
 ## Calendar
 - Added links to the fec.gov report notices for filing deadlines 
-- Linked to reporting pages for reporting dates
- 
+
 ## Glossary
 - Added definitions for Hybrid PACs, Leadership PACs, Lobbyist/Registrant PACs and Super PACs 
 
