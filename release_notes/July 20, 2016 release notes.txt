@@ -12,6 +12,8 @@
 
 ## Registration and reporting
 - Unified instructions for electronic filing for all committee types onto a single page
+- Improvements to paper filing content
+- Glossary definitions for "overnight delivery service" and "postmarked"
 
 ## Legal resources
 
