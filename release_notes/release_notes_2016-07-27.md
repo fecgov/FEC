@@ -1,4 +1,4 @@
-# July 20, 2016 release notes
+# July 27, 2016 release notes
 
 ## Campaign finance data
 - Improved the data source for itemized receipt and disbursement data so that records will be updated more quickly and data will be more accurate
@@ -14,7 +14,3 @@
 - Unified instructions for electronic filing for all committee types onto a single page
 - Improvements to paper filing content
 - Glossary definitions for "overnight delivery service" and "postmarked"
-
-## Legal resources
-
-## API
