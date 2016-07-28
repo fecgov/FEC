@@ -6,7 +6,7 @@
 - Added the ability to filter presidential candidates by those who have received presidential public funds
 - Replaced all instances where donation buckets were labeled “Under $200” with “$200 and under”
 - Updated typeahead suggestions in search bars to highlight the text that matches the search term
-- Re-arranged the order of columns in the .csv files when downloading data to make them more readable
+- Rearranged the order of columns in the .csv files when downloading data to make them more readable
 - Minor changes to improve accessibility of the filters
 - Minor language changes to increase consistency throughout
 
