@@ -10,5 +10,7 @@
 - Minor changes to improve accessibility of the filters
 - Minor language changes to increase consistency throughout
 
-## Glossary
+## Registration and reporting 
 - Added glossary definitions for "overnight delivery service" and "postmarked"
+- Refined and unified content for electronic filers and paper filers
+
