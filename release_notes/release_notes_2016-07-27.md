@@ -10,7 +10,5 @@
 - Minor changes to improve accessibility of the filters
 - Minor language changes to increase consistency throughout
 
-## Registration and reporting
-- Unified instructions for electronic filing for all committee types onto a single page
-- Improved paper filing content
+## Glossary
 - Added glossary definitions for "overnight delivery service" and "postmarked"
