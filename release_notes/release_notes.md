@@ -1,3 +1,27 @@
+# August 3, 2016 release notes 
+
+## Campaign finance data
+- Enhanced the data filter interaction design in various ways:
+- Individual filters indicate when data is loading so that users better understand what the system is doing
+- Once data has been loaded, filters display a message with the number of results added or removed as a result of that filter
+- Filter accordion headers now show the number of applied filters for greater legibility
+- Fixed a bug where closing the filter panel didn’t expand the data table to use the full space
+- Improved mobile styles on beta.fec.gov/data
+- Improved the way the filter panel on data pages works on mobile devices
+- Added a link to the source filings for committee financial summaries
+- Fixed a bug where candidates were loading out of order on election pages
+
+## Registration and reporting
+- Improved the design of registration essentials checklists to better communicate the hierarchical relationship of items 
+
+## Legal resources
+- We’re not releasing anything this week, but we’re hard at work on new features that are coming soon
+
+## Calendar
+- Added tooltips to calendar categories to better communicate what each category represents
+
+***
+
 # July 27, 2016 release notes
 
 ## Campaign finance data
@@ -13,6 +37,8 @@
 ## Registration and reporting 
 - Added glossary definitions for "overnight delivery service" and "postmarked"
 - Refined and unified content for electronic filers and paper filers
+
+***
 
 # July 7, 2016 release notes
 
@@ -48,6 +74,8 @@
 - Added a new endpoint to view financial totals for all PACs: `/totals/pac`
 - Added a new endpoint to view financial totals for all party committees: `/totals/party/`
 - Upgraded data source for candidate and committee totals
+
+***
 
 # June 28, 2016 Release Notes
 
