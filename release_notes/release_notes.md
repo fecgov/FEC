@@ -2,9 +2,9 @@
 
 ## Campaign finance data
 - Enhanced the data filter interaction design in various ways:
-- Individual filters indicate when data is loading so that users better understand what the system is doing
-- Once data has been loaded, filters display a message with the number of results added or removed as a result of that filter
-- Filter accordion headers now show the number of applied filters for greater legibility
+	- Individual filters indicate when data is loading so that users better understand what the system is doing
+	- Once data has been loaded, filters display a message with the number of results added or removed as a result of that filter
+	- Filter accordion headers now show the number of applied filters for greater legibility
 - Fixed a bug where closing the filter panel didn’t expand the data table to use the full space
 - Improved mobile styles on beta.fec.gov/data
 - Improved the way the filter panel on data pages works on mobile devices
