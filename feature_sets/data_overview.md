@@ -21,27 +21,25 @@ decision bullet format | `- [needs action indicator]` Problem: "Users thought th
 
 ### Graphic visualization style
 
-- :large_orange_diamond: On the Totals Graph, Diagonal lines (grey lines over colored bars) may be hard for users to read.:no_issue: [link to script]()
+- :white_circle: :large_orange_diamond: On the Totals Graph, Diagonal lines (grey lines over colored bars) may be hard for users to read.
 - :large_orange_diamond: Testing participant noted the time periods are not the same in each chart of the graph. She didn't notice this right off the bat, but said this is kind of "misleading."
 
   - possible :wrench: Make sure we consistently frame time periods the same way as we report data.
 
 ### Graphic interaction style
 
-- :large_orange_diamond:
+- :large_orange_diamond: Problem: Users first interpreted the graph as the total raised each month instead of a cumulative total up to the month selected. Users consistently articulated needing a better indication of what they were looking at before having to interact with the graph. One user expressed that the table data did not immediately register as specifically correlating to the month the vertical line is on, until the user interacted with the arrows and moved it to a new month. Once that happened, the user saw the association. [tested 8/4/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-08-04.md)
+ - :wrench: Adding some shading to the left side of the vertical dotted line might help users understand that the total is a cumulative total up to the month selected. Also adding more interactivity to be able to change the month or quarter by dragging the vertical line may help.
 
-#### tested dates, decisions & issues
+- :large_orange_diamond: Problem: The majority of the participants did not understand or were unsure of what the dotted line represented. [tested 8/4/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-08-04.md)
+ - :wrench: Many users wanted to be able to drag the dotted line, thus adding a short explanation on hover/click to the vertical dotted line may help.
 
-- `:needs action indicator:` `[tested date link]` documented decision overview `[documented issue link]` `[demo gif link]` _e.g.:_
-- :white_circle: [5/19/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-19.md), [5/26/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-5-26.md) users used search button, enter, and selecting an item from the pop-up to trigger search. [1594](https://github.com/18F/openFEC/issues/1594), [1652](https://github.com/18F/openFEC/issues/1652) [:tv:](assets/right_to_rise.gif)
+- :white_circle: One user struggled to understand how the interactivity of the graph "next month" or "previous month" buttons or dotted line worked. Others were successful with both buttons. Keep an eye on expected interactivity on hover and/or click as the graph interaction may be improved on the live site. [tested 8/4/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-08-04.md)
 
-## feature set feature group `[feature set feature group number from image]`
+- :white_circle: The users successfully understood what the dots meant on the line graph, however, it did take a few minutes to process and understand. All users communicated that they understood different filers had different filing schedules.  [tested 8/4/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-08-04.md)
 
-### feature set feature
-
-#### tested dates, decisions & issues
-
-- - `:needs action indicator:` `[tested date link]` documented decision overview `[documented issue link]` `[demo gif link]`
+- :large_orange_diamond: Problem: Largely, users did not understand why the top two lines extended the length of the graph while the bottom two lines stopped half way. Another observation was that none of the users seemed to notice that the bottom line was shorter until it was brought to their attention.[tested 8/4/2016](https://github.com/18F/FEC/blob/master/test_scripts/2016-08-04.md)
+ - :wrench: When users move the vertical dotted line, there should be an indication on the numbers on the right hand side that Party Committees and others have no data because they have not filed yet for the selected time period. Also, extending the incomplete line with a dotted line for the time period with unavailable data may be useful.
 
 ## Initial directional research
 
