@@ -2,7 +2,7 @@
 
 ## Campaign finance data
 - Added the ability to view efiling data in real time on [beta.fec.gov/filings](https://beta.fec.gov/filings)
-- Added a new visualization to [beta.fec.gov/data](beta.fec.gov/data) to show the cumulative amount of money raised in the election over time, improving the earlier chart by implementing a standard unit of time and improved interactivity
+- Added a new visualization to [beta.fec.gov/data](https://beta.fec.gov/data) to show the cumulative amount of money raised in the election over time, improving the earlier chart by implementing a standard unit of time and improved interactivity
 - Redesigned the data table filter layout to increase usability on small and large screens
 - Refined loading and success states for type-ahead and dropdown filters:
   - Checkboxes from dropdowns and type-ahead filters can now be completely removed after unchecking them
