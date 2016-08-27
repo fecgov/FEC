@@ -1,29 +1,3 @@
-# August 31, 2016 release notes
-## Campaign finance data
-- Added new pages for browsing report summaries:
-  - Presidential reports: beta.fec.gov/data/reports/presidential
-  - House and Senate reports: beta.fec.gov/data/reports/house-senate
-  - PAC and party committee reports: beta.fec.gov/data/reports/pac-party
-  - Independent expenditure-only reports: beta.fec.gov/data/reports/ie-only
-- Added filters to report summary pages for filtering by total financial figures
-- Added raw eFiling data to report summary pages
-- Improved readability on filings page by removing columns used only for financial reports (now visible on the reports pages)
-- Added new text filters to allow filtering by multiple values for the same field, such as contributor city and employer
-- Added new styles for financial range filters to improve readability and usability
-- Fixed a bug where unitemized contributions were being included in the totals shown for contributions from a state
-
-## Legal resources
-- Added the statutes administered by the FEC to universal search
-- Added PDFs to full text of statutes administered by the FEC
-
-## Registration and reporting
-- We’re not releasing anything this week, but we’re hard at work on new features that are coming soon
-
-## API
-- Added real-time [eFiling data](https://api.open.fec.gov/developers/#!/efiling) for report summaries
-- Added the ability to filter report summaries by different fields
-
-
 # August 17, 2016 release notes
 
 ## Campaign finance data
