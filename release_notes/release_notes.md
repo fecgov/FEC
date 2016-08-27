@@ -24,6 +24,7 @@
 ## Legal resources
 - Added the statutes administered by the FEC to universal search
 - Added PDFs to full text of statutes administered by the FEC
+- Improved the display of regulation search results on mobile
 
 ## Registration and reporting
 - We’re not releasing anything this week, but we’re hard at work on new features that are coming soon
