@@ -11,7 +11,16 @@
 - Added new text filters to allow filtering by multiple values for the same field, such as contributor city and employer
 - Added new styles for financial range filters to improve readability and usability
 - Fixed a bug where unitemized contributions were being included in the totals shown for contributions from a state
-
+- Made behind-the-scenes improvements to ensure better quality and more consistent data on the [electioneering communications data page](https://beta.fec.gov/data/electioneering-communications)
+- Made several minor improvements to clean up the display of information:
+	- Added “payee” to the [independent expenditures data page](https://beta.fec.gov/data/independent-expenditures)
+	- Re-arranged columns on the [receipts](https://beta.fec.gov/data/receipts) and [individual contributions](https://beta.fec.gov/data/receipts/individual-contributions) pages so that contributor name is the first column
+	- Removed old form types from the form type filter on the [filings data page](https://beta.fec.gov/data/filings)
+	- Fixed the order of authorized committees on the candidate page header so the most recent is on top
+	- Adds years for future elections to election cycle filters 
+	- Removes the district field from senate and presidential candidate page headers
+	- Added a column to [receipts data table](https://beta.fec.gov/data/receipts) for the election type (e.g. primary vs. general)
+	
 ## Legal resources
 - Added the statutes administered by the FEC to universal search
 - Added PDFs to full text of statutes administered by the FEC
