@@ -17,8 +17,8 @@
 	- Re-arranged columns on the [receipts](https://beta.fec.gov/data/receipts) and [individual contributions](https://beta.fec.gov/data/receipts/individual-contributions) pages so that contributor name is the first column
 	- Removed old form types from the form type filter on the [filings data page](https://beta.fec.gov/data/filings)
 	- Fixed the order of authorized committees on the candidate page header so the most recent is on top
-	- Adds years for future elections to election cycle filters 
-	- Removes the district field from senate and presidential candidate page headers
+	- Added years for future elections to election cycle filters 
+	- Removed the district field from Senate and presidential candidate page headers
 	- Added a column to [receipts data table](https://beta.fec.gov/data/receipts) for the election type (e.g. primary vs. general)
 	
 ## Legal resources
