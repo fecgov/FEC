@@ -4,7 +4,6 @@
   - Presidential reports: beta.fec.gov/data/reports/presidential
   - House and Senate reports: beta.fec.gov/data/reports/house-senate
   - PAC and party committee reports: beta.fec.gov/data/reports/pac-party
-  - Independent expenditure-only reports: beta.fec.gov/data/reports/ie-only
 - Added filters to report summary pages for filtering by total financial figures
 - Added raw eFiling data to report summary pages
 - Improved readability on filings page by removing columns used only for financial reports (now visible on the reports pages)
