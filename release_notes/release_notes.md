@@ -1,3 +1,16 @@
+# September 14, 2016 release notes
+## Campaign finance data
+- Improved date filters to make choosing month ranges easier when filtering data
+- Fixed print styles so pages are still readable when printed or saved to PDF
+- Renamed “Other spending” tab on candidate and elections pages to “Spending by others to support/oppose” to increase clarity
+
+## Legal resources
+- We’re not releasing anything this week, but we’re hard at work on new features that are coming soon
+
+## API
+- Added itemized [party coordinated expenditures](https://api.open.fec.gov/developers/#!/party-coordinated_expenditures) (schedule F) at `/schedules/schedule_f/`
+- Added [itemized loans](https://api.open.fec.gov/developers/#!/loans) (schedule C) at `/schedules/schedule_c/`
+
 # August 31, 2016 release notes
 ## Campaign finance data
 - Added new pages for browsing report summaries:
