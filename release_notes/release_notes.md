@@ -1,3 +1,23 @@
+# September 28, 2016
+## Campaign finance data
+- Made the following items exportable:
+  - Reports data pages (for example, beta.fec.gov/data/reports/presidential)
+  - eFilings (on reports and filings pages)
+- Added committee names to exported files of itemized receipts, disbursements and independent expenditures
+- Enhanced summary charts on beta.fec.gov/data, adding data through August 31, 2016
+- Improved the ending date filters so that clicking on a month now selects the last day of that month
+- Fixed a bug where on small screens the filters created an extra gutter on the side of the screen
+
+## Legal resources
+- We’re not shipping anything new this week but we’re hard at work preparing more content 
+
+## Additional content
+- We’re not shipping anything new this week but we’re hard at work preparing more content 
+
+## General improvements
+- Fixed an issue where closing the site glossary forced the user to the top of the page
+- Added a slight delay to the opening of the navigation menu, to prevent users from opening it inadvertently 
+
 # September 14, 2016 release notes
 ## Campaign finance data
 - Improved date filters to make choosing month ranges easier when filtering data
