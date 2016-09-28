@@ -18,6 +18,9 @@
 - Fixed an issue where closing the site glossary forced the user to the top of the page
 - Added a slight delay to the opening of the navigation menu, to prevent users from opening it inadvertently 
 
+## API
+- Added itemized [debts](https://api.open.fec.gov/developers/#!/debts) (schedule D) at `/schedules/schedule_d/`
+
 # September 14, 2016 release notes
 ## Campaign finance data
 - Improved date filters to make choosing month ranges easier when filtering data
