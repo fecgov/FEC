@@ -1,3 +1,20 @@
+# October 12, 2016
+## Campaign finance data
+- Improved the itemized independent expenditure page:
+    - Made independent expenditure data more timely by improving its data source 
+    - Added independent expenditures from Form 5 
+    - Added independent expenditures from 24- and 48-hour reports
+- On committee pages, added the ability to export results from receipt and disbursement tables 
+- On candidate, committee and election pages, added the ability to view different number of results per page on aggregate tables 
+
+
+## Legal resources
+- We’re not shipping anything new this week but we’re hard at work on new features that are coming soon
+
+## Styles
+- Redesigned and refactored our heading template to provide a more visually consistent experience across pages
+
+
 # September 28, 2016
 ## Campaign finance data
 - Made the following items exportable:
