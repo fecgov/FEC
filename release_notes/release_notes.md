@@ -1,11 +1,34 @@
+# October 26, 2016
+
+## Campaign finance data
+- Created new data visualizations:
+	- [beta.fec.gov/data/raising](https://beta.fec.gov/data/raising) charts top raising candidates, PACs and party committees
+	- [beta.fec.gov/data/spending](https://beta.fec.gov/data/spending) charts top spending candidates, PACs and party committees
+- Added .fec file download capability to financial reports on:
+	- [beta.fec.gov/data/filings](https://beta.fec.gov/data/filings)
+	- [beta.fec.gov/data/reports/presidential](https://beta.fec.gov/data/reports/presidential)
+	- [beta.fec.gov/data/reports/house-senate](https://beta.fec.gov/data/reports/house-senate)
+	- [beta.fec.gov/data/reports/pac-party](https://beta.fec.gov/data/reports/pac-party)
+- Added coverage period information to the financial totals listed on individual candidate pages
+- Fixed a bug that caused the the tooltip on the data table export button to show up in the wrong location
+- Fixed a bug that stopped the independent expenditure page from loading when the 24- and 48-hour report filter was applied
+- Made under-the-hood improvements to ensure better site stability
+
+## API
+Added URLs for .fec files for reports available at `/filings/` and all `/reports/` endpoints
+
+## Legal resources
+- Fixed searching of AOs to only search the final opinion or closeout letter documents
+- Updated the legal resources search so that document types with no results are pushed to the end
+
 # October 12, 2016
 ## Campaign finance data
 - Improved the itemized independent expenditure page:
-    - Made independent expenditure data more timely by improving its data source 
-    - Added independent expenditures from Form 5 
+    - Made independent expenditure data more timely by improving its data source
+    - Added independent expenditures from Form 5
     - Added independent expenditures from 24- and 48-hour reports
-- On committee pages, added the ability to export results from receipt and disbursement tables 
-- On candidate, committee and election pages, added the ability to view different number of results per page on aggregate tables 
+- On committee pages, added the ability to export results from receipt and disbursement tables
+- On candidate, committee and election pages, added the ability to view different number of results per page on aggregate tables
 
 
 ## Legal resources
@@ -26,14 +49,14 @@
 - Fixed a bug where on small screens the filters created an extra gutter on the side of the screen
 
 ## Legal resources
-- We’re not shipping anything new this week but we’re hard at work preparing more content 
+- We’re not shipping anything new this week but we’re hard at work preparing more content
 
 ## Additional content
-- We’re not shipping anything new this week but we’re hard at work preparing more content 
+- We’re not shipping anything new this week but we’re hard at work preparing more content
 
 ## General improvements
 - Fixed an issue where closing the site glossary forced the user to the top of the page
-- Added a slight delay to the opening of the navigation menu, to prevent users from opening it inadvertently 
+- Added a slight delay to the opening of the navigation menu, to prevent users from opening it inadvertently
 
 ## API
 - Added itemized [debts](https://api.open.fec.gov/developers/#!/debts) (schedule D) at `/schedules/schedule_d/`
@@ -69,10 +92,10 @@
 	- Re-arranged columns on the [receipts](https://beta.fec.gov/data/receipts) and [individual contributions](https://beta.fec.gov/data/receipts/individual-contributions) pages so that contributor name is the first column
 	- Removed old form types from the form type filter on the [filings data page](https://beta.fec.gov/data/filings)
 	- Fixed the order of authorized committees on the candidate page header so the most recent is on top
-	- Added years for future elections to election cycle filters 
+	- Added years for future elections to election cycle filters
 	- Removed the district field from Senate and presidential candidate page headers
 	- Added a column to [receipts data table](https://beta.fec.gov/data/receipts) for the election type (e.g. primary vs. general)
-	
+
 ## Legal resources
 - Added the statutes administered by the FEC to universal search
 - Added PDFs to full text of statutes administered by the FEC
@@ -95,7 +118,7 @@
 - Refined loading and success states for type-ahead and dropdown filters:
   - Checkboxes from dropdowns and type-ahead filters can now be completely removed after unchecking them
   - Checkboxes from type-ahead filters now show the loading state in the correct place
-- Made behind-the-scenes improvements to ensure better quality and more consistent itemized data 
+- Made behind-the-scenes improvements to ensure better quality and more consistent itemized data
 
 ## Legal resources
 - Added advisory opinions to universal search
@@ -105,7 +128,7 @@
 ## API
 - Added real-time efiling data for filings at `/efile/filings`
 
-# August 3, 2016 release notes 
+# August 3, 2016 release notes
 
 ## Campaign finance data
 - Enhanced the data filter interaction design in various ways:
@@ -119,7 +142,7 @@
 - Fixed a bug where candidates were loading out of order on election pages
 
 ## Registration and reporting
-- Improved the design of registration essentials checklists to better communicate the hierarchical relationship of items 
+- Improved the design of registration essentials checklists to better communicate the hierarchical relationship of items
 
 ## Legal resources
 - We’re not releasing anything this week, but we’re hard at work on new features that are coming soon
@@ -141,7 +164,7 @@
 - Minor changes to improve accessibility of the filters
 - Minor language changes to increase consistency throughout
 
-## Registration and reporting 
+## Registration and reporting
 - Added glossary definitions for "overnight delivery service" and "postmarked"
 - Refined and unified content for electronic filers and paper filers
 
@@ -152,7 +175,7 @@
 ## Campaign finance data
 - Increased the speed and accuracy of financial totals with under-the-hood data improvements
 - Added top raising and spending candidates, PACs and party committees to beta.fec.gov/data
-- Improved the design of data tables: 
+- Improved the design of data tables:
   - Arranged and sized columns to get a better view of the data
   - No longer truncate long text in cells
   - Right-aligned currency for easier comparison
@@ -171,10 +194,10 @@
 - Linked beta.fec.gov/registration-and-reporting to calendar filing deadlines for each type of registrant
 
 ## Calendar
-- Added links to the fec.gov report notices for filing deadlines 
+- Added links to the fec.gov report notices for filing deadlines
 
 ## Glossary
-- Added definitions for Hybrid PACs, Leadership PACs, Lobbyist/Registrant PACs and Super PACs 
+- Added definitions for Hybrid PACs, Leadership PACs, Lobbyist/Registrant PACs and Super PACs
 
 ## API
 - Added a new endpoint to find the Reports Analysis Division analyst for a particular committee ID
