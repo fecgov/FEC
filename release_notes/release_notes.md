@@ -18,8 +18,9 @@
 Added URLs for .fec files for reports available at `/filings/` and all `/reports/` endpoints
 
 ## Legal resources
-- Fixed searching of AOs to only search the final opinion or closeout letter documents
-- Updated the legal resources search so that document types with no results are pushed to the end
+- Fixed searching of AOs to only search final opinion and closeout letter documents
+- Updated the legal resources search so that document types with no results are displayed below document types with results
+
 
 # October 12, 2016
 ## Campaign finance data
