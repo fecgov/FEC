@@ -15,11 +15,10 @@
 - Made under-the-hood improvements to ensure better site stability
 
 ## API
-Added URLs for .fec files for reports available at `/filings/` and all `/reports/` endpoints
+- Added URLs for .fec files for reports available at `/filings/` and all `/reports/` endpoints
 
 ## Legal resources
 - Fixed searching of AOs to only search final opinion and closeout letter documents
-- Updated the legal resources search so that document types with no results are displayed below document types with results
 
 
 # October 12, 2016
@@ -30,7 +29,6 @@ Added URLs for .fec files for reports available at `/filings/` and all `/reports
     - Added independent expenditures from 24- and 48-hour reports
 - On committee pages, added the ability to export results from receipt and disbursement tables
 - On candidate, committee and election pages, added the ability to view different number of results per page on aggregate tables
-
 
 ## Legal resources
 - We’re not shipping anything new this week but we’re hard at work on new features that are coming soon
