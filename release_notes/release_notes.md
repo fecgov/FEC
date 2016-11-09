@@ -1,3 +1,24 @@
+# November 9, 2016
+
+## Campaign finance data
+- Updated the total raising and spending charts on [beta.fec.gov/data](https://beta.fec.gov/data) to use live data, giving users an up-to-date picture of the total amount raised and spent in federal elections
+- Updated results on [beta.fec.gov/data/filings](beta.fec.gov/data/filings) and reports pages to show if a report was filed electronically or on paper
+
+## Legal resources
+- Updated the Legal Resources search so that document types with results are displayed above document types without results
+- Improved search effectiveness (search stemming)
+- Added missing “previous section” pager icon to eRegulations
+Made assorted styling changes to improve readability of document templates
+
+## Press section
+- Added a new section for the FEC Press Office — [beta.fec.gov/press](beta.fec.gov/press) — that includes a section of resources for journalists
+- Added a new Latest Updates section that includes press releases and Weekly Digests from the FEC Press Office: [beta.fec.gov/updates](beta.fec.gov/updates)
+
+## API
+- Added a new `means_filed` property on `/filings/` and `/reports/` responses to identify if a filing was submitted electronically or by paper
+- Added a new endpoint for large cumulative finance totals by entity type at `/v1/totals/entity-receipts/` and `/v1/totals/entity-disbursements/`
+- Fixed a bug that would prevent users from being able to paginate through large data sets on itemized endpoints, like the schedule A and schedule B endpoints
+
 # October 26, 2016
 
 ## Campaign finance data
