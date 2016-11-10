@@ -2,7 +2,7 @@
 
 ## Campaign finance data
 - Updated the total raising and spending charts on [beta.fec.gov/data](https://beta.fec.gov/data) to use live data, giving users an up-to-date picture of the total amount raised and spent in federal elections
-- Updated results on [beta.fec.gov/data/filings](beta.fec.gov/data/filings) and reports pages to show if a report was filed electronically or on paper
+- Updated results on [beta.fec.gov/data/filings](https://beta.fec.gov/data/filings) and reports pages to show if a report was filed electronically or on paper
 
 ## Legal resources
 - Updated the Legal Resources search so that document types with results are displayed above document types without results
@@ -11,8 +11,8 @@
 Made assorted styling changes to improve readability of document templates
 
 ## Press section
-- Added a new section for the FEC Press Office — [beta.fec.gov/press](beta.fec.gov/press) — that includes a section of resources for journalists
-- Added a new Latest Updates section that includes press releases and Weekly Digests from the FEC Press Office: [beta.fec.gov/updates](beta.fec.gov/updates)
+- Added a new section for the FEC Press Office — [beta.fec.gov/press](https://beta.fec.gov/press) — that includes a section of resources for journalists
+- Added a new Latest Updates section that includes press releases and Weekly Digests from the FEC Press Office: [beta.fec.gov/updates](https://beta.fec.gov/updates)
 
 ## API
 - Added a new `means_filed` property on `/filings/` and `/reports/` responses to identify if a filing was submitted electronically or by paper
@@ -61,10 +61,10 @@ Made assorted styling changes to improve readability of document templates
 # September 28, 2016
 ## Campaign finance data
 - Made the following items exportable:
-  - Reports data pages (for example, beta.fec.gov/data/reports/presidential)
+  - Reports data pages (for example, https://beta.fec.gov/data/reports/presidential)
   - eFilings (on reports and filings pages)
 - Added committee names to exported files of itemized receipts, disbursements and independent expenditures
-- Enhanced summary charts on beta.fec.gov/data, adding data through August 31, 2016
+- Enhanced summary charts on https://beta.fec.gov/data, adding data through August 31, 2016
 - Improved the ending date filters so that clicking on a month now selects the last day of that month
 - Fixed a bug where on small screens the filters created an extra gutter on the side of the screen
 
