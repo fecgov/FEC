@@ -1,3 +1,16 @@
+# December 7, 2016
+## Campaign finance data
+- Improved the underlying data quality for [beta.fec.gov/data/filings](https://beta.fec.gov/data/filings)
+
+## Legal resources
+- Added a search for [Enforcement Matters](https://beta.fec.gov/data/legal/enforcement/) that includes all Matters Under Review from 1999 and later
+- Improved the flexibility of legal resource searches so that variations of searched keywords show up in results (for example, “embezzling” returns matches of “embezzle” and “embezzles”)
+- Fixed an issue where the “Legal resources” item in the main navigation menu wasn’t highlighted when on these pages
+
+## General improvements
+- Made minor changes to links in header and footer menus for consistency in navigation across different aspects of the site
+- Made under-the-hood improvements to the FEC content management system
+
 # November 9, 2016
 
 ## Campaign finance data
