@@ -1,7 +1,7 @@
 # December 22, 2016
 ## Added
 - **General**: Added a new home page organizing FEC information into three primary sections, campaign finance data, registration and reporting and legal resources.
-- **Legal resources**: Added a new page explaining the [Advisory Opinion process](https://beta.fec.gov/data/legal/advisory-opinions/process)
+- **Legal resources**: Added a new page explaining the [Advisory Opinion process](https://beta.fec.gov/legal/advisory-opinions/process)
 - **Legal resources**: Added new filtering functionality to allow users to refine their [Advisory Opinions searches](https://beta.fec.gov/data/legal/search/advisory-opinions/) by number, name and date
 - **Legal resources**: Added a list of recent Advisory Opinions to [beta.fec.gov/data/legal/advisory-opinions](https://beta.fec.gov/data/legal/advisory-opinions/)
 - **API**: Added a new field to the /filings/ and /reports/ endpoints called `amendment_chain` which lists all filings in an amendment chain
