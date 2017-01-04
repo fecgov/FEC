@@ -6,7 +6,7 @@
 - **API**: Added a new endpoint for raw schedule E data from efilings at: `/schedules/schedule_e/efile/`
 
 ## Changed
-- **Finance data**: Improved the UX for toggling between raw and processed filings at (beta.fec.gov/data/filings)[https://beta.fec.gov/data/filings]:
+- **Finance data**: Improved the UX for toggling between raw and processed filings at [beta.fec.gov/data/filings](https://beta.fec.gov/data/filings):
 	- Relabeled the “efiling data” to “raw data”
 	- Separated the “Data type” toggle from the rest of the filters for greater clarity
 	- Changing the data type now shows a message explaining the different type of data and hides all filters that are not available for the selected data type
