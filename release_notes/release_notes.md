@@ -1,3 +1,22 @@
+# January 4, 2017
+## Added
+- **Legal resources**: Added a new page outlining the process of filing a complaint with the FEC and how the FEC handles these complaints: [beta.fec.gov/legal-resources/enforcement/complaints-process](https://beta.fec.gov/legal-resources/enforcement/complaints-process)
+- **Home page**: Added a section for “Citizen information” 
+- **About the FEC**: Added a landing page for “[About the FEC](https://beta.fec.gov/about)”. Additional sections will be added in future releases.
+- **API**: Added a new endpoint for raw schedule E data from efilings at: `/schedules/schedule_e/efile/`
+
+## Changed
+- **Finance data**: Improved the UX for toggling between raw and processed filings at (beta.fec.gov/data/filings)[https://beta.fec.gov/data/filings]:
+	- Relabeled the “efiling data” to “raw data”
+	- Separated the “Data type” toggle from the rest of the filters for greater clarity
+	- Changing the data type now shows a message explaining the different type of data and hides all filters that are not available for the selected data type
+- **Finance data**: Changed the style of sidebar links on the [Advanced Data page](https://beta.fec.gov/data/advanced) and added links to reporting requirements for different types of committees
+
+## Fixed
+- **Finance data**: Fixed an issue so that when a candidate has no financial data associated with them, their name is included in the message that’s displayed (thanks to open source contributor [@busterroni](https://github.com/busterroni) for the fix)
+- **Home page**: “learn more” links now scroll the page down, rather than jumping to the section
+- **Legal resources**: Fixed an issue where the candidate and committee suggestions were incorrectly showing up when searching through legal researches
+
 # December 22, 2016
 ## Added
 - **General**: Added a new home page organizing FEC information into three primary sections, campaign finance data, registration and reporting and legal resources.
