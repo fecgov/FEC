@@ -1,3 +1,21 @@
+# January 19, 2017
+## Added
+- **Finance data**: Added the ability to view raw data from efilings for:
+	- [Itemized receipts](https://beta.fec.gov/data/receipts/?data_type=efiling) 
+	- [Itemized disbursements](https://beta.fec.gov/data/disbursements/?data_type=efiling)
+	- [Itemized independent expenditures](https://beta.fec.gov/data/independent-expenditures/?data_type=efiling)
+- **Legal resources**: Additional advanced filters for [advisory opinions](https://beta.fec.gov/data/legal/search/advisory-opinions/)) so that users can now refine their search within certain document types, view pending AOs, and search by requestor name and requestor type
+- **API**: Added endpoint for raw itemized receipts from efilings: `/schedules/schedule_a/efile/`
+- **API**: Added endpoint for raw itemized disbursements from efilings: `/schedules/schedule_b/efile/`
+- **API**: Added endpoint for raw independent expenditures from efilings: `/schedules/schedule_e/efile/`
+
+## Changed
+- **API**: Made under-the-hood improvements to provide users with more accurate data
+- **Home**: Shortened the text on the home page hero section and added a link to “About the FEC”
+
+## Fixed
+- **Finance data**: Fixed a bug where filters appeared to be loading when first visiting a page
+
 # January 4, 2017
 ## Added
 - **Legal resources**: Added a new page outlining the process of filing a complaint with the FEC and how the FEC handles these complaints: [beta.fec.gov/legal-resources/enforcement/complaints-process](https://beta.fec.gov/legal-resources/enforcement/complaints-process)
