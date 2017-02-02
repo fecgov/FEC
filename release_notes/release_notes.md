@@ -1,3 +1,19 @@
+# February 2, 2017
+
+## Added
+- **Campaign finance data**: Improved the display when browsing [filings](https://beta.fec.gov/data/filings/) to show when a document is the latest version of a filing or when it’s out of date (because it has been amended). The table now also specifies when a filing is an original or amendment.
+- **Legal resources**: Added citations to [Advisory Opinion](https://beta.fec.gov/data/legal/advisory-opinions/) pages that show which previous AOs an AO cites and which later AOs cite this AO.
+
+## Changed
+- **Campaign finance data**: Links in the main navigation to Presidential reports, House and Senate reports, and PAC and Party reports no longer automatically filter to only unamended reports
+
+## Fixed
+- **Campaign finance data**: Requests for Additional Information (RFAIs) on the [filings](https://beta.fec.gov/data/filings/) page no longer give an option to download a .fec file, as they do not exist in that file format.
+- **Campaign finance data**: Fixed a bug on certain data table pages that prevented the filter panel from opening and closing.
+- **Campaign finance data**: Fixed a bug on data table pages where entering a filter term with double-quotations would cause the filter to not work as expected.
+- **Registration and reporting**: Fixed a bug that was causing thumbnails of committee guides to not show up correctly on certain pages.
+- **Home page**: Fixed a bug where the “More about the FEC” link wouldn’t work correctly
+
 # January 19, 2017
 ## Added
 - **Finance data**: Added the ability to view raw data from efilings for:
