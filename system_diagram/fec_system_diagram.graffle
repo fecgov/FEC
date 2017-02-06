@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-02-06 23:34:10 +0000</string>
+	<string>2017-02-06 23:37:21 +0000</string>
 	<key>Modifier</key>
 	<string>Noah Manger</string>
 	<key>NotesVisible</key>
@@ -923,11 +923,11 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{160.09554088564718, 468}, {122, 27}}</string>
+					<string>{{159.05748242853974, 460}, {122.90445911435279, 43}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
-					<string>YES</string>
+					<string>Vertical</string>
 					<key>Flow</key>
 					<string>Resize</string>
 					<key>FontInfo</key>
@@ -951,7 +951,7 @@
 						<key>ID</key>
 						<integer>106</integer>
 						<key>Position</key>
-						<real>0.69312269129032344</real>
+						<real>0.69120821769162499</real>
 						<key>RotationType</key>
 						<integer>0</integer>
 					</dict>
@@ -989,25 +989,26 @@
 						BAtzdHJlYW10eXBlZIHoA4QBQISE
 						hBJOU0F0dHJpYnV0ZWRTdHJpbmcA
 						hIQITlNPYmplY3QAhZKEhIQITlNT
-						dHJpbmcBlIQBKxBHb2xkZW5nYXRl
-						OiA1NDMyhoQCaUkBEJKEhIQMTlNE
-						aWN0aW9uYXJ5AJSEAWkDkoSWlgdO
-						U0NvbG9yhpKEhIQHTlNDb2xvcgCU
-						hAFjAYQEZmZmZgEBAQGGkoSWlhBO
-						U1BhcmFncmFwaFN0eWxlhpKEhIQX
-						TlNNdXRhYmxlUGFyYWdyYXBoU3R5
-						bGUAhIQQTlNQYXJhZ3JhcGhTdHls
-						ZQCUhARDQ0BTAgCEhIQHTlNBcnJh
-						eQCUmQyShISECU5TVGV4dFRhYgCU
-						hAJDZgAchpKEo6IAOIaShKOiAFSG
-						koSjogBwhpKEo6IAgYwAhpKEo6IA
-						gagAhpKEo6IAgcQAhpKEo6IAgeAA
-						hpKEo6IAgfwAhpKEo6IAgRgBhpKE
-						o6IAgTQBhpKEo6IAgVABhoYAhpKE
-						lpYGTlNGb250hpKEhIQGTlNGb250
-						HpSZJIQFWzM2Y10GAAAAHAAAAP/+
-						SABlAGwAdgBlAHQAaQBjAGEATgBl
-						AHUAZQCEAWYOmwCbAZsAmwCGhoY=
+						dHJpbmcBlIQBKx1IVFRQUzogNTQz
+						MiAKKHZpYSBHb2xkZW5HYXRlKYaE
+						AmlJAR2ShISEDE5TRGljdGlvbmFy
+						eQCUhAFpA5KElpYHTlNDb2xvcoaS
+						hISEB05TQ29sb3IAlIQBYwGEBGZm
+						ZmYBAQEBhpKElpYQTlNQYXJhZ3Jh
+						cGhTdHlsZYaShISEF05TTXV0YWJs
+						ZVBhcmFncmFwaFN0eWxlAISEEE5T
+						UGFyYWdyYXBoU3R5bGUAlIQEQ0NA
+						UwIAhISEB05TQXJyYXkAlJkMkoSE
+						hAlOU1RleHRUYWIAlIQCQ2YAHIaS
+						hKOiADiGkoSjogBUhpKEo6IAcIaS
+						hKOiAIGMAIaShKOiAIGoAIaShKOi
+						AIHEAIaShKOiAIHgAIaShKOiAIH8
+						AIaShKOiAIEYAYaShKOiAIE0AYaS
+						hKOiAIFQAYaGAIaShJaWBk5TRm9u
+						dIaShISEBk5TRm9udB6UmSSEBVsz
+						NmNdBgAAABwAAAD//kgAZQBsAHYA
+						ZQB0AGkAYwBhAE4AZQB1AGUAhAFm
+						DpsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -1016,10 +1017,9 @@
 {\*\expandedcolortbl;;\csgenericrgb\c100000\c100000\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
-\f0\fs28 \cf2 Goldengate: 5432}</string>
+\f0\fs28 \cf2 HTTPS: 5432 \
+(via GoldenGate)}</string>
 					</dict>
-					<key>Wrap</key>
-					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Class</key>
@@ -11651,15 +11651,15 @@ Postgres}</string>
 		<key>TopSlabHeight</key>
 		<real>250</real>
 		<key>VisibleRegion</key>
-		<string>{{-305, -42.999999999999872}, {2657.1428571428573, 1635.0649350649351}}</string>
+		<string>{{10.89108910891089, 150.49504950495052}, {2025.742574257426, 1246.5346534653465}}</string>
 		<key>Zoom</key>
-		<real>0.77000000000000002</real>
+		<real>1.01</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Production</string>
-				<real>0.77000000000000002</real>
-				<real>1.7899999999999998</real>
+				<real>1.01</real>
+				<real>0.80999999999999994</real>
 			</array>
 			<array>
 				<string>Dev &amp; staging</string>
