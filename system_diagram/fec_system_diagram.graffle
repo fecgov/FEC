@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-02-06 23:37:21 +0000</string>
+	<string>2017-02-07 00:13:46 +0000</string>
 	<key>Modifier</key>
 	<string>Noah Manger</string>
 	<key>NotesVisible</key>
@@ -1267,7 +1267,7 @@
 					<key>OrthogonalBarPoint</key>
 					<string>{1197, 252}</string>
 					<key>OrthogonalBarPosition</key>
-					<real>178.29220031601892</real>
+					<real>178.29220581054688</real>
 					<key>Points</key>
 					<array>
 						<string>{1167.75, 558}</string>
@@ -1326,7 +1326,7 @@
 					<key>OrthogonalBarPoint</key>
 					<string>{1386, 279}</string>
 					<key>OrthogonalBarPosition</key>
-					<real>178.29220031601892</real>
+					<real>178.29220581054688</real>
 					<key>Points</key>
 					<array>
 						<string>{1208.6795119783956, 558}</string>
@@ -1442,7 +1442,7 @@
 					<key>OrthogonalBarPoint</key>
 					<string>{1431, 306}</string>
 					<key>OrthogonalBarPosition</key>
-					<real>177.15822279529775</real>
+					<real>177.15821838378906</real>
 					<key>Points</key>
 					<array>
 						<string>{1376.8051767530787, 558.90259392875271}</string>
@@ -1501,9 +1501,9 @@
 					<key>OrthogonalBarAutomatic</key>
 					<false/>
 					<key>OrthogonalBarPoint</key>
-					<string>{1467, 324}</string>
+					<string>{1471.5, 324}</string>
 					<key>OrthogonalBarPosition</key>
-					<real>181.60000000000002</real>
+					<real>181.60000610351562</real>
 					<key>Points</key>
 					<array>
 						<string>{1405.3422051170508, 558}</string>
@@ -1520,6 +1520,10 @@
 						<dict>
 							<key>HeadArrow</key>
 							<string>FilledArrow</string>
+							<key>HopLines</key>
+							<true/>
+							<key>HopType</key>
+							<integer>1</integer>
 							<key>Legacy</key>
 							<false/>
 							<key>LineType</key>
@@ -1827,6 +1831,7 @@
 						<string>{0, -1}</string>
 						<string>{1, 0}</string>
 						<string>{-1, 0}</string>
+						<string>{0.49861253080327472, 0.30933867586054475}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4356,6 +4361,7 @@ Postgres}</string>
 						<string>{0.22662069366852911, 0.23586912733793541}</string>
 						<string>{-0.0121893709008426, -0.25953001277604359}</string>
 						<string>{0.16557933666087954, 0.0085380716891132469}</string>
+						<string>{-0.074180067285972595, -0.34238232339802743}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4486,6 +4492,63 @@ Postgres}</string>
 					</dict>
 					<key>TextPlacement</key>
 					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>LineGraphic</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Font</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<real>12</real>
+					</dict>
+					<key>Head</key>
+					<dict>
+						<key>ID</key>
+						<integer>168</integer>
+						<key>Info</key>
+						<integer>2</integer>
+					</dict>
+					<key>ID</key>
+					<integer>259</integer>
+					<key>OrthogonalBarAutomatic</key>
+					<true/>
+					<key>OrthogonalBarPoint</key>
+					<string>{1705.6511627906975, 486.50603800958731}</string>
+					<key>OrthogonalBarPosition</key>
+					<real>-1</real>
+					<key>Points</key>
+					<array>
+						<string>{1061.6878194307369, 486.50603800958731}</string>
+						<string>{1705.6511627906975, 567}</string>
+					</array>
+					<key>Style</key>
+					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>HeadArrow</key>
+							<string>FilledArrow</string>
+							<key>Legacy</key>
+							<false/>
+							<key>LineType</key>
+							<integer>2</integer>
+							<key>TailArrow</key>
+							<string>0</string>
+						</dict>
+					</dict>
+					<key>Tail</key>
+					<dict>
+						<key>ID</key>
+						<integer>204</integer>
+						<key>Info</key>
+						<integer>5</integer>
+					</dict>
 				</dict>
 			</array>
 			<key>GridInfo</key>
@@ -11651,15 +11714,15 @@ Postgres}</string>
 		<key>TopSlabHeight</key>
 		<real>250</real>
 		<key>VisibleRegion</key>
-		<string>{{10.89108910891089, 150.49504950495052}, {2025.742574257426, 1246.5346534653465}}</string>
+		<string>{{19.801980384996437, 92.079208790233437}, {2025.7425933851355, 1246.5346652355256}}</string>
 		<key>Zoom</key>
-		<real>1.01</real>
+		<real>1.0099999904632568</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Production</string>
+				<real>1.0099999904632568</real>
 				<real>1.01</real>
-				<real>0.80999999999999994</real>
 			</array>
 			<array>
 				<string>Dev &amp; staging</string>
