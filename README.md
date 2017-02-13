@@ -17,6 +17,7 @@ This repository, [FEC](https://github.com/18F/fec), is a general discussion foru
 - [fec-eregs](https://github.com/18F/fec-eregs): the FEC's new Code of Federal Regulations explorer
 - [fec-style](https://github.com/18F/fec-style): shared styles and user interface components
 - [fec-cms](https://github.com/18F/fec-cms): the content management system (CMS) for betaFEC
+- [fec-proxy](https://github.com/18F/fec-proxy): the proxy application to manage and route requests coming to betaFEC site
 
 ## Get involved
 We’re thrilled you want to get involved! 
