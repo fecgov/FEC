@@ -1,3 +1,25 @@
+# February 16, 2017
+
+## Added
+- **Campaign finance data**: New page for [itemized loans](https://beta.fec.gov/data/loans/)
+- **Campaign finance data**: New page for itemized [party coordinated expenditures](https://beta.fec.gov/data/party-coordinated-expenditures/)
+- **Campaign finance data**: Added the ability to [download reports](https://beta.fec.gov/data/filings/) as valid CSV files
+- **Campaign finance data**: Added report ID number (FEC-####) to the “Version” column when browsing tables of filings
+- **Latest updates**: Added “FEC Record” and “Tips for Treasurers” to the [latest updates](https://beta.fec.gov/updates) feed
+- **API**: Added the ability to sort the `/filings/` endpoint by multiple parameters
+
+## Changed
+- **Campaign finance data**: Redesigned the committee page based on user feedback:
+	- The page has a new layout that makes more efficient use of space
+	- The financial summary is now easier to read and clearly displays nested totals and subtotals 
+	- The filings table now groups filings by type and presents them in reverse-chronological order 
+- **Campaign finance data**: Now committee pages default to the most recent cycle for which there is a report filed 
+- **Campaign finance data**: Increased the color contrast on the [total raising and spending charts](https://beta.fec.gov/data) to improve legibility
+
+## Fixed
+- **Campaign finance data**: Fixed a bug where candidates would occasionally not show up when [browsing candidates](https://beta.fec.gov/data/candidates)
+- **General**: Fixed a bug where the navigation menu on the side of a page wouldn’t work in certain browsers
+
 # February 2, 2017
 
 ## Added
