@@ -19,6 +19,7 @@ This repository, [FEC](https://github.com/18F/fec), is a general discussion foru
 - [fec-cms](https://github.com/18F/fec-cms): the content management system (CMS) for betaFEC
 - [fec-proxy](https://github.com/18F/fec-proxy): the proxy application to manage and route requests coming to betaFEC site
 - [swagger-ui](https://github.com/18F/swagger-ui) fork of swagger for API documentaion 
+- [fec-infrastructure](https://github.com/18F/fec-infrastructure): manages the gov cloud RDS instances
 
 ## Get involved
 We’re thrilled you want to get involved! 
