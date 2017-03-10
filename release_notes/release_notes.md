@@ -1,3 +1,19 @@
+# March 10, 2017
+
+## Added
+- **Finance data:** Added amendment status and version information to reports pages ([for example](https://beta.fec.gov/data/reports/presidential/?data_type=processed))
+- **Finance data:** Added the ability to filter reports by their version and document status 
+
+## Changed
+-  **Legal resources:** [Advisory Opinions](https://beta.fec.gov/data/legal/search/advisory-opinions/) are now ordered in reverse-chronological order 
+- **Home page:** Redesigned the “What’s happening” section of the [home page](https://beta.fec.gov/) for greater legibility 
+- **General:** Improved typography spacing and styles throughout the site
+
+## Fixed
+-  **Legal resources:** Fixed a bug where paging through Advisory Opinions would lose the search query
+-  **Legal resources:** Changed Advisory Opinions so that the count accurately reflects the number of AOs in a search
+- **Finance data:** Fixed a bug on the [election lookup page](https://beta.fec.gov/data/elections) where presidential election dates were incorrect
+
 # February 16, 2017
 
 ## Added
