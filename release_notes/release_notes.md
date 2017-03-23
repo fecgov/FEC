@@ -1,3 +1,15 @@
+# March 23, 2017
+## Added
+- Legal resources: Added several new pages to the Legal resources section, including
+	- **[Regulations](https://beta.fec.gov/legal-resources/regulations)**, which links to various versions of 11 CFR, the existing SERS system, and public hearings
+	- **[E&Js](https://beta.fec.gov/legal-resources/regulations/explanations-and-justifications/)**, with information about explanations and justifications for regulations
+	- Court cases
+	- **[Legislation](https://beta.fec.gov/legal-resources/legislation)**, with information about the history of campaign finance legislation
+
+## Changed
+- Updated the contact information on [Contact](https://beta.fec.gov/contact-us) to include more toll-free numbers and a general info@fec.gov email address	
+
+
 # March 10, 2017
 
 ## Added
