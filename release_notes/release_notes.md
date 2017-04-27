@@ -1,3 +1,40 @@
+# April 28, 2017
+
+## Added
+- **General:** Added a site search that searches through candidates, committees, and other pages on the site
+- **Legal resources:** Redesigned the display of [AO search results ](https://beta.fec.gov/data/legal/search/advisory-opinions/)to include more information to make it easier to find what you’re looking for
+- **Legal resources:** Added the ability to [filter AOs](https://beta.fec.gov/data/legal/search/advisory-opinions/) by the name of other entities involved in an opinion, such as commenters and representatives
+- **Legal resources:** Added links to the regulations and statutes that an AO cites on an AO page
+- **Legal resources:** Added a table of entities involved in AOs to the AO pages, including commenters and representatives
+- **Help for candidates and committees:** Added the ability for authorized representatives of committees to [look up their RAD analyst](https://beta.fec.gov/help-candidates-and-committees/question-rad)
+
+## Changed
+- **Finance data:** When searching from [beta.fec.gov/data](https://beta.fec.gov/data) , users no longer need to select “candidates” or “committees”; all results are presented together 
+- **Finance data:** The [cumulative raised and spent charts](https://beta.fec.gov/data) now default to the 2017-2018 time period
+- **Finance data:** Unverified filers no longer show up in the data
+- **Finance data:** When [searching elections](https://beta.fec.gov/data/elections), districts with upcoming special elections now show the date of the next special election
+- **Finance data:** Removed the links from “Total receipts” and “Total disbursements” in candidate and committee financial summaries
+- **Finance data:** Removed the “Disbursements received from other committees” table on committee profiles and moved “Disbursements to committees” to the main “Disbursements” tab
+- **Finance data:** The details panel when [browsing receipts](https://beta.fec.gov/data/receipts/) and disbursements now shows the form and line number that a receipt was reported on
+- **Finance data:** Added “2017-2018” as an option for the [filings](https://beta.fec.gov/data/filings/) and [candidates](https://beta.fec.gov/data/candidates/) “Year” filters
+- **Finance data:** When downloading [receipts](https://beta.fec.gov/data/receipts/), the contributor year-to-date aggregate now comes after the amount of the single transaction
+- **Legal resources:** Added a more prominent link to the administrative fine calculator on the [administrative fines page](https://beta.fec.gov/legal-resources/enforcement/administrative-fines/)
+- **General:** Added a link to the Inspector General page in the footer
+
+## Fixed
+- **Finance data:** Election pages for districts with special elections happening now show all candidates in the special election
+- **Finance data:** The profile pages for candidates running for odd-year special elections now work
+- **Finance data:** The district maps on election pages no longer overlap with the tabs
+- **Finance data:** Candidate profiles now show the statements of candidacy filed for the selected election year
+- **Finance data:** Fixed an issue where certain RFAIs were not properly labeled
+- **Finance data:** Fixed an issue where “Total transfers” in a committee financial summary were not properly labeled
+- **Legal resources:** When searching AOs, hitting “enter” in a filter field now applies the filter
+- **Accessibility:** Fixed several broken ARIA labels for accessibility improvements
+- **Home page:** Tips for Treasurers in the “What’s happening” section of the home page are now labeled properly
+- **General:** Fixed a bug where the feedback widget would not work
+- **General:** Fixed an issue where the site menu would not open in Safari
+
+
 # April 14, 2017
 
 ## Added
