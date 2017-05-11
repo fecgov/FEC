@@ -1,3 +1,30 @@
+# May 11, 2017
+## Added
+- **Finance data:** Added filters for state and district when [browsing House candidates](https://beta.fec.gov/data/candidates/house/) and for [state when browsing Senate candidates](https://beta.fec.gov/data/candidates/senate/?election_year=2016&cycle=2016&election_full=true)
+- **Finance data:** Added filters for authorizing candidate to the [House and Senate reports page](https://beta.fec.gov/data/reports/house-senate/) and [Presidential reports page](https://beta.fec.gov/data/reports/presidential/)
+- **Finance data:** Added filters for committee type to the [House and Senate reports page](https://beta.fec.gov/data/reports/house-senate/) and [PAC and party reports page](https://beta.fec.gov/data/reports/pac-party/)
+- **Calendar:** Added filters [on the calendar](https://beta.fec.gov/calendar/) for Mid-Year and Year-End reporting deadlines
+- **General:** Added links in the footer to the [FOIA page](https://beta.fec.gov/freedom-information-act/) and the [page of strategy, budget and performance reports](https://beta.fec.gov/about/reports-about-fec/strategy-budget-and-performance/)
+
+## Changed
+- **Finance data:** Changed the messages that display when no data is available for a particular candidate or committee in order to be more descriptive and explain why there may be no data
+- **Finance data:** Removed the reaction boxes from under the charts on [beta.fec.gov/data](https://beta.fec.gov/data).
+- **Finance data:** Changed the behavior of the election year filter when [browsing candidates](https://beta.fec.gov/data/candidates) so that it filters by the year the candidate filed to run for office, rather than the years in which the candidate’s committee has activity
+- **Legal resources:** Changed advisory opinion documents without dates to show “Not dated” rather than “01/01/1900”
+- **Legal resources:** The [advisory opinion search](https://beta.fec.gov/data/legal/search/advisory-opinions/) now shows a loading state when it’s loading data
+- **Legal resources:** When searching across [legal resources](https://beta.fec.gov/data/legal/search), the results are now presented in the order that matches the order on the legal resources landing page
+- **Home:** Changed the “Upcoming deadlines” card on the Help for candidates and committees section of the home page to link to the calendar, rather than show a deadline
+
+## Fixed
+- **Finance data:** When viewing data for previous cycles on a candidate page, the links to browse receipts and disbursements now retain the time period filter
+- **Finance data:** When toggling time periods on the financial summary tab of a candidate page and then navigating to another tab, the time period now correctly populates the data on the other tables
+- **Finance data:** When viewing a 4 or 6 year cycle on a candidate page, the coverage dates now accurately show the entire range
+- **Finance data:** When viewing a 4 or 6 year cycle for a candidate running in a future election, the financial summary now displays data correctly
+- **Finance data:** When viewing candidates running in odd-year special elections, itemized data now works correctly
+- **Home:** Fixed a bug that prevented pinned items from showing up on the What’s happening feed
+- **Home:** Fixed the links to YouTube videos for the *Help for candidates and committees* tabs
+
+
 # April 28, 2017
 
 ## Added
