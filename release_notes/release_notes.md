@@ -1,3 +1,22 @@
+# May 19, 2017
+
+## Added
+- **Latest updates:** Added meeting agendas to the [latest updates](https://beta.fec.gov/updates) feed and upcoming open meetings will now show up on the “What’s happening” section of the home page
+- **General:** Added new social media preview images, with unique images each for campaign finance data, legal resources and help for candidates and committees 
+
+## Changed
+- **Finance data:** When navigating to *[Browse receipts](https://beta.fec.gov/data/receipts)* the “Unique only” filter is no longer checked by default. It is also now labeled “From unique individuals only” and is now inside the “Contributor information” panel
+- **Home:** Replaced the link to the Citizen’s Guide brochure with a link to the video “A Citizen's Guide to Supporting Candidates”
+- **Help:** Removed the link to *Submit a question to RAD* from the *Help for candidates and committees* menu, and added various pathways to the [general contact page](https://beta.fec.gov/contact-us) so that users can be routed to another office if it’s more appropriate.
+
+## Fixed
+- **Finance data:** Fixed a bug where the table of itemized disbursements on committee pages would include disbursements from all committees
+- **General:** Added better CSS and Javascript minification for faster page load times
+- **Home:** Fixed a bug where certain events would not show up on the “Upcoming events” section of the home page
+- **Calendar:** Fixed a bug where the [calendar](https://beta.fec.gov/calendar) would incorrectly separate items on the same day
+- **Calendar:** Fixed a bug on the [calendar](https://beta.fec.gov/calendar) where meetings with a start time but no end time would show up as “All day” events
+
+
 # May 11, 2017
 ## Added
 - **Finance data:** Added filters for state and district when [browsing House candidates](https://beta.fec.gov/data/candidates/house/) and for [state when browsing Senate candidates](https://beta.fec.gov/data/candidates/senate/?election_year=2016&cycle=2016&election_full=true)
