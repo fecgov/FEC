@@ -1,3 +1,27 @@
+# June 1, 2017
+
+## Added
+- **Finance data:** Authorized committee pages now show the district, state and political party of their related candidate. (In response to [#4118](https://github.com/18F/FEC/issues/4118))
+
+## Changed
+- **Finance data:** When browsing [receipts](https://fec.gov/data/receipts) and [disbursements](https://fec.gov/data/disbursements), the time period filter is now in the top, open panel for greater visibility. On receipts and [individual contributions](https://fec.gov/data/receipts/individual-contributions), the “Contributor name or ID” filter is now in the top, open panel, and on disbursements, the “Recipient name or ID” filter is in the top, open panel.
+- **Finance data:** When viewing more than 100,000 records, the link to the bulk data downloads is now presented as a message next to the export button, rather than as a tooltip.
+- **Legal resources:** The universal [legal resources](https://fec.gov/legal-resources/) search now searches AOs by only the name, number, summary and text within the final opinion. Tip: to pull up a specific AO by number from the universal search, enclose it in quotation marks.
+- **General:** Styled the button to start the site orientation tour.
+
+## Fixes
+**Finance data:** When an export results in a 500 server error, the download will now show a message alerting the user that it failed.
+**Finance data:** When clicking a number in the financial summary of an earlier time period on a candidate or committee profile page, the time period is now passed to the itemized data table.
+**Finance data:** On committee profiles, the filings table headers no longer appear sortable when they’re not actually sortable. (Fixes [#4155](https://github.com/18F/FEC/issues/4155))
+**Finance data:** Removed nonfunctional export buttons on the candidate profile pages for contributions by state and contributions by size.
+**Finance data:** Fixed an issue where table columns would be poorly sized in Firefox and Internet Explorer. (Fixes [#4153](https://github.com/18F/FEC/issues/4153))
+**Finance data:** Older filings that do not have PDFs available will no longer show an empty link to a PDF. (Fixes [#4159](https://github.com/18F/FEC/issues/4159))
+**Finance data:** The top raising and spending candidates list on *[Campaign finance data](https://fec.gov/data/)* now includes candidates running for office in 2017 as well as 2018 (Fixes [#4169](https://github.com/18F/FEC/issues/4169))
+**General:** Fixed the link to [classic.fec.gov](https://classic.fec.gov) on 404 pages (Fixes [#4135](https://github.com/18F/FEC/issues/4135))
+**General:** Fixed an issue where certain candidates or committees would not appear as search suggestions after typing their full names.
+**General:** Fixed an issue where users could enter `<script>` tags in the a typeahead-enabled input.
+
+
 # May 19, 2017
 
 ## Added
