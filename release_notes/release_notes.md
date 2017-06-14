@@ -1,3 +1,29 @@
+# June 14, 2017
+
+## Added
+- **Help for candidates and committees:** Added new guidance content for [political party committees](https://www.fec.gov/help-candidates-and-committees/)
+- **Finance data:** Raw electronic filings submitted within the last two days will now be shown on the “Filings” tab of a committee’s page in order to give users the most up-to-date information. (In response to https://github.com/18F/FEC/issues/4211)
+- **Finance data:** Added the total amount of independent expenditures for and against a candidate, the total amount of communication costs for and against a candidate, and the total amount of electioneering communications that mention a candidate to the candidate profile pages
+- **Legal resource:** Added a field to enter an advisory opinion number directly on the [advisory opinion landing page](https://www.fec.gov/data/legal/advisory-opinions/)
+
+## Changed
+- **Finance data:** Updated candidate and committee pages for greater consistency and organization:
+	- The “Individual contributions” tab is now “Raising” and includes the amount of total receipts as well as breakdowns of individual contributions.
+	- The “Disbursements” is now the “Spending” tab and includes the total amount of disbursements made by the committee as well as the previous breakdowns and subtotals. In the case of relevant committees, “Independent expenditures”, “Electioneering communication” and “Communication costs” are now included on the “Spending” tab rather than their own tabs, in order to give a complete picture of all spending done by a committee. 
+	- All transaction data table pages now show the coverage dates that the data is for.
+	- By default, the “All transactions” view of individual contributions and disbursements is open first.
+- **Legal resources:** When searching [advisory opinions](https://www.fec.gov/data/legal/search/advisory-opinions/?type=advisory_opinions), checking “Show only pending requests” now removes the “Final opinion” filter in order to show all pending AOs automatically
+- **Legal resources:** On an individual advisory opinion page, the documents are sorted in reverse-chronological order
+- **Site navigation:** Added a prominent shortcut link to *[Individual contributions](https://www.fec.gov/data/receipts/individual-contributions/)* in the Campaign finance data menu in the main site navigation in order to make it easier for people to find the page.
+- **Home:** Meeting agendas are no longer included in the “What’s happening section of the home page, which were duplicating “Upcoming events”. Now, upcoming meetings will only be included in “Upcoming events”, though meeting agendas will continue to be available on Latest updates
+
+## Fixed
+- **Finance data:** Fixed an issue where certain candidate and committee financial summary figures would be incorrect
+- **Finance data:** Fixed an issue where coverage dates on candidate and committee financial summaries would be wrong or missing
+- **Finance data:** Fixed an issue where candidates running in 2017 did not show up in the [top raising and spending lists](https://fec.gov/data)
+- Fixed links on *[Advanced data](https://fec.gov/data/advanced)* that were targeting earlier pages from betaFEC that longer exist
+
+
 # June 1, 2017
 
 ## Added
