@@ -1,4 +1,4 @@
-# June 29, 2017
+# July 3, 2017
 
 ## Added
 - **Help for candidates and committees:** Added new guidance content for non-connected PACs.
