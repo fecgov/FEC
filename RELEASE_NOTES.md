@@ -1,3 +1,36 @@
+# June 29, 2017
+
+## Added
+- **Help for candidates and committees:** Added new guidance content for non-connected PACs.
+- **Finance data:** Added the ability to enter an image number to pull up a specific page of a filing to the main search field on [fec.gov/data](https://fec.gov/data) (addresses [#4275](https://github.com/18f/fec/issues/4275)).
+- - **Finance data:** Added the ability to filter by [receipt type](https://fec.gov/data/receipts) and [disbursement type](https://fec.gov/data/disbursements) (i.e. form line numbers) (addresses [#548](https://github.com/18f/fec/issues/548), [#3925](https://github.com/18f/fec/issues/3925) [#592](https://github.com/18f/fec/issues/592) and  [#4189](https://github.com/18f/fec/issues/4189)).
+- **Finance data:** Added the ability to [filter receipts](https://fec.gov/data/receipts) by ZIP code of the contributor  (addresses [#437](https://github.com/18f/fec/issues/437) and [#4247](https://github.com/18f/fec/issues/4247)).
+- **Finance data:** Added the ability to [view reports](https://fec.gov/data/filings) as HTML web pages (addresses [#4191](https://github.com/18f/fec/issues/4191) , [#138](https://github.com/18f/fec/issues/138) , and [#4129](https://github.com/18f/fec/issues/4129)).
+- **Legal resources:** Added the ability to filter [Matters Under Review](http://fec.gov/data/legal/search/enforcement) by MUR number and respondent name.
+- **Legal resources:** PDFs for legal resource documents now have nice fec.gov URLs instead of a long string of random characters.
+- **Latest updates:** Added [historic Sunshine Act notices](https://fec.gov/updates/?&category=E&update_type=meetings) for executive sessions before 2017.
+- **General:** Added permanent redirect for beta.fec.gov domain to www.fec.gov domain (addresses [#1067](https://github.com/18f/fec/issues/1067)).
+
+## Changed
+- **Legal resources:** When [browsing AOs](https://fec.gov/data/legal/search/advisory-opinions), search results are now shown as tags above the results.
+- **Finance data:** When toggling between processed and raw data, any applied filters are retained.
+- **Finance data:** When [searching elections](https://fec.gov/data/elections), the district map will only show up for the current election cycle, and the districts have been updated with the latest redistricting maps. (addresses [#4139](https://github.com/18f/fec/issues/4139) and [#4136](https://github.com/18f/fec/issues/4136))
+- **Finance data:** Added a column for “Beginning image number” to the main [filings data table](https://fec.gov/data/filings)
+- **Finance data:** Added coverage dates to the reports tables on committee pages (Addresses [#3943](https://github.com/18f/fec/issues/3943))
+- **Finance data:** RFAIs now show “Not applicable” in the version columns (Addresses [#3942](https://github.com/18f/fec/issues/3942))
+- **General:** When browsing *Help for candidates and committees*, *Latest updates*, and other sections, PDFs will now open in the browser by default
+
+## Fixed
+- **Finance data:** Improved the quality and consistency of schedule A, B and E data
+	- Amended schedule A and B transactions will replace previous versions so older ones will longer be included in results (Addresses [#2481](https://github.com/18f/fec/issues/2481) and [#4266](https://github.com/18f/fec/issues/4266))
+- **Finance data:** Fixed an issue where candidate or committee names that matched a search term wouldn’t show up in the typeahead suggestions
+- **Finance data:** Fixed an issue where form 5 and form 24 data was missing from [independent expenditures](https://fec.gov/data/independent-expenditures)
+- **Finance data:** Fixed an issue where filings before 2015 would occasionally have negative page numbers (addresses [#4202](https://github.com/18f/fec/issues/4202) and [#4232](https://github.com/18f/fec/issues/4232))
+- **Finance data:** Fixed an issue where a special election candidate had inflated total receipts numbers ([#4236](https://github.com/18f/fec/issues/4236) and [#4290](https://github.com/18f/fec/issues/4290))
+- **Legal resources:** Fixed character encoding on legal resource data that was causing unusual characters to show up in text (Addresses [#4262](https://github.com/18f/fec/issues/4262))
+- **Latest updates:** Fixed an issue where searching for [latest updates](https://fec.gov/updates) by text wouldn’t return the proper results
+
+
 # June 14, 2017
 
 ## Added
@@ -23,6 +56,7 @@
 - **Finance data:** Fixed an issue where candidates running in 2017 did not show up in the [top raising and spending lists](https://fec.gov/data)
 - Fixed links on *[Advanced data](https://fec.gov/data/advanced)* that were targeting earlier pages from betaFEC that longer exist
 
+
 # June 1, 2017
 
 ## Added
@@ -45,7 +79,6 @@
 **General:** Fixed the link to [classic.fec.gov](https://classic.fec.gov) on 404 pages (Fixes [#4135](https://github.com/18F/FEC/issues/4135))
 **General:** Fixed an issue where certain candidates or committees would not appear as search suggestions after typing their full names.
 **General:** Fixed an issue where users could enter `<script>` tags in the a typeahead-enabled input.
-
 
 # May 19, 2017
 
