@@ -1,3 +1,16 @@
+# July 14, 2017
+
+## Added
+- **Legal resources.**  Added a column for “entity type” to the entities grid on advisory opinion pages - [example](https://www.fec.gov/data/legal/advisory-opinions/2017-04/)
+- **Campaign Finance.** Added more transaction links to the candidate and the committee profile page financial summaries so that users can view the transactions that were itemized for each subtotal - [example](https://www.fec.gov/data/candidate/H8GA06195/)
+
+## Changed
+- **Legal resources.** Removed Amazon (AWS) URLs and replaced with fec.gov  URLs for legal documents - [example](https://www.fec.gov/files/legal/aos/83272.pdf)
+
+## Fixed
+- **Finance data:** Fixed an issue where F3X loan repayments were incorrect in financial summaries on the committee profile pages.
+
+
 # July 3, 2017
 
 ## Added
