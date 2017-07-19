@@ -7,7 +7,7 @@
 ## Changed
 - **Legal resources.** Removed Amazon (AWS) URLs and replaced with fec.gov  URLs for legal documents - [example](https://www.fec.gov/files/legal/aos/83272.pdf)
 
-- ## Fixed
+## Fixed
 **Finance data:** Fixed an issue where F3X loan repayments were incorrect in financial summaries on the committee profile pages.
 
 
