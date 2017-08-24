@@ -1,3 +1,29 @@
+# August 24, 2017
+
+## Added
+- **Finance data:** Added state, office and party filters to the filings and reports page
+- **General:** “About” menu with links to “News and updates,” “Commission meetings” and more
+- **General:** Added a new Commission Meetings page that includes all open meetings, hearings and executive sessions
+- **General:** Added many more glossary terms
+
+## Changed
+- **Finance data:** Redesigned [Campaign Finance Data](http://fec.gov/data) page to make it possible to search for individual contributions and compare candidates running in an election right from the page
+- **Finance data:** When browsing reports and filings, document titles in the table now link to the webpage version of a given report (when available)
+- **Finance data:** Senate candidates page defaults to 2018
+- **Finance data:** Improve design of election page for more consistent browsing experience
+- **Finance data:** Better link from candidate pages to election pages
+- **Finance data:** Expanded download limits to increase the number of data rows that can be downloaded at one time
+- **Finance data:** Data downloads are now .CSV files rather than zip files and are much faster and more reliable
+- **Legal Resources:** Updated pages to remove notice about MUR archive not being included in MUR searches
+- **General:** Redesigned homepage to provide easier navigation to the most visited sections of the site. The updated homepage more clearly highlights news and announcements, and events and deadlines. 
+- **General:** Better domains for documents uploaded to CMS
+- **General:** Added contact information for Information Division and Electronic Filing Office
+
+## Fixed
+- **Finance data:** Fixed an issue where new termination reports were incorrectly labeled as amendments
+- **Finance data:** Fixed a bug where election pages sometimes didn’t display the correct number of congressional districts
+
+
 # July 14, 2017
 
 ## Added
