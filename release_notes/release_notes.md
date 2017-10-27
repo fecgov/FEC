@@ -26,7 +26,7 @@
 - We can now create custom page titles in Wagtail that allow us to organize pages within the CMS.
 - Updated Wagtail application timezone to America/New_York to accommodate user-friendly scheduling of page and banner announcement expiration
 - OpenFEC-web-app and fec-style repositories are now merged into fec-cms
-openFEC-web-app unit tests migrated to fec-cms
+  - openFEC-web-app unit tests migrated to fec-cms
 - Updated fec-cms developer documentation to account for post merge of apps
 - Migrated continuous integration build scripts from Travis and to Circle CI
 
