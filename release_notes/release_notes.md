@@ -1,3 +1,36 @@
+# October 26, 2017
+## Added
+- **General**: Added new glossary terms
+- **General**: Added “Contact” link in the About menu
+- **Help for candidates and committees**: Created new “How to report” examples for [filing candidate reports](https://www.fec.gov/help-candidates-and-committees/filing-reports/#reporting-examples). Other types of reporting examples will be coming soon
+- **Help for candidates and committees**: Added a [tool](https://www.fec.gov/help-candidates-and-committees/question-rad/) that allows authorized representatives to find and email their committee’s analyst. The tool provides an explanation for committees that are not yet assigned an analyst
+- **Legal**: Added advanced Boolean search logic to the advisory opinion and MUR search systems  [Global legal search](https://www.fec.gov/legal-resources/), [MUR search](https://www.fec.gov/data/legal/search/enforcement/), [AO search](https://www.fec.gov/data/legal/search/advisory_opinions/)
+- **API**: Added additional fields and filters to /totals/{committee-type} endpoint
+## Changed
+- **General**: Citations in glossary terms now link to source documents
+- **General**: Removed the new site announcement banner and decommissioned the site orientation feature as part of the post-transition plan 
+- **Finance data**: Changed cycle breakdown to reflect current 2 year cycle, 2017-2018
+- **Latest updates**: Made it easier to find the newest news and announcements by removing meetings from the [latest updates](https://www.fec.gov/updates) feed
+- **Legal**: Added additional embedded search modules that allow a quick start to search by MUR number or keyword from outside of the full search page. Also added a consistent link to the full search experience
+- **Legal**: Updated information on MUR and AO messages to reflect the current state of legal search tools
+## Fixed
+- **Meetings**: Corrected a filter that prevented all hearings from being displayed in the [hearings](https://www.fec.gov/meetings/?tab=hearings) feed
+- **Meetings**: Repaired broken links to draft Commission open meeting documents
+- **General**: Corrected a typo on the contact page that previously misspelled “Teletypewriter”
+- **About**: Replaced a missing image for the vacant seat on the [Leadership and structure](https://www.fec.gov/about/leadership-and-structure/) page
+## Under the hood
+- Made our most-used table (of current contribution limits) into a widget that can be embedded into multiple pages and updated globally, reducing risk of error
+- It is now possible to preview the homepage banner announcements in Wagtail before publishing them
+- It is now possible to set a time for expiration of the homepage banner
+- Added the ability to upload documents for Commission meeting Sunshine Act Notices directly in the Wagtail meeting page template
+- We can now create custom page titles in Wagtail that allow us to organize pages within the CMS.
+- Updated Wagtail application timezone to America/New_York to accommodate user-friendly scheduling of page and banner announcement expiration
+- OpenFEC-web-app and fec-style repositories are now merged into fec-cms
+openFEC-web-app unit tests migrated to fec-cms
+- Updated fec-cms developer documentation to account for post merge of apps
+- Migrated continuous integration build scripts from Travis and to Circle CI
+
+
 # August 24, 2017
 
 ## Added
