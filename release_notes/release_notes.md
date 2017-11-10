@@ -1,4 +1,25 @@
+# November 9, 2017
+
+## Added
+- **API:** Added advisory opinion “status” field to API indicating whether an advisory opinion is pending, withdrawn or final
+## Changed
+- **Finance data:** Committee profile pages now display political party in the “About the committee” section of the page 
+
+## Fixed
+- **Elections:** Updated Senate classes and upcoming election years with correct information
+- **Finance data:** The “Filings” section on committee pages now displays the most recent raw eFilings, where before, no data was displaying 
+- **Finance data:** Corrected an error that displayed the wrong data column for operating expenditures reported on Form 3X
+- **Legal:** Fixed Archived MUR URL issue that caused MURs to display with an error 
+- **Legal:** Repaired broken “Explore all advisory opinions” link from the button on the Advisory Opinions landing page 
+- **Legal:** Removed the incorrect `/data` entity from the breadcrumb path for current and archived MUR pages 
+- **Legal:** Fixed a bug in the logic that was causing some withdrawn advisory opinion requests to not display “Withdrawn” in the date issued column
+
+## Under the hood
+- Improved daily data transfer process
+- Improved and updated continuous integration
+
 # October 26, 2017
+
 ## Added
 - **General**: Added new glossary terms
 - **General**: Added “Contact” link in the About menu
