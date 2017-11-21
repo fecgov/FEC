@@ -18,8 +18,8 @@
 
 
 ## Under the hood
-- updated link in API readme
-- resolved performance monitor errors related to time zones
+- Updated link in API readme
+- Resolved performance monitor errors related to time zones
 - CSRF(cross-site request forgery) tokens are now marked as secure
 
 
