@@ -4,7 +4,7 @@
 
 ## Changed
 - **Database:** modified sql script to correct value used to determine if a candidate is active in a particular election
-- **Elections data:** Replaced hard-coded Senate special election years with data-driven lookup so that future Senate specials will automatically appear in the dropdowns. [Example](http://fec.gov/data/elections/senate/AL/2018/)
+- **Elections data:** Replaced hard-coded Senate special election years with data-driven lookup so that future Senate specials will automatically appear in the dropdowns. [Example](http://www.fec.gov/data/elections/senate/AL/2018/)
 - **Help for candidates and committees:** Moved [Campaign Guides](https://www.fec.gov/help-candidates-and-committees/guides/) to improve the pathways users take to find relevant guidance within “Help for candidates and committees” and so it’s easier to find all information from a stable URL
 - **Help for candidates and committees:** Redesigned the "Help for candidates and committees" [landing page](https://www.fec.gov/help-candidates-and-committees/) to accommodate moving the Campaign Guides to their own section and to surface more commonly used information from within “Help for candidates and committees”
 - **General:** Converted the “Introduction to campaign finance and elections” section on the homepage into a more concise and visual layout
