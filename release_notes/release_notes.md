@@ -1,3 +1,28 @@
+# November 21, 2017
+## Added
+- **Help for candidates and committees:** Added additional “How to report” examples focusing on disbursements for [filing candidate reports](https://www.fec.gov/help-candidates-and-committees/filing-reports/#reporting-examples). Other types of reporting examples will be coming soon
+
+## Changed
+- **Database:** modified sql script to correct value used to determine if a candidate is active in a particular election
+- **Elections data:** Replaced hard-coded Senate special election years with data-driven lookup so that future Senate specials will automatically appear in the dropdowns. [Example](http://fec.gov/data/elections/senate/AL/2018/)
+- **Help for candidates and committees:** Moved [Campaign Guides](https://www.fec.gov/help-candidates-and-committees/guides/) to improve the pathways users take to find relevant guidance within “Help for candidates and committees” and so it’s easier to find all information from a stable URL
+- **Help for candidates and committees:** Redesigned the "Help for candidates and committees" [landing page](https://www.fec.gov/help-candidates-and-committees/) to accommodate moving the Campaign Guides to their own section and to surface more commonly used information from within “Help for candidates and committees”
+- **General:** Converted the “Introduction to campaign finance and elections” section on the homepage into a more concise and visual layout
+- **General:** Created reusable pattern to add responsive images to the site with cross-browser/device support. Currently being used on new “Help for Candidates and Committees” landing page and the new “Introduction to campaign finance and elections” section of the homepage
+
+## Fixed
+- **General:** Fixed a broken link to the [Open FEC API](https://api.open.fec.gov/) in the website footer
+- **General:** Added a missing space between the amendment status and the notice title on the “Commission meeting” feed
+- **General:** Corrected timezone issue, allowing editors to control go-live/expiry date and time for banner announcement
+- **Legal:** Fixed parsing of AOs to better detect statutory and regulatory citations [Example](https://www.fec.gov/data/legal/advisory-opinions/2016-24/)  
+
+
+## Under the hood
+- updated link in API readme
+- resolved time zone-related performance monitor errors flagged by engineers
+- CSRF(cross-site request forgery) tokens are now marked as secure
+
+
 # November 9, 2017
 
 ## Added
