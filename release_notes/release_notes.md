@@ -13,13 +13,13 @@
 ## Fixed
 - **General:** Fixed a broken link to the [Open FEC API](https://api.open.fec.gov/) in the website footer
 - **General:** Added a missing space between the amendment status and the notice title on the “Commission meeting” feed
-- **General:** Corrected timezone issue, allowing editors to control go-live/expiry date and time for banner announcement
+- **General:** Corrected time zone issue, allowing editors to control go-live/expiry date and time for banner announcement
 - **Legal:** Fixed parsing of AOs to better detect statutory and regulatory citations [Example](https://www.fec.gov/data/legal/advisory-opinions/2016-24/)  
 
 
 ## Under the hood
 - updated link in API readme
-- resolved time zone-related performance monitor errors flagged by engineers
+- resolved time zone related performance monitor errors flagged by engineers
 - CSRF(cross-site request forgery) tokens are now marked as secure
 
 
