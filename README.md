@@ -13,10 +13,8 @@ This repository, [FEC](https://github.com/18F/fec), is a general discussion foru
 ### All repositories
 - [FEC](https://github.com/18F/fec): a general discussion forum. We [compile feedback](https://github.com/18F/fec/issues) from the FEC.gov feedback widget here, and this is the best place to submit general feedback.
 - [openFEC](https://github.com/18F/openfec): the first RESTful API for the Federal Election Commission
-- [openFEC-web-app](https://github.com/18f/openfec-web-app): the FEC’s web app for exploring campaign finance data
+- [fec-cms](https://github.com/18F/fec-cms): the new FEC.gov - a web application for exploring campaingn finance data and content
 - [fec-eregs](https://github.com/18F/fec-eregs): the FEC's new Code of Federal Regulations explorer
-- [fec-style](https://github.com/18F/fec-style): shared styles and user interface components
-- [fec-cms](https://github.com/18F/fec-cms): the content management system (CMS) for the new FEC.gov
 - [fec-proxy](https://github.com/18F/fec-proxy): the proxy application to manage and route requests coming to the new FEC.gov site
 - [swagger-ui](https://github.com/18F/swagger-ui) fork of swagger for API documentaion 
 - [fec-infrastructure](https://github.com/18F/fec-infrastructure): manages the gov cloud RDS instances
