@@ -1,3 +1,18 @@
+# December 6, 2017
+## Added
+- **General:** Added new glossary terms 
+## Changed
+- **Finance data:** So that the latest independent expenditures are shown first, the “24-Hour and 48-Hour Report” toggle option is now the default selected on page load, instead of “Regularly scheduled reports,” and the display order of the toggle now matches the default order 
+https://fec-stage-proxy.app.cloud.gov/data/independent-expenditures/
+## Fixed
+- **Finance data:** Corrected a typo in the report type tooltip on the independent expenditure data table filters https://fec-stage-proxy.app.cloud.gov/data/independent-expenditures/
+## Under the hood
+- **Server logs:** Added more logging to periodic server tasks (Celery Beat) for better troubleshooting 
+- **API developer interface:** Updated API developer interface (Swagger) tools
+- **General:** Added security related attributes to session cookies for security/ATO compliance
+
+
+
 # November 21, 2017
 ## Added
 - **Help for candidates and committees:** Added additional “How to report” examples focusing on disbursements for [filing candidate reports](https://www.fec.gov/help-candidates-and-committees/filing-reports/#reporting-examples). Other types of reporting examples will be coming soon
