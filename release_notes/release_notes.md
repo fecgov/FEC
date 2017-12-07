@@ -3,9 +3,9 @@
 - **General:** Added new glossary terms 
 ## Changed
 - **Finance data:** So that the latest independent expenditures are shown first, the “24-Hour and 48-Hour Report” toggle option is now the default selected on page load, instead of “Regularly scheduled reports,” and the display order of the toggle now matches the default order 
-https://fec-stage-proxy.app.cloud.gov/data/independent-expenditures/
+[Example](https://www.fec.gov/data/independent-expenditures/)
 ## Fixed
-- **Finance data:** Corrected a typo in the report type tooltip on the independent expenditure data table filters https://fec-stage-proxy.app.cloud.gov/data/independent-expenditures/
+- **Finance data:** Corrected a typo in the report type tooltip on the independent expenditure data table filters [Example](https://www.fec.gov/data/independent-expenditures/)
 ## Under the hood
 - **Server logs:** Added more logging to periodic server tasks (Celery Beat) for better troubleshooting 
 - **API developer interface:** Updated API developer interface (Swagger) tools
