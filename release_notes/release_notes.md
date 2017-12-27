@@ -12,7 +12,7 @@
 - Added logging to the API to make debugging issues easier
 - Removed icons no longer in use
 - Resized a few existing icons to make them consistent with other icons
-- Adjusted our icon build scripts so that icons that have been removed will no longer show up in the output files, and thus, won’t show up as options in the pattern library.
+- Adjusted our icon build scripts so that icons that have been removed will no longer show up in the output files, and thus, won’t show up as options in the pattern library
 - Moved legal news feed to its own template tag
 - Changed the logic for determining future Senate elections to use a formula instead of a hard-coded set of dates
 
