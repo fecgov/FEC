@@ -1,3 +1,21 @@
+# December 20, 2017
+## Added
+- **Help for candidates and committees:** Added additional “How to report” examples focusing on [Statements of Candidacy](https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-candidate/) and [Statements of Organization](https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/)
+## Changed
+- **Legal:** Redesigned the “Legal resources” [landing page](https://www.fec.gov/legal-resources/) to help users more easily find information 
+- **Calendar:** Removed “all day” from calendar entry display
+## Fixed
+- **Finance data:** Changed the default time period to display the most recent financial data for all committee profile pages
+- **Finance data:**  Corrected spelling error on search button
+## Under the hood
+- Added legal test (legal_test_data.py) data for all legal resources
+- Added logging to the API to make debugging issues easier
+- Removed icons no longer in use
+- Resized a few existing icons to make them consistent with other icons
+- Adjusted our icon build scripts so that icons that have been removed will no longer show up in the output files, and thus, won’t show up as options in the pattern library.
+- Moved legal news feed to its own template tag
+- Changed the logic for determining future Senate elections to use a formula instead of a hard-coded set of dates
+
 # December 6, 2017
 ## Added
 - **General:** Added new glossary terms 
