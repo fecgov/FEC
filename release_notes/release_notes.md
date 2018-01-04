@@ -1,3 +1,22 @@
+# January 3, 2018
+## Added
+- **Glossary:** Added definition of “Non-contribution account” to glossary
+- **General:** Added GovDelivery envelope icon to footer
+- **API:** Added Audit [endpoints](https://api.open.fec.gov/developers/) 
+
+## Changed
+- **Finance data:** Changed “election cycle” to “period” to more accurately reflect how we calculate financial summary information
+- **Leadership and structure** Updated Chair and Vice Chair of the Commission information to reflect 2018 leadership
+- **API:** Changed 18F-fec@gsa.gov to APIinfo@fec.gov
+## Fixed
+- **Glossary:** Made typographical corrections
+## Under the hood
+- Fixed the AO landing page unit test case
+- Removed remaining “tour” code
+- Removed unused “between committees” template
+- Added more automated testing scripts
+- Updated minimum date in javascript tests for 2018
+
 # December 20, 2017
 ## Added
 - **Help for candidates and committees:** Added additional “How to report” examples focusing on [Statements of Candidacy](https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-candidate/) and [Statements of Organization](https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-committee/)
