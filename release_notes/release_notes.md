@@ -1,3 +1,15 @@
+# January 17, 2018
+## Added
+- **API Documentation:** Added documentation for form type and report type
+## Changed
+- **Legal:** Updated Advisory Opinion and Matter Under Review documents to have permanent links
+- **Finance data:** Updated logic to better handle Senate special elections
+## Fixed
+- **General:** Corrected typographical errors
+## Under the hood
+- Improved load testing
+- Improved error handling
+
 # January 3, 2018
 ## Added
 - **Glossary:** Added definition of “Non-contribution account” to glossary
@@ -6,7 +18,7 @@
 
 ## Changed
 - **Finance data:** Changed “election cycle” to “period” to more accurately reflect how we calculate financial summary information
-- **Leadership and structure** Updated Chair and Vice Chair of the Commission information to reflect 2018 leadership
+- **Leadership and structure:** Updated Chair and Vice Chair of the Commission information to reflect 2018 leadership
 - **API:** Changed 18F-fec@gsa.gov to APIinfo@fec.gov
 ## Fixed
 - **Glossary:** Made typographical corrections
