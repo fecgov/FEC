@@ -1,6 +1,6 @@
 # January 25, 2018
 ## Added
--**Help for candidates and committees:** New pages for corporations, labor organizations, trade associations, membership organizations and their separate segregated funds are now live. 
+- **Help for candidates and committees:** New pages for corporations, labor organizations, trade associations, membership organizations and their separate segregated funds are now live. 
 - **Campaign finance:** Added Types 3 and 4 Federal Election Activity (FEA) (Line 30(b)) to the filters available on the [browse disbursements](https://www.fec.gov/data/disbursements/)
 
 ## Fixed
