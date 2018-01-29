@@ -1,3 +1,18 @@
+# January 25, 2018
+## Added
+-**Help for candidates and committees:** New pages for corporations, labor organizations, trade associations, membership organizations and their separate segregated funds are now live. 
+- **Campaign finance:** Added Types 3 and 4 Federal Election Activity (FEA) (Line 30(b)) to the filters available on the [browse disbursements](https://www.fec.gov/data/disbursements/)
+
+## Fixed
+- **Contact:** Corrected phone number in [Find your committee’s analyst](https://www.fec.gov/help-candidates-and-committees/question-rad/) message 
+- **API:** Fixed /elections/search/ endpoint to return all congressional districts, so they appear correctly in the [Elections search](https://www.fec.gov/data/elections/) 
+## Under the hood
+- Improved backup of archived MURs for greater flexibility
+- Improved monitoring of daily update processes
+- Improved processing of aggregates
+- Switched API to new aggregate tables
+- Added and updated ZIP Codes to improve election page search
+
 # January 17, 2018
 ## Added
 - **API Documentation:** Added documentation for form type and report type
