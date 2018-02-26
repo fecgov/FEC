@@ -1,3 +1,19 @@
+# February 20, 2018
+## Added
+- **General:** Added an emergency banner to notify users of limited availability due to government shutdown
+ 
+## Changed
+- **Leadership and structure:**  Updated homepage and leadership pages to reflect Commissioner Goodman’s departure
+
+## Fixed
+- **Finance data:** Fixed display of odd-year special elections 
+- **Finance data:** Changed state dropdowns to order alphabetically by state name instead of abbreviation
+## Under the hood
+- Updated eRegs to most recent version
+- Fixed Elasticsearch timeout issue with reindexing legal documents, which increased performance for AOs and MURs
+- Removed old aggregate tables and related database objects and tests that are no longer being used  
+- Fixed multi column sort bug for openFEC API
+
 # January 25, 2018
 ## Added
 - **Help for candidates and committees:** New pages for corporations, labor organizations, trade associations, membership organizations and their separate segregated funds are now live. 
