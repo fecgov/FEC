@@ -1,3 +1,19 @@
+# March 7, 2018
+## Added
+- **Finance Data**: Added the coverage end date to the source reports column on election page tables so that candidate data can more be accurately compared across the same time periods
+- **API:** Added the ability to filter search results by excluding values
+
+## Fixed
+- **General**: Quarterly and monthly filing deadlines are now included on the homepage “Events and deadlines” feed
+- **General:** Fixed a bug that was causing numbers for ordered lists to not display
+- **General:** Fixed a styling effect on card components that was causing adjacent content to abruptly shift position on page
+
+## Under the hood
+- Modified audit search API endpoint to allow users to see results filtered by primary category and then further refine those results by subcategory
+- Removed an unused function and streamlined existing API “exclude” logic
+- Improved site stability by making Redis automatically attempt to reconnect when a connection is lost
+
+
 # February 20, 2018
 ## Added
 - **General:** Added an emergency banner to notify users of limited availability due to government shutdown
