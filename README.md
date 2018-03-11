@@ -3,27 +3,25 @@ The Federal Election Commission (FEC) releases information to the public about m
 
 Are you interested in seeing how much money a candidate raised? Or spent? How much debt they took on? Who contributed to their campaign? The FEC is the authoritative source for that information.
 
-The new FEC.gov is a collaboration between [18F](http://18f.gsa.gov) and the FEC. It aims to make campaign finance information more accessible (and understandable) to all users. 
+The new FEC.gov aims to make campaign finance information more accessible (and understandable) to all users. 
 
 ## FEC repositories
 We welcome you to explore, make suggestions, and contribute to our code. 
 
-This repository, [FEC](https://github.com/18F/fec), is a general discussion forum. We [compile feedback](https://github.com/18F/fec/issues) from the FEC.gov feedback widget here. This is the best place to submit general feedback.
+This repository, [FEC](https://github.com/fecgov/fec), is a general discussion forum. We [compile feedback](https://github.com/fecgov/fec/issues) from the FEC.gov feedback widget here. This is the best place to submit general feedback.
 
 ### All repositories
-- [FEC](https://github.com/18F/fec): a general discussion forum. We [compile feedback](https://github.com/18F/fec/issues) from the FEC.gov feedback widget here, and this is the best place to submit general feedback.
-- [openFEC](https://github.com/18F/openfec): the first RESTful API for the Federal Election Commission
-- [openFEC-web-app](https://github.com/18f/openfec-web-app): the FEC’s web app for exploring campaign finance data
-- [fec-eregs](https://github.com/18F/fec-eregs): the FEC's new Code of Federal Regulations explorer
-- [fec-style](https://github.com/18F/fec-style): shared styles and user interface components
-- [fec-cms](https://github.com/18F/fec-cms): the content management system (CMS) for the new FEC.gov
-- [fec-proxy](https://github.com/18F/fec-proxy): the proxy application to manage and route requests coming to the new FEC.gov site
-- [swagger-ui](https://github.com/18F/swagger-ui) fork of swagger for API documentaion 
-- [fec-infrastructure](https://github.com/18F/fec-infrastructure): manages the gov cloud RDS instances
+- [FEC](https://github.com/fecgov/fec): a general discussion forum. We [compile feedback](https://github.com/fecgov/fec/issues) from the FEC.gov feedback widget here, and this is the best place to submit general feedback.
+- [openFEC](https://github.com/fecgov/openfec): the first RESTful API for the Federal Election Commission
+- [fec-eregs](https://github.com/fecgov/fec-eregs): the FEC's new Code of Federal Regulations explorer
+- [fec-pattern-library](https://github.com/fecgov/fec-pattern-library): shared styles and user interface components
+- [fec-cms](https://github.com/fecgov/fec-cms): the content management system (CMS) for the new FEC.gov
+- [fec-proxy](https://github.com/fecgov/fec-proxy): the proxy application to manage and route requests coming to the new FEC.gov site
+- [fec-infrastructure](https://github.com/fecgov/fec-infrastructure): manages the gov cloud RDS instances
 
 ## Get involved
 We’re thrilled you want to get involved! 
-- Read our [contributing guidelines](https://github.com/18F/openfec/blob/master/CONTRIBUTING.md). Then, [file an issue](https://github.com/18F/fec/issues) or submit a pull request.
+- Read our [contributing guidelines](https://github.com/fecgov/openfec/blob/master/CONTRIBUTING.md). Then, [file an issue](https://github.com/fecgov/fec/issues) or submit a pull request.
 - [Send us an email](mailto:betafeedback@fec.gov).
 - If you’re a developer, follow the installation instructions in the README.md page of each repository to run the apps on your computer.
 - Check out our StoriesonBoard [FEC story map](https://18f.storiesonboard.com/m/fec) to get a sense of the user needs we'll be addressing in the future.
