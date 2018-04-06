@@ -1,3 +1,34 @@
+# April 4, 2018
+## Added
+- **API:** Created a new endpoint for state election offices
+- **Help for Candidates and Committees:** Began publishing reporting examples for Separate Segregated Funds and Nonconnected PACs
+- **Latest updates:** Uploaded and linked 1975 and 1976 [issues](https://transition.fec.gov/pages/fecrecord/fecrecord.shtml) of the FEC Record that were previously unavailable
+ 
+## Changed
+- **Contact Info:** Updated all pages with FEC’s new mailing address: 1050 First Street, NE Washington, DC 20463
+
+## Fixed
+- **General:** Repaired a URL for an image link that was causing the image for commissioners without a biography photo to display as a broken link
+- **General:** Updated the styling of the card components on the campaign finance data landing page to be consistent with styles elsewhere on the site, and create a more unified viewing experience
+- **General:** Fixed calendar “All filing deadlines,” “All outreach” and “All legal events” button filters so that it will filter all deadlines
+- **Candidate profile pages:** Fixed broken links on candidate profile page when a candidate has more than one authorized committee
+- **Candidate profile pages:** Fixed display error that was causing district 10 candidates to display as district 1
+- **Finance Data:** Moved quarterly Form 5 filings to the “Regularly filed reports” section instead of the “24 and 48 hour reports” section 
+- **Finance data:** Fixed RFAIs so that they appear correctly on committee and candidate profile pages 
+- **Finance data:** Fixed exclude filters to be able to return values that are null
+- **Finance data:** Added new schedule A ZIP code filters to limit to 5 digits only
+- **Legal resources:** Fixed MUR pagination error when searching by respondent
+## Under the hood
+- Styled a new pagination component that can be used on the site in the future, and will allow for specific page numbers to be selected from a set
+- All public repositories have been transferred from the 18F github organization to the fecgov github organization. This includes: openFEC, fec-cms, fec-proxy, fec-eregs, FEC, fec-pattern-library, fec-infrastructure, fec-testing, fec-epics, and fec-transition
+- Enabled Cached Calls on production. This functionality will save all API data in a S3 cached-calls folder so that it can be retrieved from S3 when the database or server is unavailable
+- Manifest inheritance and the host attribute have been deprecated in Cloud Foundry. We use manifests to deploy using CircleCI. The base manifest has been removed and its contents have been merged with each of the individual space manifests (dev, stage, and prod). This change was made on each of the applications we deploy: fec-eregs, fec-proxy, fec-cms, openFEC
+- Created redirect for anyone hitting https://www.fec.gov/files/bulk-downloads/ so that they will be routed to the bucket directly instead of going through the proxy. This will allow the user to download large data sets without failure
+- Upgraded API(openFEC repo) to python v3.6.5
+- Added five test cases for audit search endpoints
+- Improved performance for automatic MUR reloading
+- Improved performance for schedule A ZIP code searching by adding new indexes
+
 # March 7, 2018
 ## Added
 - **Finance Data**: Added the coverage end date to the source reports column on election page tables so that candidate data can more be accurately compared across the same time periods
