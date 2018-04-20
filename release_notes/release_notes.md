@@ -1,3 +1,25 @@
+# April 18, 2018 (Sprint 5.3)
+## Added
+- **Campaign finance data:** Redesigned Advanced data section and bulk downloads page 
+- **Campaign finance data:** Enabled [House](https://www.fec.gov/data/candidates/house/), [Senate](https://www.fec.gov/data/candidates/senate/) and [Presidential](https://www.fec.gov/data/candidates/president/) downloads
+- **General:** Added new page on [public funding](https://www.fec.gov/introduction-campaign-finance/understanding-ways-support-federal-candidates/presidential-elections/public-funding-presidential-elections/) of presidential elections
+- **General:** GovDelivery email [signup](https://www.fec.gov/updates/) is now active
+- **Legal resources:** Added new SERS supplemental index [page](https://www.fec.gov/legal-resources/regulations/sers-supplemental-information/) for FEC rulemakings
+- **Legal resources:** Added new page on how to file a [complaint](https://www.fec.gov/legal-resources/enforcement/complaints-process/how-to-file-complaint-with-fec/)
+
+## Changed
+- **Campaign finance data:** Changed the individual contributor, ZIP code search to match first 5 digits entered by the user
+- **General:** Updated pattern library to include more comprehensive examples, including breadcrumbs, color pairing guidance and form examples 
+- **General:** Careers page now querying USAJobs API hiring path 
+parameter and displaying “Open to:” information for each open position 
+
+## Fixed
+- **Candidate profile pages:** Corrected contribution refunds total on candidate profile pages
+- **Legal Resources:** Fixed a bug where 2 U.S.C. statutes on Advisory Opinions weren’t all properly mapping to new 52 U.S.C. statutes”
+## Under the hood
+- Loaded 2018 regulations into eRegs
+
+
 # April 4, 2018
 ## Added
 - **API:** Created a new endpoint for state election offices
