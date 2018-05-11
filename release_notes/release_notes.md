@@ -1,3 +1,22 @@
+# May 2, 2018 (Sprint 5.4)
+## Added
+- **Campaign finance data:** Added the ability for users to navigate to the authorized candidate’s page from the committee’s page 
+
+## Changed
+- **Campaign finance data:** Updated Pennsylvania district map on elections pages
+- **Candidate and committee search:** Changed candidate/committee search results to sort by total financial activity rather than total receipts only
+
+## Fixed
+- **Advanced data pages:** Fixed House, Senate and Presidential candidate search pages to return all candidates regardless of financial activity
+## Under the hood
+- Updated CMS to the latest version of Python 3.6
+- Refreshed MUR and AO tables in development and staging from the tables in production 
+- Switched API to the campaign finance database-driven Schedule B tables
+- Created itemized Schedule A tables and transferred data from our primary campaign finance database to Postgres
+- Implemented and tested SNYK, a new vulnerability tracking tool 
+- Optimized independent expenditure queries
+- Analyzed and fixed slow running raw data queries
+
 # April 18, 2018 (Sprint 5.3)
 ## Added
 - **Campaign finance data:** Redesigned Advanced data section and bulk downloads page 
