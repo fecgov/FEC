@@ -1,3 +1,37 @@
+# May 29, 2018 (Sprint 5.6)
+## Added
+- **Campaign finance data:** Added new page explaining how to work with [downloadable data files.]( https://www.fec.gov/campaign-finance-data/working-downloadable-fec-data-files-using-ms-access/)
+- **Help for candidates and committees:** Added FECFile help links to the troubleshooting section of Filing committee reports for all committee types
+
+## Changed
+- **General:** Changed main menu options to improve site navigation
+
+## Under the hood
+- Upgraded ElasticSearch
+- Update sample_db SQL to include test data for all materialized views
+- Created sample test data for all 52 ofec materialized views
+- Updated Redis/Celery/Kombu packages for system stability
+- Created a new materialized view, ofec_report_pac_party_all_mv
+
+# May 15, 2018 (Sprint 5.5)
+
+## Changed
+- **General:** We updated our website menus to improve navigation to areas our users find most helpful
+
+## Fixed
+- **General:** We fixed the link back to FEC.gov on transition pages so that users will be returned to the main homepage
+- **Campaign finance data:** Added monthly filter for [PAC and Party committee reports page](https://www.fec.gov/data/reports/pac-party/)
+- **Campaign finance data:** Removed bundling reports filter from [House](https://www.fec.gov/data/reports/house-senate/), [Presidential](https://www.fec.gov/data/reports/presidential/), and [PAC and Party](https://www.fec.gov/data/reports/pac-party/) report pages
+- **Campaign finance data:** [Raising](https://www.fec.gov/data/raising/) and [spending](https://www.fec.gov/data/spending/) breakdown charts now have cycles that are data-driven
+- **Campaign finance data:** Fixed current version icons on advanced data report page datatables
+
+## Under the hood
+- Removed Gemnasium badge from our code repositories fec-cms, fec-eregs, openFEC, and fec-pattern-library. 
+- Replaced Gemnasium by SNYK
+- Schedule_b queries now use fecp-driven fec_fitem_sched_b tables for better performance and data accuracy
+- Added better error handling for loading invalid or archived MUR numbers
+
+
 # May 2, 2018 (Sprint 5.4)
 ## Added
 - **Campaign finance data:** Added the ability for users to navigate to the authorized candidate’s page from the committee’s page 
