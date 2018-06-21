@@ -1,3 +1,24 @@
+# June 19, 2018 (Will Robinson/6.1)
+## Added
+- **Campaign finance data:** Added language on our All receipts and Individual contributions data tables to help users search for occupation-specific individual contributor data prior to 2003
+- **Legal resources:** Built an [audit report search](https://www.fec.gov/legal-resources/enforcement/audit-search) function to replace the search that is currently on classic.fec.gov site
+- **General** Added new design and Wagtail CMS template to allow content editors to make changes to contact information
+- **Help for candidates and committees:** Created a shortcut link to [candidate reporting examples](www.fec.gov/candidate-reporting-examples)
+
+## Changed
+- **General:** Updated the definitions of “independent expenditure only committee” and “Super PAC” to ensure legal accuracy and help them better correspond to each other 
+- **General:** Updated the appearance of our feedback tool and added a tool to allow users to sign up for usability testing
+
+## Fixed
+- **Help for candidates and committees:** Fixed link to “Explore all compliance resources” link in the Help for candidates and committees main menu 
+- **Campaign finance data:** Improved the user interface to display line-two committee addresses
+- **Campaign finance data:** Fixed incorrect display of contributors for earmarked contributions on Receipts and Individual contributions datatables
+
+## Under the hood
+- Schedule A queries now use fecp-driven fec_fitem_sched_a tables for better performance and data accuracy
+- PAC and party reports page now include Form 3s filed by these committees
+- Added better error handling for navigating regulations
+
 # May 29, 2018 (Sprint 5.6)
 ## Added
 - **Campaign finance data:** Added new page explaining how to work with [downloadable data files.]( https://www.fec.gov/campaign-finance-data/working-downloadable-fec-data-files-using-ms-access/)
