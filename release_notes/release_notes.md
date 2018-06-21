@@ -1,4 +1,4 @@
-# June 12, 2018 (Will Robinson/6.1)
+# June 19, 2018 (Will Robinson/6.1)
 ## Added
 - **Campaign finance data:** Added language on our All receipts and Individual contributions data tables to help users search for occupation-specific individual contributor data prior to 2003
 - **Legal resources:** Built an [audit report search](https://www.fec.gov/legal-resources/enforcement/audit-search) function to replace the search that is currently on classic.fec.gov site
