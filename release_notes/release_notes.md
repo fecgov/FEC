@@ -1,3 +1,5 @@
+# June 26, 2018
+
 ## Added
 - **General:** Added search box on mobile menus as well as “Explore All” links for each section, making it easier for users to find what they are looking for
 - **Legal resources:** Added functionality to allow users to search for audits of joint fundraising committees
