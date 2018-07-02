@@ -1,3 +1,19 @@
+## Added
+- **General:** Added search box on mobile menus as well as “Explore All” links for each section, making it easier for users to find what they are looking for
+- **Legal resources:** Added functionality to allow users to search for audits audited joint fundraising committees
+
+## Changed
+
+- **Help for candidates and committees:** Updated [pages](https://www.fec.gov/help-candidates-and-committees/registering-candidate/) on appointing a treasurer, registering a candidate and registering a candidate’s committee 
+- **API:** Updated the look and feel of the API page interface using Swagger 3.16.0
+- **Campaign finance data:** Updated the election profile pages to make it easier for users to find different election datasets as well as linking to important report deadlines
+- **About the FEC:** Updated the URL and design of the [Contact page](https://www.fec.gov/contact/) to help users find the FEC services they need 
+- **Home page:** New background picture
+- **Help for candidates and committees:** Brochures and forms that were outdated but still housed and linked on FEC transition site and in other places are redirected now to more current resources on the appropriate pages. #2026
+
+## Fixed
+- **Help for candidates and committees:** Corrected link to compliance page for [PA/07](https://transition.fec.gov/info/ElectionDate/2018/PA_07.shtml) election
+
 # June 19, 2018 (Will Robinson/6.1)
 ## Added
 - **Campaign finance data:** Added language on our All receipts and Individual contributions data tables to help users search for occupation-specific individual contributor data prior to 2003
