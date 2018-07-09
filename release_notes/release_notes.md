@@ -1,3 +1,16 @@
+# July 5, 2018 (The Robot/6.2)
+
+## Added
+- **Legal resources:**  Added Joint Fundraising Committee filter to audit search
+
+## Fixed
+- **Campaign finance data:** Removed joint fundraising activity from the “elections” endpoint to avoid returning inflated candidate financial results 
+- **General:** Restored icons and styling missing on megamenu while visiting datatables or calendar.
+
+## Under the hood
+-  **Legal resources:** Implemented process to load advisory opinion (AO) data daily when there are changes to AO data and to reload all AOs on Sunday
+- **API:** Updated Flyway to version 5.1.3
+
 # June 26, 2018
 
 ## Added
