@@ -1,3 +1,20 @@
+# July 17, 2018 (Judy Robinson/6.3)
+## Added
+- **Legal resources:** Embedded search boxes on the Enforcement and Audit report landing pages to help users search for relevant audit reports
+- **Campaign finance data:** Added historical statistics link to campaign finance data submenu
+- **General:** Added pre-release testing procedures documentation
+- **API:** Added new operations log endpoint to the API (/filings/ section)
+
+
+## Changed
+- **Campaign finance data:** Updated default presidential year to 2020
+
+## Fixed
+- **Campaign finance data:** Added totals for [senate](https://www.fec.gov/data/candidates/senate/) and [presidential](https://www.fec.gov/data/candidates/president/) candidates running in future election years
+- **Campaign finance data:** Added RFAI request types RQ2 and RQ4 to the 24/48 hour reports table of the committee filings tab, 
+- **Campaign finance data:** Removed unused mid-year and year-end filter options from calendar
+- **Legal resources:** Restored legal citation blocks to AO canonical page
+- **Legal resources:** Added “About” menu and glossary to regulations search
 # July 5, 2018 (The Robot/6.2)
 
 ## Added
