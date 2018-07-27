@@ -1,14 +1,24 @@
+# Default Contributor License Agreement 
+
 ## Welcome
-We're glad you're thinking about contributing to an 18F open source project! If you're unsure about anything, ask us — or submit the issue or pull request anyway. The worst that can happen is that we’ll politely ask you to change something. 
+We're glad you're thinking about contributing to an FEC open source project! If you're unsure about anything, ask us — or submit the issue or pull request anyway. The worst that can happen is that we’ll politely ask you to change something. 
 
 We love all friendly contributions, and we welcome your ideas about how to make the FEC's online presence more user friendly, accessible, and elegant. 
 
-To ensure a welcoming environment for our projects, our staff follows the [18F Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md); contributors should do the same. Please also check out the [18F Open Source Policy GitHub repository]( https://github.com/18f/open-source-policy). 
+To ensure a welcoming environment for our projects, our staff follows the FEC Code of Conduct [pending]; contributors should do the same. Please also check out the [FEC Open Source Policy](https://github.com/fecgov/FEC/blob/master/OPEN-SOURCE-POLICY.md). 
 
-If you’d prefer, you can also reach us by [email](mailto:betafeedback@fec.gov).
+If you’d prefer, you can also reach us by [email](mailto:opensource@fec.gov).
 
 ## Public domain
 By submitting a pull request, you agree to comply with the policies on our license page.
+
+This document is about how to contribute to FEC projects. This process looks a bit different depending on whether you’re a member of the public, an FEC employee, or a member of a specific team. Here’s what you can find in this doc:
+Public contributions
+FEC contributions 
+Branches
+Front end architecture
+Standards and benchmarks
+Public domain
 
 ### Issues
 We use GitHub issues to track user issues and team tasks. Whenever possible, we follow this outline:
@@ -36,16 +46,59 @@ Unknown tasks or dependencies that need investigation
 - Include a summary of all work and changes.
 - Use `cc @username` to notify a specific team member to review a pull request.
 
-## 18F team processes
-* Use PEP8 as the coding standard for Python, but don't worry about fitting lines within 79 characters.
-* Create pull requests for all commits, even typo fixes.
-* Don't merge your own pull request. Ask a colleague to review your code and merge.
-* Pull requests contain some tests. Ideally they would contain decent test coverage.
 
-## 18F team workflow
-1. Pull an issue from the current sprint only, please (unless there is an *URGENT* issue). Take an unassigned issue or re-assign an issue with the label "[stealable](https://github.com/18F/openFEC/labels/stealable)." If a non *URGENT* issue comes up, but you want to prioritize it, coordinate with the PM or tech lead on slack.
-2. Before starting, [write the dev issue checklist](https://github.com/18f/openFEC/blob/develop/CONTRIBUTING.md#development-issues-should-include).
-3. While working, submit `[WIP]` [pull requests](https://github.com/18f/openFEC/blob/develop/CONTRIBUTING.md#pull-requests) liberally.
-4. Time boxing! If you have spent half the time of the estimated size of the issue and you're not sure that you're half-way finished, notify the tech lead or PM in slack. This isn't bad, we just like knowing what's up. :)
-5. Make sure your PR includes significant test coverage.
-6. Once you're done with your PR, notify the team in slack that your PR is ready for review. Do a review of someone else's PR. (Follow the above PR guidelines.)
+## Public contributions
+Thank you for contributing to an FEC open source project. If you're unsure about anything, just send us an [email](mailto:opensource@fec.gov) with your question or submit an issue https://github.com/fecgov/FEC.
+
+We want to ensure a welcoming environment for all of our projects. Our staff follow the FEC Code of Conduct [pending] and all contributors should do the same.
+
+We encourage you to read the project's contribution agreement (you are here), its [license](https://github.com/fecgov/FEC/blob/master/LICENSE.md) and its [readme](https://github.com/fecgov/FEC/blob/master/README.md).
+
+If you see an error or have feedback, the best way to let us know is to file an issue.
+To contribute a specific change to the project, outside contributors will need to fork this repo.
+
+## FEC contributions
+There is a team actively working on this project. You can find us in Slack or FEC email.
+
+## Branches
+Any FEC team member should be able to make a branch of the project and submit a Pull Request (PR). 
+
+The master, staging, and production branches are protected. Only administrators of the repo can push directly to those branches. FEC staff who think they don't have the correct permissions should ask in Slack or FEC email.
+
+## Submitting pull requests
+If you submit your PR from the Github website or via the Github Client app include any issues your PR addresses. If the PR changes are not associated with an issue, please leave a brief message detailing what was wrong with the application before, and how it should be.
+
+If the nature of the PR is visual, please replace all instances of BRANCH_NAME with the name of the branch that is being merged.
+
+Complete the PR message by detailing all fixes and tagging GitHub users who should review the work, with a note about what they should be reviewing. In general:
+If you are not an admin or member of the FEC team, tag someone who you would like to review and merge your PR
+If you are an admin for the repo or a member of the FEC team, you are responsible for merging your own PRs after they have been reviewed and approved by someone else on the team
+If you have been asked to review a PR, leave a clear message indicating your approval, either through the formal PR review feature or by commenting (at the very least, with a note saying LGTM, or "Looks good to me")
+If your PR includes many small, incremental commits, consider squashing them
+Don’t merge until linters pass, unless you have discussed with reviewers and approved exceptions
+
+## Front end architecture
+See project [README](https://github.com/fecgov/FEC/blob/master/README.md) for details. 
+
+## CSS
+See project [README](https://github.com/fecgov/FEC/blob/master/README.md) for details.
+
+## Images
+See project [README](https://github.com/fecgov/FEC/blob/master/README.md) for details.
+
+## JavaScript
+See project [README](https://github.com/fecgov/FEC/blob/master/README.md) for details.
+
+## Standards and benchmarks
+
+## Device and browser support
+The user interface should support all versions of Internet Explorer still supported by Microsoft, as well as recent versions of Chrome, Safari, and Firefox
+When applicable the user interface should be mobile responsive
+
+## Performance
+See project [README](https://github.com/fecgov/FEC/blob/master/README.md) for details.
+
+## Public domain
+For detailed license information, see our default license.
+
+All contributions to this project will be released under the CC0 dedication. By submitting a PR, you are agreeing to comply with this waiver of copyright interest.
