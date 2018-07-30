@@ -1,4 +1,4 @@
-# Federal Election Commission opens source policy
+# Federal Election Commission open source policy
 
 
 ## I . Redistribution of FEC code
