@@ -66,7 +66,7 @@ Any FEC team member should be able to make a branch of the project and submit a 
 The master, staging, and production branches are protected. Only administrators of the repo can push directly to those branches. FEC staff who think they don't have the correct permissions should ask in Slack or FEC email.
 
 ## Submitting pull requests
-If you submit your PR from the Github website or via the Github Client app include any issues your PR addresses. If the PR changes are not associated with an issue, please leave a brief message detailing what was wrong with the application before, and how it should be.
+If you submit your PR from the Github website or via the Github Client app include any issues your PR addresses. If the PR changes are not associated with an issue, please leave a brief message detailing what was wrong with the application before, and how it *should* be.
 
 If the nature of the PR is visual, please replace all instances of BRANCH_NAME with the name of the branch that is being merged.
 
