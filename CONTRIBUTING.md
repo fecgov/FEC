@@ -13,12 +13,13 @@ If you’d prefer, you can also reach us by [email](mailto:opensource@fec.gov).
 By submitting a pull request, you agree to comply with the policies on our license page.
 
 This document is about how to contribute to FEC projects. This process looks a bit different depending on whether you’re a member of the public, an FEC employee, or a member of a specific team. Here’s what you can find in this doc:
-Public contributions
-FEC contributions 
-Branches
-Front end architecture
-Standards and benchmarks
-Public domain
+
+- Public contributions
+- FEC contributions 
+    - Branches
+    - Front end architecture
+    - Standards and benchmarks
+- Public domain
 
 ### Issues
 We use GitHub issues to track user issues and team tasks. Whenever possible, we follow this outline:
@@ -55,7 +56,7 @@ We want to ensure a welcoming environment for all of our projects. Our staff fol
 We encourage you to read the project's contribution agreement (you are here), its [license](https://github.com/fecgov/FEC/blob/master/LICENSE.md) and its [readme](https://github.com/fecgov/FEC/blob/master/README.md).
 
 If you see an error or have feedback, the best way to let us know is to file an issue.
-To contribute a specific change to the project, outside contributors will need to fork this repo.
+- To contribute a specific change to the project, outside contributors will need to fork this repo.
 
 ## FEC contributions
 There is a team actively working on this project. You can find us in Slack or FEC email.
@@ -71,11 +72,11 @@ If you submit your PR from the Github website or via the Github Client app inclu
 If the nature of the PR is visual, please replace all instances of BRANCH_NAME with the name of the branch that is being merged.
 
 Complete the PR message by detailing all fixes and tagging GitHub users who should review the work, with a note about what they should be reviewing. In general:
-If you are not an admin or member of the FEC team, tag someone who you would like to review and merge your PR
-If you are an admin for the repo or a member of the FEC team, you are responsible for merging your own PRs after they have been reviewed and approved by someone else on the team
-If you have been asked to review a PR, leave a clear message indicating your approval, either through the formal PR review feature or by commenting (at the very least, with a note saying LGTM, or "Looks good to me")
-If your PR includes many small, incremental commits, consider squashing them
-Don’t merge until linters pass, unless you have discussed with reviewers and approved exceptions
+- If you are not an admin or member of the FEC team, tag someone who you would like to review and merge your PR
+- If you are an admin for the repo or a member of the FEC team, you are responsible for merging your own PRs after they have been reviewed and approved by someone else on the team
+- If you have been asked to review a PR, leave a clear message indicating your approval, either through the formal PR review feature or by commenting (at the very least, with a note saying LGTM, or "Looks good to me")
+- If your PR includes many small, incremental commits, consider squashing them
+- Don’t merge until linters pass, unless you have discussed with reviewers and approved exceptions
 
 ## Front end architecture
 See project [README](https://github.com/fecgov/FEC/blob/master/README.md) for details. 
