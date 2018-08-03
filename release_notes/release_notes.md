@@ -1,3 +1,22 @@
+# July 31, 2018 (Maj. Don West/6.4)
+## Added
+- **Help for candidates and committees:** Added new pages for candidates on [using personal funds](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/using-personal-funds-candidate/), [understanding independent expenditures](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/understanding-independent-expenditures/) and [joint fundraising](https://www.fec.gov/help-candidates-and-committees/making-disbursements/joint-fundraising-candidates-political-committees/)
+- **Campaign finance data:** Enabled candidate financial totals export feature on elections page
+
+## Changed
+- **Legal resources:** Updated [PDF](https://www.fec.gov/resources/cms-content/documents/feca.pdf) of [statute](https://www.fec.gov/data/legal/statutes/) in CMS
+- **Help for candidates and committees:** Reorganized the [receipts](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/) and [disbursements](https://www.fec.gov/help-candidates-and-committees/making-disbursements/) pages for candidates to aid readability and fill in gaps in information, including moving some current pages to a new section on [outside spending](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/#outside-spending)
+
+## Fixed
+- **Legal Resources:** Fixed parsing of AO statutory and regulatory citations to pick on multiples (ex. “52 USC 30101, 30133” and “11 CFR 110.1 and 112.4”)
+- **Legal Resources:** Added missing multi-part PDFs to nine archived MURs
+- **Campaign finance data:** RQ-4 RFAIs now display in the 24- and 48-hour reports section of committee filings page
+
+## Under the hood
+- Refactored elections (ElectionView) endpoint to handle download function
+- Improved meeting page template to accommodate regulatory hearings and include audio and video links
+
+
 # July 17, 2018 (Judy Robinson/6.3)
 ## Added
 - **Legal resources:** Embedded search boxes on the Enforcement and Audit report landing pages to help users search for relevant audit reports
@@ -11,10 +30,11 @@
 
 ## Fixed
 - **Campaign finance data:** Added totals for [senate](https://www.fec.gov/data/candidates/senate/) and [presidential](https://www.fec.gov/data/candidates/president/) candidates running in future election years
-- **Campaign finance data:** Added RFAI request types RQ2 and RQ4 to the 24/48 hour reports table of the committee filings tab, 
+- **Campaign finance data:** Added RFAI request types RQ2 and RQ4 to the 24/48 hour reports table of the committee filings tab
 - **Campaign finance data:** Removed unused mid-year and year-end filter options from calendar
 - **Legal resources:** Restored legal citation blocks to AO canonical page
 - **Legal resources:** Added “About” menu and glossary to regulations search
+
 # July 5, 2018 (The Robot/6.2)
 
 ## Added
