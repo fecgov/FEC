@@ -8,7 +8,7 @@
 - **Help for candidates and committees:** Reorganized the [receipts](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/) and [disbursements](https://www.fec.gov/help-candidates-and-committees/making-disbursements/) pages for candidates to aid readability and fill in gaps in information, including moving some current pages to a new section on [outside spending](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/#outside-spending)
 
 ## Fixed
-- **Legal Resources:** Fixed parsing of AO statutory and regulatory citations to pick on multiples (ex. “52 USC 30101, 30133” and “11 CFR 110.1 and 112.4”)
+- **Legal Resources:** Improved parsing of AO statutory and regulatory citations to recognize citations listed in a series (ex. “52 USC 30101, 30133” and “11 CFR 110.1 and 112.4”)
 - **Legal Resources:** Added missing multi-part PDFs to nine archived MURs
 - **Campaign finance data:** RQ-4 RFAIs now display in the 24- and 48-hour reports section of committee filings page
 
