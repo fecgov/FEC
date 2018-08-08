@@ -1,8 +1,8 @@
 # Default License
 
 This project includes a mix of the following:
-Open source works that are not in the public domain
-Open source work by the U.S. government that is in the public domain
+- Open source works that are not in the public domain
+- Open source work by the U.S. government that is in the public domain
 
 A few restrictions limit the way you can use FEC data. For example, you can’t use contributor lists for commercial purposes or to solicit donations. [Learn more on FEC.gov.](http://www.fec.gov/pages/brochures/saleuse.shtml)
 
