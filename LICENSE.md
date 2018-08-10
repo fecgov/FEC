@@ -7,9 +7,33 @@ This project includes a mix of the following:
 A few restrictions limit the way you can use FEC data. For example, you can’t use contributor lists for commercial purposes or to solicit donations. [Learn more on FEC.gov.](http://www.fec.gov/pages/brochures/saleuse.shtml)
 
 ## Parts of this project that are not in the public domain
-This site is based on the Draft U.S. Web Design Standards (WDS), which also includes works under the SIL Open Font License, MIT license, and public domain. Files from the WDS are in *_sass/_libs/wds/*, and the full license details for those assets are described in the [WDS license](https://github.com/uswds/uswds/blob/develop/LICENSE.md) file.
+This site is based on the U.S. Web Design Standards (WDS), which also includes works under the SIL Open Font License, MIT license, and public domain. Files from the WDS are in *_sass/_libs/wds/*, and the full license details for those assets are described in the [WDS license](https://github.com/uswds/uswds/blob/develop/LICENSE.md) file.
 
 This site also includes a number of images that have various copyright statuses, including Creative Commons licenses and public domain. These images are in the assets directory, and license details are available on the posts and pages that display the images.
+
+The Karla font files in `fec-cms/fec/fec/static/fonts/` are from [Google Web Fonts](https://fonts.google.com/specimen/Karla), licensed under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL), and copyright [Jonny Pinhorn](https://github.com/jonpinhorn) with Reserved Font Name ‘Karla'.
+
+The Gandhi Serif font files in `fec-cms/fec/fec/static/fonts/` are from [Librerias Gandhi](http://www.tipografiagandhi.com/), and copyright 2012 [Librerias Gandhi S.A. de C.V.](http://www.gandhi.com.mx/) with Reserved Font Name ‘Gandhi Serif’. The English version of this License is reproduced below.
+
+#### Full English version of the license text for Gandhi Serif:
+
+```
+Conditions of use
+
+You may:
+- Install the fonts on as many devices as you wish.
+- Distribute the fonts to anyone you wish.
+- Use the fonts in any commercial or non-commercial document.
+- Save the fonts in a format that would best fit your purposes.
+
+You may not:
+- Modify the fonts in a font editor software.
+- Sell or rent out the fonts.
+
+Notes:
+- The fonts and any other accompanying written or electronic materials are provided "as is" without warranty of any kind, expressed or implied. The authors do not warrant that the functions contained in the fonts will meet the user's requirements.
+- The authors shall not be liable for any direct, indirect, consequential, or incidental damages (including damages from loss of business profits, business interruption, loss of business information, and the like) arising out of the use of or inability to use the fonts.
+```
 
 ## The rest of this project is in the worldwide public domain
 As a work of the United States government, this project is in the public domain within the United States.
