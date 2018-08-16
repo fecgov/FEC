@@ -1,3 +1,30 @@
+# August 14, 2018 (Penny Robinson/6.5) 
+## Added
+- **Campaign finance data:** Added “other” to schedule A by state aggregates to show non-US states
+-  **Campaign finance data:** Added important 2018 Pennsylvania redistricting information to the election search and Pennsylvania house election pages
+- **Campaign finance data:** Added transaction-level coverage dates on candidate and committee profile pages.
+- **Campaign finance data:** Added the ability to search for receipts from entities with foreign addresses
+- **API:** Added transaction coverage date to /candidate/ID/totals
+- **API:** Added transaction coverage date to committee/ID/totals endpoints
+
+## Changed
+- **Help with candidates and committees:** Modified the page on [electioneering communications](https://www.fec.gov/help-candidates-and-committees/making-disbursements-ssf-or-connected-organization/making-electioneering-communications/) to better indicate that these rules also apply to individuals and other entities as well as corporations and labor organizations.
+## Fixed
+- **Campaign finance data:** Fixed redirects from legacy election page tabs to new corresponding datatable anchors
+- **Campaign finance data:** Fixed incorrect committee summary data description link on Advanced data committees tab
+## Under the hood
+- Upgraded to Wagtail 2.0. This includes major updates to the CMS editor interface which now utilizes Draftail. In addition, 2 new features were added to the editor: glossary term button and anchor button.
+- Created public.ofec_sched_a_agg_state_vw to to group by all non-US state to “Other”,Modify ScheduleAByStateView to return “other” row.
+- Upgraded to Django 1.11.13 in the CMS repo
+- Upgraded cg-django-uaa python package to version 1.2.0
+- Removed unused bandit python package
+- Replaced vulnerable bleach npm package with the sanitize-html package
+- Replaced vulnerable underscore.string.js npm package with the sprintf-js package
+- React code within Draftail now utilizes webpack to transpile custom js.
+- Added the ability to deploy the API without running migrations
+- Added endpoint-specific caching to the API
+
+
 # July 31, 2018 (Maj. Don West/6.4)
 ## Added
 - **Help for candidates and committees:** Added new pages for candidates on [using personal funds](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/using-personal-funds-candidate/), [understanding independent expenditures](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/understanding-independent-expenditures/) and [joint fundraising](https://www.fec.gov/help-candidates-and-committees/making-disbursements/joint-fundraising-candidates-political-committees/)
