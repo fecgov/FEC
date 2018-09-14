@@ -1,3 +1,21 @@
+# September 11, 2018 
+## Added
+- **Help for candidates and committees:** Added new resource [page](https://www.fec.gov/help-candidates-and-committees/trainings/) for FEC conferences, webinars and other training and appearance opportunities
+- **API:** Added  filters to /committees/ endpoint so that committee search results can be filtered by most recently updated committee information
+- **API:**  Added filter to /rad-analyst/ endpoint so that RAD analyst search results can be filtered by most recently changed analyst assignment information
+
+## Fixed
+- **Legal resources:** Fixed bug causing audit subcategory filters not to populate properly 
+- **Legal resources:** Fixed broken statutory citation search for Advisory Opinions
+
+## Under the hood
+- Updated fec-cms project to use pytest testing framework
+- Updated API pytest version to 3.7.4
+- Added automated tests for candidate profile pages
+- Added automated tests for legal search
+- Re-enabled a validator for some API endpoints that requires a sort field to be an index on the underlying data table
+- Fixed same name replacement file deletion in Wagtail CMS
+
 # August 14, 2018 (Penny Robinson/6.5) 
 ## Added
 - **Campaign finance data:** Added “other” to schedule A by state aggregates to show non-US states
