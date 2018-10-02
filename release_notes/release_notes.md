@@ -1,3 +1,19 @@
+# September 25, 2018 (7.1)
+## Added
+- **Campaign finance data:** Added candidate office sought, party, state and district filters to independent expenditure data table
+- **Legal API:** Added Administrative Fine and Alternative Dispute Resolution cases to legal API endpoint
+
+## Changed
+
+- **Help for candidates and committees:** Changed the trainings link in the drop down menu and the “Education and outreach” link on the Help for candidates and committees [landing page](https://www.fec.gov/help-candidates-and-committees/) to point to the new trainings page.
+- **Help for candidates and committees:** Modified various pages and form instructions to remove references to the Secretary of the Senate, in response to the change in the law effective September 21 regarding e-filing and point of entry for Senate candidates and committees.
+
+## Under the hood
+- Switched to automated database migrations for all automated tests, rather than hard-coded database schema
+- Added feature flag capability to data app section and line chart feature
+- Temporarily removed datatable counts until misleading estimates can be resolved
+- Removed hardcoded Press landing page contact information
+
 # September 11, 2018 
 ## Added
 - **Help for candidates and committees:** Added new resource [page](https://www.fec.gov/help-candidates-and-committees/trainings/) for FEC conferences, webinars and other training and appearance opportunities
