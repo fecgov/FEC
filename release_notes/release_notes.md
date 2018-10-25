@@ -1,7 +1,7 @@
 # October 9, 2018 (7.2)
 ## Added
 - **API:** Added legal resources to [API docs](api.open.fec.gov)
-- **About the FEC:** Added two 2009 policy hearings were created. 
+- **About the FEC:** Added two 2009 policy hearings 
 
 ## Changed
 - **Help for candidates and committees:** Legacy “Quick Answers” pages regarding filing and candidates are redirected to Help for candidates and committees.
