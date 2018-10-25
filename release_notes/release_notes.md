@@ -1,3 +1,20 @@
+# October 9, 2018 (7.2)
+## Added
+- **API:** Added legal resources to [API docs](api.open.fec.gov)
+- **About the FEC:** Added two 2009 policy hearings were created. 
+
+## Changed
+- **Help for candidates and committees:** Legacy “Quick Answers” pages regarding filing and candidates are redirected to Help for candidates and committees.
+
+## Fixed
+- **Campaign finance data:**  Fixed bug with Forms 1, 2, and 1M causing more than one to be marked “Most recent”
+- **Campaign finance data:** Candidate Filings tab: Corrected issues with table display  at medium and small device/screen sizes 
+- **Campaign finance data:** Candidate profile page: Candidate compare buttons now link to the correct election year based on candidate
+
+## Under the hood
+- Added recaptcha to feedback drawer in order to improve form security
+- Deleted ofec_entity_chart_mv which is no longer used by any API endpoint
+
 # September 25, 2018 (7.1)
 ## Added
 - **Campaign finance data:** Added candidate office sought, party, state and district filters to independent expenditure data table
