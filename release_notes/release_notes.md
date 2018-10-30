@@ -1,7 +1,29 @@
+# October 23, 2018 (7.3)
+## Added
+
+- **Legal Resources:** Updated the [Legislation page](https://www.fec.gov/legal-resources/legislation/) with newly passed legislation (H.R. 5895) changing the point of entry for Senate committees. Links and information regarding older legislation were updated as well.
+
+## Changed
+- **Campaign finance data:** Updated election search page to make it easier for users to see the results and to find upcoming presidential election data
+- **Campaign finance data::** Added financial summaries for Inaugural and Host committees
+
+## Fixed
+- **Campaign finance data:** Fixed data table counts and added counts back to data table results 
+- **General:** Fixed the breadcrumb links for the [FEC Record](https://www.fec.gov/updates/?update_type=fec-record) subjects
+
+## Under the hood
+- Upgraded Django and related packages to version 1.11.15 for security patch
+- Upgraded Flask and Flask-related packages to the newest version for security patch and system stability:
+    - Flask==1.0.2
+    - Flask-Cors==3.0.6
+    - Flask-Script==2.0.6
+    - Flask-RESTful==0.3.6
+
+
 # October 9, 2018 (7.2)
 ## Added
 - **API:** Added legal resources to [API docs](api.open.fec.gov)
-- **About the FEC:** Added two 2009 policy hearings 
+- **About the FEC:** Added two 2009 policy [hearings](https://www.fec.gov/meetings/?tab=hearings) 
 
 ## Changed
 - **Help for candidates and committees:** Legacy “Quick Answers” pages regarding filing and candidates are redirected to Help for candidates and committees.
