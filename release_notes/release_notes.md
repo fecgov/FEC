@@ -1,3 +1,42 @@
+
+# December 04, 2018 (7.6)
+## Added
+- **Campaign Finance Data:**  : Added Image Number column to the committee filings datatable
+- **Campaign Finance Data:**  : Added more searchable fields to filings/operations-log endpoint
+- **General:** Added data.json file to add FEC’s API to data.gov 
+## Changed
+- **Help for candidates and committees:** Redirects were deployed for some older fec.gov pages to help uses find more current versions in Help for candidates and committees.
+- **About the FEC:** Redirects for some older fec.gov hearing pages were deployed to help users find more current versions listed on the public hearing pages. 
+- **About the FEC:** A link to the SERS database and some introductory language was added to the [public hearings](https://www.fec.gov/meetings/?tab=hearings) section of the meetings page to direct users to older archived rulemaking hearings
+## Fixed
+- **Homepage:** Fixed non-filer publications filter for press releases
+## Under the hood
+- Added robots.txt to prevent search engines from indexing pages in development and staging environments
+- Implemented bastion host
+- Upgraded requests and django-storages packages to fix security vulnerabilities
+- Automated Elasticsearch backup process, added management tasks to create/restore backups 
+
+# November 20, 2018 (7.5)
+## Added
+- **Campaign Finance Data**:  Disbursements aggregate data of memoed items are available (by API only)
+- **Help for candidates and committees:**  Added “Disclosure Date” (of electioneering communications) to the glossary 
+## Changed
+- **Help for candidates and committees:** www redirects for some older fec.gov pages
+## Under the hood
+- Added new column “count” to two endpoints: sched-a/by_size/by_candidate and sched-a/by_state/by_candidate
+# November 6, 2018 (7.4)
+## Added
+- **Campaign Finance Data:** Added host committee (Form 4) subtotals to committee profile pages 
+- **Campaign Finance Data**: Added spender committee type filter on disbursement data table page
+- **General:** [Election Day information](https://www.fec.gov/introduction-campaign-finance/election-day-information/)
+## Changed
+- **Campaign Finance Data:** Provide exact data table row counts when total is under 500,000. Provide approximate data table row counts, rounded to the nearest thousand, when total is over 500,000 
+## Under the hood
+- Removed unused /committees/totals/ endpoint from API
+- Added automated test coverage for committee profile pages
+- Added spender committee type filter on disbursement page to Schedule B in API
+- Removed Elasticsearch 2.4 from eRegs app
+
 # October 23, 2018 (7.3)
 ## Added
 
