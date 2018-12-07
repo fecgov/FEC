@@ -1,7 +1,7 @@
 
 # December 04, 2018 (7.6)
 ## Added
-- **Campaign Finance Data:**  : Added Image Number column to the committee filings datatable
+- **Campaign Finance Data:**  : Added report beginning image number column to the committee filings datatable
 - **Campaign Finance Data:**  : Added more searchable fields to filings/operations-log endpoint
 - **General:** Added data.json file to add FEC’s API to data.gov 
 ## Changed
