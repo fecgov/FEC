@@ -1,8 +1,23 @@
+# December 21, 2018 (7.7)
+## Added
+- **Legal resources:**  The [citation index pages](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/explanations-and-justifications-citation-index/) to the Explanations and Justifications for FEC regulations were published
+
+## Changed
+- **Help for candidates and committees:**  The chart of archived coordinated party expenditure limits was rearranged in chronological order.
+- **Help for candidates and committees:** The html snippet containing the chart of contribution limits for 2017-2018 was added to several pages, in preparation for next year’s inflation adjustments.
+-  **Legal resources:** The legislative recommendations for 2018 were added and PDFs with improved readability were uploaded for prior years’ recommendations; redirects for the older files were put in place. 
+
+## Fixed
+- **About the FEC:** Hearing and open meeting empty-page paginator bug fixed.
+
+## Under the hood
+- Upgraded openFEC requests package to fix security vulnerabilities
+
 
 # December 04, 2018 (7.6)
 ## Added
-- **Campaign Finance Data:**  : Added report beginning image number column to the committee filings datatable
-- **Campaign Finance Data:**  : Added more searchable fields to filings/operations-log endpoint
+- **Campaign Finance Data:** Added report beginning image number column to the committee filings datatable
+- **Campaign Finance Data:** Added more searchable fields to filings/operations-log endpoint
 - **General:** Added data.json file to add FEC’s API to data.gov 
 ## Changed
 - **Help for candidates and committees:** Redirects were deployed for some older fec.gov pages to help uses find more current versions in Help for candidates and committees.
