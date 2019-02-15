@@ -10,7 +10,7 @@
 - **Help for candidates and committees:** Replaced the current page on making electioneering communications in the section for corporations and labor organizations with a new [page]( https://www.fec.gov/help-candidates-and-committees/other-filers/making-electioneering-communications/) applicable to all Form 9 filers.
 - **Legal resources**:  Updated the [regulations page](https://www.fec.gov/legal-resources/regulations/) and the page on calculating [administrative fines](https://www.fec.gov/legal-resources/enforcement/administrative-fines/calculating-administrative-fines/) with the 2019 civil penalties as adjusted for inflation.
 ## Fixed
-- **Campaign Finance Data**: Amounts are now displayed correctly on the raising and spending sections for a given PAC or Party committee. # 3540
+- **Campaign Finance Data**: Amounts are now displayed correctly on the raising and spending sections for a given PAC or Party committee.
 - **Campaign Finance Data**: Fixed future cycle totals to display correctly for the entire election year
 - **Campaign Finance Data**: Fixed tooltips to display text within the box on maps
 - **Campaign Finance Data**: Fixed the ability to navigate back and forth between the raising and spending breakdown charts and candidate profile pages without losing the context on the chart page
