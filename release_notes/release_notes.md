@@ -1,3 +1,26 @@
+# February 14, 2019 (8.1) 
+## Added
+
+- **Help for candidates and committees**: Added 2019 due dates and filing information to [Dates and deadlines]([https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines) 
+- **Help for candidates and committees**: Added a new guide and reporting examples for “Other filers” (those who file Forms 5, 7 or 9)
+- **Help for candidates and committees**: Added new pages and new reporting examples on making independent expenditures to the guides for PACs and corporations and labor organizations. 
+## Changed
+- **About the FEC**:  Updated references to the Chair and Vice Chairman for 2019 
+- **Help for candidates and committees**: Update pages with the new contribution limits for 2019-2020 and coordinated party expenditure limits for 2019.
+- **Help for candidates and committees:** Replaced the current page on making electioneering communications in the section for corporations and labor organizations with a new [page]( https://www.fec.gov/help-candidates-and-committees/other-filers/making-electioneering-communications/) applicable to all Form 9 filers.
+- **Legal resources**:  Updated the [regulations page](https://www.fec.gov/legal-resources/regulations/) and the page on calculating [administrative fines](https://www.fec.gov/legal-resources/enforcement/administrative-fines/calculating-administrative-fines/) with the 2019 civil penalties as adjusted for inflation.
+## Fixed
+- **Campaign Finance Data**: Amounts are now displayed correctly on the raising and spending sections for a given PAC or Party committee. # 3540
+- **Campaign Finance Data**: Fixed future cycle totals to display correctly for the entire election year
+- **Campaign Finance Data**: Fixed tooltips to display text within the box on maps
+- **Campaign Finance Data**: Fixed the ability to navigate back and forth between the raising and spending breakdown charts and candidate profile pages without losing the context on the chart page
+- **Legal Resources**: Fixed MUR number search on enforcement search
+
+
+## Under the hood
+- Dropped unused sched c d e f tables and related process
+- Updated candidate links for election profile pages to link to corresponding election year from page context
+- Remove the `mur_` filters from the API
 
 # December 04, 2018 (7.6)
 ## Added
