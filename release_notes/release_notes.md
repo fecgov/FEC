@@ -1,3 +1,47 @@
+# March 26, 2019 (8.3) 
+## Changed
+- **Campaign finance data:** Updated raising and spending by the numbers pages to provide totals based on a candidate's election year
+- **Help for candidates and committees:** Redirected older links to compliance pages, coordinated party expenditure limits and inflation adjustment Federal Register notice to their current homes on FEC.gov
+- **Campaign finance data:** Refactored candidate: /candidates/totals/by_office/ endpoint to provide filter for active/inactive candidates
+## Fixed
+- **Help for candidates and committees:** Added a missing notation regarding combined party limits and a link to a page explaining more about the combined limit to the contribution limits chart
+- **Help for candidates and committees:** Corrected a redirect to the forms
+
+## Under the hood
+- Added additional caching to the API during peak hours
+- Upgraded from cflinuxfs2 to cflinuxfs3 for all 4 applications: CMS, OpenFEC, Eregs, and pattern library
+- Added ability to temporarily block IPs from API
+- Upgraded CMS Node to 10.15.1
+- Migrated unit tests from PhantomJS to Puppeteer
+- Upgrade SQLAlchemy to 1.3.1
+- Upgrade redis to 13.2.0
+
+# March 12, 2019 (8.2) 
+## Added
+- **Legal resources:** Updated the [legislation page](https://www.fec.gov/legal-resources/legislation/) with new legislation, signed into law in December, that extended the Commission’s administrative fine program
+- **Campaign finance data:** Added 2019-2020 bulk data sets to candidates, committees, filings, raising and spending related pages
+- **Campaign finance data:** Added candidate: /candidates/totals/by_office/ endpoint for calculating aggregated data for each office
+
+
+## Changed
+- **Legal resources:** Placed updated campaign finance statute files on the [statute page](https://www.fec.gov/data/legal/statutes/). Posted the agency’s 2019 compilation of federal election campaign laws. Added links to Title 52 and Title 26 of U.S.C. on GPO's website.
+- **Help for candidates and committees:** Redirected older links for various Commission forms and transition pages to current materials. Older pages that already had been redirected to their new homes were removed classic and transition
+
+## Fixed
+- **Campaign finance data:** Fixed ability for user to filter filing dates by a single day
+- **Campaign finance data:** Fixed operating expenditures line item within candidate financial summary
+- **Campaign finance data:** Fixed pagination for raising and spending by the numbers pages
+- **Campaign finance data:** Fixed reporting deadline links for Election profile pages
+
+
+## Under the hood
+- Upgraded OS stack to cflinuxfs3
+- Increased API and proxy timeouts
+- Added active candidates filter capability to /candidates/totals API endpoint 
+- Fixed /elections API endpoint to exclude inactive candidates
+- Added new endpoint /candidates/totals/by_office/ to calculate candidate totals by office
+- Updated legal informational banners to link to HTTPS for the following classic legal applications: SAOS, SERS, SAOS
+
 # February 14, 2019 (8.1) 
 ## Added
 
