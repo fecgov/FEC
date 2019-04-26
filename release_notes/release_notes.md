@@ -1,3 +1,23 @@
+# April 23, 2019 (8.5) 
+## Added
+- **Campaign finance data:** Added new pages to explain the [presidential map](https://www.fec.gov/campaign-finance-data/presidential-map-help/) and the [House and Senate map](https://www.fec.gov/campaign-finance-data/house-and-senate-map-help/)
+- **Campaign finance data:** Added new page to house [presidential financial summaries](https://www.fec.gov/campaign-finance-data/presidential-campaign-finance-summaries/) table previously on classic site. 
+## Changed
+- **Legal resources:** Redirected outdated links for explanations and justifications to the current [chronological index](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-e-j-s/) on fec.gov 
+- **Help for candidates and committees:** Added language regarding specific requirements for [paper filers](https://www.fec.gov/help-candidates-and-committees/filing-reports/paper-filing/) to the paper filing page. 
+- **Help for candidates and committees:** Added links to explain types of PACs to the contribution limits chart snippet embedded on several pages in this section.
+- **Help for candidates and committees:** Updated footer to include Protected Voices link
+
+## Fixed
+- **Campaign finance data:**  Fixed incorrect totals on committee profile page 
+- **Campaign finance data:** Fixed candidate and committee master files link
+- **Help for candidates and committees:** Fixed non-filer publications filter under Latest updates section
+
+
+## Under the hood
+- Laid the groundwork for upcoming features (widgets functionality, fonts)
+- Upgraded Django to v1.11.20
+
 # March 26, 2019 (8.3) 
 ## Changed
 - **Campaign finance data:** Updated raising and spending by the numbers pages to provide totals based on a candidate's election year
