@@ -1,3 +1,16 @@
+# May 07, 2019 (8.6) 
+## Added
+-**Campaign finance data:** A classic.fec.gov page showing how to [download and use .fec files](https://www.fec.gov/introduction-campaign-finance/data-tutorials/) is now housed on fec.gov
+
+## Fixed
+- **Campaign finance data:** Fixed loan incurred date filter
+- **General:** Breadcrumbs for each section are now consistently color-coded
+
+## Under the hood
+- Fixed email filter of endpoint, /rad_analyst/ 
+- Fixed /schedules/schedule_d/{sub_id}/
+- Fixed /schedules/schedule_c/{sub_id}/
+
 # April 23, 2019 (8.5) 
 ## Added
 - **Campaign finance data:** Added new pages to explain the [presidential map](https://www.fec.gov/campaign-finance-data/presidential-map-help/) and the [House and Senate map](https://www.fec.gov/campaign-finance-data/house-and-senate-map-help/)
