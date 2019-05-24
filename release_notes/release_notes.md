@@ -1,3 +1,20 @@
+# May 21, 2019 (8.7) 
+## Added
+- **Help for candidates and committees**: Added a new page concerning [bank accounts of separate segregated funds](https://www.fec.gov/help-candidates-and-committees/registering-ssf/bank-accounts-ssf/)
+
+## Changed
+- **Help for candidates and committees**: Redirected older links for outdated publications and outreach files to current information on fec.gov.
+
+## Under the hood
+- Excluded Schedule L from cycle totals calculation
+- Fixed CRLF injection with urllib3 package in openFEC repository
+- Fixed security vulnerability with webargs by updating version to 5.1.3 (fec-eregs)
+- Fixed Privilege Escalation security vulnerability for mysql:mysql-connector-java in `build.gradle` (openFEC)
+- Fixed Integer Overflow security vulnerability for com.google.protobuf:protobuf-java in `build.gradle` (openFEC)
+- Fixed `transaction_id` bug where type incorrectly specified as `Integer`
+- Fixed `parse_fulltext()` function for user-provided search strings in full text fields
+
+
 # May 07, 2019 (8.6) 
 ## Added
 -**Campaign finance data:** A classic.fec.gov page showing how to [download and use .fec files](https://www.fec.gov/introduction-campaign-finance/data-tutorials/) is now housed on fec.gov
