@@ -13,6 +13,8 @@ This site also includes a number of images that have various copyright statuses,
 
 The Karla font files in `fec-cms/fec/fec/static/fonts/` are from [Google Web Fonts](https://fonts.google.com/specimen/Karla), licensed under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL), and copyright [Jonny Pinhorn](https://github.com/jonpinhorn) with Reserved Font Name ‘Karla'.
 
+The FEC currency monospace font files in `fec-cms/fec/fec/static/fonts/` are a custom, modified version of the Karla font by [Jonny Pinhorn](https://github.com/jonpinhorn), licensed under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL).
+
 The Gandhi Serif font files in `fec-cms/fec/fec/static/fonts/` are from [Librerias Gandhi](http://www.tipografiagandhi.com/), and copyright 2012 [Librerias Gandhi S.A. de C.V.](http://www.gandhi.com.mx/) with Reserved Font Name ‘Gandhi Serif’. The English version of this License is reproduced below.
 
 #### Full English version of the license text for Gandhi Serif:
