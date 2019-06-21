@@ -6,7 +6,7 @@
 - **Campaign finance data**: Applied multi-year and all report year search capability to Disbursement datatables
 - **Campaign finance data**: Updated default time period across site to be 2020
 - **Legal resources**: Added 2019 regulations to regulations explorer
-- ** Campaign Finance Data**: Changed any table columns of currency to use the new monospace currency font
+- **Campaign Finance Data**: Changed any table columns of currency to use the new monospace currency font
 ## Fixed
 - Added validation for proper line number formatting
 - Added a better error message for over-rate-limit downloads 
