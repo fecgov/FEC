@@ -1,3 +1,20 @@
+# June 11, 2019 (9.1) 
+## Added
+- **API**: Added 'is_active_candidate' filter to /candidates/ to exclude incumbents that have dropped out 
+- **Campaign Finance Data**: Added an interactive module to Raising- and Spending-By The Numbers that lists total money raised or spent during a selected race with breakdowns by party
+## Changed
+- **Campaign finance data**: Applied multi-year and all report year search capability to Disbursement datatables
+- **Campaign finance data**: Updated default time period across site to be 2020
+- **Legal resources**: Added 2019 regulations to regulations explorer
+- ** Campaign Finance Data**: Changed any table columns of currency to use the new monospace currency font
+## Fixed
+- Added validation for proper line number formatting
+- Added a better error message for over-rate-limit downloads 
+- Fixed incorrect candidate totals for some candidates
+- Fixed incorrect search results in house candidate datatables
+- Fixed misleading “no data” messages by providing a more complete list of why data could be missing 
+- Fixed improper capitalization on house/senate/presidential candidate datatables breadcrumbs and table headers
+- Fixed DFL party to display as part of the democratic party color scheme
 # May 21, 2019 (8.7) 
 ## Added
 - **Help for candidates and committees**: Added a new page concerning [bank accounts of separate segregated funds](https://www.fec.gov/help-candidates-and-committees/registering-ssf/bank-accounts-ssf/)
