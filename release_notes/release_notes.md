@@ -1,3 +1,23 @@
+# June 28, 2019 (9.2) 
+## Added
+- **Campaign Finance Data**: Added filter to exclude incumbents not seeking re-election from candidate data tables
+## Changed
+- **Campaign Finance Data**: Expanded all receipts and individual contributions datatable searches  to all time periods (as long as other criteria are also defined)
+- **Campaign Finance Data**: Updated heading styles for filters of all receipts and individual contributions data tables of all receipts and individual contributions data tables
+- **Campaign Finance Data**: Added report year to the filter panel of all receipts and individual contributions data tables
+- **Campaign Finance Data**: Added multi-year select functionality to report year filter to all receipts and individual contributions
+- **Campaign Finance Data**:Updated custom error handling of new all receipts and individual contributions filter interaction
+- **Campaign Finance Data**: Clarified the tooltip text of “report time period” on raising and spending data tables
+- **Campaign Finance Data**: Removed Separate Segregated Fund options from filters of all receipts and individual contributions datatables because they were not functioning properly
+- **Homepage**: Changed the message that’s displayed when no results are found while searching Updates
+## Fixed
+- **Campaign Finance Data**: Fixed column headers of the election profile page that were not  displaying correctly
+- **Campaign Finance Data**: Fixed empty download file bug for RFAIs
+- **Campaign Finance Data**: Fixed totals for Puerto Rico Resident Commissioner totals by always showing 4-year cycle totals
+- **Campaign Finance Data**: Democratic–Farmer–Labor Party candidates’ raising and spending meters are now colored blue instead of dark gray
+## Under the hood
+- Added test coverage for candidate endpoints
+
 # June 11, 2019 (9.1) 
 ## Added
 - **API**: Added 'is_active_candidate' filter to /candidates/ to exclude incumbents that have dropped out 
