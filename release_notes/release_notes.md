@@ -1,3 +1,33 @@
+# August 6, 2019 (9.5) 
+## Added
+- **Help for candidates and committees**: Added reporting examples for party committees to the [Filing party reports page](https://www.fec.gov/help-candidates-and-committees/filing-political-party-reports/#reporting-examples)
+- **Help for candidates and committees**: Added language for presidential candidates to the [Guides page for candidates](https://www.fec.gov/help-candidates-and-committees/guides/#cand-comm-guides-candidates-and-their-authorized-committees).
+- **API**: Added committee organization type and designation filters to schedules A and B
+
+## Fixed
+- **Campaign finance data**: Updated Receipts and Individual Contributions datatables to be able to reset to default table settings
+- **Campaign finance data**: Fixed inconsistency between candidate profile page and candidate list page financial data
+- **Campaign finance data**: Fixed election profile page data tables to click through to the full election cycle transaction data
+- **Campaign finance data**: Fixed doubled totals in schedule A aggregate endpoints
+- **API**: Fixed error handling for some sort errors
+## Under the hood
+- **Help for candidates and committees**: Made a redirect for old candidate registration brochure.
+- **API**: Refreshed databases with new `tsvector` logic to better couple searched fields with parsed user input. Restored original `parse_fulltext` definition.
+- **API**: Added diacritical mark handling for `tsvector` field searches
+
+# July 23, 2019 (9.4) 
+## Added
+- **Help for candidates and committees**: Added guidance for presidential candidates to  various [pages for candidates](https://www.fec.gov/help-candidates-and-committees/guides/?tab=candidates-and-their-authorized-committees) 
+- **Legal resources**: Added date filters to MUR search
+- **API**: Added endpoint `/schedules/schedule_a/by_state/by_candidate/totals` to aggregate individual total contributes summed over all states by candidate by election cycle
+## Changed
+- **Legal resources**: Changed citation radio buttons to have a more visually intuitive representation of “selected” state
+## Fixed
+- **Campaign finance data**: Fixed missing `committee_name` column when exporting `.csv` report files for presidential, House and Senate, and PAC and Party reports data tables.
+- **Campaign finance data**: Fixed full-cycle financial summary links on candidate profile pages 
+## Under the hood
+- Made redirects for various publications
+
 # July 9, 2019 (9.3) 
 ## Changed
 - **Help for candidates and committees**: Uploaded the [Guideline for Presentation in Good Order](https://www.fec.gov/resources/cms-content/documents/guideline-for-presentation-good-order.pdf) and [appendices](https://www.fec.gov/resources/cms-content/documents/guideline-for-presentation-good-order_appendices.pdf) used by publicly funded presidential candidates, and added links to them on the [public funding information page](https://www.fec.gov/introduction-campaign-finance/understanding-ways-support-federal-candidates/presidential-elections/public-funding-presidential-elections/).
