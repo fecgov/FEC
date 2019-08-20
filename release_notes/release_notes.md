@@ -11,9 +11,9 @@
 - **Campaign finance data**: Fixed doubled totals in schedule A aggregate endpoints
 - **API**: Fixed error handling for some sort errors
 ## Under the hood
-- **Help for candidates and committees**: Made a redirect for old candidate registration brochure.
-- **API**: Refreshed databases with new `tsvector` logic to better couple searched fields with parsed user input. Restored original `parse_fulltext` definition.
-- **API**: Added diacritical mark handling for `tsvector` field searches
+- Made a redirect for old candidate registration brochure.
+- Refreshed databases with new `tsvector` logic to better couple searched fields with parsed user input. Restored original `parse_fulltext` definition.
+- Added diacritical mark handling for `tsvector` field searches
 
 # July 23, 2019 (9.4) 
 ## Added
