@@ -1,3 +1,16 @@
+# August 20, 2019 (9.6) 
+## Added
+- **API**: Added filters to /schedules/schedule_e/efile/ endpoint.
+
+## Fixed
+- **Campaign finance data**: Fixed missing committee type filters (Lobbyist/Registrant PAC, Leadership PAC, and Separate Segregated Fund (SSF) PACs) for receipts, individual contributions and disbursements datatables 
+- **Legal**: Fixed the missing mailto link when you try to click "Email our team
+
+## Under the hood
+- Added lodash 4.17.13 to “devDependencies” in package.json 
+- Upgraded to django@1.11.23
+
+
 # August 6, 2019 (9.5) 
 ## Added
 - **Help for candidates and committees**: Added reporting examples for party committees to the [Filing party reports page](https://www.fec.gov/help-candidates-and-committees/filing-political-party-reports/#reporting-examples)
