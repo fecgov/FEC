@@ -1,3 +1,9 @@
+# September 10, 2019 (PI 9 innovation) 
+## Fixed
+- **Campaign finance data**:  fixed inconsistent data on candidate profile pages 
+## Under the hood
+- Added secure headers to API and CMS, including a Content Security Policy.
+- Refactored three endpoint resource files: CandidateTotalsView, CandidateHistoryView, CommitteeHistoryView.
 # August 20, 2019 (9.6) 
 ## Added
 - **API**: Added filters to /schedules/schedule_e/efile/ endpoint.
