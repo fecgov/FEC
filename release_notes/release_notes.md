@@ -1,3 +1,22 @@
+# October 1, 2019 (10.1) 
+## Added
+- **Campaign finance data**: Added organization type and committee type to candidate pages
+- **General**: Published the latest version of the [Combined Federal/State Disclosure Directory](https://www.fec.gov/introduction-campaign-finance/how-to-research-public-records/combined-federalstate-disclosure-and-election-directory/)
+- **General**: Added page for Chair Weintraub's symposium on “Digital Disinformation and the Threat to Democracy: Information Integrity in the 2020 Elections”. 
+
+## Changed
+- **General**: Moved the page of archived Record articles from 1975 to 2004 to a new [location](https://www.fec.gov/updates/record-archive-1975-2004/). A link to this archive was added under “About latest updates” and to the no results message when a user searches Updates and gets no results.
+- **Legal resources**:  For Matters Under Review changed title to include “closed”
+## Fixed
+- **Campaign Finance Data**: Fixed “Filter this data” buttons on Candidate and Committee profile pages filings tab to filter by form type
+- **Campaign Finance Data**: Fixed pages for candidates with future election years
+## Under the hood
+- Refactored code for readability and future maintenance
+- upgraded api to `python@3.7.4` (required upgrade of dependencies `gunicorn`, `gevent`, and `pandas`)
+- Addressed vulnerability around ESLint
+- Implemented Google Tag Manager, to be activated at a later date
+- Added styles for a future organization chart
+- Reorganized classic.fec.gov website to display the Campaign Finance Disclosure Portal as the new homepage
 # September 10, 2019 (PI 9 innovation) 
 ## Fixed
 - **Campaign finance data**:  fixed inconsistent data on candidate profile pages 
