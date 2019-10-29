@@ -1,3 +1,54 @@
+# October 28, 2019 (10.3) 
+
+## Added
+- **About the FEC**: Published a new version of the FEC [organization chart](https://www.fec.gov/about/leadership-and-structure/fec-offices/) 
+- **General**: Added new social media images for advisory opinions, weekly digest, open meetings, public hearings, executive sessions, and press releases
+- **Campaign finance data**: Added new interactive tool, Where Contributions Come From, to the Raising By The Numbers page
+- **API**: Added designation filter to committee history endpoints
+
+## Changed
+- **General**: Updated the error message for 500 server errors to include a referral to the FEC’s API status page
+- **Help for candidates and committees**: Retired older committee-specific pages about partnerships and redirected to the new, more [comprehensive page](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/partnership-llc-contributions/).
+- **General**: Updated default social media image, renamed existing social media images
+- **API**: Increased maximum number of committee_id to search to ten
+
+## Fixed
+- **About the FEC**: Broken links to FEC meeting documents and minutes from 2000 through 2003 were fixed
+- **General**: Fixed layering issues where drop-down menus would sometimes appear behind other elements on the page
+- **API**: Fixed filter by committee_id in these endpoints:
+    - /schedules/schedule_a/by_size/,
+    - /schedules/schedule_a/by_state/,
+    - /schedules/schedule_a/by_zip/,
+    - /schedules/schedule_a/by_employer/,
+    - /schedules/schedule_a/by_occupation/,
+    - /schedules/schedule_b/by_recipient/,
+    - /schedules/schedule_b/by_recipient_id/,
+    - /schedules/schedule_b/by_purpose/ and
+    - /schedules/schedule_e/by_candidate/
+
+- **Campaign finance data**: Fixed missing committee information and raising and spending tabs for future cycle candidate committee profile pages 
+## Under the hood
+- Forked `jmcarp/marshmallow-pagination` repository with `fecgov/marshmallow-pagination` for dependency management
+- Added content security policy fix for Wagtail images under app.cloud.gov domain
+- Updated search.gov indexing for global sitewide search
+
+# October 15, 2019 (10.2) 
+## Added
+- **Help for candidates and committees**: Added new pages on [partnership and LLC contributions](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/partnership-llc-contributions/), [assigning debts](https://www.fec.gov/help-candidates-and-committees/handling-loans-debts-and-advances/assigning-debts-another-committee/), [raising and spending funds for the national party convention](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/national-nominating-convention/), [delegate activities](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/delegate-activity/), and reports by [host and convention committees](https://www.fec.gov/help-candidates-and-committees/other-filers/reports-filed-by-host-and-convention-committees/), [monthly filing presidential candidates](https://www.fec.gov/help-candidates-and-committees/filing-reports/monthly-reports-presidential/), and [inaugural committees](https://www.fec.gov/help-candidates-and-committees/filing-reports/inaugural-committee-reports/)
+
+## Changed
+- **API**: Revised message for API status errors to point to new [status page](https://www.fec.gov/status)
+
+## Fixed
+- **Campaign Finance Data**: Fixed incorrect counts for Schedule E raw data table
+- **Campaign Finance Data**: Only link to election profile pages starting in 1980
+- **Campaign Finance Data**: Fixed raising and spending tab behavior of candidate profile pages without activity in particular cycle 
+
+## Under the hood
+- Increased elasticsearch timeout to allow certain legal resources queries to load
+- Fixed logic for loading unpublished legal cases
+- Redirected older content pages on transition to updated pages on current site
+
 # October 1, 2019 (10.1) 
 ## Added
 - **Campaign finance data**: Added organization type and committee type to candidate pages
