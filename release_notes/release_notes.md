@@ -1,3 +1,43 @@
+# December 10, 2019 (10.6)
+## Added
+- **API**: Added new electioneering communications endpoint /electioneering/aggregates/
+
+## Under the hood
+- Added `TSVECTOR` trigger to schedule a raw efile
+
+# November 26, 2019 (10.5)
+## Added
+- **About the FEC**: Published a new page on the FEC’s Limited English Proficiency [plan](https://www.fec.gov/about/equal-employment-opportunity/limited-english-proficiency/)
+
+- **Campaign finance data**: Added new pages explaining [API data end points](https://www.fec.gov/campaign-finance-data/about-campaign-finance-data/) 
+
+## Fixed
+- **Legal resources**: Uploaded a corrected PDF of the FEC's compilation of federal election campaign laws to the [statutes page](https://www.fec.gov/data/legal/statutes/).
+- **Campaign finance data**: Fixed candidate mentioned filter for independent expenditure raw datatable
+- **Campaign finance data**: Fixed committee summary page with wrong form or cmte_type.
+
+## November 12, 2019 (10.4) 
+## Added
+- **Help for candidates and committees**: Added information for host committees, convention committees and inaugural committees to the [Other Filers menu](https://www.fec.gov/help-candidates-and-committees/guides/?tab=other-filers)
+- **Legal Resources**: Added a new page on [administrative terminations and debt settlement plans](https://www.fec.gov/legal-resources/policy/administrative-terminations-and-debt-settlement-plans/) 
+- **About the FEC**: Added a new page for [Equal Employment Office](https://www.fec.gov/about/equal-employment-opportunity/) at the FEC 
+
+## Changed
+- **General**: Added information on paying for communications to the page for citizens on understanding ways to [support federal candidates](https://www.fec.gov/introduction-campaign-finance/understanding-ways-support-federal-candidates/)
+- **About the FEC**: Updated the homepage and [leadership and structure page](https://www.fec.gov/about/leadership-and-structure/) to reflect the naming of Commissioner Caroline C. Hunter as Vice Chair
+
+## Fixed
+- **Legal resources**: Instead of requiring users to search for statutes by keyword before seeing any of the statutes, all now load by default 
+- **Candidate Profile page**: Message showing "no financial data message" now appears for candidates with committees that have not filed disclosure forms
+
+## Under the hood
+- Removed unused partition code from API
+- Updated schedules/schedule_e  API endpoint to filter by filing_date and dissemination_date columns
+- Removed unused materialized view and view from database
+- Upgraded`Flask` from 1.0.2 to 1.1.1
+- Updated /schedules/schedule_e/efile API endpoint to filter by candidate_id
+
+
 # October 28, 2019 (10.3) 
 
 ## Added
