@@ -1,6 +1,6 @@
 # December 10, 2019 (10.6)
 ## Added
-- **API**: Add new electioneering communications endpoint /electioneering/aggregates/
+- **API**: Added new electioneering communications endpoint /electioneering/aggregates/
 
 ## Under the hood
 - Added `TSVECTOR` trigger to schedule a raw efile
@@ -12,7 +12,7 @@
 - **Campaign finance data**: Added new pages explaining [API data end points](https://www.fec.gov/campaign-finance-data/about-campaign-finance-data/) 
 
 ## Fixed
-- **Legal resources**: A revised thumbnail and corrected PDF of the FEC’s compilation of federal election campaign laws were uploaded to the [statutes page](https://www.fec.gov/data/legal/statutes/).
+- **Legal resources**: Uploaded a corrected PDF of the FEC's compilation of federal election campaign laws to the [statutes page](https://www.fec.gov/data/legal/statutes/).
 - **Campaign finance data**: Fixed candidate mentioned filter for independent expenditure raw datatable
 - **Campaign finance data**: Fixed committee summary page with wrong form or cmte_type.
 
@@ -28,7 +28,7 @@
 
 ## Fixed
 - **Legal resources**: Instead of requiring users to search for statutes by keyword before seeing any of the statutes, all now load by default 
-- **Candidate Profile page**: Candidates who have committees and committee not file financial form, show the blank financial summary pages. It should show ‘no financial data message’
+- **Candidate Profile page**: Message showing "no financial data message" now appears for candidates with committees that have not filed disclosure forms
 
 ## Under the hood
 - Removed unused partition code from API
