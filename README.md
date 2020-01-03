@@ -17,6 +17,9 @@ This repository, [FEC](https://github.com/fecgov/fec), is a general discussion f
 - [fec-cms](https://github.com/fecgov/fec-cms): the content management system (CMS) for the new FEC.gov
 - [fec-proxy](https://github.com/fecgov/fec-proxy): the proxy application to manage and route requests coming to the new FEC.gov site
 - [fec-infrastructure](https://github.com/fecgov/fec-infrastructure): manages the gov cloud RDS instances
+- [fec-pattern-library](https://github.com/fecgov/fec-pattern-library): pattern library for fec.gov
+- [fec-dns](https://github.com/fecgov/fec-dns): manages DNS for fec.gov
+- [fec-testing](https://github.com/fecgov/fec-testing): tracks ideas through concept, design, usability testing, and documentation
 
 ## Get involved
 We’re thrilled you want to get involved! 
