@@ -1,3 +1,17 @@
+# December 31, 2019 (PI 10 innovation)
+## Added
+- **Help for candidates and committees**: Published new pages on [presidential public funding](http://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/) and funding the [presidential transition and inauguration](http://www.fec.gov/help-candidates-and-committees/presidential-transition-and-inauguration/)
+
+## Changed
+- **Help for candidates and committees**: Revamped the page for [purposes of disbursement](https://www.fec.gov/help-candidates-and-committees/purposes-disbursements/) into a format that allows committees to tab between adequate and inadequate purposes.
+- **Help for candidates and committees**: Added links to assist navigation between the sections on [disbursements](https://www.fec.gov/help-candidates-and-committees/making-disbursements/) and [winding down costs](https://www.fec.gov/help-candidates-and-committees/winding-down-candidate-campaign/winding-down-costs/) for candidates.
+
+## Fixed
+- **About the FEC**: Fixed missing or broken links for several FEC Record [indexes](https://www.fec.gov/updates/record-archive-1975-2004/)
+
+## Under the hood
+- **API**: Added cloud.gov IPs to the API umbrella to limit server side calls to cloud.gov API keys 
+
 # December 10, 2019 (10.6)
 ## Added
 - **API**: Added new electioneering communications endpoint /electioneering/aggregates/
