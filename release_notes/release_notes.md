@@ -1,3 +1,37 @@
+# January 29, 2020 (11.2) 
+## Added
+- **API:** Added filing_form and is_notice filters to /schedules/schedule_e/efile/ endpoint
+- **About the FEC:** Added [meeting pages](https://www.fec.gov/meetings/?tab=executive-sessions) for 2020 executive sessions.
+## Changed
+- **Legal resources:** Updated links to GPO’s website on the [Statutes](https://www.fec.gov/data/legal/statutes/) page to point to the most recent versions of Titles 52 and 26.
+- **Help for candidates and committees:** Updated information on multistate independent expenditure reporting for [PACs](https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/reporting-independent-expenditures-form-3x/) and [other filers](https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/reporting-independent-expenditures-form-5/).
+
+## Under the hood
+- Removed null value in cycles, cycles_has_finance and cycles_has_activity from ofec_committee_history_mv
+- Legal citations field added to pages that use a full-width template.
+
+# January 14, 2020 (11.1) 
+## Added
+- **Campaign Finance Data:** Added most recent Statement of Organization to committee profile pages
+- **Help for candidates and committees:**  Added new pages regarding [public funding of presidential elections](https://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/) and the [presidential transition and inauguration](https://www.fec.gov/help-candidates-and-committees/presidential-transition-and-inauguration/)
+- **Help for candidates and committees:** Added new pages regarding [dates and deadlines for FEC reports in 2020](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/)
+- **Legal resources:** Added new terms to the glossary
+
+## Changed
+- **About the FEC:**  The Home page and Commissioner pages were updated to reflect the new Chair and Vice Chairman for 2020
+- **General:** Clarified the license language for code repositories
+
+
+## Fixed
+- **Campaign finance data:** Fixed connected organization field on SSF committee profile pages
+- **Campaign finance data:** Fixed the receipt datatable filter label from “Contributor name or ID” to “Recipient name or ID”
+
+## Under the hood
+- Updated API documentation for endpoint descriptions
+- Added the ability to include legal citation blocks to the full width page Wagtail template
+- Updated smart_open and its related python packages
+
+
 # December 31, 2019 (PI 10 innovation)
 ## Added
 - **Help for candidates and committees**: Published new pages on [presidential public funding](http://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/) and funding the [presidential transition and inauguration](http://www.fec.gov/help-candidates-and-committees/presidential-transition-and-inauguration/)
