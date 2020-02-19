@@ -1,3 +1,13 @@
+# February 11, 2020 (11.3) 
+## Added
+
+- **Campaign finance data:** Added current version filters to Independent expenditures datatables 
+- **Campaign finance data:** Added bulk presidential map data downloads within browse data candidates tab 
+
+## Under the hood
+-  Improved sitewide search by making sure archived pages that have been taken offline do not appear in search results.
+-  Upgraded Django to version 1.11.27
+
 # January 29, 2020 (11.2) 
 ## Added
 - **API:** Added filing_form and is_notice filters to /schedules/schedule_e/efile/ endpoint
