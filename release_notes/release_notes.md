@@ -1,3 +1,35 @@
+# February 25, 2020 (11.4) 
+## Added
+
+- **Help for candidates and committees:** Published a new page on [publicly funded presidential spending limits](https://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/presidential-spending-limits-2020/) for 2020] 
+- **Help for candidates and committees:** Published a new page on [lobbyist bundling disclosure requirements](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/)
+- **API :** Added five endpoints to support a new presidential map feature  
+    - /presidential/contributions/by_candidate/
+    - /presidential/contributions/by_size/
+    - /presidential/contributions/by_state/
+    - /presidential/coverage_end_date/
+    - /presidential/financial_summary/
+
+## Changed
+- **Legal resources :** Added a new section on audit report processing and policies to the [Audit Reports page](https://www.fec.gov/legal-resources/enforcement/audit-reports/#audit-report-processing-and-policies)
+- **Help for candidates and committees:** Updated the [coordinated party expenditure limits](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/coordinated-party-expenditure-limits/) page with the limits for 2020
+- **Campaign finance data:** Updated the [help page for presidential map data](https://www.fec.gov/campaign-finance-data/presidential-map-help/)
+- **Campaign finance data:** Updated language above presidential accordions explaining contents of files
+- **Campaign finance data:** Updated Independent Expenditure methodology
+- **Campaign finance data:** Updated text of version checkbox 
+- **Campaign finance data:** Updated Independent Expenditure report type toggle functionality
+
+## Under the hood
+- Updated Gunicorn from version 19.7.1 to 19.10.0
+- Updated GitPython from version 2.1.8 to 2.1.15
+- Upgraded Handlebars from version 4.3.0 to 4.7.2
+- Switched eRegs from shared-psql to medium-psql-redundant and bound application to new database
+- Added tests to Independent Expenditure data table
+- Conditionally hide presidential section from docs until feature release
+- Add presidential endpoint descriptions
+- Add transfers_from_affiliated_committees field to /presidential/financial_summary/ endpoint
+- Most recent Independent Expenditures logic updates
+
 # February 11, 2020 (11.3) 
 ## Added
 
