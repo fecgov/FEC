@@ -1,3 +1,18 @@
+# March 10, 2020 (11.5) 
+
+## Added
+- **Legal Resources:**  Published a [new page](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/)  with the Commission’s explanation and justifications for regulations taking effect from 2020 to 2029
+- **Help for candidates and committees:** Added disclaimer examples to the “Advertising and disclaimers” [page](https://www.fec.gov/help-candidates-and-committees/making-disbursements/advertising/) 
+
+## Changed
+- **Campaign finance data :** Added language to the [candidate data page](https://www.fec.gov/data/browse-data/?tab=candidates) above the presidential map accordion to indicate the time period covered by the data
+- **Campaign Finance Data:** Independent expenditure data table “most recent” checkbox now includes unknown version 
+
+## Under the hood
+- In fec-cms repo, update Wagtail to v2.7 & Django to v2.2.10 LTS (Long Term Support) versions 
+- In openFEC repo, update Node to LTS v10.16.* & NPM to v6.13.7
+- F24 version issue has been fixed  
+
 # February 25, 2020 (11.4) 
 ## Added
 
