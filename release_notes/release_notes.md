@@ -1,3 +1,12 @@
+# March 20, 2020 (11.6) 
+## Added
+- **Campaign finance data:** Added [Presidential candidate map](https://www.fec.gov/data/candidates/president/presidential-map/)
+- **Campaign finance data:** Added new endpoint `/communication_costs/aggregates/`
+
+## Under the hood
+-  Enabled CircleCI pipelines on fec-cms, openFEC, fec-eregs, fec-pattern-library,
+   fec-infrastructure and fec-dns repos
+
 # March 10, 2020 (11.5) 
 
 ## Added
