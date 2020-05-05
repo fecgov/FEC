@@ -1,3 +1,33 @@
+# April 28, 2020 (12.1) 
+## Added
+- **Legal resources:** A new [page](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/) allows users to search Commission guidance documents that set forth a policy on a statutory, regulatory or technical issue, or interpret a regulation.
+- **API:** Added is_active column to `/committee/{committee_id}/history/` endpoint
+
+## Changed
+- **Campaign finance data:** Added a way to access [pages explaining campaign finance data](https://www.fec.gov/campaign-finance-data/about-campaign-finance-data/) to our page on How to [research public records](https://www.fec.gov/introduction-campaign-finance/how-to-research-public-records/#data-tutorials) page
+- **General**: Updated the “Official website of the US government with more information and styling
+
+## Fixed
+- **Help for candidates and committees:** Fixed missing feedback button on some pages
+- **Campaign finance data:** Fixed download link for disbursements on presidential map 
+
+## Under the hood
+- Remove unused database objects
+- Increased number of API application instances to ten (10)
+- Redirects from older files on transition.fec.gov to newer content were put in place.
+- Added sitemaps for guidance document searching for version control
+
+
+# April 14, 2020 (11 innovation) 
+## Added
+- **Help for candidates and committees:** Added examples of [proper disclaimers]([https://www.fec.gov/help-candidates-and-committees/making-disbursements/advertising/) for party committee fundraising and advertising to various pages.
+
+## Changed
+- **Help for candidates and committees:** Revised a [page on filing frequency](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/filing-frequency-type-filer/) to make it more clear to candidates that they must file pre-election reports in addition to quarterly reports.
+
+## Under the hood
+- Updated SEO of press releases that cut off the name of the court case they referenced to incorporate the case names.
+
 # March 20, 2020 (11.6) 
 ## Added
 - **Campaign finance data:** Added [Presidential candidate map](https://www.fec.gov/data/candidates/president/presidential-map/)
