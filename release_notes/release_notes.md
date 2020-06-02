@@ -1,3 +1,28 @@
+# May 26, 2020 (12.3) 
+## Added
+- **API:** Added validation for Schedule A pagination requests so API users could paginate through results
+- **API:** Added is_active column in endpoint: name/committees/ to help distinguish between committees that are active or terminated on fec.gov
+
+## Changed
+- **Help for candidates and committees:** The [web page containing information on disclaimer notice rules](https://www.fec.gov/help-candidates-and-committees/advertising-and-disclaimers/) was revamped to make it easier to navigate and include helpful examples.
+- **General:** The [Office of Inspector’s General’s web page](https://www.fec.gov/office-inspector-general/) was updated.
+
+## Fixed
+- **Campaign finance data:** Fixed case-sensitive candidate and committee profile pages that were causing errors
+
+## Under the hood
+- Created alternative 500 error messaging in the CMS
+- Added is_active column to two materialized views
+- Update python code to include missing cites on AO’s.  Run API task to reload them manually.
+- Redirects from older files on transition.fec.gov to newer content were put in place.
+
+# May 12, 2020 (12.2) 
+## Under the hood
+- Updated vulnerable webargs package in eregs and API applications
+- Updated vulnerable wagtail package
+- Set API `get` request timeouts in CMS
+
+
 # April 28, 2020 (12.1) 
 ## Added
 - **Legal resources:** A new [page](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/) allows users to search Commission guidance documents that set forth a policy on a statutory, regulatory or technical issue, or interpret a regulation.
