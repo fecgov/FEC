@@ -1,3 +1,172 @@
+# May 26, 2020 (12.3) 
+## Added
+- **API:** Added validation for Schedule A pagination requests so API users could paginate through results
+- **API:** Added is_active column in endpoint: name/committees/ to help distinguish between committees that are active or terminated on fec.gov
+
+## Changed
+- **Help for candidates and committees:** The [web page containing information on disclaimer notice rules](https://www.fec.gov/help-candidates-and-committees/advertising-and-disclaimers/) was revamped to make it easier to navigate and include helpful examples.
+- **General:** The [Office of Inspector’s General’s web page](https://www.fec.gov/office-inspector-general/) was updated.
+
+## Fixed
+- **Campaign finance data:** Fixed case-sensitive candidate and committee profile pages that were causing errors
+
+## Under the hood
+- Created alternative 500 error messaging in the CMS
+- Added is_active column to two materialized views
+- Update python code to include missing cites on AO’s.  Run API task to reload them manually.
+- Redirects from older files on transition.fec.gov to newer content were put in place.
+
+# May 12, 2020 (12.2) 
+## Under the hood
+- Updated vulnerable webargs package in eregs and API applications
+- Updated vulnerable wagtail package
+- Set API `get` request timeouts in CMS
+
+
+# April 28, 2020 (12.1) 
+## Added
+- **Legal resources:** A new [page](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/) allows users to search Commission guidance documents that set forth a policy on a statutory, regulatory or technical issue, or interpret a regulation.
+- **API:** Added is_active column to `/committee/{committee_id}/history/` endpoint
+
+## Changed
+- **Campaign finance data:** Added a way to access [pages explaining campaign finance data](https://www.fec.gov/campaign-finance-data/about-campaign-finance-data/) to our page on How to [research public records](https://www.fec.gov/introduction-campaign-finance/how-to-research-public-records/#data-tutorials) page
+- **General**: Updated the “Official website of the US government with more information and styling
+
+## Fixed
+- **Help for candidates and committees:** Fixed missing feedback button on some pages
+- **Campaign finance data:** Fixed download link for disbursements on presidential map 
+
+## Under the hood
+- Remove unused database objects
+- Increased number of API application instances to ten (10)
+- Redirects from older files on transition.fec.gov to newer content were put in place.
+- Added sitemaps for guidance document searching for version control
+
+
+# April 14, 2020 (11 innovation) 
+## Added
+- **Help for candidates and committees:** Added examples of [proper disclaimers]([https://www.fec.gov/help-candidates-and-committees/making-disbursements/advertising/) for party committee fundraising and advertising to various pages.
+
+## Changed
+- **Help for candidates and committees:** Revised a [page on filing frequency](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/filing-frequency-type-filer/) to make it more clear to candidates that they must file pre-election reports in addition to quarterly reports.
+
+## Under the hood
+- Updated SEO of press releases that cut off the name of the court case they referenced to incorporate the case names.
+
+# March 20, 2020 (11.6) 
+## Added
+- **Campaign finance data:** Added [Presidential candidate map](https://www.fec.gov/data/candidates/president/presidential-map/)
+- **Campaign finance data:** Added new endpoint `/communication_costs/aggregates/`
+
+## Under the hood
+-  Enabled CircleCI pipelines on fec-cms, openFEC, fec-eregs, fec-pattern-library,
+   fec-infrastructure and fec-dns repos
+
+# March 10, 2020 (11.5) 
+
+## Added
+- **Legal Resources:**  Published a [new page](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/)  with the Commission’s explanation and justifications for regulations taking effect from 2020 to 2029
+- **Help for candidates and committees:** Added disclaimer examples to the “Advertising and disclaimers” [page](https://www.fec.gov/help-candidates-and-committees/making-disbursements/advertising/) 
+
+## Changed
+- **Campaign finance data :** Added language to the [candidate data page](https://www.fec.gov/data/browse-data/?tab=candidates) above the presidential map accordion to indicate the time period covered by the data
+- **Campaign Finance Data:** Independent expenditure data table “most recent” checkbox now includes unknown version 
+
+## Under the hood
+- In fec-cms repo, update Wagtail to v2.7 & Django to v2.2.10 LTS (Long Term Support) versions 
+- In openFEC repo, update Node to LTS v10.16.* & NPM to v6.13.7
+- F24 version issue has been fixed  
+
+# February 25, 2020 (11.4) 
+## Added
+
+- **Help for candidates and committees:** Published a new page on [publicly funded presidential spending limits](https://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/presidential-spending-limits-2020/) for 2020] 
+- **Help for candidates and committees:** Published a new page on [lobbyist bundling disclosure requirements](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/)
+- **API :** Added five endpoints to support a new presidential map feature  
+    - /presidential/contributions/by_candidate/
+    - /presidential/contributions/by_size/
+    - /presidential/contributions/by_state/
+    - /presidential/coverage_end_date/
+    - /presidential/financial_summary/
+
+## Changed
+- **Legal resources :** Added a new section on audit report processing and policies to the [Audit Reports page](https://www.fec.gov/legal-resources/enforcement/audit-reports/#audit-report-processing-and-policies)
+- **Help for candidates and committees:** Updated the [coordinated party expenditure limits](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/coordinated-party-expenditure-limits/) page with the limits for 2020
+- **Campaign finance data:** Updated the [help page for presidential map data](https://www.fec.gov/campaign-finance-data/presidential-map-help/)
+- **Campaign finance data:** Updated language above presidential accordions explaining contents of files
+- **Campaign finance data:** Updated Independent Expenditure methodology
+- **Campaign finance data:** Updated text of version checkbox 
+- **Campaign finance data:** Updated Independent Expenditure report type toggle functionality
+
+## Under the hood
+- Updated Gunicorn from version 19.7.1 to 19.10.0
+- Updated GitPython from version 2.1.8 to 2.1.15
+- Upgraded Handlebars from version 4.3.0 to 4.7.2
+- Switched eRegs from shared-psql to medium-psql-redundant and bound application to new database
+- Added tests to Independent Expenditure data table
+- Conditionally hide presidential section from docs until feature release
+- Add presidential endpoint descriptions
+- Add transfers_from_affiliated_committees field to /presidential/financial_summary/ endpoint
+- Most recent Independent Expenditures logic updates
+
+# February 11, 2020 (11.3) 
+## Added
+
+- **Campaign finance data:** Added current version filters to Independent expenditures datatables 
+- **Campaign finance data:** Added bulk presidential map data downloads within browse data candidates tab 
+
+## Under the hood
+-  Improved sitewide search by making sure archived pages that have been taken offline do not appear in search results.
+-  Upgraded Django to version 1.11.27
+
+# January 29, 2020 (11.2) 
+## Added
+- **API:** Added filing_form and is_notice filters to /schedules/schedule_e/efile/ endpoint
+- **About the FEC:** Added [meeting pages](https://www.fec.gov/meetings/?tab=executive-sessions) for 2020 executive sessions.
+## Changed
+- **Legal resources:** Updated links to GPO’s website on the [Statutes](https://www.fec.gov/data/legal/statutes/) page to point to the most recent versions of Titles 52 and 26.
+- **Help for candidates and committees:** Updated information on multistate independent expenditure reporting for [PACs](https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/reporting-independent-expenditures-form-3x/) and [other filers](https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/reporting-independent-expenditures-form-5/).
+
+## Under the hood
+- Removed null value in cycles, cycles_has_finance and cycles_has_activity from ofec_committee_history_mv
+- Legal citations field added to pages that use a full-width template.
+
+# January 14, 2020 (11.1) 
+## Added
+- **Campaign Finance Data:** Added most recent Statement of Organization to committee profile pages
+- **Help for candidates and committees:**  Added new pages regarding [public funding of presidential elections](https://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/) and the [presidential transition and inauguration](https://www.fec.gov/help-candidates-and-committees/presidential-transition-and-inauguration/)
+- **Help for candidates and committees:** Added new pages regarding [dates and deadlines for FEC reports in 2020](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/)
+- **Legal resources:** Added new terms to the glossary
+
+## Changed
+- **About the FEC:**  The Home page and Commissioner pages were updated to reflect the new Chair and Vice Chairman for 2020
+- **General:** Clarified the license language for code repositories
+
+
+## Fixed
+- **Campaign finance data:** Fixed connected organization field on SSF committee profile pages
+- **Campaign finance data:** Fixed the receipt datatable filter label from “Contributor name or ID” to “Recipient name or ID”
+
+## Under the hood
+- Updated API documentation for endpoint descriptions
+- Added the ability to include legal citation blocks to the full width page Wagtail template
+- Updated smart_open and its related python packages
+
+
+# December 31, 2019 (PI 10 innovation)
+## Added
+- **Help for candidates and committees**: Published new pages on [presidential public funding](http://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/) and funding the [presidential transition and inauguration](http://www.fec.gov/help-candidates-and-committees/presidential-transition-and-inauguration/)
+
+## Changed
+- **Help for candidates and committees**: Revamped the page for [purposes of disbursement](https://www.fec.gov/help-candidates-and-committees/purposes-disbursements/) into a format that allows committees to tab between adequate and inadequate purposes.
+- **Help for candidates and committees**: Added links to assist navigation between the sections on [disbursements](https://www.fec.gov/help-candidates-and-committees/making-disbursements/) and [winding down costs](https://www.fec.gov/help-candidates-and-committees/winding-down-candidate-campaign/winding-down-costs/) for candidates.
+
+## Fixed
+- **About the FEC**: Fixed missing or broken links for several FEC Record [indexes](https://www.fec.gov/updates/record-archive-1975-2004/)
+
+## Under the hood
+- **API**: Added cloud.gov IPs to the API umbrella to limit server side calls to cloud.gov API keys 
+
 # December 10, 2019 (10.6)
 ## Added
 - **API**: Added new electioneering communications endpoint /electioneering/aggregates/
