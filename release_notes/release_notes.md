@@ -1,3 +1,13 @@
+# June 9, 2020 (12.4) 
+## Added
+- **Legal resources:** Added a single new administrative fines calculator for committees to estimate fines for late or non-filed reports 
+- **Campaign finance data**: Added `acttive/terminated` indicator to committee profile page
+## Changed
+- **Legal resources:** Updated links to the 2020 11 CFR on our [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr)
+- **Legal resources:** Moved a page containing [enforcement and compliance procedural materials](https://www.fec.gov/legal-resources/enforcement/procedural-materials/) from the transition site to fec.gov
+- **General:** Updated the [Office of Inspector’s General’s web page](https://www.fec.gov/office-inspector-general/) 
+- **Help for candidates and committees:** Various pages were updated to reduce duplicative content and point users to the new page on [disclaimer notices](https://www.fec.gov/help-candidates-and-committees/advertising-and-disclaimer/)
+
 # May 26, 2020 (12.3) 
 ## Added
 - **API:** Added validation for Schedule A pagination requests so API users could paginate through results
