@@ -1,6 +1,6 @@
 # openFEC API terms of service
 
-The Federal Election Commission (FEC) offers some of its public data in machine readable format via an Application Programming Interface (API). The FEC provides this service, at its sole discretion, for the benefit of the public. The service is offered subject to  acceptance of the terms and conditions contained herein as well as any relevant sections of FEC.gov, FEC’s  sale and use policy, FEC’s privacy and security policy and FEC’s acceptable use policy  (collectively, the "Agreement").
+The Federal Election Commission (FEC) offers some of its public data in machine readable format via an Application Programming Interface (API). The FEC provides this service, at its sole discretion, for the benefit of the public. The service is offered subject to acceptance of the terms and conditions contained herein as well as any relevant sections of FEC.gov, FEC’s [sale and use policy](https://www.fec.gov/updates/sale-or-use-contributor-information/), FEC’s [privacy and security policy](https://www.fec.gov/about/privacy-and-security-policy/) and FEC’s acceptable use policy  (collectively, the "Agreement").
 
 ## Scope
 All of the content, documentation, code and related materials made available to you through the API is subject to these terms. Access to or use of the API or its content constitutes acceptance to this Agreement.
