@@ -1,7 +1,30 @@
+# June 23, 2020 (12.5) 
+## Added 
+- **Campaign finance data**: Added active and terminated indicators on the global search and committee search on the [data landing page](https://www.fec.gov/data/) to make it easier for users to know which committees are still active, at a glance
+- **Campaign finance data:** Added language to committee profile pages for those that have transitioned from a candidate committee to a nonconnected PAC within a single cycle
+- **API:** Added filter for `load_date` to Schedule A endpoint, allowing users to filter for most recently added transactions
+- **API:** Added pg_date indexes to fec_fitem_sched_a tables to support users’s request to filter on pg_date to download data for their usage
+- *Help for candidates and committees*:**  Added a new [page](https://www.fec.gov/about/leadership-and-structure/james-e-trainor-iii/) for newly-sworn in Commissioner Trainor
+## Changed
+- **General:** Updated the message for when a search yields no results
+- **General:** Updated the feedback box directions to make it more clear we are seeking feedback about the website and direct other feedback and questions to the appropriate places within the FEC
+- **Help for candidates and committees:** Updated the Campaign Guide for Congressional Candidates for accessibility
+- **Help for candidates and committees:** Changed the icon for example template pages to make them consistent
+## Fixed
+- **Campaign finance data:** Corrected an error message to show a “Page not found” for candidate and committee profile pages when an invalid candidate or committee ID is provided in the URL
+- **API:** Updated a URL in the description of presidential end point to direct users to the appropriate methodology page
+## Under the hood
+- Updated search index for transition.fec.gov
+- Provided user with an error message when MUR documents failed to load
+- Moved inline CSS from television ad example templates to stylesheets and removed from template
+- Updated Django minor version from 2.2.11 to 2.2.13
+- Redirects from older files on transition.fec.gov to newer content were put in place.
+- Added flake8 linting to `pytest`
+
 # June 9, 2020 (12.4) 
 ## Added
 - **Legal resources:** Added a single new administrative fines calculator for committees to estimate fines for late or non-filed reports 
-- **Campaign finance data**: Added `acttive/terminated` indicator to committee profile page
+- **Campaign finance data**: Added `active/terminated` indicator to committee profile page
 ## Changed
 - **Legal resources:** Updated links to the 2020 11 CFR on our [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr)
 - **Legal resources:** Moved a page containing [enforcement and compliance procedural materials](https://www.fec.gov/legal-resources/enforcement/procedural-materials/) from the transition site to fec.gov
