@@ -4,7 +4,7 @@
 - **Campaign finance data:** Added language to committee profile pages for those that have transitioned from a candidate committee to a nonconnected PAC within a single cycle
 - **API:** Added filter for `load_date` to Schedule A endpoint, allowing users to filter for most recently added transactions
 - **API:** Added pg_date indexes to fec_fitem_sched_a tables to support users’s request to filter on pg_date to download data for their usage
-- **Help for candidates and committees*:**  Added a new [page](https://www.fec.gov/about/leadership-and-structure/james-e-trainor-iii/) for newly-sworn in Commissioner Trainor
+- **Help for candidates and committees:**  Added a new [page](https://www.fec.gov/about/leadership-and-structure/james-e-trainor-iii/) for newly-sworn in Commissioner Trainor
 ## Changed
 - **General:** Updated the message for when a search yields no results
 - **General:** Updated the feedback box directions to make it more clear we are seeking feedback about the website and direct other feedback and questions to the appropriate places within the FEC
