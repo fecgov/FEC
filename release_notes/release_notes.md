@@ -1,3 +1,25 @@
+# July 7, 2020 (12.6) 
+
+## Added 
+- **General**: Added openFEC API terms of service
+- **General**: Added openFEC API acceptable use policy
+- **Legal resources**: Loaded the 2020 11 CFR into e-regs.
+
+## Changed
+- **About the FEC**: Updated [Commissioner Trainor’s page](https://www.fec.gov/about/leadership-and-structure/james-e-trainor-iii/) to note he is now the Chair. 
+- **API**: Began the process of deprecating the `contributor_aggregate_ytd` sort option and changing the default sort to descending for the /schedules/schedule_a/ endpoint
+
+## Under the hood
+- Modified Schedule A endpoint description about last index
+- Added notification to change sched-a sort to DESC
+- Updated downloads server error message
+- Redirects from the old admin fine calculators to the new admin fine calculator 
+- Remove old admin fine calculators 
+- Added `requirements-parsing` to fec-eregs to help with local parsing
+- Resolved postrgesql vulnerability in openFEC’s build.gradle
+- Updated README, team postgres version to 10.7
+- Made performance improvements to API by changing how query counts are calculated
+
 # June 23, 2020 (12.5) 
 ## Added 
 - **Campaign finance data**: Added active and terminated indicators on the global search and committee search on the [data landing page](https://www.fec.gov/data/) to make it easier for users to know which committees are still active, at a glance
