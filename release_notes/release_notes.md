@@ -7,7 +7,7 @@
 
 ## Changed
 - **About the FEC**: Updated [Commissioner Trainor’s page](https://www.fec.gov/about/leadership-and-structure/james-e-trainor-iii/) to note he is now the Chair. 
-- **API:** Began the process of deprecating the `contributor_aggregate_ytd` sort option and changing the default sort to descending for the /schedules/schedule_a/ endpoint
+- **API**: Began the process of deprecating the `contributor_aggregate_ytd` sort option and changing the default sort to descending for the /schedules/schedule_a/ endpoint
 
 ## Under the hood
 - Modified Schedule A endpoint description about last index
