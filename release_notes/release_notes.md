@@ -1,3 +1,23 @@
+# July 28, 2020 (12 innovation)
+## Added 
+- **API**: Added an API key signup form for users wishing to use the openFEC API programmatically
+## Fixed
+- **Campaign finance data**: Fixed the sort by candidate and spent by columns on independent expenditures, communication costs, and electioneering communication sections of election pages. Fixed the sort by candidate column on the independent expenditure section of committee spending pages. Previously users could not effectively sort their results
+- **API**: Fixed the server error when sort by candidate_name or committee_name in independent expenditures, communications costs and electioneering by_candidate endpoints
+- **API**: Fixed a server error and added validation for page=0. Now the page correctly throws a validation
+
+- **API**: Fixed endpoint /totals/{committee_type}/ to return all relevant results
+## Under the hood
+
+- Upgrade lodash npm pkg to v4.17.19 in fec-cms to resolve the medium snyk vulnerability
+- Upgrade codecov python pkg to v2.1.7 to fix the errors in circleci post check task.
+- Updated CMS wagtail package to 2.7.3
+- Updated API websocket-extensions package from 0.1.3 to 0.1.4
+- Modernized repository language in API
+- Updated prance to address deprecation warning
+- Increased the size of tres_nm column in f_rpt_or_form_sub table as part of the deployment of informatica mappings
+- Added filings URL to unverified filers download file
+
 # July 7, 2020 (12.6) 
 
 ## Added 
