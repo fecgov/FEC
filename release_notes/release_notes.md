@@ -1,3 +1,91 @@
+# September 22, 2020 (13.4) 
+## Added
+- **Legal resources:** [Migrated 2009 enforcement policy comment page](https://www.fec.gov/legal-resources/policy/comments-received-notice-public-hearing-agency-procedures-and-policies-2009/) to fec.gov 
+## Changed
+- **Campaign finance data:** Changed language for historical statistics to campaign finance statistics
+- **About the FEC:** Updated [various hearing pages](https://www.fec.gov/meetings/?tab=hearings#meetings-hearings) with new links pointing to related pages that were recently moved to fec.gov.
+## Fixed
+- **Legal resources:** Fixed case for Matters Under Review (MUR) where no data presented to user when partial data exists
+- **Campaign finance data:** Fixed some joint fundraising committees’ missing financial summary totals
+- **Campaign finance data:** Fixed user interface on candidate profile page to disable individual two year transaction periods where a candidate did not have cycles in an election
+## Under the hood
+- Updated package-lock.json to address signature malleability and arbitrary code execution
+- Redirects from older files on transition.fec.gov to newer content were put in place
+- Updated a single candidate and committee page to show that the campaign committee converted to a PAC before the end of an election cycle
+
+# September 9, 2020 (13.3) 
+## Added
+- **API:** Added a new `/communication_costs/` endpoint with OffsetPageSchema (to replace `/communication-costs/` endpoint with SeekPageSchema. Updated deprecation notice for `/communication-costs/` endpoint.
+- **Legal resources:** Added command of archived MUR “extract_pdf_text” to extract pdf OCR text from Elasticsearch and insert text to database. Add command of archived MUR “load_archived_murs” to upload Archived MUR data to Elasticsearch
+
+## Changed
+- **General:** Updated the language in the website feedback box to make it clear which information the FEC retains when feedback is submitted
+
+
+## Fixed
+- **API:** Fixed data methodology broken links in API documentation 
+
+## Under the hood
+- Reduced excessive disk allocation for one application, specified disk allocation for API applications, increased memory for API application
+- Updated some candidate and committee pages to show that some campaign committees converted to PACs before the end of an election cycle
+- Created mur_arch schema and related tables to database
+- Pinned vine version 1.3.0 due to dependency tree error with kombu dependencies
+- Added reCAPTCHA to the reports analysis contact form
+-Redirected three policy pages (enforcement process, embezzlement and internet comment pages) from transition to fec.gov 
+- Bumped the version of Lodash to 4.17.20
+
+
+# August 25, 2020 (13.2) 
+## Added
+- **Legal resources:** Migrated the 2013 enforcement process, the 2009 Website and Internet Communications Improvement Initiative comments, and 2006 embezzlement comments received over to fec.gov, along with related comment PDF files. 
+
+## Changed
+- **Legal resources:** Updated the [administrative fine pages](https://www.fec.gov/legal-resources/enforcement/administrative-fines/), the [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) and the [Explanation and Justification indexes](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/) to add a link to a Federal Register notice containing final rules for civil penalties in administrative fine cases.
+- **API:** Updated deprecation policy and linked to API swagger user interface
+
+## Fixed
+- **Campaign finance data:** On candidate profile pages, fixed the “spent by” column sort for the following datatables: Independent expenditures, Communication costs, and Electioneering communications 
+- **Campaign finance data:** On committee profile pages, fixed “candidate” column sort for the Communication costs datatable
+- **API:** Resolved math error on swagger user interface reporting incorrect hourly rate limit for an upgraded api key (hotfix)
+- **API:** Resolved page load problem where API key signup form was not always showing (hotfix)
+- **Help for candidates and committees:** Fixed image responsiveness on example disclaimer pages
+
+## Under the hood
+- Added `user-downloads` prefix for all user generated downloads
+- Redirects from older files on transition.fec.gov to newer content were put in place
+
+# August 11, 2020 (13.1) 
+## Added
+- **Help for candidates and committees:** Added a helpful message to let users know when the contact your analyst form is down due to a ServiceNow API outage
+- **API:** Added terms of service and acceptable use policy links to the openFEC swagger page
+- **Legal resources:** Added administrative fines values published in August 2020 to the administrative fines calculator, and removed those for 2017
+- **Campaign finance data:** Added a message to link a candidate to a committee that converted from a principal campaign committee to a PAC
+
+
+## Changed
+- **API:** Removed contributor_aggregate_ytd sort option for /schedules/schedule_a/ endpoint. This was a breaking change and we’ve notified the users of this endpoint of the change 
+- **API:** Changed /schedules/schedule_a/ default sort to contribution_receipt_date ASC. This was a breaking change and we’ve notified the users of this endpoint of the change
+- **General:** Updated README.md to link to correct PostgreSQL version
+
+
+## Fixed
+- **General:** Added a sidebar, internal button to link to “About the FEC” and made a friendly URL for the OIG page
+- **General:** Made images in Rich Text Editor responsive
+- **General:** Made example images and captions stack responsively in mobile 
+- **General:** Fixed table-block header spacing 
+
+
+## Under the hood
+- Increased number of gunicorn workers for additional concurrency
+- Added better error handling for the Reports Analysis Division contact page
+- Resolved high-severity vulnerability in ajv package
+- Changed the default sort for the schedule a endpoint to descending to be in line with other endpoints
+- Fixed schedule b slow queries by adding to indices for an 800x faster response
+- Redirects from older files on transition.fec.gov to newer content were put in place
+- Dropped a materialized view from the ofec_filings_mv
+- Removed a sort expression for schedule b
+- Unpinned python on runtime.txt
+
 # July 28, 2020 (12 innovation)
 ## Added 
 - **API**: Added an API key signup form for users wishing to use the openFEC API programmatically
