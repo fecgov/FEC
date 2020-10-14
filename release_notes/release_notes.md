@@ -1,3 +1,34 @@
+# October 6, 2020 (13.5) 
+## Added
+- **API:** Added cand_cmte_linkage_alternate table to prepare to show sponsoring candidate information for leadership PACs in the future 
+- **API:** Added ofec_pcc_to_pac_mv and exclude table to facilitate tracking of the committees that convert from PCC to PAC mid cycle.
+
+## Changed
+- **General:** Updated .gov banner to be more concise 
+- **General:** Updated the [Election Day information page](https://www.fec.gov/introduction-campaign-finance/election-day-information/) to include a section for the Electoral College and make the page a “best bet” in the global search for certain election- and voting-related search terms. 
+- **Legal Resources:** Added a page to the [guidance search](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/) 
+- **Legal Resources:** Migrated [Enforcement](https://www.fec.gov/legal-resources/enforcement/enforcement-profile/) profile page to fec.gov 
+- **API:** Replaced `/committee/[committee_id}/communication_costs/by_candidate/` with `/communication_costs/aggregates/?committee_id={committee_id}`
+- **API:** Replaced `/committee/[committee_id}/electioneering/by_candidate/` with `electioneering/aggregates/?committee_id={committee_id}`
+
+## Fixed
+- **Legal Resources:** Fixed an issue causing the Campaign Guide for Congressional Candidates not to appear in the guidance search results. 
+
+## Under the hood
+- Replaced deprecated endpoint path `/communication-costs/` with `/communication_costs/` in the CMS 
+- Upgraded flask-cors to version 3.0.9 
+- Redirects from older files on transition.fec.gov to newer content were put in place
+- Defined content security policy for fonts
+- Included GSA/DAP regardless of GTM settings 
+- Reformat content security policy data structure 
+- Updated content security policy for wagtail 
+- Bug fix for content security policy preventing local development 
+- Improved performance for schedules B and E by using fewer columns in count query 
+- Pinned greenlet package in fec-eregs to address build problems
+- Updated API application memory for dev space 
+- Upgraded Django to resolve security vulnerability 
+- Fixed bug causing runtime error 
+
 # September 22, 2020 (13.4) 
 ## Added
 - **Legal resources:** [Migrated 2009 enforcement policy comment page](https://www.fec.gov/legal-resources/policy/comments-received-notice-public-hearing-agency-procedures-and-policies-2009/) to fec.gov 
