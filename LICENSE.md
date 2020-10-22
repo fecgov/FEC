@@ -4,7 +4,7 @@ This project includes a mix of the following:
 - Open source works that are not in the public domain
 - Open source work by the U.S. government that is in the public domain
 
-A few restrictions limit the way you can use FEC data. For example, you can’t use contributor lists for commercial purposes or to solicit donations. [Learn more on FEC.gov.](http://www.fec.gov/pages/brochures/saleuse.shtml)
+A few restrictions limit the way you can use FEC data. For example, you can’t use contributor lists for commercial purposes or to solicit donations. [Learn more on FEC.gov.](https://www.fec.gov/updates/sale-or-use-contributor-information/)
 
 ## Parts of this project that are not in the public domain
 This site is based on the U.S. Web Design Standards (WDS), which also includes works under the SIL Open Font License, MIT license, and public domain. Files from the WDS are in *_sass/_libs/wds/*, and the full license details for those assets are described in the [WDS license](https://github.com/uswds/uswds/blob/develop/LICENSE.md) file.
