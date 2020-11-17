@@ -1,3 +1,37 @@
+# November 10, 2020 (PI 13 Innovation 1) 
+## Added
+-**Legal Resources:** Migrated the [Policy and other guidance] page (https://www.fec.gov/legal-resources/policy-other-guidance/) to fec.gov and updated site menus and related pages with new URL.
+## Changed
+- **Homepage:** Banners were posted for the October Quarterly and Pre-Election reports, as well as Election Day information for voters.
+- **API:** Modified rest.py to send `RESTRICT_MESSAGE` and 503 error code if IP address is blocked
+- **Press:** [Migrated data summary landing page] 
+(https://www.fec.gov/campaign-finance-data/campaign-finance-statistics/) to fec.gov and improved its style to improve navigation to relevant data
+## Fixed
+- **CMS:** Update requests library to resolve security vulnerability
+
+## Under the hood
+- Updated fec-pattern-library README.md to add Node.js version in use
+- Updated fec-pattern-library, fec-cms, openFEC, and fec-eregs to 
+- Use CloudFoundry command line interface (cf cli) version 7
+- Use rolling deployments instead of zero-downtime deploys
+- Updated fec-cms instructions.md to clarify steps for manual reindexing
+- Updated openFEC README.md to clarify deployment language
+- Campaign statistics pages redirects 
+- Redirects from older files on transition.fec.gov to newer content were put in place
+- Updated link to sale or use info on license.md. 
+- Updated to cloud foundry cli version 7
+- Implemented rolling deployments
+
+
+# October 26, 2020 (13.6)
+## Added
+- **API:** Added column sponsor_candidate_ids to materialized views to prepare to show sponsoring candidate information for leadership PACs in the future
+- **CMS:** Migrated Statistical Data Summary pages from transition to filterable tables on fec.gov. Over 400 pages on our transition site were retired and combined into 5 pages of filterable data tables on fec.gov. 
+
+## Under the hood
+- Upgraded python and postgres docker images in circleci config file to match the runtime environment in openFEC and fec-cms repos. 
+- Upgraded python docker image in circleci config file to match the runtime environment in eregs repo.
+
 # October 6, 2020 (13.5) 
 ## Added
 - **API:** Added cand_cmte_linkage_alternate table to prepare to show sponsoring candidate information for leadership PACs in the future 
