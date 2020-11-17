@@ -16,6 +16,7 @@ This repository, [FEC](https://github.com/fecgov/fec), is a general discussion f
 - [fec-eregs](https://github.com/fecgov/fec-eregs): the FEC's new Code of Federal Regulations explorer
 - [fec-cms](https://github.com/fecgov/fec-cms): the content management system (CMS) for the new FEC.gov
 - [fec-proxy](https://github.com/fecgov/fec-proxy): the proxy application to manage and route requests coming to the new FEC.gov site
+- [fec-proxy-redirect](https://github.com/fecgov/fec-proxy-redirect): the proxy application to redirect legacy application URLs
 - [fec-infrastructure](https://github.com/fecgov/fec-infrastructure): manages the gov cloud RDS instances
 - [fec-pattern-library](https://github.com/fecgov/fec-pattern-library): pattern library for fec.gov
 - [fec-dns](https://github.com/fecgov/fec-dns): manages DNS for fec.gov
