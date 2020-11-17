@@ -1,12 +1,12 @@
 ## Campaign finance for everyone
-The Federal Election Commission (FEC) releases information to the public about money that’s raised and spent in federal elections — that’s elections for US President, Senate, and House of Representatives. 
+The Federal Election Commission (FEC) releases information to the public about money that’s raised and spent in federal elections — that’s elections for US President, Senate, and House of Representatives.
 
 Are you interested in seeing how much money a candidate raised? Or spent? How much debt they took on? Who contributed to their campaign? The FEC is the authoritative source for that information.
 
-The new FEC.gov is a collaboration between [18F](http://18f.gsa.gov) and the FEC. It aims to make campaign finance information more accessible (and understandable) to all users. 
+The new FEC.gov is a collaboration between [18F](http://18f.gsa.gov) and the FEC. It aims to make campaign finance information more accessible (and understandable) to all users.
 
 ## FEC repositories
-We welcome you to explore, make suggestions, and contribute to our code. 
+We welcome you to explore, make suggestions, and contribute to our code.
 
 This repository, [FEC](https://github.com/fecgov/fec), is a general discussion forum. We [compile feedback](https://github.com/fecgov/fec/issues) from the FEC.gov feedback widget here. This is the best place to submit general feedback.
 
@@ -23,7 +23,7 @@ This repository, [FEC](https://github.com/fecgov/fec), is a general discussion f
 - [fec-testing](https://github.com/fecgov/fec-testing): tracks ideas through concept, design, usability testing, and documentation
 
 ## Get involved
-We’re thrilled you want to get involved! 
+We’re thrilled you want to get involved!
 - Read our [contributing guidelines](https://github.com/fecgov/openfec/blob/master/CONTRIBUTING.md). Then, [file an issue](https://github.com/fecgov/fec/issues) or submit a pull request.
 - [Send us an email](mailto:betafeedback@fec.gov).
 - If you’re a developer, follow the installation instructions in the README.md page of each repository to run the apps on your computer.
