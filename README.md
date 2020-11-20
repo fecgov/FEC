@@ -3,7 +3,7 @@ The Federal Election Commission (FEC) releases information to the public about m
 
 Are you interested in seeing how much money a candidate raised? Or spent? How much debt they took on? Who contributed to their campaign? The FEC is the authoritative source for that information.
 
-The new FEC.gov is a collaboration between [18F](http://18f.gsa.gov) and the FEC. It aims to make campaign finance information more accessible (and understandable) to all users.
+[FEC.gov](https://www.fec.gov/) began a collaboration between [18F](http://18f.gsa.gov) and the FEC to make campaign finance information more accessible (and understandable) to all users. The FEC continues to improve the site and add functionality.
 
 ## FEC repositories
 We welcome you to explore, make suggestions, and contribute to our code.
