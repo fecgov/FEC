@@ -1,10 +1,10 @@
 # December 22, 2020 (13.9) 
 ## Added
-- **Campaign finance data:** Added leadership PAC sponsor filter to committees datatable
+- **Campaign finance data:** Added leadership PAC sponsor filter to [committees datatable](https://www.fec.gov/data/committees/)
 ## Fixed
 - **Campaign finance data:** Fixed bug with candidate profile page without affiliated committees
 ## Under the hood
-- Redirects for 13.9 (accessible FOIA documents, Press pages, and litigation documents) 
+- Added redirects for 13.9 (accessible FOIA documents, Press pages, and litigation documents) 
 - Cleaned up content on [selected/ongoing litigation pages](https://www.fec.gov/legal-resources/court-cases) to match content style 
 - Cleaned up [court cases index](https://www.fec.gov/legal-resources/court-cases/court-case-alphabetical-index/) to match current content style
 - Upgraded handlebars from 4.7.2 to 4.7.6
@@ -24,25 +24,25 @@
 
 # December 08, 2020 (13.8) 
 ## Added
-- **Legal resources:** Migrated approximately 500 [court cases](https://www.fec.gov/legal-resources/court-cases/) have been  over to fec.gov Wagtail. 
-- **Legal resources:** Migrated the [court case alphabetical index page](https://www.fec.gov/legal-resources/court-cases/court-case-alphabetical-index/) over to fec.gov. Wagtail 
+- **Legal resources:** Migrated approximately 500 [court cases](https://www.fec.gov/legal-resources/court-cases/) to fec.gov from the transition site. 
+- **Legal resources:** Migrated the [court case alphabetical index page](https://www.fec.gov/legal-resources/court-cases/court-case-alphabetical-index/) to fec.gov from the transition site 
 - **Homepage:** Added FEC.gov status [link](https://fecgov.statuspage.io/) to FEC.gov footer
 ## Under the hood
-- Manual updated the 2011-2017 Record .shtml links in court cases that were scraped
-- Content clean-up for Selected and Ongoing Court case pages from the scraping 
-- Redirect old Records after court case page migration
-- Update links for ongoing and selected litigation pages to the Wagtail court case page 
+- Manually updated the 2011-2017 Record .shtml links in court cases that were scraped
+- Cleaned up the Selected and Ongoing Court case pages from the scraping 
+- Redirected old Records after court case page migration
+- Updated links for ongoing and selected litigation pages to the Wagtail court case page 
 - Upgraded datatables.net from 1.10.10 to 1.10.22
 - Removed unused services
 
 # November 24, 2020 (13.7) 
 ## Added
-- **Legal Resources:** The [Request for Legal Consideration page](https://www.fec.gov/legal-resources/policy-other-guidance/requests-legal-consideration/) and related files were migrated to fec.gov from the transition site.
-## Changed
-- **Campaign finance data:** Updated the candidate and committee profile pages to pull converted principal campaign committee to political action committee information from the API
+- **Legal Resources:** Migrated [Request for Legal Consideration page](https://www.fec.gov/legal-resources/policy-other-guidance/requests-legal-consideration/) and related files to fec.gov from the transition site.
+
 ## Under the hood
-- Redirects from older files on transition.fec.gov to newer content were put in place
-- Application URLs for the [CMS](http://fec-prod-cms.app.cloud.gov/) and [Proxy](http://fec-prod-proxy.app.cloud.gov/) applications are now redirected to www.fec.gov
+- Added redirects from older files on transition.fec.gov to newer content 
+- Added redirects from application URLs from the [CMS](http://fec-prod-cms.app.cloud.gov/) and [Proxy](http://fec-prod-proxy.app.cloud.gov/) applications to www.fec.gov
+- Updated the candidate and committee profile pages to pull converted principal campaign committee to political action committee information from the API
 
 # November 10, 2020 (PI 13 Innovation 1) 
 ## Added
