@@ -1,3 +1,43 @@
+# December 22, 2020 (13.9) 
+## Added
+- **Campaign finance data:** Added leadership PAC sponsor filter to [committees datatable](https://www.fec.gov/data/committees/)
+## Fixed
+- **Campaign finance data:** Fixed bug with candidate profile page without affiliated committees
+## Under the hood
+- Added redirects for 13.9 (accessible FOIA documents, Press pages, and litigation documents) 
+- Cleaned up content on [selected/ongoing litigation pages](https://www.fec.gov/legal-resources/court-cases) to match content style 
+- Cleaned up [court cases index](https://www.fec.gov/legal-resources/court-cases/court-case-alphabetical-index/) to match current content style
+- Removed public route to eRegs
+- Added internal route to eRegs
+- Removed unused services
+- Added index for archived MURs
+- Removed deprecated communications costs endpoint
+- Removed broken filters
+- Bug fixes, software updates and code improvements
+
+# December 08, 2020 (13.8) 
+## Added
+- **Legal resources:** Migrated approximately 500 [court cases](https://www.fec.gov/legal-resources/court-cases/) to fec.gov from the transition site. 
+- **Legal resources:** Migrated the [court case alphabetical index page](https://www.fec.gov/legal-resources/court-cases/court-case-alphabetical-index/) to fec.gov from the transition site 
+- **Homepage:** Added FEC.gov status [link](https://fecgov.statuspage.io/) to FEC.gov footer
+## Under the hood
+- Manually updated the 2011-2017 Record .shtml links in court cases that were scraped
+- Cleaned up the Selected and Ongoing Court case pages from the scraping 
+- Redirected old Records after court case page migration
+- Updated links for ongoing and selected litigation pages to the Wagtail court case page 
+- Removed unused services
+- Bug fixes, software updates and code improvements
+
+# November 24, 2020 (13.7) 
+## Added
+- **Legal Resources:** Migrated [Request for Legal Consideration page](https://www.fec.gov/legal-resources/policy-other-guidance/requests-legal-consideration/) and related files to fec.gov from the transition site.
+
+## Under the hood
+- Added redirects from older files on transition.fec.gov to newer content 
+- Added redirects from application URLs from the [CMS](http://fec-prod-cms.app.cloud.gov/) and [Proxy](http://fec-prod-proxy.app.cloud.gov/) applications to www.fec.gov
+- Updated the candidate and committee profile pages to pull converted principal campaign committee to political action committee information from the API
+- Bug fixes, software updates and code improvements
+
 # November 10, 2020 (PI 13 Innovation 1) 
 ## Added
 - **Legal Resources:** Migrated the [Policy and other guidance](https://www.fec.gov/legal-resources/policy-other-guidance/) page to fec.gov and updated site menus and related pages with new URL.
@@ -817,7 +857,7 @@
 - Temporarily removed datatable counts until misleading estimates can be resolved
 - Removed hardcoded Press landing page contact information
 
-# September 11, 2018 
+# September 11, 2018 (6.6)
 ## Added
 - **Help for candidates and committees:** Added new resource [page](https://www.fec.gov/help-candidates-and-committees/trainings/) for FEC conferences, webinars and other training and appearance opportunities
 - **API:** Added  filters to /committees/ endpoint so that committee search results can be filtered by most recently updated committee information
@@ -835,7 +875,7 @@
 - Re-enabled a validator for some API endpoints that requires a sort field to be an index on the underlying data table
 - Fixed same name replacement file deletion in Wagtail CMS
 
-# August 14, 2018 (Penny Robinson/6.5) 
+# August 14, 2018 (6.5) 
 ## Added
 - **Campaign finance data:** Added “other” to schedule A by state aggregates to show non-US states
 -  **Campaign finance data:** Added important 2018 Pennsylvania redistricting information to the election search and Pennsylvania house election pages
@@ -862,7 +902,7 @@
 - Added endpoint-specific caching to the API
 
 
-# July 31, 2018 (Maj. Don West/6.4)
+# July 31, 2018 (6.4)
 ## Added
 - **Help for candidates and committees:** Added new pages for candidates on [using personal funds](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/using-personal-funds-candidate/), [understanding independent expenditures](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/understanding-independent-expenditures/) and [joint fundraising](https://www.fec.gov/help-candidates-and-committees/making-disbursements/joint-fundraising-candidates-political-committees/)
 - **Campaign finance data:** Enabled candidate financial totals export feature on elections page
@@ -881,7 +921,7 @@
 - Improved meeting page template to accommodate regulatory hearings and include audio and video links
 
 
-# July 17, 2018 (Judy Robinson/6.3)
+# July 17, 2018 (6.3)
 ## Added
 - **Legal resources:** Embedded search boxes on the Enforcement and Audit report landing pages to help users search for relevant audit reports
 - **Campaign finance data:** Added historical statistics link to campaign finance data submenu
@@ -899,7 +939,7 @@
 - **Legal resources:** Restored legal citation blocks to AO canonical page
 - **Legal resources:** Added “About” menu and glossary to regulations search
 
-# July 5, 2018 (The Robot/6.2)
+# July 5, 2018 (6.2)
 
 ## Added
 - **Legal resources:**  Added Joint Fundraising Committee filter to audit search
@@ -930,7 +970,7 @@
 ## Fixed
 - **Help for candidates and committees:** Corrected link to compliance page for [PA/07](https://transition.fec.gov/info/ElectionDate/2018/PA_07.shtml) election
 
-# June 19, 2018 (Will Robinson/6.1)
+# June 19, 2018 (6.1)
 ## Added
 - **Campaign finance data:** Added language on our All receipts and Individual contributions data tables to help users search for occupation-specific individual contributor data prior to 2003
 - **Legal resources:** Built an [audit report search](https://www.fec.gov/legal-resources/enforcement/audit-search) function to replace the search that is currently on classic.fec.gov site
