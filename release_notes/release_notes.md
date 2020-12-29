@@ -15,7 +15,7 @@
 - Removed broken filters
 - Bug fixes, software updates and code improvements
 
-# December 08, 2020 (13.8) 
+# December 8, 2020 (13.8) 
 ## Added
 - **Legal resources:** Migrated approximately 500 [court cases](https://www.fec.gov/legal-resources/court-cases/) to fec.gov from the transition site. 
 - **Legal resources:** Migrated the [court case alphabetical index page](https://www.fec.gov/legal-resources/court-cases/court-case-alphabetical-index/) to fec.gov from the transition site 
@@ -44,7 +44,7 @@
 ## Changed
 - **Homepage:** Banners were posted for the October Quarterly and Pre-Election reports, as well as Election Day information for voters.
 - **API:** Modified rest.py to send `RESTRICT_MESSAGE` and 503 error code if IP address is blocked
-- **Press:** [Migrated data summary landing page](https://www.fec.gov/campaign-finance-data/campaign-finance-statistics/) to fec.gov and improved its style to improve navigation to relevant data
+- **Campaign finance data:** [Migrated data summary landing page](https://www.fec.gov/campaign-finance-data/campaign-finance-statistics/) to fec.gov and improved its style to improve navigation to relevant data
 ## Fixed
 - **CMS:** Update requests library to resolve security vulnerability
 
