@@ -1,3 +1,43 @@
+# February 2, 2021 (13.12) 
+## Added
+- **Campaign finance data:** Created filterable tables for archive campaign finance data migrated from transition.fec.gov to fec.gov. 
+
+## Changed
+- **Legal Resources:** Updated various pages in the [regulations](https://www.fec.gov/legal-resources/regulations/) and [enforcement](https://www.fec.gov/legal-resources/enforcement/administrative-fines/) sections to incorporate the 2021 inflation adjustments for civil penalties.
+- **Help for candidates and committees:** Updated various pages to reflect the new lobbyist bundling threshold. 
+
+## Fixed
+- **Campaign finance data:** Hide committees section if a candidate does not have any affiliated committees.
+
+## Under the hood
+- Bug fixes, software updates and code improvements
+- Upgrade datatable.net to a minor release v1.10.23
+- Upgrade datatable.net-responsive from 2.2.3  to 2.2.7
+- Moved proxy and proxy-redirect applications from staticfile to nginx buildpack
+- Calendar security updates
+- Add leadership pac committees rows into endpoints: `/candidate/<candidate_id>/committees/history/` and `/candidate/<candidate_id>/committees/history/<int:cycle>/`
+
+# January 19, 2021 (13.11) 
+## Added
+- **About the FEC:** Added [meeting pages for the first six months of 2021](https://www.fec.gov/meetings/)
+- **Help for candidates and committees:** Added a [landing page for all reporting examples](https://www.fec.gov/help-candidates-and-committees/reporting-examples/)
+## Under the hood
+- Bug fixes, software updates and code improvements
+- Redirects from older files on transition.fec.gov to newer content were put in place
+
+# January 5, 2021 (13.10) 
+## Added
+- **About the FEC:** Added new pages for [Commissioner Shana M. Broussard](https://www.fec.gov/about/leadership-and-structure/shana-m-broussard/) [Commissioner Sean J. Cooksey](https://www.fec.gov/about/leadership-and-structure/sean-j-cooksey/) and [Commissioner Allen Dickerson](https://www.fec.gov/about/leadership-and-structure/allen-dickerson/)
+- **Help for candidates and committees:** Added 2021 reporting pages in the Dates and deadlines section
+## Fixed
+- **Campaign finance data:** Fixed bug with downloading .fec and .csv files by using https for download links 
+## Under the hood
+- Bug fixes, software updates and code improvements
+- Redirects from older files on transition.fec.gov to newer content were put in place
+- Fixed bug with editing pages in Wagtail administrator access due to caching 
+- Fixed some court case redirects to fec.gov from transition site
+- Moved to new cloud.gov Elasticache Redis service for downloads
+
 # December 22, 2020 (13.9) 
 ## Added
 - **Campaign finance data:** Added leadership PAC sponsor filter to [committees datatable](https://www.fec.gov/data/committees/)
