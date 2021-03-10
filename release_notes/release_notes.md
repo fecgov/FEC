@@ -1,3 +1,15 @@
+# March 2, 2021 (13.innovation) 
+## Added
+- **Campaign finance data:** Added a card to link users from a leadership committee’s page to the sponsor’s page 
+- **General:** Launched our new OIG landing page and improved navigation to additional content that explains the OIG office and how to file a complaint
+- **Campaign finance data:** Added bank information to Form 1 downloads 
+## Changed
+- **General:** Links have been updated to include trailing slash to minimize redirects
+## Fixed
+- **Legal resources:** Fixed AO entities with "name" missing for individuals
+## Under the hood
+- Removed references to the classic site
+
 # February 2, 2021 (13.12) 
 ## Added
 - **Campaign finance data:** Created filterable tables for archive campaign finance data migrated from transition.fec.gov to fec.gov. 
