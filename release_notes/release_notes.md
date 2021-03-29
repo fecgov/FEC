@@ -1,3 +1,15 @@
+# March 16, 2021 (14.1) 
+## Fixed
+- **General:** Removed list child nodes wherever possible to help screen readers work more effectively on the site 
+
+## Under the hood
+- Performance improvements and accessibility updates
+- Upgraded lxml 4.2.1-4.6.2 for parsing
+- Added redirects from older content to newer content
+- Removed retired transition pages from global search
+- Package and security updates
+- Added bulk schedule data dump information to the API documentation
+
 # March 2, 2021 (13 Innovation 2) 
 ## Added
 - **Campaign finance data:** Added a card to link users from a leadership committee’s page to the sponsor’s page 
