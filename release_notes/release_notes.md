@@ -1,3 +1,33 @@
+# April 13, 2021 (14.3) 
+## Added
+- **Campaign finance data:** Added administratively terminated committee status label to committee profile pages
+- **General:** Added the term “Administrative termination” to the glossary.
+
+## Changed
+- **Homepage:** Changed the wording of the COVID-19 status banner to “FEC-related COVID 19 information”
+## Fixed
+- **Committee profile page:** Unable to view 2019-2020 reports bug
+
+## Under the hood
+- Added redirects from older content to newer content
+- Added more image (pdf) links
+
+# March 30, 2021 (14.2) 
+## Changed
+- **Help for candidates and committees:** Changed the name of a fictional PAC used in several reporting examples in the Campaign Guide for Corporations and Labor Organizations and in the examples.
+
+## Fixed
+- **Campaign finance data:** Fixed terminated committee bug on committee profile page.
+- **General:** Removed hearings from open meeting tab and fixed text search to return expected results
+
+## Under the hood
+- Replaced vulnerable sanitize-html package with dompurify package
+- Added redirects from older content to newer content
+- Updated the sitemap for the Guidance Search to reflect cosmetic updates to Campaign Guide for Corporations and Labor Organizations.
+- Created new github openFEC issue template
+- Revised openFEC, fec-cms, and fec-eregs pull request templates to use the same text
+- JS test coverage for Campaign finance archive tables
+
 # March 16, 2021 (14.1) 
 ## Fixed
 - **General:** Removed list child nodes wherever possible to help screen readers work more effectively on the site 
