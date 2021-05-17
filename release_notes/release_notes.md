@@ -1,3 +1,21 @@
+# May 11, 2021 (14.5)
+## Under the hood
+- Cache candidate and committee `/totals` endpoint.
+
+# April 27, 2021 (14.4) 
+## Changed
+- **Homepage:**: accessibility improvements, performance optimization
+- **Help for candidates and committees:** Reporting examples for [PACs/Party Committees](https://www.fec.gov/help-candidates-and-committees/reporting-examples/liquidating-bitcoins/) and [Candidates](https://www.fec.gov/help-candidates-and-committees/filing-reports/liquidating-bitcoins/) on liquidating bitcoins were updated with an alternative reporting method.
+
+## Fixed
+- **Legal resources:** Fixed loading of large MUR case files
+- **Campaign finance data:** Fixed loading of all datatable information on the candidate, committee, and election profile pages
+
+## Under the hood
+- Upgraded underlying technology
+- Tested redirects from last sprint 
+- Banner updates
+
 # April 13, 2021 (14.3) 
 ## Added
 - **Campaign finance data:** Added administratively terminated committee status label to committee profile pages
@@ -5,6 +23,7 @@
 
 ## Changed
 - **Homepage:** Changed the wording of the COVID-19 status banner to “FEC-related COVID 19 information”
+
 ## Fixed
 - **Committee profile page:** Unable to view 2019-2020 reports bug
 
