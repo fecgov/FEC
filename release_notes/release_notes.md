@@ -1,13 +1,19 @@
 # May 25, 2021 (14.6)
 ## Added
-- **Legal Resources:** Reporting FAQs have been migrated to the [Guidance search](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/)
+- **Legal Resources:** Migrated reporting FAQs to the [Guidance search](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/)
 
 ## Changed
-- **Help for candidates and committees:** Information on joint fundraising for party committees was added to [Joint fundraising with other candidates and political committees](https://www.fec.gov/help-candidates-and-committees/making-disbursements/joint-fundraising-candidates-political-committees/)
+- **Help for candidates and committees:** Added information on joint fundraising for party committees to [Joint fundraising with other candidates and political committees](https://www.fec.gov/help-candidates-and-committees/making-disbursements/joint-fundraising-candidates-political-committees/)
+
 
 ## Fixed
 - **Reports about FEC:** Fixed report category/year filtering that affected ResourcePage templates (usually studies) and added a new category called “Other reports and plans”
 - **About the FEC** Fixed a bug in the News and Updates search results to no longer display content following “Read more”
+
+## Under the hood
+- Added redirects from older content to newer content
+- Security updates
+- Cached candidate and committee totals endpoint
 
 # May 11, 2021 (14.5)
 ## Under the hood
