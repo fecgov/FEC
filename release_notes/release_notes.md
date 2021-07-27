@@ -1,3 +1,44 @@
+# July 27, 2021 (15.3)
+## Added
+- **API:** Added leadership PAC sponsor and organization type to /totals/by_entity/ endpoint
+
+## Changed
+- **Help for candidates and committees:** Changed H4CC pages on Qualifying as a party committee and Types of party committees. Created new page to combine both
+- **Campaign finance data:** Changed Campaign Finance Data pages on matching fund submissions. Created a new landing page and new child pages for submissions (2016, 2012, 2008 and 2004). 
+
+## Fixed
+- **Campaign finance data:** Fixed election page responsive behavior
+## Under the hood
+- Remove old elasticsearch5.x references from openFEC README.md file
+- Update to django minor version v3.1.13 
+
+# July 13, 2021 (15.2)
+## Added
+- **Legal Resource:** Add additional Administrative fine
+ parameters to /legal/docs/ api  endpoint
+- **API:** Add filters to /totals/entity_type/ to support PAC/Party totals data table
+
+## Fixed
+- **General:** Fixed glossary spacing issues
+- **Campaign finance data:** Fix bad link to OGE reports
+- **API:** Fixed API doc typos for form 1 and form 2
+## Under the hood
+- Add migration file for fec_mur.af_number_rad_civil_pnlty_updt
+
+# June 29, 2021 (15.1) 
+## Added
+- **Legal Resources:** Added AO Procedures 2009 Federal Register notice to [guidance search](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/) and to [Policy and other guidance](https://www.fec.gov/legal-resources/policy-other-guidance/)page 
+- **API** Add leadership PAC sponsor names to /committees/ endpoint
+
+## Changed
+- **Help for candidates and committees:** Added disclaimer examples for separate segregated funds and corporations and labor organizations to relevant pages.
+- **Campaign finance data:** No longer default to 2020 presidential race
+
+## Under the hood
+- In the Production environment, scale up celery worker memory to 1500M(1.5GB) per instance. In the Development reduce the celery worker memory to 512MB
+- Django version upgraded to 3.1.12
+
+
 # May 25, 2021 (14.6)
 ## Added
 - **Legal Resources:** Migrated reporting FAQs to the [Guidance search](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents/)
