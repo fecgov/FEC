@@ -23,7 +23,7 @@
 - **Campaign finance data:** Fix bad link to OGE reports
 - **API:** Fixed API doc typos for form 1 and form 2
 ## Under the hood
-- Add migration file for fec_mur.af_number_rad_civil_pnlty_updt
+- Added data to support Administrative Fines data table
 
 # June 29, 2021 (15.1) 
 ## Added
@@ -35,9 +35,28 @@
 - **Campaign finance data:** No longer default to 2020 presidential race
 
 ## Under the hood
-- In the Production environment, scale up celery worker memory to 1500M(1.5GB) per instance. In the Development reduce the celery worker memory to 512MB
-- Django version upgraded to 3.1.12
+- Increase memory allocation for celery worker
+- Upgraded software packages
 
+# June 15, 2021 (PI 14 Innovation)
+## Added
+- **Legal:** A 2009 Federal Register notice on AO procedures was added to the [Policy and other guidance page](https://www.fec.gov/legal-resources/policy-other-guidance/#rules-of-agency-organization-procedure-or-practice) and the [Guidance search](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents).
+
+## Changed
+
+- **General:** Banner warning of degraded performance for Internet Explorer will now appear for every version of that browser (previously only for versions < 10)
+
+## Fixed
+- **API:** Fixed Schedule-b (Disbursement) e-file export multi same rows bug.
+- **General** Fixed scrolling after resizing window while menu was open
+- **General:** Fixed minor grammatical errors to three entries.
+- **Homepage:** Fixed aspect ratios of Commissioners' photos no longer skew for some browsers on some devices
+
+## Under the hood
+- Added redirects from older content to newer content
+- Security and stability updates
+- Homepage speed improvements
+- Increased privacy for all off-domain links
 
 # May 25, 2021 (14.6)
 ## Added
