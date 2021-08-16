@@ -1,3 +1,12 @@
+# August 10, 2021 (15.4)
+## Changed
+- **Help for candidates and committees** - Some pages in the [section on separate segregated funds fundraising](https://www.fec.gov/help-candidates-and-committees/fundraising-for-ssf/) were modified slightly to make it clear that “SSF” is an acronym for “separate segregated fund” and to link the glossary definition of SSF.
+- **Legal resources** - Access to the most current enforcement manual (2012) was improved on [https://www.fec.gov/legal-resources/enforcement/procedural-materials/](https://www.fec.gov/legal-resources/enforcement/procedural-materials/)
+
+## Under the hood
+- Updated python package networkx to v2.6.2
+
+
 # July 27, 2021 (15.3)
 ## Added
 - **API:** Added leadership PAC sponsor and organization type to /totals/by_entity/ endpoint
