@@ -1,10 +1,32 @@
-# August 10, 2021 (15.4)
+# August 24, 2021 (15.5)
+## Added
+
+- **General:** The term “cooperative” was added to the glossary
+
 ## Changed
-- **Help for candidates and committees** - Some pages in the [section on separate segregated funds fundraising](https://www.fec.gov/help-candidates-and-committees/fundraising-for-ssf/) were modified slightly to make it clear that “SSF” is an acronym for “separate segregated fund” and to link the glossary definition of SSF.
-- **Legal resources** - Access to the most current enforcement manual (2012) was improved on [https://www.fec.gov/legal-resources/enforcement/procedural-materials/](https://www.fec.gov/legal-resources/enforcement/procedural-materials/)
+- **Legal resources:** The links to various formats of the 11 CFR were updated to point to the 2021 edition on the [Regulations page](https://www.fec.gov/legal-resources/regulations/)
+- **Campaign finance data:** The filter label “Other committees” on several datatables was updated to “Other committees and filers” to better reflect different filer types
+- **Campaign finance data:** To reinforce that not all receipts are from contributors, we modified labeling on the receipts datatable and related pages from “contributor” to “source”
+
+## Under the hood
+- New Elasticsearch management command to delete one or all legal documents for given doctype
+- Converted certain party H4CC pages over to a resource template 
+- Upgrade Wagtail minor version from 2.11.7 to 2.11.8
+- Update Pillow minor version
+
+# August 10, 2021 (15.4)
+## Added
+- **Campaign finance data:** A message regarding the expected 2021 census redistricting was added to the election search
+- **Legal resources:** A new administrative fine search allowing users to search by case number, committee name and keyword was added
+## Changed
+- **Help for candidates and committees:** Some pages in the [section on separate segregated funds fundraising](https://www.fec.gov/help-candidates-and-committees/fundraising-for-ssf/) were modified slightly to make it clear that “SSF” is an acronym for “separate segregated fund” and to link the glossary definition of SSF.
+- **Legal resources:** Access to the most current enforcement manual (2012) was improved on [https://www.fec.gov/legal-resources/enforcement/procedural-materials/](https://www.fec.gov/legal-resources/enforcement/procedural-materials/)
+- **General:** To improve the usefulness of the calendar, an event summary was added and styles were improved
 
 ## Under the hood
 - Updated python package networkx to v2.6.2
+- Fixed an issue in Wagtail that retained the old page title after a page was duplicated
+
 
 
 # July 27, 2021 (15.3)
