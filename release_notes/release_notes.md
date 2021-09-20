@@ -1,11 +1,24 @@
+# September 09, 2021 (15.6)
+## Added
+
+- **Help for candidates and committees:** Added a [new reporting example for candidates redesignating their committees for a new election](https://www.fec.gov/help-candidates-and-committees/filing-reports/using-committee-for-another-election/).
+- **Campaign finance data:** Added registration date and filing frequency to committee page headers. 
+
+## Changed
+- **Legal resources:** updated [README](https://github.com/fecgov/fec-eregs/blob/develop/README.md) file and [Parse regulations on local](https://github.com/fecgov/fec-eregs/wiki/Parse-regulations-on-local) wiki
+
+## Under the hood
+- Added first Form 1 date filter in committees
+- Added redirects for two Commission reports 
+
 # August 24, 2021 (15.5)
 ## Added
 
-- **General:** The term “cooperative” was added to the glossary
+- **General:** Added the term “cooperative” to the glossary
 
 ## Changed
-- **Legal resources:** The links to various formats of the 11 CFR were updated to point to the 2021 edition on the [Regulations page](https://www.fec.gov/legal-resources/regulations/)
-- **Campaign finance data:** The filter label “Other committees” on several datatables was updated to “Other committees and filers” to better reflect different filer types
+- **Legal resources:** Updated the links to various formats of the 11 CFR to point to the 2021 edition on the [Regulations page](https://www.fec.gov/legal-resources/regulations/)
+- **Campaign finance data:** Updated the filter label “Other committees” on several datatables to “Other committees and filers” to better reflect different filer types
 - **Campaign finance data:** To reinforce that not all receipts are from contributors, we modified labeling on the receipts datatable and related pages from “contributor” to “source”
 
 ## Under the hood
@@ -16,12 +29,13 @@
 
 # August 10, 2021 (15.4)
 ## Added
-- **Campaign finance data:** A message regarding the expected 2021 census redistricting was added to the election search
-- **Legal resources:** A new administrative fine search allowing users to search by case number, committee name and keyword was added
+- **Campaign finance data:** Add a message regarding the expected 2021 census redistricting to the election search
+- **Legal resources:** Added a new administrative fine search allowing users to search by case number, committee name and keyword
+
 ## Changed
-- **Help for candidates and committees:** Some pages in the [section on separate segregated funds fundraising](https://www.fec.gov/help-candidates-and-committees/fundraising-for-ssf/) were modified slightly to make it clear that “SSF” is an acronym for “separate segregated fund” and to link the glossary definition of SSF.
+- **Help for candidates and committees:** Modified some pages in the [section on separate segregated funds fundraising](https://www.fec.gov/help-candidates-and-committees/fundraising-for-ssf/)  to make it clear that “SSF” is an acronym for “separate segregated fund” and to link the glossary definition of SSF.
 - **Legal resources:** Access to the most current enforcement manual (2012) was improved on [https://www.fec.gov/legal-resources/enforcement/procedural-materials/](https://www.fec.gov/legal-resources/enforcement/procedural-materials/)
-- **General:** To improve the usefulness of the calendar, an event summary was added and styles were improved
+- **General:** Added an event summary and modified styles to improve the usefulness of the calendar
 
 ## Under the hood
 - Updated python package networkx to v2.6.2
