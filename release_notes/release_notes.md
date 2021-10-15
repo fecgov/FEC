@@ -1,3 +1,14 @@
+# October 05, 2021 (15.innovation)
+## Added
+- **Campaign finance data:** Launched the new Political action and party committee datatable
+
+## Fixed
+- **Campaign finance data:** Fixed a problem where the multi-committee ID select was not working for totals/pac-party
+- **Campaign finance data:** Fixed a problem where downloads were not working for totals/pac-party
+
+## Under the hood
+- Upgraded npm and node packages
+
 # September 09, 2021 (15.6)
 ## Added
 
