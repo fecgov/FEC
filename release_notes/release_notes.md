@@ -1,3 +1,35 @@
+# November 2, 2021 (16.2)
+## Added
+- **Legal resources:** - Migrated older [page](https://www.fec.gov/legal-resources/regulations/how-to-comment-on-proposed-rules-and-other-rulemaking-documents/) about how to make public comments on proposed rules and other rulemaking documents
+
+
+## Changed
+- **Help for candidates and committees:**- Updated [reporting example](https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/)of redesignations and reattributions by candidate committees
+
+## Fixed
+- **Committee profile pages:** Updates committees detail panel labels to "Most recent treasurer" and "Committee type" and reorders fields so they are consistent with pac-party datatable
+- 
+## Under the hood
+Implemented Slack notifications when an AO is modified
+
+# October 19, 2021 (16.1)
+## Added
+- **Legal resources:**  Added administrative fines embedded search on legal resources,  enforcement page.
+ 
+## Changed
+- **Genera:** Updated error message on transition.fec.gov to be specific for the transition site.
+## Fixed
+- **General:** Added report category for OIG reports resolving overlap with non-OIG reports in report filter menu
+
+
+## Under the hood
+- Added task to send Slack alerts when a legal resources case is modified (ADR/AF/… 
+- Added first_f1_date and filter to /totals/by_entity/ 
+- Address pytest deprecation warnings in openFEC
+- Update CircleCI image with node LTS v14.17 in fec-pattern-library 
+- Made embedded Admin fines block available to Wagtail page editors
+- Updated urllib3 minor version (1.26.4. to 1.26.7)
+
 # October 05, 2021 (15.innovation)
 ## Added
 - **Campaign finance data:** Launched the new Political action and party committee datatable
