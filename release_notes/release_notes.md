@@ -22,7 +22,7 @@
 
 ## Fixed
 - **Committee profile pages:** Updates committees detail panel labels to "Most recent treasurer" and "Committee type" and reorders fields so they are consistent with pac-party datatable
-- 
+
 ## Under the hood
 Implemented Slack notifications when an AO is modified
 
