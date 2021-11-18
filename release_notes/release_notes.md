@@ -1,3 +1,17 @@
+# November 16, 2021 (16.3)
+## Added
+- **Legal resources:** Added a table linking previous editions of the 11 CFR to the [Regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr)
+
+## Changed
+- **Campaign finance data:** Committees datatable default sort switched to registration date
+- **Campaign finance data:** Removed individual contributions data table from inaugural committee organization types
+- **Help for candidates and committees:** Improved the form-field validation process on the RAD question submittal [form](https://www.fec.gov/help-candidates-and-committees/question-rad/) by adding pre-submit validation and improving the post-submit validation.
+
+## Under the hood
+- Implemented Slack alerts and bots channel error messages when refresh db fails. 
+- Index added for first_f1_date to allow for registration date sort on committees datatable
+- Added JavaScript  test coverage for new form-field validation on RAD question submission form  
+
 # November 2, 2021 (16.2)
 ## Added
 - **Legal resources:** - Migrated older [page](https://www.fec.gov/legal-resources/regulations/how-to-comment-on-proposed-rules-and-other-rulemaking-documents/) about how to make public comments on proposed rules and other rulemaking documents
