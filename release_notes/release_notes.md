@@ -1,3 +1,33 @@
+# December 14, 2021 (16.5)
+## Added
+
+- **Help for candidates and committees:** Added a new Foreign nationals [page](https://www.fec.gov/help-candidates-and-committees/foreign-nationals)
+- **About the FEC:** Added a new category for management challenges reports to the Inspector General's report {feed](https://www.fec.gov/about/reports-about-fec/oig-reports/)
+- **Campaign finance data:** Added new helpful tooltips to define different committee types on datatables such as all committees, and PAC and party committee datatables
+- **Campaign finance data:** Added new column to the disbursements table on committee profile pages to highlight the percent of total disbursements by vendor
+
+## Changed
+
+- **Campaign finance data:** Converted some of our methodology interactions to pop-up modal windows for consistency across the website 
+
+## Under the hood
+- Upgraded Django on fec-eregs to v2.2.24
+- Added committee disbursement percentages to schedule_b_by_recipient API endpoint
+- Security and stability fixes.
+
+# November 30, 2021 (16.4)
+## Changed
+- **Help for candidates and committees:** Updated Who can and can't contribute to a candidate page
+- **Legal Resources:** Modified administrative fine pages to list the full report names for added clarity
+
+## Fixed
+- **Category:**
+- **About the FEC:** Fixed an issue preventing audit hearings from 2009-2012 from showing up in the hearings [page](https://www.fec.gov/meetings/?tab=hearings) feed
+- **Help for candidates and committees** Updated page references to the FECFile Getting Started Manual throughout the reporting [examples](https://www.fec.gov/help-candidates-and-committees/reporting-examples/](reporting examples)
+
+## Under the hood
+- Fixed spacing bug that caused elements to collide. 
+
 # November 16, 2021 (16.3)
 ## Added
 - **Legal resources:** Added a table linking previous editions of the 11 CFR to the [Regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr)
