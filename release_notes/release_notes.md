@@ -2,7 +2,7 @@
 ## Added
 
 - **Help for candidates and committees:** Added a new Foreign nationals [page](https://www.fec.gov/help-candidates-and-committees/foreign-nationals)
-- **About the FEC:** Added a new category for management challenges reports to the Inspector General's report {feed](https://www.fec.gov/about/reports-about-fec/oig-reports/)
+- **About the FEC:** Added a new category for management challenges reports to the Inspector General's report [feed](https://www.fec.gov/about/reports-about-fec/oig-reports/)
 - **Campaign finance data:** Added new helpful tooltips to define different committee types on datatables such as all committees, and PAC and party committee datatables
 - **Campaign finance data:** Added new column to the disbursements table on committee profile pages to highlight the percent of total disbursements by vendor
 
@@ -23,7 +23,7 @@
 ## Fixed
 - **Category:**
 - **About the FEC:** Fixed an issue preventing audit hearings from 2009-2012 from showing up in the hearings [page](https://www.fec.gov/meetings/?tab=hearings) feed
-- **Help for candidates and committees** Updated page references to the FECFile Getting Started Manual throughout the reporting [examples](https://www.fec.gov/help-candidates-and-committees/reporting-examples/](reporting examples)
+- **Help for candidates and committees** Updated page references to the FECFile Getting Started Manual throughout the reporting [examples](https://www.fec.gov/help-candidates-and-committees/reporting-examples/)
 
 ## Under the hood
 - Fixed spacing bug that caused elements to collide. 
