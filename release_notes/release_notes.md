@@ -1,3 +1,37 @@
+# January 25, 2022 (16.Innovation)
+## Added
+
+- **Help for candidates and committees:** Added [dates and deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) pages for 2022.
+
+## Changed
+
+- **Help for candidates and committees:** Updated administrative fine information and  links to FEC Record articles throughout [dates and deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) pages
+
+- **Legal resources:** Added links on the [Regulation](https://www.fec.gov/legal-resources/regulations/) pages to two Federal Register notices containing updated FEC regulations.
+
+## Fixed
+- **Legal resources:** Restored access to obscured content on mobile and tablet screen/device sizes by enabling the Table of Contents toggle button and adding responsive behavior. Removed references to unused icons in help menus
+
+## Under the hood
+- Upgraded Django to LTS v3.2 on fec-eregs
+- Upgraded regulations parser to run on python v3.7.x
+- Upgraded node/npm to v14.15.5 / 8.3.1 on openfec to fix npm build warning during circle builds
+- Upgraded lxml to v4.7.1
+- Changed idx to row number in ofec_sched_b_aggregate_recipient_mv
+
+# December 28, 2021 (16.6)
+## Changed
+
+- **Campaign finance data:** Updated some column formatting on our datatables for consistency in labeling
+
+## Fixed
+- **Legal resources:** Fixed some filter padding on the statutes and regulations searches 
+
+## Under the hood
+- Added materialized view refresh process to openFEC ReadMe
+- Updated sitemap_pdf.xml
+- Upgraded node to LTS v14.13.0
+
 # December 14, 2021 (16.5)
 ## Added
 
