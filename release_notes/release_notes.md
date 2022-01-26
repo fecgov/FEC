@@ -1,11 +1,11 @@
 # January 25, 2022 (16.Innovation)
 ## Added
 
-- **Help for candidates and committees:** Added [dates and deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/]) pages for 2022.
+- **Help for candidates and committees:** Added [dates and deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) pages for 2022.
 
 ## Changed
 
-- **Help for candidates and committees:** Updated administrative fine information and  links to FEC Record articles throughout [dates and deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/]) pages
+- **Help for candidates and committees:** Updated administrative fine information and  links to FEC Record articles throughout [dates and deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) pages
 
 - **Legal resources:** Added links on the [Regulation](https://www.fec.gov/legal-resources/regulations/) pages to two Federal Register notices containing updated FEC regulations.
 
