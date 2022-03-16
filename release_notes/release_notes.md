@@ -1,3 +1,58 @@
+# March 8, 2022 (17.3)
+
+## Changed
+
+- **About the FEC:** Adjusted the description of audit hearings on the hearing [meeting pages](https://www.fec.gov/meetings/?tab=hearings)
+- **Help for candidates and committees:** Updated the text to the following two pages “Converting a committee to multicandidate status,” and “Assigning debts to another committee” to reflect changes made in the new Candidate Guide. 
+
+## Fixed
+
+- **Campaign finance data:** Datatable links now remain accurate  when shared, bookmarked or refreshed. Datatable that use committee-type filters now have filter panels, tilter tags and URLs that always reflect the state of active filters.
+
+
+## Under the hood
+- Update Eregs parser packages for stability and reliability purpose
+- Update swagger-ui-dist package on openFEC repo
+- Support for grouping differing data-type checkbox filters inside a single fieldset
+- Example paragraph added to resource page template
+ 
+# February 22, 2022 (17.2)
+## Added
+
+- **Legal resources:** - Added a link to the annual inflation adjustment Federal Register Notice and updated the Explanation and Justification table.  
+- **Help for candidates and committees:** Posted the [coordinated party expenditure limits](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/coordinated-party-expenditure-limits/) and [lobbyist bundling disclosure threshold](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/) for 2022.
+
+
+## Changed
+
+- **API** Breaking change - financial/reports/{entity_type} `type` filter has been deprecated. `committee_type` filter has been added as a replacement and the `type` filter will be removed 3/23/2022. 
+
+## Under the hood
+- Fixed celery task 404ing when a case is unpublished
+- Upgraded celery to latest v5.2.3 in Eregs (snyk vulnerability) 
+- Scaled up celery worker memory to 1G in Dev space
+- Updated circleci postgres docker image to v13.5
+- Added three new columns in ofec_candidate_totals_mv: (V0242 and V024 migration files)
+   - individual_itemized_contributions (Line 11a(i))
+   - transfers_from_other_authorized_committee (Line 12)
+   - other_political_committee_contributions: (Line 11c)
+- Upgraded flyway to 8.4.3
+
+# February 8, 2022 (17.1)
+## Added
+
+- **Help for candidates and committees:** Added “Lawfully admitted for permanent residence” and “U.S. National” to the glossary.
+
+## Fixed
+- **Campaign finance data:** Corrected a tooltip display bug for state contribution maps that didn’t show all available text 
+
+## Under the hood
+- Upgraded lodash to v7.7.21 Eregs app
+- Upgraded node to v14.15.5 and npm to v8.3.1 in Eregs app
+- Modified reload AOs to handle multiple AOs. 
+- Modified circleci config file to narrow bug fix
+- House Senate overview page landing templates deployed under feature flag
+
 # January 25, 2022 (16.Innovation)
 ## Added
 
