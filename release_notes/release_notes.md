@@ -53,7 +53,7 @@
 - Modified circleci config file to narrow bug fix
 - House Senate overview page landing templates deployed under feature flag
 
-# January 25, 2022 (16.Innovation)
+# January 25, 2022 (16.innovation)
 ## Added
 
 - **Help for candidates and committees:** Added [dates and deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) pages for 2022.
@@ -259,7 +259,7 @@ Implemented Slack notifications when an AO is modified
 - Increase memory allocation for celery worker
 - Upgraded software packages
 
-# June 15, 2021 (PI 14 Innovation)
+# June 15, 2021 (14.innovation)
 ## Added
 - **Legal:** A 2009 Federal Register notice on AO procedures was added to the [Policy and other guidance page](https://www.fec.gov/legal-resources/policy-other-guidance/#rules-of-agency-organization-procedure-or-practice) and the [Guidance search](https://www.fec.gov/legal-resources/policy-and-other-guidance/guidance-documents).
 
@@ -357,7 +357,7 @@ Implemented Slack notifications when an AO is modified
 - Package and security updates
 - Added bulk schedule data dump information to the API documentation
 
-# March 2, 2021 (13 Innovation 2) 
+# March 2, 2021 (13.innovation-2) 
 ## Added
 - **Campaign finance data:** Added a card to link users from a leadership committee’s page to the sponsor’s page 
 - **General:** Launched our new OIG landing page and improved navigation to additional content that explains the OIG office and how to file a complaint
@@ -449,7 +449,7 @@ Implemented Slack notifications when an AO is modified
 - Updated the candidate and committee profile pages to pull converted principal campaign committee to political action committee information from the API
 - Bug fixes, software updates and code improvements
 
-# November 10, 2020 (PI 13 Innovation 1) 
+# November 10, 2020 (13.innovation-1) 
 ## Added
 - **Legal Resources:** Migrated the [Policy and other guidance](https://www.fec.gov/legal-resources/policy-other-guidance/) page to fec.gov and updated site menus and related pages with new URL.
 ## Changed
@@ -601,7 +601,7 @@ Implemented Slack notifications when an AO is modified
 - Removed a sort expression for schedule b
 - Unpinned python on runtime.txt
 
-# July 28, 2020 (12 innovation)
+# July 28, 2020 (12.innovation)
 ## Added 
 - **API**: Added an API key signup form for users wishing to use the openFEC API programmatically
 ## Fixed
@@ -721,7 +721,7 @@ Implemented Slack notifications when an AO is modified
 - Added sitemaps for guidance document searching for version control
 
 
-# April 14, 2020 (11 innovation) 
+# April 14, 2020 (11.innovation) 
 ## Added
 - **Help for candidates and committees:** Added examples of [proper disclaimers]([https://www.fec.gov/help-candidates-and-committees/making-disbursements/advertising/) for party committee fundraising and advertising to various pages.
 
@@ -831,7 +831,7 @@ Implemented Slack notifications when an AO is modified
 - Updated smart_open and its related python packages
 
 
-# December 31, 2019 (PI 10 innovation)
+# December 31, 2019 (10.innovation)
 ## Added
 - **Help for candidates and committees**: Published new pages on [presidential public funding](http://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/) and funding the [presidential transition and inauguration](http://www.fec.gov/help-candidates-and-committees/presidential-transition-and-inauguration/)
 
@@ -955,7 +955,8 @@ Implemented Slack notifications when an AO is modified
 - Implemented Google Tag Manager, to be activated at a later date
 - Added styles for a future organization chart
 - Reorganized classic.fec.gov website to display the Campaign Finance Disclosure Portal as the new homepage
-# September 10, 2019 (PI 9 innovation) 
+
+# September 10, 2019 (9.innovation) 
 ## Fixed
 - **Campaign finance data**:  fixed inconsistent data on candidate profile pages 
 ## Under the hood
