@@ -1,3 +1,54 @@
+# April 19, 2022 (17.6)
+## Added
+
+- **API:** Created the new endpoint /candidates/totals/aggregates to consolidate /candidates/totals/by_xxxx with parameters for office, office-state, office-state-district and office-party
+
+ 
+## Changed
+
+- **Help for candidates and committees:** Updated the text to the following pages “Day-to-day operations,” “Transfers between a candidate's committees,” “Fundraising notices for campaigns,” “Joint fundraising with other candidates and political committees,” Travel,”  “Advertising and disclaimers,” “Noncampaign expenses for travel, transfers and donations ,”  “Making contributions to other candidates,”  “Fundraising for other candidates, committees and organizations,” “Personal use” to reflect changes made in the new Candidate Guide
+
+
+## Fixed
+- **Feedback Box:** Fixed an issue where the feedback box would not submit on pages with a full_width_page.html template and would submit to the wrong location
+
+## Under the hood
+- NULL value in some fields that are returned by these endpoints has been changed to a string literal “NULL”
+- Added a new test case for CandidateTotalAggregateView
+- Upgrade GitPython from 3.1.0 to 3.1.27
+- Upgraded moment to 2.29.2 to fix Directory Traversal vulnerability
+- Upgrade wagtail to 2.15.4
+- Employer in /schedules/schedule_a/by_employer/
+- Occupation in /schedules/schedule_a/by_occupation/
+- Zip in /schedules/schedule_a/by_zip/
+- Recipient in /schedules/schedule_b/by_recipient/
+
+# April 5, 2022 (17.5)
+## Changed
+
+- **Help for candidates and committees:** Updated the text to the following page “Recording reciepts” to reflect changes made in the new Candidate Guide
+- **Campaign finance data:** Modified the campaign finance data landing page to improve access to the election search
+- **API** Breaking change: Removed financial/reports/{entity_type} `type` filter and replaced with `committee_type` filter
+
+## Under the hood
+- Upgrade braintree/sanitize-url to v.6.0.0
+- Upgraded Pillow to address security issue, Wagtail upgrade
+- Added state and district columns to candidate_totals_MV
+
+# March 22, 2022 (17.4)
+## Changed
+
+- **API:** Updated Committee Type I language to say “Independent expenditure filer (not a committee)” 
+- **Legal resources:** Added new "Rule of Agency Procedure" to the Policy and other guidance page
+- **Help for candidates and committees:** Updated the text to the following two pages “Quarterly reports” and “48-Hour Notices” to reflect changes made in the new Candidate Guide
+
+## Fixed
+- **Campaign finance data:** Fixed an issue with shareable URLS on datatables. URLs were not retaining filters that were applied which made it difficult to save or share a specific query
+
+## Under the hood
+- Upgrade flyway to 852  
+- Added example paragraph block to Wagtail Resource template
+
 # March 8, 2022 (17.3)
 
 ## Changed
