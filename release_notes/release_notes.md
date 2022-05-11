@@ -1,3 +1,21 @@
+# May 10, 2022 (17.innovation)
+## Added
+
+- **API:** Added total debt column to the /candidates/totals/aggregates endpoint
+
+## Fixed
+- **Campaign finance data:** Corrected the list of districts in the election search, allowing customers to quickly access all of the districts created as a result of the 2020 Decennial Census
+- **API:** Fixed the sort functionality on columns in the Candidate total aggregate view
+
+## Under the hood
+- Upgraded GitPython package from 3.1.0 to 3.1.27 in fec-cms repo
+- Added primary key to DSC schedule aggregate tables
+- Upgraded Ujson to 5.2.0
+- Add redirects 
+- Updated deprecated git protocols
+- Upgraded Django to 3.2.13
+- Upgraded Networkx to 2.6.3
+
 # April 19, 2022 (17.6)
 ## Added
 
