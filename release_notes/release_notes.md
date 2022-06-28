@@ -1,3 +1,44 @@
+# June 21, 2022 (18.3)
+## Added
+
+- **About the FEC:** Pages for the rest of the [Commission’s meetings in 2022](https://www.fec.gov/meetings/) were created. 
+- **Help for candidates and committees:** [Pages related to making contributions to candidates](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/#contributions)  were updated with material from the new Campaign Guide for Congressional Candidates.
+- **House and Senate overview pages:** Methodology overview is now available for “Contributions across time” feature.
+
+## Changed
+
+- **Committee API** Add JFC participant committees in api return
+- **Help for candidates and committees:** Updating "Taking receipts" section "Contributions" with changes from the new Candidate Guide 
+
+## Under the hood
+- Add filter by case_citation in /legal/search/ endpoint.
+
+# June 7, 2022 (18.2)
+
+## Changed
+
+- **Committee Type Description** Update hybrid PAC description
+- **Help for candidates and committees:** Revised Form 1 and instructions uploaded, [FECFile software page](https://www.fec.gov/help-candidates-and-committees/filing-reports/fecfile-software/) updated and [related reporting examples](https://www.fec.gov/help-candidates-and-committees/filing-pac-reports/#reporting-examples) for Form 1 updated.
+
+# May 24, 2022 (18.1)
+## Added
+
+- **Campaign finance data:** Created new all elections totals table for house and senate overview pages
+- **Campaign finance data:** Created new contributions across time data visualization for house and senate overview pages
+ 
+## Changed
+
+- **Campaign finance data:** Updated language regarding redistricting and the 2020 census on the [Election search page](https://www.fec.gov/data/elections/?state=&cycle=2022&election_full=true)
+
+## Fixed
+- **API:** Add numeric validation for image_number in all endpoints
+
+## Under the hood
+- Upgrade celery, redis and kombu  package in openFEC repo to fix the Stored Command Injection
+- Upgrade python from v3.7.x to v3.8.x on openFEC repo
+- Upgrade python from v3.7.x to v3.8.x on fec-eregs repo
+
+
 # May 10, 2022 (17.innovation)
 ## Added
 
@@ -21,7 +62,6 @@
 
 - **API:** Created the new endpoint /candidates/totals/aggregates to consolidate /candidates/totals/by_xxxx with parameters for office, office-state, office-state-district and office-party
 
- 
 ## Changed
 
 - **Help for candidates and committees:** Updated the text to the following pages “Day-to-day operations,” “Transfers between a candidate's committees,” “Fundraising notices for campaigns,” “Joint fundraising with other candidates and political committees,” Travel,”  “Advertising and disclaimers,” “Noncampaign expenses for travel, transfers and donations ,”  “Making contributions to other candidates,”  “Fundraising for other candidates, committees and organizations,” “Personal use” to reflect changes made in the new Candidate Guide
