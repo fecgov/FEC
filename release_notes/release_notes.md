@@ -1,3 +1,37 @@
+# July 26, 2022 (18.6)
+## Added
+- **Campaign finance data:** Enable string keyword text filter for committees in /efiling/filings
+- **Campaign finance data:** Add committee label to `ofec_committee_history` 
+
+## Changed
+- **Legal resources:** Modify resource page for court cases 
+- **Legal resources:** Update results display for MUR search 
+
+## Under the hood
+- Upgrade ujson package to v5.4.0
+- Add keyword length validation for keyword search
+- Upgrade lxml to 4.9.1
+
+# July 19, 2022 (18.5)
+
+## Fixed
+- **General:** Wagtail bug with paragraph formatting
+
+## Under the hood
+- Rename digtialgov environments in cloud.gov space
+- Upgraded Django in CMS and E-regs
+
+# July 5, 2022 (18.4)
+- **Campaign finance data:** Display a list of Joint Fundraising Committees’ affiliate committees on profile pages
+- **Legal resources:** Added information on requesting an advisory opinion via email to the [AO process page](https://www.fec.gov/legal-resources/advisory-opinions-process/).
+-  **Legal resources:** Added new Federal Register notice of interim final rule on independent expenditures to [Regulations](https://www.fec.gov/legal-resources/regulations/) and [Explanation and justification](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/) pages
+
+## Fixed
+- **Legel Resources:** Remove the excess backslash from Collecting agent glossary text.
+
+## Under the hood
+- Flyway upgraded to 8.5.11
+
 # June 21, 2022 (18.3)
 ## Added
 
