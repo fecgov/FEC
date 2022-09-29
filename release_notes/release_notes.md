@@ -1,3 +1,40 @@
+
+# September 20, 2022 (19.2)
+## Added
+- **Legal resources:** Updated the [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) to link new interim final rule on candidate loans as well as the 2022 11 CFR
+## Changed
+- **Legal resources:** Updated [E&J pages](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/) to include new interim final rule on candidate loans in relevant pages
+- **Campaign finance data:** Filings and Reports datatables  “Committee name or ID” search filters are now a combination text or typeahead field allowing users to search on a text string and/or choose a committee from the typeahead dropdown list.
+- **Campaign finance data:** Changed "notification" to "report" for 24/48 hour reports
+## Under the hood
+- Add committee ID to newly created tsvector column in materialized views to make committee ID a searchable term
+
+# September 6, 2022 (19.1)
+## Added
+
+- **Campaign finance data:** Added summary and donation data to inaugural committee pages. Also removed an irrelevant independent expenditure table since this type of expenditure is not made by inaugural committees 
+
+## Changed
+- **Help for candidates and committees:** Updated page for candidates, [Understanding independent expenditures](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/understanding-independent-expenditures/), with changes from the new Candidate Guide
+
+## Under the hood
+- Upgrade flyway to v9.2.0 to resolve high snyk vulnerability flagged on  postgres jar
+- Redirects off transition 
+- Upgrade flask
+- Update docker images and pin flake8
+- Remove duplicate indexes on real_efile_sb4 table and also create index on real_efile_sa7 table
+
+# August 23, 2022 (18.innovation)
+## Added
+- **Help for candidates and committees:** [Pages related to taking in receipts for candidates](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/support-corporations-labor-organizations/) were updated with material from the new Campaign Guide for Congressional Candidates.
+
+## Changed
+- **Campaign finance data:** Modified materialized views and API to support searching for filer and spender name in website datatables
+
+## Under the hood
+- Update flyway
+- Update moment
+
 # July 26, 2022 (18.6)
 ## Added
 - **Campaign finance data:** Enable string keyword text filter for committees in /efiling/filings
