@@ -1,3 +1,38 @@
+# November 22, 2022 (19.6)
+
+## Changed
+**Campaign finance data:** Corrected links to bulk download files for leadership PACs  
+
+## Under the hood
+- Adjusted API app memory to 2G on all environments
+- Upgraded flyway to resolve RCE and ACE snyk vulnerabilities
+
+# November 9, 2022 (19.5)
+
+## Changed
+**Campaign finance data:** Added a tooltip to the individual contributions field on PAC and party datatable side panel
+**Legal resources:** AO comment deadlines are now shown for recent AOs on AO landing page.
+
+## Under the hood
+-  Changed table format for [E&J chronological indexes](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-e-j-s/) to make them easier to update in the future.
+- Created model CommitteeHistoryProfile and refactored CommitteeHistory join 
+
+# October 25, 2022 (19.4)
+
+## Changed
+- **Legal resources:** ADR additional parameters added to /legal/docs/ endpoint
+
+## Under the hood
+-  Changed table format for [E&J citation indexes](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/explanations-and-justifications-citation-index/) to make them easier to update in the future.
+- Removed redirect to e-cfr for three administrative fine regulations that are now current in e-regs.
+- Fixed ie-only in endpoint "/reports/{entity_type}/ "
+
+# October 11, 2022 (19.3)
+ 
+## Changed
+- **General:** Reviewed and updated the [Election Day information](https://www.fec.gov/introduction-campaign-finance/election-day-information/) page.
+-**Help for candidates and committees:** Tweaked language on the [Requests for additional information page](https://www.fec.gov/help-candidates-and-committees/request-additional-information/) to clarify that it’s the Commission that is requesting additional information about a filing.
+- **Legal resources:** Updated the [e-regs](https://www.fec.gov/regulations) to load the 2022 11 CFR.
 
 # September 20, 2022 (19.2)
 ## Added
@@ -6,10 +41,12 @@
 - **Legal resources:** Updated [E&J pages](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/) to include new interim final rule on candidate loans in relevant pages
 - **Campaign finance data:** Filings and Reports datatables  “Committee name or ID” search filters are now a combination text or typeahead field allowing users to search on a text string and/or choose a committee from the typeahead dropdown list.
 - **Campaign finance data:** Changed "notification" to "report" for 24/48 hour reports
+
 ## Under the hood
-- Add committee ID to newly created tsvector column in materialized views to make committee ID a searchable term
+- Added committee ID to newly created tsvector column in materialized views to make committee ID a searchable term
 
 # September 6, 2022 (19.1)
+
 ## Added
 
 - **Campaign finance data:** Added summary and donation data to inaugural committee pages. Also removed an irrelevant independent expenditure table since this type of expenditure is not made by inaugural committees 
@@ -18,11 +55,11 @@
 - **Help for candidates and committees:** Updated page for candidates, [Understanding independent expenditures](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/understanding-independent-expenditures/), with changes from the new Candidate Guide
 
 ## Under the hood
-- Upgrade flyway to v9.2.0 to resolve high snyk vulnerability flagged on  postgres jar
-- Redirects off transition 
-- Upgrade flask
-- Update docker images and pin flake8
-- Remove duplicate indexes on real_efile_sb4 table and also create index on real_efile_sa7 table
+- Upgraded flyway to v9.2.0 to resolve high snyk vulnerability flagged on  postgres jar
+- Removed redirects froom transition 
+- Upgraded flask
+- Updated docker images and pin flake8
+- Removed duplicate indexes on real_efile_sb4 table and also create index on real_efile_sa7 table
 
 # August 23, 2022 (18.innovation)
 ## Added
