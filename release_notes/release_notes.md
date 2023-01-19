@@ -1,3 +1,38 @@
+# January 10, 2023 (Sprint 20.2)
+## Added
+- **Help for candidates and committees**: Added [pages](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) containing reporting dates and deadlines for 2023.
+- **Legal resources**: Added links to new regulations on administrative fines and internet communications to the [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) and [Explanations and Justifications (E&J) indices](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/).
+
+## Changed
+- **About the FEC**: Updated the site to display the 2023 Chair and Vice Chair of the Commission on the home page and [Leadership and structure](https://www.fec.gov/about/leadership-and-structure/#commissioners) page.
+- **Legal resources**: Updated the administrative fine calculator and added link to new regulations on administrative fines along with updated example scenarios to the [Calculating a fine page](https://www.fec.gov/legal-resources/enforcement/administrative-fines/calculating-administrative-fines/)
+
+## Under the hood
+- **API, CMS, Eregs**: Upgrade gitpython  v3.1.30  to remediate RCE (Remote code execution) vulnerability.
+- **CMS**: Upgrade pillow v9.3.0 to remediate DoS (Denial of Service) vulnerability.  
+
+# December 27, 2022 (Sprint 20.1)
+## Added
+- **About the FEC** Added web [pages for 2023 open meetings and executive sessions](https://www.fec.gov/meetings/)
+
+## Changed
+- **Legal resources**: Added link to new regulations on internet disclaimers to [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) and [Explanations and Justifications (E&J) indices](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/).
+- **Campaign finance data**:  Updated aggregate amount url to display the correct counts for presidential, house and senate committee reports
+
+## Under the hood
+- **API** : Update refresh materialized view command in README.md file
+- **API**: Upgrade flyway to v9.10.1
+- **CMS**: Updated the template for meeting pages to change the default time of Commission meetings to 10:30 a.m.
+
+# December 13, 2022 (Innovation 19)
+
+## Changed
+- **Legal resources** Updated the [list of newly added regulations](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) to include their effective dates.
+
+## Under the hood
+- **Pytest testing-framework** Adjusted default flags/settings for enhanced error/warning reporting 
+- **Pytest testing-framework** Reduced  CMS Pytest warnings and errors from 157 to about 22  by updating Python libraries and making associated code changes
+
 # November 22, 2022 (19.6)
 
 ## Changed
