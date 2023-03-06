@@ -1,3 +1,50 @@
+# March 7, 2023 (Sprint 20.6)
+## Added
+- **Help for candidate and committees**: Add new glossary terms - adapted disclaimers, mechanism, and indicator
+- **Campaign Finance Data**: Add links for 2023-2024 bulk data
+
+
+## Changed
+- **API**:  Update /legal/search/ endpoint to filter by MUR/ADR/AF document categories.
+- **API**:  Add more interpretation of candidate_id for all endpoints
+- **Help for candidate and committees**: Changed the glossary terms for memo entry/memo item and public communication 
+## Under the hood
+- Cleaned up www redirects
+
+
+# February 21, 2023 (Sprint 20.5)
+## Added
+- **About the FEC**: Created page for the [February 14, 2023 hearing on audit procedures](https://www.fec.gov/updates/february-14-2023-public-hearing/).
+- **Legal Regulations**: Added the FR notice for inflation adjustments to the [regulations page](https://www.fec.gov/legal-resources/regulations/) and [E&J 2020’s chronological page](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/). 
+- **Legal resources**: MURs search results can now be sorted by case number.
+
+## Changed
+ - **Help for candidate and committees**: Updated various pages to display the [2023-2024 new contribution limits and snippet](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/). 
+ - **Help for candidate and committees**: Updated the [coordinated party expenditure limits page](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/coordinated-party-expenditure-limits/) with the 2023 limits.
+- **Help for candidate and committees**: Updated the [lobbyist bundling page](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/) with the 2023 reporting threshold.
+- **Legal resources**: Added comments and requests to testify at hearing on [pending proposal](https://www.fec.gov/legal-resources/policy-other-guidance/#proposals) concerning audit procedures.
+
+
+## Under the hood
+- **E-regs**: Upgrade node 18.13.0
+- **CMS**: Locustio to Locust upgrade
+
+# February 7, 2023 (Sprint 20.4)
+
+## Under the hood
+- **CMS**: Node upgrade to 18.13.0
+- **API**: Node upgrade to 18.13.0
+- **API**: Setup pre-commit git hook
+- **API**: Add sort by case_no to legal search
+
+# January 24, 2023 (Sprint 20.3)
+## Added
+- **Legal resources**: Migrated the [Explanations and Justifications (E&J) Appendix and conversion tables](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/appendix-e-j-s/) from the transition site to FEC.gov.
+
+## Under the hood
+- **CMS**: Major version upgrade to Wagtail v3.0.3
+- **API**: Remove union all logic from schedule A, B and E endpoints when filtering by committee ID
+
 # January 10, 2023 (Sprint 20.2)
 ## Added
 - **Help for candidates and committees**: Added [pages](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) containing reporting dates and deadlines for 2023.
