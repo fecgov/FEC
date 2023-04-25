@@ -1,3 +1,38 @@
+# April 25, 2023 (PI 21.2)
+## Added
+- **API** H4 (Allocated Federal/Non Federal Funds) endpoint added 
+- **About the FEC**: Published pages for all [Commission meetings](https://www.fec.gov/meetings/) scheduled for the second half of 2023. 
+- **Help for candidates and committees** Added [new reporting example](https://www.fec.gov/help-candidates-and-committees/filing-reports/contributions-unregistered-organizations/) for candidates showing how to report contributions from unregistered organizations.
+
+## Changed
+
+- **Campaign finance data**: [Congressional district maps](https://www.fec.gov/data/elections/?state=&cycle=2024&election_full=true) have been updated.
+- **Campaign finance data**: Updated default time periods to 2024 after April quarterly filing deadline.
+- **Campaign finance data**: Updated [presidential map](https://www.fec.gov/data/candidates/president/presidential-map/) to include 2024 candidates who have reported receipts of more than $100,000 from sources outside the candidate's own funds.
+
+## Under the hood
+- Increase the snapshot sleep time to fix elasticsearch backup issue.
+- Update endpoint /legal/search/ description, add explanation of pagination
+
+
+# April 11, 2023 (PI 21.1)
+## Under the hood
+- Search all legal resources bug fixed
+
+
+
+# March 28, 2023 (PI 20 Innovation)
+## Added
+- **About the FEC**: Created page for the [March 22, 2023 public hearing on candidate salaries](https://www.fec.gov/updates/march-22-2023-public-hearing-on-candidate-salaries/)
+- **Help for candidates and committees**: Add new glossary terms related to adapted disclaimers, mechanism and indicator and update memo entry/memo item and public communication terms. 
+
+## Changed
+- **Help for candidates and committees**: [Various pages](https://www.fec.gov/help-candidates-and-committees/) were updated to reflect new rules on internet disclaimers.
+## Under the hood
+- Fixed column, autosuggest, and text widths with long committee names
+- Fixed filter panel width for MURs and AFs
+
+
 # March 7, 2023 (Sprint 20.6)
 ## Added
 - **Help for candidate and committees**: Add new glossary terms - adapted disclaimers, mechanism, and indicator
