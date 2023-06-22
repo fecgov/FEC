@@ -1,14 +1,71 @@
-# April 25, 2023 (PI 21.2)
+# June 20, 2023 (PI 21.6)
+## Changed
+- **About the FEC:** COVID 19 information was added to [meeting pages](https://www.fec.gov/meetings/) for the remainder of 2023.
+
+## Under the hood
+- Upgraded flyway to v9.19.4 
+- Added length validation to filter_fulltext field by switching to keyword type
+- Added pdf_url to the schedule H4 endpoint
+- Updated prettier setting defaults
+- Upgraded django to align with other repositories
+
+
+# June 6, 2023 (PI 21.5)
 ## Added
-- **API** H4 (Allocated Federal/Non Federal Funds) endpoint added 
-- **About the FEC**: Published pages for all [Commission meetings](https://www.fec.gov/meetings/) scheduled for the second half of 2023. 
-- **Help for candidates and committees** Added [new reporting example](https://www.fec.gov/help-candidates-and-committees/filing-reports/contributions-unregistered-organizations/) for candidates showing how to report contributions from unregistered organizations.
+- **Legal resources** Added links to Federal Register notice containing interim final rules on contributions in the name of another to the [Regulations](https://www.fec.gov/legal-resources/regulations/) and [Explanations and justifications](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/) pages.
 
 ## Changed
+- **About the FEC** Posted updated versions of [Commission Directives 69 and 70](https://www.fec.gov/about/leadership-and-structure/#commission-directives-and-policy).
+- **Campaign finance data** Updated the version column to display “Version unknown” for documents without a version
 
-- **Campaign finance data**: [Congressional district maps](https://www.fec.gov/data/elections/?state=&cycle=2024&election_full=true) have been updated.
-- **Campaign finance data**: Updated default time periods to 2024 after April quarterly filing deadline.
-- **Campaign finance data**: Updated [presidential map](https://www.fec.gov/data/candidates/president/presidential-map/) to include 2024 candidates who have reported receipts of more than $100,000 from sources outside the candidate's own funds.
+## Under the hood
+- Fixed the description full-text filter in /electioneering/ endpoint
+- Removed the format from build script in the API, added prettier to pre-commit hooks Thanks @jmetev1 for your contribution! 
+- Fixed case sensitivity in schedule H4 endpoint
+- Removed deprecated endpoints /by_office and /by_office/by_party
+
+
+# May 23, 2023 (PI 21.4)
+## Changed
+- **API:** Removal of   /candidates/totals/by_office/ and /candidates/totals/by_office/by_party/ 
+
+## Under the hood
+- Refactor filter_fulltext to handle null value
+- Update the api, celery-beat, celery-worker,  cms, eregs, proxy, proxy-redirect stack to cflinuxfs4 in manifest files.
+- Upgraded flyway
+
+
+# May 09, 2023 (PI 21.3)
+## Added
+- **Help for candidates and committees:** Added new internet disclaimer examples to the [Advertising and disclaimers page] (https://www.fec.gov/help-candidates-and-committees/advertising-and-disclaimers/).
+- **Legal resources:** Added links on the [Policy and other guidance page](https://www.fec.gov/legal-resources/policy-other-guidance/) to the Commission’s [Memorandum of Understanding with the Department of Justice](https://www.fec.gov/resources/cms-content/documents/fedreg_notice_2023-05.pdf) and to other proposals considered recently by the Commission.
+- **API:** Added report level data to the debts endpoint
+
+## Changed
+- **About the FEC:** Made minor grammar correction to the open meeting page template
+- **API:** Deprecation notice for  /candidates/totals/by_office/ and /candidates/totals/by_office/by_party/ added
+- **API:** Updated sorts and additional filters to H4 endpoints
+- **Campaign finance data:** Removed references to PACronyms
+
+## Under the hood
+Fix null committee name for unverified committees
+Upgrade sass
+Created materialized view for schedule D
+Update legal/search endpoint description on openFEC API 
+Add coalesce to committee_name to prevent null return
+Updated redis
+
+
+# April 25, 2023 (PI 21.2)
+## Added
+- **API:** H4 (Allocated Federal/Non Federal Funds) endpoint added 
+- **About the FEC:**: Published pages for all [Commission meetings](https://www.fec.gov/meetings/) scheduled for the second half of 2023. 
+- **Help for candidates and committees:** Added [new reporting example](https://www.fec.gov/help-candidates-and-committees/filing-reports/contributions-unregistered-organizations/) for candidates showing how to report contributions from unregistered organizations.
+
+## Changed
+- **Campaign finance data:** [Congressional district maps](https://www.fec.gov/data/elections/?state=&cycle=2024&election_full=true) have been updated.
+- **Campaign finance data:** Updated default time periods to 2024 after April quarterly filing deadline.
+- **Campaign finance data:** Updated [presidential map](https://www.fec.gov/data/candidates/president/presidential-map/) to include 2024 candidates who have reported receipts of more than $100,000 from sources outside the candidate's own funds.
 
 ## Under the hood
 - Increase the snapshot sleep time to fix elasticsearch backup issue.
@@ -23,11 +80,11 @@
 
 # March 28, 2023 (PI 20 Innovation)
 ## Added
-- **About the FEC**: Created page for the [March 22, 2023 public hearing on candidate salaries](https://www.fec.gov/updates/march-22-2023-public-hearing-on-candidate-salaries/)
-- **Help for candidates and committees**: Add new glossary terms related to adapted disclaimers, mechanism and indicator and update memo entry/memo item and public communication terms. 
+- **About the FEC:** Created page for the [March 22, 2023 public hearing on candidate salaries](https://www.fec.gov/updates/march-22-2023-public-hearing-on-candidate-salaries/)
+- **Help for candidates and committees:** Add new glossary terms related to adapted disclaimers, mechanism and indicator and update memo entry/memo item and public communication terms. 
 
 ## Changed
-- **Help for candidates and committees**: [Various pages](https://www.fec.gov/help-candidates-and-committees/) were updated to reflect new rules on internet disclaimers.
+- **Help for candidates and committees:** [Various pages](https://www.fec.gov/help-candidates-and-committees/) were updated to reflect new rules on internet disclaimers.
 ## Under the hood
 - Fixed column, autosuggest, and text widths with long committee names
 - Fixed filter panel width for MURs and AFs
@@ -35,85 +92,83 @@
 
 # March 7, 2023 (Sprint 20.6)
 ## Added
-- **Help for candidate and committees**: Add new glossary terms - adapted disclaimers, mechanism, and indicator
-- **Campaign Finance Data**: Add links for 2023-2024 bulk data
+- **Help for candidates and committees:** Add new glossary terms - adapted disclaimers, mechanism, and indicator
+- **Campaign Finance Data:** Add links for 2023-2024 bulk data
 
 
 ## Changed
-- **API**:  Update /legal/search/ endpoint to filter by MUR/ADR/AF document categories.
-- **API**:  Add more interpretation of candidate_id for all endpoints
-- **Help for candidate and committees**: Changed the glossary terms for memo entry/memo item and public communication 
+- **API:**  Update /legal/search/ endpoint to filter by MUR/ADR/AF document categories.
+- **API:**  Add more interpretation of candidate_id for all endpoints
+- **Help for candidates and committees**: Changed the glossary terms for memo entry/memo item and public communication 
 ## Under the hood
 - Cleaned up www redirects
 
 
 # February 21, 2023 (Sprint 20.5)
 ## Added
-- **About the FEC**: Created page for the [February 14, 2023 hearing on audit procedures](https://www.fec.gov/updates/february-14-2023-public-hearing/).
-- **Legal Regulations**: Added the FR notice for inflation adjustments to the [regulations page](https://www.fec.gov/legal-resources/regulations/) and [E&J 2020’s chronological page](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/). 
-- **Legal resources**: MURs search results can now be sorted by case number.
+- **About the FEC:** Created page for the [February 14, 2023 hearing on audit procedures](https://www.fec.gov/updates/february-14-2023-public-hearing/).
+- **Legal Regulations:** Added the FR notice for inflation adjustments to the [regulations page](https://www.fec.gov/legal-resources/regulations/) and [E&J 2020’s chronological page](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/). 
+- **Legal resources:** MURs search results can now be sorted by case number.
 
 ## Changed
- - **Help for candidate and committees**: Updated various pages to display the [2023-2024 new contribution limits and snippet](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/). 
- - **Help for candidate and committees**: Updated the [coordinated party expenditure limits page](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/coordinated-party-expenditure-limits/) with the 2023 limits.
-- **Help for candidate and committees**: Updated the [lobbyist bundling page](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/) with the 2023 reporting threshold.
-- **Legal resources**: Added comments and requests to testify at hearing on [pending proposal](https://www.fec.gov/legal-resources/policy-other-guidance/#proposals) concerning audit procedures.
-
+ - **Help for candidates and committees:** Updated various pages to display the [2023-2024 new contribution limits and snippet](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/). 
+ - **Help for candidates and committees:** Updated the [coordinated party expenditure limits page](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/coordinated-party-expenditure-limits/) with the 2023 limits.
+- **Help for candidates and committees:** Updated the [lobbyist bundling page](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/) with the 2023 reporting threshold.
+- **Legal resources:** Added comments and requests to testify at hearing on [pending proposal](https://www.fec.gov/legal-resources/policy-other-guidance/#proposals) concerning audit procedures.
 
 ## Under the hood
-- **E-regs**: Upgrade node 18.13.0
-- **CMS**: Locustio to Locust upgrade
+- **E-regs:** Upgrade node 18.13.0
+- **CMS:** Locustio to Locust upgrade
 
 # February 7, 2023 (Sprint 20.4)
-
 ## Under the hood
-- **CMS**: Node upgrade to 18.13.0
-- **API**: Node upgrade to 18.13.0
-- **API**: Setup pre-commit git hook
-- **API**: Add sort by case_no to legal search
+- **CMS:** Node upgrade to 18.13.0
+- **API:** Node upgrade to 18.13.0
+- **API:** Setup pre-commit git hook
+- **API:** Add sort by case_no to legal search
 
 # January 24, 2023 (Sprint 20.3)
 ## Added
-- **Legal resources**: Migrated the [Explanations and Justifications (E&J) Appendix and conversion tables](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/appendix-e-j-s/) from the transition site to FEC.gov.
+- **Legal resources:** Migrated the [Explanations and Justifications (E&J) Appendix and conversion tables](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/appendix-e-j-s/) from the transition site to FEC.gov.
 
 ## Under the hood
-- **CMS**: Major version upgrade to Wagtail v3.0.3
-- **API**: Remove union all logic from schedule A, B and E endpoints when filtering by committee ID
+- **CMS:** Major version upgrade to Wagtail v3.0.3
+- **API:** Remove union all logic from schedule A, B and E endpoints when filtering by committee ID
 
 # January 10, 2023 (Sprint 20.2)
 ## Added
-- **Help for candidates and committees**: Added [pages](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) containing reporting dates and deadlines for 2023.
-- **Legal resources**: Added links to new regulations on administrative fines and internet communications to the [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) and [Explanations and Justifications (E&J) indices](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/).
+- **Help for candidates and committees:** Added [pages](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) containing reporting dates and deadlines for 2023.
+- **Legal resources:** Added links to new regulations on administrative fines and internet communications to the [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) and [Explanations and Justifications (E&J) indices](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/).
 
 ## Changed
-- **About the FEC**: Updated the site to display the 2023 Chair and Vice Chair of the Commission on the home page and [Leadership and structure](https://www.fec.gov/about/leadership-and-structure/#commissioners) page.
-- **Legal resources**: Updated the administrative fine calculator and added link to new regulations on administrative fines along with updated example scenarios to the [Calculating a fine page](https://www.fec.gov/legal-resources/enforcement/administrative-fines/calculating-administrative-fines/)
+- **About the FEC:** Updated the site to display the 2023 Chair and Vice Chair of the Commission on the home page and [Leadership and structure](https://www.fec.gov/about/leadership-and-structure/#commissioners) page.
+- **Legal resources:** Updated the administrative fine calculator and added link to new regulations on administrative fines along with updated example scenarios to the [Calculating a fine page](https://www.fec.gov/legal-resources/enforcement/administrative-fines/calculating-administrative-fines/)
 
 ## Under the hood
-- **API, CMS, Eregs**: Upgrade gitpython  v3.1.30  to remediate RCE (Remote code execution) vulnerability.
-- **CMS**: Upgrade pillow v9.3.0 to remediate DoS (Denial of Service) vulnerability.  
+- **API, CMS, Eregs:** Upgrade gitpython  v3.1.30  to remediate RCE (Remote code execution) vulnerability.
+- **CMS:** Upgrade pillow v9.3.0 to remediate DoS (Denial of Service) vulnerability.  
 
 # December 27, 2022 (Sprint 20.1)
 ## Added
-- **About the FEC** Added web [pages for 2023 open meetings and executive sessions](https://www.fec.gov/meetings/)
+- **About the FEC:** Added web [pages for 2023 open meetings and executive sessions](https://www.fec.gov/meetings/)
 
 ## Changed
-- **Legal resources**: Added link to new regulations on internet disclaimers to [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) and [Explanations and Justifications (E&J) indices](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/).
-- **Campaign finance data**:  Updated aggregate amount url to display the correct counts for presidential, house and senate committee reports
+- **Legal resources:** Added link to new regulations on internet disclaimers to [regulations page](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) and [Explanations and Justifications (E&J) indices](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/).
+- **Campaign finance data:**  Updated aggregate amount url to display the correct counts for presidential, house and senate committee reports
 
 ## Under the hood
-- **API** : Update refresh materialized view command in README.md file
-- **API**: Upgrade flyway to v9.10.1
-- **CMS**: Updated the template for meeting pages to change the default time of Commission meetings to 10:30 a.m.
+- **API:** Update refresh materialized view command in README.md file
+- **API:** Upgrade flyway to v9.10.1
+- **CMS:** Updated the template for meeting pages to change the default time of Commission meetings to 10:30 a.m.
 
 # December 13, 2022 (Innovation 19)
 
 ## Changed
-- **Legal resources** Updated the [list of newly added regulations](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) to include their effective dates.
+- **Legal resources**: Updated the [list of newly added regulations](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) to include their effective dates.
 
 ## Under the hood
-- **Pytest testing-framework** Adjusted default flags/settings for enhanced error/warning reporting 
-- **Pytest testing-framework** Reduced  CMS Pytest warnings and errors from 157 to about 22  by updating Python libraries and making associated code changes
+- **Pytest testing-framework:** Adjusted default flags/settings for enhanced error/warning reporting 
+- **Pytest testing-framework:** Reduced  CMS Pytest warnings and errors from 157 to about 22  by updating Python libraries and making associated code changes
 
 # November 22, 2022 (19.6)
 
