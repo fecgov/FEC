@@ -1,3 +1,76 @@
+# September 18, 2023 (PI 22.5)
+## Added
+- **Legal resources:** A new [landing page for pending policy and other guidance initiatives in an active comment period](https://www.fec.gov/legal-resources/policy-other-guidance/pending-policy-and-other-guidance-initiatives-for-comment/) has been launched
+- **API:** Added form_type filter added to efile/filings endpoint
+
+
+## Changed
+- **Campaign finance data:** Fixed Statistical summary tables to update correct links when ‘latest available option’ is triggered 
+- **Help for candidates and committees:** The URLs for documents such as Forms and Campaign Guides that are also part of the guidance documents search have changed and are being updated on pages throughout this section
+- **Legal resources:** Links on the [regulations page](https://www.fec.gov/legal-resources/regulations/) have been updated to link to the 2023 11 CFR
+- **Legal resources:** Added ability to add external Policy and guidance documents to document feeds
+
+## Under the hood
+- Redirects for documents in the guidance documents search have been put in place
+- Upgraded Node to version 18.17.1
+
+
+# September 5, 2023 (PI 22.4)
+## Added
+- **API:** Adds cmte_tp and filing_form filters to the debts endpoint
+
+## Changed
+- **Legal resources:** Updated [pending rulemaking landing page](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/) for active rulemaking comment period
+
+## Under the hood
+- Upgrade gitpython and certified python packages to remediate snyk vulnerabilities
+- Add test for sorting validation
+
+
+# August 22, 2023 (PI 22.3)
+## Added
+- **API:**  Line_num filter added to debts endpoint
+
+## Changed
+- **Campaign finance data:** Updated file labeling on committee profile pages and related datatables to show “Debt settlement plan YYYY” instead of “Document YYYY”
+- **Help for candidates and committees:** Updated pages with FEC address to add delivery zip code of 20002
+
+
+# August 8, 2023 (PI 22.2)
+## Changed
+- **Help for candidates and committees:** Updated the content on [Introduction to Campaign Finance page](https://www.fec.gov/introduction-campaign-finance/) 
+
+## Under the hood
+- Tested redirects 
+- Add validation for sortable fields in /candidates/totals/
+- Upgrade django
+
+
+# July 25, 2023 (PI 22.1)
+## Added
+- **Campaign finance data:** New datatable with allocated federal and nonfederal disbursements
+
+## Changed
+- **Legal Resources:** Migrated hearing comment files from 2009 and 2001 FR notice to CMS
+
+## Under the hood
+- Upgrade Flyway==9.20.0
+- Upgrade requests==2.31.0 and requests-aws4auth==1.2.3
+- Add 2008 & 2012 presidential map database migration files
+- Add candidate_aggregates.CandidateTotalAggregateView to downloads test case
+- Redirects put in place for migrated hearing comment files from 2009 and 2001 Federal Register notice
+
+
+# July 17, 2023 (PI 21.innovation)
+## Changed
+- **Legal resources:** Due to a comment period closing, the [pending rulemaking matters for comment page](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/) was updated to reflect that there are no pending matters for comment at this time
+- **Legal resources:** The [Policy and other guidance](https://www.fec.gov/legal-resources/policy-other-guidance/#requests-for-comment) page was updated to reflect a pending comment period on a proposed agency procedure
+- **Help for candidates and committees/Dates and deadlines:**  Refined workflow for building and maintaining Reporting dates table pages includes a simplified spreadsheet, a new dedicated Wagtail template and more robust process for managing footnotes
+
+## Under the hood
+- JSON objects in script tags in reporting dates pages are now fully escaped mitigating XSS vulnerabilities
+
+
 # June 20, 2023 (PI 21.6)
 ## Changed
 - **About the FEC:** COVID 19 information was added to [meeting pages](https://www.fec.gov/meetings/) for the remainder of 2023.
