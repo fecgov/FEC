@@ -20,7 +20,7 @@ The FEC may update this acceptable use policy at any time. Updates will be made 
 ### Don’t:  
 - prevent other users, including but not limited to FEC.gov, from accessing openFEC;
 - overload openFEC;
-- materially reduce the speed of openFEC for other users, including but limited to FEC.gov;
+- materially reduce the speed of openFEC for other users, including but not limited to FEC.gov;
 - share, transfer or otherwise provide access to key designated for you to another person;
 - attempt to gain unauthorized access to openFEC or related systems or networks or to defeat, avoid, bypass, remove, deactivate, or otherwise circumvent any software protection or monitoring mechanisms of the API;
 - engage in activity that incites or encourages violence or hatred against individuals or groups;
