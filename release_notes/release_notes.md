@@ -1,8 +1,163 @@
+# March 05, 2024 (Sprint 24.2)
+## Added
+- **Help for candidates and committees:** Added new glossary term to the glossary - compensation 
+
+## Changed
+- **Help for candidates and committees:**  Updated the Guidance Search with revised Form 3X
+- **Campaign finance data:** Updated the election search to improve clarity on the use of the ZIP code. ZIP code cannot be used for prior cycles. 
+
+## Under the hood
+- Updated sitemap_PDF.xml to add document to guidance search
+- Update jinja2
+- Update django
+- Update cryptography
+
+
+# February 20, 2024 (Sprint 24.1)
+## Added
+- **API:** Added a min/max file date to the committees endpoint
+
+## Changed
+- **API:** Fixed a bug which involved changing conduit_committee_zip to a string
+- **Campaign finance data:** Removed the gray color category from election search map that made it difficult to see district boundaries
+- **General:** Updated the social icons on the website to match new/approved icons for those services
+
+## Under the hood
+- Updated circleci configuration to use run step when deploying the applications to cloud space
+- Updated gitpython
+- Updated flyway
+- Added the indexes for last file date and adds a missing index for last f1 date that were not originally included
+
+
+# February 06, 2024 (23.Innovation)
+## Added
+- **Help for candidates and committees:** Published the 2024 [presidential primary spending limits](https://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/presidential-spending-limits/) 
+- **Help for candidates and committees:** Published the 2024 [coordinated party expenditure spending limits](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/coordinated-party-expenditure-limits/) 
+- **Help for candidates and committees:** Published the [lobbyist bundling threshold](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/) for 2024 
+- **Help for candidates and committees:** Published the [2024 presidential funding general election grant and spending limit](https://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/receiving-public-funding-grant-for-general-election/).
+- **API** Added form 2 endpoint to efilings
+- **Legal Resources:** Added final rules on candidate salaries to the [Regulations and E&J pages](https://www.fec.gov/legal-resources/regulations/) 
+- **Legal Resources:** Added final rules on technological modernization to the [Regulations and E&J pages](https://www.fec.gov/legal-resources/regulations/)
+- **Legal Resources:** Updated the [Legislation page](https://www.fec.gov/legal-resources/legislation/) to add new Administrative Fine legislation extending the program through 2033
+
+## Changed
+- **CMS:** Upgraded wagtail to LTS v5.2
+
+## Under the hood
+- Added parsed candidate names 
+- Redirected four regulations to eCFR to ensure latest versions of those rules appear
+- Upgraded gitpython python package to remediate snyk vulnerability 
+
+
+# January 16, 2024 (Sprint 23.6)
+## Added
+- **About the FEC:** The home page and related pages in the [Leadership and structure section](https://www.fec.gov/about/leadership-and-structure/) were updated to reflect the Commission leadership for 2024
+- **About the FEC:** Meeting minutes for Commission meetings from 2019 through 2023 were posted to [Commission meeting pages](https://www.fec.gov/meetings/)
+- **Help for candidates and committees:** [Reporting pages for 2024 deadlines](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/) were published
+- **Legal Resources:** The Federal Register notice Civil Money Penalties Annual Inflation Adjustment Rates) was added to: https://www.fec.gov/legal-resources/enforcement/administrative-fines/, https://www.fec.gov/legal-resources/enforcement/administrative-fines/calculating-administrative-fines/, https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/, https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-part-111/
+
+## Changed
+- **Legal Resources:** Updated the examples to reflect the new civil penalty amounts for 2024 on https://www.fec.gov/legal-resources/enforcement/administrative-fines/calculating-administrative-fines/
+
+
+# January 2, 2024 (Sprint 23.5)
+## Under the hood
+- Removed line_number from related endpoints
+
+
+# December 18, 2023 (Sprint 23.4)
+## Added
+- **About the FEC:** [Commission meeting pages](https://www.fec.gov/meetings/) for 2024 were published.
+
+## Changed
+- **About the FEC:** Updated the language on [Commission meeting pages](https://www.fec.gov/meetings/) to reflect that open meetings will begin at 10 a.m. in 2024 
+- **General:** Uploaded a [1993 report on public funding of presidential elections](https://www.fec.gov/resources/cms-content/documents/The_Presidential_Public_Funding_Program.pdf) in PDF format to replace the files on the transition site.
+
+## Under the hood
+- Renamed column names in ofec_pacronyms
+
+
+# December 5, 2023 (Sprint 23.3)
+## Added
+- **Legal resources:** A 2009 procedural rule on audit hearings and related material was added to the [Policy and other guidance page](https://www.fec.gov/legal-resources/policy-other-guidance/#rules-of-agency-organization-procedure-or-practice).
+
+## Changed
+- **About the FEC:** Added email address to [Chair Lindenbaum’s page](https://www.fec.gov/about/leadership-and-structure/dara-lindenbaum/).
+- **Legal Resources:** Updated [Policy and other guidance page](https://www.fec.gov/legal-resources/policy-other-guidance/#rules-of-agency-organization-procedure-or-practice) to link a new policy Directive passed by the Commission. 
+
+## Under the hood
+- Updated redirects for certain documents in the guidance documents search 
+- Fixed filter by multi candidate_id for reports/entity_type
+- Improved locust load testing
+
+
+# November 22, 2023 (Sprint 23.2)
+## Added
+- **General:** Created new WIKI page for the site-search sitemaps and search.gov search engine  
+- **Campaign finance data:** Launched new debts datatable 
+
+## Changed
+- **General:** Added logic to remove duplicate (aliased)  press, digest, record, or tips pages from the /updates filtered page
+- **General:** Correctly right-aligned dates on the template pattern: “heading_with-date”
+- **About the FEC:** Removed Word documents from Commissioner pages in favor of PDF documents
+- **About the FEC:** Added new Directive on investigations by the Office of General Counsel to the list of directives on the [Leadership and structure page](https://www.fec.gov/about/leadership-and-structure/#commission-directives-and-policy) 
+- **Help for candidates and committees:** Updated reporting examples for [non-election year IE reporting on Form 5](https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/reporting-independent-expenditures-form-5/)  and [48-hour reporting by independent expenditure filers] (https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/48-hour-reports-independent-expenditure-filers/)
+- **API:** Form_line_number filter has been added for schedule C, D, E, F, and H4 endpoints. We encourage users of these endpoints to switch from the deprecated line_number filter to the new form_line_number filter 
+
+## Under the hood
+- Added candidate_id validation on endpoints 
+- Fixed bug where editors could not access all rows on Wagtail templates with longs tables using tableblocks
+
+# November 7, 2023 (Sprint 23.1)
+## Changed
+- **About:** Fixed broken links on Commissioner  pages
+- **API:** Line_number filter on the schedule endpoints has been deprecated 
+
+## Under the hood
+- Adedd validation to sort option parameters 
+- Updated redirects for certain documents in the guidance documents search
+
+
+# October 24, 2023 (22.Innovation)
+## Added
+- **Help for candidates and committees:**  Added a new [reporting example](https://www.fec.gov/help-candidates-and-committees/filing-reports/bank-loan-obtained-candidate-committee/) on how to file a bank loan taken out by a candidate committee 
+
+## Changed
+-  **About the FEC:** Updated the staff list on the [Information Division home page](https://transition.fec.gov/about/offices/info/info.shtml)
+- **Campaign finance data:** Updated the disbursements language on [Browse data](https://www.fec.gov/data/browse-data/?tab=spending)
+- **General:** Updated the content on the [Election results and voting information](https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/) page
+- **Homepage:** Updated the linked URL on the home page for the [Election results and voting information](https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/) page 
+- **API:** Added deprecation notice for line_number filter across all schedule endpoints and removed deprecated candidate_id filter from the schedule_d endpoint
+
+## Under the hood
+- Tested redirects for the guidance documents search on some documents 
+- Added automated tests for CandidateTotalsView and refactored CandidateTotals
+- Upgraded gevent python package to remediate snyk vulnerability
+- Replaced CandidateTotals with CandidateTotalsDetail to remove confusion with CandidateTotal model 
+- Upgraded gitpython and gevent
+- Fixed broken calendar downloads
+- Corrected metadata for two documents that were causing searching result rendering issues
+ 
+
+# September 28, 2023 (PI 22.6)
+## Changed
+- **General:** Fixed padding on document pages so that dates appear correctly
+- **About the FEC:** The introductory language for [open meeting and hearing pages](https://www.fec.gov/meetings/) was updated to encourage readers to check for meeting updates or cancellations
+- **About the FEC:** The [Audit Division home page](https://transition.fec.gov/about/offices/audit/audit.shtml) was updated to reflect the new Acting Assistant Staff Director
+- **Help for candidates and committees:** Updated versions of many FEC [forms](https://www.fec.gov/help-candidates-and-committees/forms/) have been uploaded. The form changes update instructions for deliveries to the FEC
+- **Legal resources:** URLs for documents such as Federal Register notices and enforcement manuals that are also part of the guidance documents search have changed and have been updated on pages throughout this section
+- **Legal resources:** The [e-regs](https://www.fec.gov/regulations) have been updated to incorporate the 2023 11 CFR
+- **Legal resources:** File names for documents on the [Enforcement and compliance practices page](https://www.fec.gov/legal-resources/enforcement/procedural-materials/) were clarified
+
+## Under the hood
+- Implemented redirects and a new site map for guidance search documents
+- Upgraded gevent, requests python, and gitpython packages 
+
+
 # September 18, 2023 (PI 22.5)
 ## Added
 - **Legal resources:** A new [landing page for pending policy and other guidance initiatives in an active comment period](https://www.fec.gov/legal-resources/policy-other-guidance/pending-policy-and-other-guidance-initiatives-for-comment/) has been launched
 - **API:** Added form_type filter added to efile/filings endpoint
-
 
 ## Changed
 - **Campaign finance data:** Fixed Statistical summary tables to update correct links when ‘latest available option’ is triggered 
