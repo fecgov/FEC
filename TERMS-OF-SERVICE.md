@@ -1,6 +1,6 @@
 # openFEC API terms of service
 
-The Federal Election Commission (FEC) offers some of its public data in machine readable format via an Application Programming Interface (API). The FEC provides this service, at its sole discretion, for the benefit of the public. The service is offered subject to acceptance of the terms and conditions contained herein as well as any relevant sections of FEC.gov, FEC’s [sale and use policy](https://www.fec.gov/updates/sale-or-use-contributor-information/), FEC’s [privacy and security policy](https://www.fec.gov/about/privacy-and-security-policy/) and FEC’s [acceptable use policy](https://github.com/fecgov/FEC/blob/master/ACCEPTABLE-USE-POLICY.md) (collectively, the "Agreement").
+The Federal Election Commission (FEC) offers some of its public data in machine readable format via an Application Programming Interface (API). The FEC provides this service, at its sole discretion, for the benefit of the public. The service is offered subject to acceptance of the terms and conditions contained herein as well as any relevant sections of FEC.gov, FEC’s [sale or use policy](https://www.fec.gov/updates/sale-or-use-contributor-information/), FEC’s [privacy and security policy](https://www.fec.gov/about/privacy-and-security-policy/) and FEC’s [acceptable use policy](https://github.com/fecgov/FEC/blob/master/ACCEPTABLE-USE-POLICY.md) (collectively, the "Agreement").
 
 ## Scope
 All of the content, documentation, code and related materials made available to you through the API is subject to these terms. Access to or use of the API or its content constitutes acceptance to this Agreement.
@@ -9,7 +9,7 @@ All of the content, documentation, code and related materials made available to 
 You may use any FEC API to develop a service or service to search, display, analyze, retrieve, view and otherwise get information from FEC data.
 
 ## Attribution
-All services which utilize or access the API should display the following notice prominently within the application: "This product uses the openFEC API but is not endorsed or certified by the Federal Election Commission (FEC)." You may use the FEC name in order to identify the source of API content subject to these rules. Users wishing to include the FEC logo as part of their attribution should obtain written consent from the Agency. You may not use the FEC name, logo, or the like to imply endorsement of any product, service, or entity, not-for-profit, commercial or otherwise.
+All services which utilize or access the API should identify openFEC API as the data source. You may not use the FEC name, logo, or the like to imply endorsement of any product, service, or entity, not-for-profit, commercial or otherwise.
 
 ## Modification or false representation of content
 You may not modify or falsely represent content accessed through the API and still claim the source is FEC.
