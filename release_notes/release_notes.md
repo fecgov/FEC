@@ -1,3 +1,28 @@
+# April 4, 2024 (Sprint 24.4)
+
+## Added
+- **Legal Resources:** Added the policy statement for Commission action in matters at the initial state in the enforcement process (2024) to the [Policy and other guidance page](https://www.fec.gov/legal-resources/policy-other-guidance/#policy-statements) 
+- **Legal Resources:**  Updated [regulations](https://www.fec.gov/legal-resources/regulations/) and [E&J](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/) pages to add ZIP Code correction Federal Register notice
+  
+## Changed
+- **General:** Removed “menu option 0” from web pages showing this in contact information
+  
+## Under the hood
+- **About the FEC:** Redirected FEC office pages from transition site to [updated FEC.gov pages](https://www.fec.gov/about/leadership-and-structure/fec-offices/) 
+- **Search engine indexing:** Added AO, MUR, receipts, and disbursement searches to robots.txt disallow list
+
+# March 18, 2024 (Sprint 24.3)
+## Added
+- **About the FEC:** Published [new pages for FEC offices](https://www.fec.gov/about/leadership-and-structure/fec-offices/) linked via the organization chart
+- **Help for candidates and committees:** Published a [new page on candidate salaries](https://www.fec.gov/help-candidates-and-committees/making-disbursements/candidate-salary/) 
+- **Help for candidates and committees:** Published a [new reporting example for candidate salaries](https://www.fec.gov/help-candidates-and-committees/filing-reports/candidate-salary-payments/) 
+
+## Changed
+- **Help for candidates and committees:** Updated the [Personal use page](https://www.fec.gov/help-candidates-and-committees/making-disbursements/personal-use/)  
+- **Legal Resources:** Added a clarifying note to a 2011 Federal Register notice linked on the Policy page and guidance search 
+
+## Under the hood
+- **Eregs:** Upgrade django to v4.2.11 to resolve snyk vulnerablity
 # March 05, 2024 (Sprint 24.2)
 ## Added
 - **Help for candidates and committees:** Added new glossary term to the glossary - compensation 
