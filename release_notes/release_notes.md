@@ -1,4 +1,4 @@
-# April 4, 2024 (Sprint 24.4)
+# April 2, 2024 (Sprint 24.4)
 
 ## Added
 - **Legal Resources:** Added the policy statement for Commission action in matters at the initial state in the enforcement process (2024) to the [Policy and other guidance page](https://www.fec.gov/legal-resources/policy-other-guidance/#policy-statements) 
@@ -9,8 +9,8 @@
 - **Statutes search:** Update the keyword search example and the information box language 
   
 ## Under the hood
-- **About the FEC:** Redirected FEC office pages from transition site to [updated FEC.gov pages](https://www.fec.gov/about/leadership-and-structure/fec-offices/) 
-- **Search engine indexing:** Added AO, MUR, receipts, and disbursement searches to robots.txt disallow list
+- Redirected FEC office pages from transition site to [updated FEC.gov pages](https://www.fec.gov/about/leadership-and-structure/fec-offices/) 
+- Disallowed search engine indexing for AO, MUR, Receipts, and Disbursement searches in robots.txt
 
 # March 18, 2024 (Sprint 24.3)
 ## Added
@@ -23,7 +23,8 @@
 - **Legal Resources:** Added a clarifying note to a 2011 Federal Register notice linked on the Policy page and guidance search 
 
 ## Under the hood
-- **Eregs:** Upgrade django to v4.2.11 to resolve snyk vulnerablity
+- Upgraded Eregs django to v4.2.11 to resolve snyk vulnerablity
+  
 # March 05, 2024 (Sprint 24.2)
 ## Added
 - **Help for candidates and committees:** Added new glossary term to the glossary - compensation 
@@ -37,7 +38,6 @@
 - Update jinja2
 - Update django
 - Update cryptography
-
 
 # February 20, 2024 (Sprint 24.1)
 ## Added
