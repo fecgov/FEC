@@ -6,6 +6,7 @@
   
 ## Changed
 - **General:** Removed “menu option 0” from web pages showing this in contact information
+- **Statutes search:** Update the keyword search example and the information box language 
   
 ## Under the hood
 - **About the FEC:** Redirected FEC office pages from transition site to [updated FEC.gov pages](https://www.fec.gov/about/leadership-and-structure/fec-offices/) 
