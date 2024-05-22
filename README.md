@@ -13,7 +13,6 @@ This repository, [FEC](https://github.com/fecgov/fec), is a general discussion f
 ### All repositories
 - [FEC](https://github.com/fecgov/fec): a general discussion forum. We [compile feedback](https://github.com/fecgov/fec/issues) from the FEC.gov feedback widget here, and this is the best place to submit general feedback.
 - [openFEC](https://github.com/fecgov/openfec): the first RESTful API for the Federal Election Commission
-- [fec-eregs](https://github.com/fecgov/fec-eregs): the FEC's new Code of Federal Regulations explorer
 - [fec-cms](https://github.com/fecgov/fec-cms): the content management system (CMS) for the new FEC.gov
 - [fec-proxy](https://github.com/fecgov/fec-proxy): the proxy application to manage and route requests coming to the new FEC.gov site
 - [fec-proxy-redirect](https://github.com/fecgov/fec-proxy-redirect): the proxy application to redirect legacy application URLs
