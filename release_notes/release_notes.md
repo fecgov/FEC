@@ -1,3 +1,14 @@
+# April 17, 2024 (Sprint 24.5)
+
+## Added
+- **API:** Added [new efile/form1 endpoint](https://github.com/fecgov/openFEC/issues/5706) that provides real time access to form1 data.
+- **H4CC:** Added and updated glossary terms stemming from the technological modernization [regulations](https://github.com/fecgov/fec-cms/issues/6136&sa=D&source=docs&ust=1713808568343790&usg=AOvVaw3iRkW6DnlSmSjzc6z-uegF)
+## Changed
+- **Campaign finance data:** Changed from multi-select to single-select for Line-number filters on Receipts and Disbursements datatables
+## Under the hood
+- **Search engine indexing**: Alert banners will no longer show in sitemap or search index, removing them from search results
+
+
 # April 2, 2024 (Sprint 24.4)
 
 ## Added
