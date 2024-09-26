@@ -53,10 +53,11 @@
 - Extensive Node package version upgrades
 
 # July 17, 2024 (Sprint 25.4)
-
-No updates this sprint
+## Added
+- **General:** Added "Search legal resources" to the global search autosuggest to improve access to legal cases and their documents
 
 # July 2, 2024 (Sprint 25.3)
+## Changed
 - **Help for candidates and committees:** Updated ["Registering as a political party"](https://www.fec.gov/help-candidates-and-committees/registering-political-party/bank-accounts-political-party-committees/) section with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
 - **Help for candidates and committees:** Updated ["Registering as a political party"](https://www.fec.gov/help-candidates-and-committees/registering-political-party/national-party-accounts-certain-expenses/) section with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
 
