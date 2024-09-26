@@ -1,13 +1,141 @@
-# April 17, 2024 (Sprint 24.5)
+# September 3, 2024 (Sprint 25.innovation)
 
 ## Added
-- **API:** Added [new efile/form1 endpoint](https://github.com/fecgov/openFEC/issues/5706) that provides real time access to form1 data.
-- **H4CC:** Added and updated glossary terms stemming from the technological modernization [regulations](https://github.com/fecgov/fec-cms/issues/6136&sa=D&source=docs&ust=1713808568343790&usg=AOvVaw3iRkW6DnlSmSjzc6z-uegF)
+- **API:** Add two new API tasks to add/update/remove environment variables from cli
+
+## Changed
+- **General:** Removed archived slacker python package and unused “notify” function block from cms repo.
+- **General:** Remove unused node packages, es6-weak-map and es5-ext from package.json
+- **Legal resources:** Updated boolean search string operators for and to be `+` and or to be `|`.
+
+## Under the hood
+- **API:** Upgrade node package to version 22.1.0
+- **API:** Upgrade flyway package to version 10.17.1
+- Remove name and number from keyword search and highlights
+
+# August 12, 2024 (Sprint 25.6)
+## Added
+- **Legal resources:** Add the comment periods for Administrative Fines Expansion and Form 3Z to the Pending rulemaking matters for comment [page](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/) 
+- **Campaign finance data:**  Added “National party headquarters, recounts and convention accounts” to the Raising and Spending sections of national party committees’ pages
+
+# July 30, 2024 (Sprint 25.5)
+## Added
+- **Campaign finance data:** Added “National party account receipts” to the Browse data Raising tab
+- **Campaign finance data:** Added “National party account disbursements” to the Browse data Spending tab
+
+## Changed
+- **Legal resources:** Updated the section under :”Annual printed editions of 11 CFR” with links to the 1977-1996 11 CFRs. https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr
+- **Help for candidates and committees:** Updates made to the "Taking in receipts as a party" section with changes from the new Party Guide - pages include: 
+    - [Template change, text updates, AOs added and formatting to match the Guide ](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/contributions-party-committees/)
+    - [Text changes to match the Guide](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/who-can-and-cant-contribute-party-committee/)
+    - [Format and text changes to match the Guide ](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/handling-questionable-contribution/)
+    - [Template and text changes to match the Guide](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/contribution-limits-party-committees/)
+    - [Text and format changes to match the Guide ](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/remedying-excessive-contributions-party-committee-reattributions/)
+    - [Format change to match the Guide](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/overdrafts/)
+    - [Text changes to match the Guide](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/affiliation-between-party-committees/)
+    - [Format changes and text changes to match the Guide](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/communications-coordinated-party-committee/)
+    - [Format changes](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/offsets-party-operating-expenditures/)
+    - [Template change](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/permissible-use-corporatelabor-resources-and-facilities-party-committees/)
+    - [Citation format  updates](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/state-tax-checkoff-funds/)
+
+## Under the hood
+- Upgrade requests package
+- Switch analyzer to standard
+- Significant updates, including moving from version 1.0.0 to 2.0.0
+- Upgraded Webpack from 3 to 5
+- Moved most packages from cjs to esm (from require to import and module.exports to export function)
+- Changed Webpack 3’s approach of bundling JavaScript into fewer files, to the current standard of splitting files and sharing common functionality between pages, decreasing page load time considerably
+- Changed from a (date, random) hash file naming convention to a contenthash system that will allow longer-term file caching, decreasing page load time
+- Combined manifest files so all js files use the same manifest
+- Updated manifest plugin functionality to include each entry’s required JavaScript chunks
+- Changed asset_for_js to tags_for_js_chunks to better reflect its new functionality of adding full <script> tags rather than only returning a single path
+- Renamed legal .js files to .cjs
+- Extensive Node package version upgrades
+
+# July 17, 2024 (Sprint 25.4)
+## Added
+- **General:** Added "Search legal resources" to the global search autosuggest to improve access to legal cases and their documents
+
+# July 2, 2024 (Sprint 25.3)
+## Changed
+- **Help for candidates and committees:** Updated ["Registering as a political party"](https://www.fec.gov/help-candidates-and-committees/registering-political-party/bank-accounts-political-party-committees/) section with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
+- **Help for candidates and committees:** Updated ["Registering as a political party"](https://www.fec.gov/help-candidates-and-committees/registering-political-party/national-party-accounts-certain-expenses/) section with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
+
+## Under the hood
+- **About the FEC** Expanded error handling for about/careers/ to avoid Server Error when USAJobs is not responding. Also added error handling for incorrect data format being returned. Render the error-type to the page so developers can more quickly decipher and debug error.
+
+# June 18, 2024 (Sprint 25.2)
+## Changed
+- **Legal Resources:** Added informational message to [Requests for legal consideration page](https://www.fec.gov/legal-resources/policy-other-guidance/requests-legal-consideration/) concerning application to audits that began before June 1, 2024.
+- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide - [Added court case citations](https://www.fec.gov/help-candidates-and-committees/registering-political-party/getting-ballot-access-and-incorporating-party-committee/)
+- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide with [changes]https://www.fec.gov/help-candidates-and-committees/get-treasurer/) from the new Guide 
+- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide with text [updates](https://www.fec.gov/help-candidates-and-committees/registering-political-party/qualifying-as-a-political-party-committee/) from the Guide. 
+- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide with text and adjusted bullet points on the [page](https://www.fec.gov/help-candidates-and-committees/registering-political-party/registering-political-party-committee/) to match the Guide. 
+- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide updated a couple of [sentences](https://www.fec.gov/help-candidates-and-committees/registering-political-party/information-local-party-committees-not-registered-fec/) to match the Guide. 
+- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide added a [footnote](https://www.fec.gov/help-candidates-and-committees/registering-political-party/affiliation-between-political-party-committees/) to the text from the new Guide. 
+
+## Under the hood
+- Update tsvector columns in National party account data materialized view
+
+# June 4, 2024 (Sprint 25.1)
+## Added
+- **API:** Added  /national_party/totals/ API endpoints in swagger UI
+- **API:** Increased size of inner hits to 100 in legal search
+- **General:** Added site footer link for accessibility statement
+- **General:** Added site footer text: “This information is produced and disseminated at U.S. taxpayer expense.”
+
+## Changed
+- **General:** Redirects for COVID plans that have been retired
+
+## Under the hood
+- Redirects for outdated files were put in place.
+
+# May 21, 2024 (Sprint 24.innovation)
+## Added
+- **Legal resources:** Added the [effective date](https://www.fec.gov/legal-resources/regulations/) for the FR notice of interim finales on implementation of the FOIA improvement act
+- **Legal resources:** Added the new regulations to the [E&J index](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/) and [citation index](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-1-8/) 
+- **Help for candidates and committees:** Added a new stand alone Leadership PAC [page](https://www.fec.gov/help-candidates-and-committees/registering-pac/types-nonconnected-pacs/leadership-pacs/)
+- **Help for candidates and committees:** Added an intro sentence on the registering for candidate page to help guide the user on the [page](https://www.fec.gov/help-candidates-and-committees/registering-candidate/)
+- **API:** Added two new API endpoints for national party accounts in swagger UI
+
+## Changed
+- **Help for candidates and committees:** Uploaded the Party Guide to the Party [page](https://www.fec.gov/help-candidates-and-committees/guides/?tab=political-party-committees)
+- **API** Fix schedule_a/by_employer, schedule_a/by_employer, and schedule_b/by_recipient full text search
+- **API** Add national party schedule A/B endpoints 
+- **Legal Resources** Switch to eCFR for legal global search
+
+## Under the hood
+
+- Regulations search is now using the eCFR API
+- Upgrade Werkzeug 
+- Upgrade Flyway
+- Upgrade gunicorn 
+- Improve keyword search speed
+
+# April 30, 2024 (Sprint 24.6)
+## Added
+- **About the FEC:** Expanded keyword search for over 3000 previously unsearchable Press releases, Weekly Digests, Tips for Treasurers, and FEC Record pages dating back to 1975.
+
+## Changed
+- **Help for candidates and committees:** Quality control to ensure the removal/update references to superseded AOs 
+- **Legal Resources** Remove EQS references throughout the website
+- **Legal Resources** Expand keyword search to include html content
+
+## Under the hood
+- Add tsvector columns to contribution and disbursement aggregate data table
+- Upgrade flyway to 10.11.1
+- Add robots.txt
+
+# April 17, 2024 (Sprint 24.5)
+## Added
+- **API:** Added new efile/form1 endpoint that provides real time access to form1 data.
+- **Help for candidates and committees:** Added and updated glossary terms stemming from the technological modernization regulations  
+
 ## Changed
 - **Campaign finance data:** Changed from multi-select to single-select for Line-number filters on Receipts and Disbursements datatables
-## Under the hood
-- **Search engine indexing**: Alert banners will no longer show in sitemap or search index, removing them from search results
 
+## Under the hood
+- Alert banners will no longer show in sitemap or search index, removing them from search results
 
 # April 2, 2024 (Sprint 24.4)
 
