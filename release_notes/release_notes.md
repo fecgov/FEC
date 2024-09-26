@@ -1,3 +1,18 @@
+# September 17, 2024 (Sprint 26.1)
+
+## Changed
+- **Legal resources:** Removed information for the comment period for the NPRM on Admin Fines and the Form 3Z as the comment period [expired.](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/)
+- **Help for candidates and committees:** Finished updating the Party Guide updates to the “Making disbursements as a party” pages:
+    - [Coordinated party expenditures](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/coordinated-party-expenditures/)
+    - [Advertising and disclaimers](https://www.fec.gov/help-candidates-and-committees/advertising-and-disclaimers/)
+    - [Making independent expenditures political party committees/](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/making-independent-expenditures-political-party-committee/)
+    - [Fundraising party committees federal-candidates](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/fundraising-party-committees-federal-candidates/)
+
+- **Legal Resources** Fix AO citations bug
+
+## Under the hood
+- Add candidate_id limitation on schedule a aggregate 
+
 # September 3, 2024 (Sprint 25.innovation)
 
 ## Added
@@ -24,7 +39,7 @@
 - **Campaign finance data:** Added “National party account disbursements” to the Browse data Spending tab
 
 ## Changed
-- **Legal resources:** Updated the section under :”Annual printed editions of 11 CFR” with links to the 1977-1996 11 CFRs. https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr
+- **Legal resources:** Updated the [section](https://www.fec.gov/legal-resources/regulations/#go-to-11-cfr) under :”Annual printed editions of 11 CFR” with links to the 1977-1996 11 CFRs. 
 - **Help for candidates and committees:** Updates made to the "Taking in receipts as a party" section with changes from the new Party Guide - pages include: 
     - [Template change, text updates, AOs added and formatting to match the Guide ](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/contributions-party-committees/)
     - [Text changes to match the Guide](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/who-can-and-cant-contribute-party-committee/)
@@ -58,8 +73,8 @@
 
 # July 2, 2024 (Sprint 25.3)
 ## Changed
-- **Help for candidates and committees:** Updated ["Registering as a political party"](https://www.fec.gov/help-candidates-and-committees/registering-political-party/bank-accounts-political-party-committees/) section with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
-- **Help for candidates and committees:** Updated ["Registering as a political party"](https://www.fec.gov/help-candidates-and-committees/registering-political-party/national-party-accounts-certain-expenses/) section with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
+- **Help for candidates and committees:** Updated "Registering as a political party" [section](https://www.fec.gov/help-candidates-and-committees/registering-political-party/bank-accounts-political-party-committees/) with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
+- **Help for candidates and committees:** Updated "Registering as a political party" [section](https://www.fec.gov/help-candidates-and-committees/registering-political-party/national-party-accounts-certain-expenses/) with changes from the new Party Guide - Updated language to match the campaign guide for the web page 
 
 ## Under the hood
 - **About the FEC** Expanded error handling for about/careers/ to avoid Server Error when USAJobs is not responding. Also added error handling for incorrect data format being returned. Render the error-type to the page so developers can more quickly decipher and debug error.
@@ -68,7 +83,7 @@
 ## Changed
 - **Legal Resources:** Added informational message to [Requests for legal consideration page](https://www.fec.gov/legal-resources/policy-other-guidance/requests-legal-consideration/) concerning application to audits that began before June 1, 2024.
 - **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide - [Added court case citations](https://www.fec.gov/help-candidates-and-committees/registering-political-party/getting-ballot-access-and-incorporating-party-committee/)
-- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide with [changes]https://www.fec.gov/help-candidates-and-committees/get-treasurer/) from the new Guide 
+- **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide with [changes](https://www.fec.gov/help-candidates-and-committees/get-treasurer/) from the new Guide 
 - **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide with text [updates](https://www.fec.gov/help-candidates-and-committees/registering-political-party/qualifying-as-a-political-party-committee/) from the Guide. 
 - **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide with text and adjusted bullet points on the [page](https://www.fec.gov/help-candidates-and-committees/registering-political-party/registering-political-party-committee/) to match the Guide. 
 - **Help for candidates and committees:** Updated "Registering as a political party" section with changes from the new Party Guide updated a couple of [sentences](https://www.fec.gov/help-candidates-and-committees/registering-political-party/information-local-party-committees-not-registered-fec/) to match the Guide. 
