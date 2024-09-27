@@ -8,7 +8,7 @@
     - [Making independent expenditures political party committees/](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/making-independent-expenditures-political-party-committee/)
     - [Fundraising party committees federal-candidates](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/fundraising-party-committees-federal-candidates/)
 
-- **Legal Resources** Fix AO citations bug
+- **Legal Resources:** Fixed AO citations bug
 
 ## Under the hood
 - Add candidate_id limitation on schedule a aggregate 
