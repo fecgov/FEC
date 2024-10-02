@@ -1,3 +1,29 @@
+# October 1, 2024 (Sprint 26.2)
+
+## Added
+- **API:** Added ao_doc_category_id filter to /legal/search?type=advisory_opinions
+
+- **API:** Added a mur_disposition_category_id to the /legal/search endpoint
+
+## Changed
+- **Help for candidates and committees:** Updated the Political Party Committees Campaign Guide “Keeping party records” pages (updated text and CFR links to eCFR):
+    - [Recording receipts for a party committee](https://www.fec.gov/help-candidates-and-committees/keeping-political-party-records/recording-receipts/)
+    - [Best efforts to document receipts](https://www.fec.gov/help-candidates-and-committees/best-efforts-document-receipts/)
+    - [Recording disbursements for a party committee](https://www.fec.gov/help-candidates-and-committees/keeping-political-party-records/recording-disbursements-party-committee/)
+    - [Recording debts and loans for a party committee](https://www.fec.gov/help-candidates-and-committees/keeping-political-party-records/recording-debts-and-loans-party-committee/)
+      
+- **Help for candidates and committees:** Updated additional candidate committee-related pages with updates from the Technological Modernization rulemaking: 
+    - [Recording receipts](https://www.fec.gov/help-candidates-and-committees/keeping-records/recording-receipts/)
+    - [Recording disbursements](https://www.fec.gov/help-candidates-and-committees/keeping-records/records-disbursements/)
+    - [Recording debts and loans](https://www.fec.gov/help-candidates-and-committees/keeping-records/recording-debts-and-loans/)
+    - [Volunteer activity](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/volunteer-activity/)
+    - [Types of contributions](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/types-contributions/)
+    - [Remedying an excessive contribution](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/remedying-excessive-contribution/)
+    - [Additional recordkeeping by publicly funded presidential candidates](https://www.fec.gov/help-candidates-and-committees/understanding-public-funding-presidential-elections/additional-recordkeeping-publicly-funded-presidential-candidates/) 
+
+## Under the hood
+- Fixed the MUR disposition category ID key
+
 # September 17, 2024 (Sprint 26.1)
 
 ## Changed
