@@ -21,6 +21,12 @@ This repository, [FEC](https://github.com/fecgov/fec), is a general discussion f
 - [fec-dns](https://github.com/fecgov/fec-dns): manages DNS for fec.gov
 - [fec-testing](https://github.com/fecgov/fec-testing): tracks ideas through concept, design, usability testing, and documentation
 
+***FECFile (under development)***
+- [fecfile-web-app](https://github.com/fecgov/fecfile-web-app): Browser-based front-end for FECFile developed in Angular
+- [fecfile-web-api](https://github.com/fecgov/fecfile-web-api): RESTful API supporting the FECFile front-end developed in Django
+- [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy): Nginx reverse proxy for FECFile API - IP blocking and rate limiting
+- [fecfile-validate](https://github.com/fecgov/fecfile-validate): data validation rules for FECFile
+
 ## Get involved
 We’re thrilled you want to get involved!
 - Read our [contributing guidelines](https://github.com/fecgov/openfec/blob/master/CONTRIBUTING.md). Then, [file an issue](https://github.com/fecgov/fec/issues) or submit a pull request.
