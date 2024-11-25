@@ -27,5 +27,6 @@ The FEC may update this acceptable use policy at any time. Updates will be made 
 - impersonate any person or entity;
 - create keys in bulk;
 - send unsolicited communications, promotions or advertisements, or spam;
-- send altered, deceptive or false source-identifying information, including "spoofing" or "phishing"; or
-- authorize, permit, enable, induce or encourage any third party to do any of the above.
+- send altered, deceptive or false source-identifying information, including "spoofing" or "phishing";
+- authorize, permit, enable, induce or encourage any third party to do any of the above; or
+- use campaign finance information disclosed on fec.gov or through openFEC, the FEC's API, for commercial purposes including, but not limited to training data for large language models, machine learning models or artificial intelligence models, including generative artificial intelligence models..
