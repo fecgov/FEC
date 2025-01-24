@@ -1,8 +1,75 @@
+# January 14, 2025 (Sprint 27.2)
+## Added
+- **Help for candidates and committees:** Added the new 2025 reporting dates to the Election dates and deadline [page](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/)
+- **Help for candidates and committees:** Published the Candidate and Officeholder Security [pages](https://www.fec.gov/help-candidates-and-committees/making-disbursements/candidate-and-officeholder-security/) related to the new rules 
+
+- **Legal:** Updated the [regulations](https://www.fec.gov/legal-resources/regulations/) and E&J chronological and [citation index pages](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-part-111/) for the Annual inflation adjustments to limits for 2025 
+
+## Changed
+- **About the FEC:** Updated the new Chair and Vice Chairman for 2025 
+
+# January 2, 2025 (Sprint 27.1)
+
+## Changed
+- Deprecated ao_filter has been removed. Functionality is available through ao_doc_category_id filter. Users should switch to ao_doc_category_id. 
+
+# December 17, 2024 (Sprint 26.i)
+## Added
+- **Legal resources:**  [Petition](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/) for a rulemaking and comments on cotnriubtions through untracebel Electronic Payment Methods REG 2024-08
+- **Legal resources:**  Final Rules and Explanation and Justification for Form 3Z REG 2024-04. Pages updated: [Chronological Index 2020-2029](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/), 
+[Part 104: Reports by political committees and other persons](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-103-104/#part-104-reports-by-political-committees-and-other-persons) and 
+[Regulations](https://www.fec.gov/legal-resources/regulations/)
+
+# November 26, 2024 (Sprint 26.6)
+
+## Under the hood
+-  Update report_type,form_type and form_category 
+
+# November 15, 2024 (Sprint 26.5)
+
+## Under the hood
+- Fix bug in CandidateList and CommitteeList when passing q and sort by receipts
+- Remove un-display MUR disposition category
+
+# October 29, 2024 (Sprint 26.4)
+## Added
+- **Legal resources:** Added new Subjects filter for MUR data tables.
+
+## Changed
+- **Help for candidates and committees:** Changed the order of the Election results and voting information [page](https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/) to better serve the regulated community 
+
+## Under the hood
+- Fixed current mur and arch mur sort issue 5982-Fix arch mur and current mur sort
+
+# October 15, 2024 (Sprint 26.3)
+## Added
+
+- **API** Added subject filters for the legal search endpoint
+- **Legal resources:** Added new filter for MUR final disposition on MUR data tables.
+- **Legal resources:** Added the effective date and FR notice for the Final Rules on Campaign Funds for Candidate and Officeholder Security to the regulations [page](https://www.fec.gov/legal-resources/regulations/) 
+- **Legal resources:** Updated the E&J pages for Campaign Funds for Candidate and Officeholder Security 113.1(g)(10)(i), 113.1(g)(10)(ii), 113.1(g)(10)(iii) and 113.1(g)(10)(iv)) Updates to the following pages
+[Chronological Index 2020-2029](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/), 
+[Part 113: Permitted and Prohibited Uses of Campaign Accounts](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-112-113/#part-113-permitted-and-prohibited-uses-of-campaign-accounts) and [Part 113: Permitted and Prohibited Uses of Campaign Accounts](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/explanations-and-justifications-conversion-tables-appendix-parts-110-300/#part-113-permitted-and-prohibited-uses-of-campaign-accounts) 
+
+- **About the FEC:** Option for downloading commissioner photo, if available
+
+
+## Changed
+- **Help for candidates and committees:** Updated the Political Party Committees Campaign Guide “Keeping party records” pages (updated text and CFR links to eCFR):
+    - [Loans](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/loans/)
+    - [Unpayable debts](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/how-handle-unpayable-debts/)
+    - [Settling debts](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/settling-debts-less-amount-owed/)
+    - [Personal funds advances](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/advances-personal-funds/)
+
+- **Legal resources:** Removed information for the comment period for the NPRM on Political Party Rules II as the comment period [expired.](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/)
+
+## Under the hood
+- View is added to facilitate MUR sorting
+
 # October 1, 2024 (Sprint 26.2)
 
 ## Added
 - **API:** Added ao_doc_category_id filter to /legal/search?type=advisory_opinions
-
 - **API:** Added a mur_disposition_category_id to the /legal/search endpoint
 
 ## Changed
