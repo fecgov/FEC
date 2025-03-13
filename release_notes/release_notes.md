@@ -1,3 +1,91 @@
+# December 17, 2024 (Sprint 26.i)
+## Added
+- **Legal Resources:** Petition for a rulemaking and comments on contributions through untraceable Electronic Payment Methods REG 2024-08 to https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/
+- **Legal Resources:** Final Rules and Explanation and Justification for Form 3Z REG 2024-04. Pages updated: https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/ ; 
+https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-103-104/#part-104-reports-by-political-committees-and-other-persons ; and https://www.fec.gov/legal-resources/regulations/ 
+- **Campaign Finance Data:** Added disclaimer to national party datatables
+- **Legal Resources:** Added document date range and penalty by respondent range filters
+
+## Changed
+
+## Under the hood
+- **CMS:** Adding style rules to print pages
+- **API:** Upgraded werkzeug
+- **API:** Upgraded flyway
+- **Legal Resources:** Fixed empty filter bug
+
+
+# November 26, 2024 (Sprint 26.6)
+## Added
+- **Homepage:** Added sign up button to test new website features
+
+## Changed
+- **Campaign Finance  Data:** Fixed bug with dropdown scrolling 
+
+## Under the hood
+- **API:** Updated report_type,form_type and form_category 
+- **CMS/API:** Upgraded gevent 
+- **Campaign Finance Data:** Fixed bug on for Filing or Reports datatables where the the loading gif (three animated dots) is not removed when visiting a url with querystring parameters
+- **API:** Fixed bug with AO name fields not populating
+- **API:** Upgraded Flyway 
+- **API:** Fixed bug with 24/48 report form_type
+
+# November 15, 2024 (Sprint 26.5)
+## Added
+- **Legal Resources:** Added MUR subject filters to website 
+
+## Changed
+- **Legal Resources:** Update the AO search templates
+- **Homepage:** Updated .gov banner to fix accordion on homepage
+- **Legal Resources:** Fixed archived MUR url 
+- **API:** Added min/max penalty filters to legal search, updates legal search fields to make the structure of nested fields between document types the same
+## Under the hood
+- **API:** Fixed bug in CandidateList and CommitteeList when passing q and sort by receipts
+- **API:** Removed un-display MUR disposition category
+- **CMS:** Updated Django v4.2.16
+- **API:** Added testing for legal search cases
+
+# October 29, 2024 (Sprint 26.4)
+## Added
+- **Legal resources:** Added new Subjects filter for MUR data tables.
+- **API:** Added current MURs to the citations endpoint
+- **API:** Added filter by document date 
+## Changed
+- **H4CC:** Changed the order of the Election results and voting information page to better serve the regulated community https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/
+## Under the hood
+- **API:** Fixed current MUR and arch MUR sort issue 
+
+
+# October 15, 2024 (Sprint 26.3)
+## Added
+
+- **API:** Added subject filters for the legal search endpoint
+- **Legal resources:** Added new filter for MUR final disposition on MUR data tables.
+- **API:** Added doc_type filter to citations endpoint 
+- **Legal resources:** Added the effective date and FR notice for the Final Rules on Campaign Funds for Candidate and Officeholder Security to https://www.fec.gov/legal-resources/regulations/ 
+- **Legal resources:** Updated the E&J pages for Campaign Funds for Candidate and Officeholder Security (New 113.1(g)(10)(i), 113.1(g)(10)(ii), 113.1(g)(10)(iii), 113.1(g)(10)(iv))
+	- https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/
+	- https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-112-113/#part-113-permitted-and-prohibited-uses-of-campaign-accounts 
+	- https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/explanations-and-justifications-conversion-tables-appendix-parts-110-300/#part-113-permitted-and-prohibited-uses-of-campaign-accounts 
+
+- **About the FEC:** Added option for downloading commissioner photo, if available
+
+
+## Changed
+- **H4CC:** Updated the Political Party Committees Campaign Guide “Keeping party records” pages (updated text and CFR links to eCFR):
+	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/loans/
+	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/how-handle-unpayable-debts/
+	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/settling-debts-less-amount-owed/
+	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/advances-personal-funds/
+
+- **Legal resources:** Removed information for the comment period for the NPRM on Political Party Rules II as the comment period expired. Page https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/
+- **Legal Resources:** Updated the legal keyword tooltip
+- **Help for Candidates and Committees:** Resolved issue with modals on date tables
+## Under the hood
+- **Database:** View is added to facilitate MUR sorting
+- **API:** Flyway upgraded
+- **Legal Resources:** Fixed a bug with MUR subjects to display as list
+
 # October 1, 2024 (Sprint 26.2)
 
 ## Added
