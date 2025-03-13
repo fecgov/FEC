@@ -1,3 +1,195 @@
+# March 11, 2025 (Sprint 27.6)
+## Added
+- **Campaign Finance Data:** Added donations tables for Inaugural Committees
+
+## Changed
+- **Legal:** Removed the banner and comment period for REG 24-06. Banner from the homepage and comment period information from [page](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/) 
+- **Legal:** Changed the labels for the "Citations" filters for AOs and MURs
+
+## Under the hood
+- Added fuzziness to q-exclude parameter for legal search
+
+# February 25, 2025 (Sprint 27.5)
+
+## Added
+- **Campaign Finance Data** Added bulk data links for 2025-2026 candidates summary
+
+## Changed
+- **Help for Candidates and Committees:** [Election cycle and aggregation reporting example](https://www.fec.gov/help-candidates-and-committees/filing-reports/election-cycle-aggregation/) updated to remove old election cycle dates, add new election cycle dates, and update report and FECFile images.
+- **Legal:** Swapped the entity_name filter for ao_commenter and ao_representative
+- **Campaign Finance Data:** Updated current cycle constants 
+
+## Under the hood
+- Added parsed candidate name to candidate detail
+- Upgraded flyway to v11.3.1 to remediate snyk vulnerability
+- Allow zero input from integer filters in legal search
+- Fixed q-exclude filter to search by name for statutes
+
+# February 11, 2025 (Sprint 27.4)
+
+## Added
+- **Legal:** Added the FR notice on Inflation Adjustments to the Regulations web page 
+- **General:** Added bluesky option to commissioner pages
+- **API:** Added 2026 cycle tables add_fec_fitem_sched_a_2025_2026 and fec_fitem_sched_b_2025_2026 table
+
+
+## Changed
+- **About:** Moved Commissioner Cooksey over to [the Commissioner archive page](https://www.fec.gov/about/leadership-and-structure/commissioners/
+) 
+- **About:** Updated the Office of Communications Public Disclosure and Media Relations Divisions to reflect the retirement of the FEC’s Press Officer and to include the bio of Deputy Press Officer 
+- **Legal:** Posted approved Statement of Policy Regarding the Notification of Respondents in Matters Under Review Remanded From a Challenge Pursuant to 52 U.S.C.§ 30109(a)(8) [page](https://www.fec.gov/legal-resources/policy-other-guidance/)
+- **Help for Candidates and Committees:** Contribution updates for the 2025-26 election cycle 
+	- [Contribution limits](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/)
+	- [Contribution limits for party committees](https://www.fec.gov/help-candidates-and-committees/taking-receipts-political-party/contribution-limits-party-committees/)
+	- [Limits on contributions received by the SSF](https://www.fec.gov/help-candidates-and-committees/taking-receipts-ssf/limits-contributions-received-ssf/)
+	- [Contribution limits to NC PACs](https://www.fec.gov/help-candidates-and-committees/taking-receipts-pac/contribution-limits-nonconnected-pacs/)
+	- [Handling a questionable contribution](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/questionable-contributions/) 
+	- [Recounts and contested elections](https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/recounts-and-contested-elections/)
+	- [Contributions made by party committees](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/contributions-made-by-party-committees/) 
+	- [Limits on contributions made to candidates by the SSF](https://www.fec.gov/help-candidates-and-committees/making-disbursements-ssf-or-connected-organization/limits-contributions-made-candidates-by-ssf/)
+	- [SSF: making contributions to party committees and other PACs](https://www.fec.gov/help-candidates-and-committees/making-disbursements-ssf-or-connected-organization/making-contributions-party-committees-and-other-pacs-ssf/)
+	- [Who can and can't contribute to a nonconnected PAC](https://www.fec.gov/help-candidates-and-committees/taking-receipts-pac/who-can-and-cant-contribute-nonconnected-pac/)
+	- [Contributions made to party committees and PACs](https://www.fec.gov/help-candidates-and-committees/making-disbursements-pac/contributions-made-party-committees-and-pacs-nonconnected/)
+	- [Understanding ways to support federal candidates](https://www.fec.gov/introduction-campaign-finance/understanding-ways-support-federal-candidates/) 
+- **Help for Candidates and Committees:** Updated the limits on the Coordinated party expenditure spending limit page to reflect 2025 Inflation adjustments 
+- **Help for Candidates and Committees:** Bundling reporting threshold changed to reflect 2025 Inflation Adjustments 
+	- [Lobbyist bundling disclosure](https://www.fec.gov/help-candidates-and-committees/lobbyist-bundling-disclosure/)
+	- [Supplemental filing information for congressional committees (2025)](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2025-reporting-dates/supplemental-filing-information-for-congressional-committees-2025/)
+	- [2025 supplemental filing information for special election - FL/01](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2025-reporting-dates/2025-supplemental-filing-information-special-election-fl01/)
+	- [2025 supplemental filing information for special election - FL/06](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2025-reporting-dates/2025-supplemental-filing-information-special-election-fl06/)
+- **Help for Candidates and Committees:** Removed the Form 3Z and 3ZP from website which is no longer required to be filed 
+	- [Registration and reporting forms](https://www.fec.gov/help-candidates-and-committees/forms/)
+	- [Supplemental filing information for congressional committees (2025)](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2025-reporting-dates/supplemental-filing-information-for-congressional-committees-2025/) 
+	- [Pre-election reports](https://www.fec.gov/help-candidates-and-committees/filing-reports/pre-election-reports/)
+	- [Quarterly reports](https://www.fec.gov/help-candidates-and-committees/filing-reports/quarterly-reports/)
+- **API:** Changed 'total' property to schema to return a float data type instead of string type
+- **API:** Changed the proximity_filter to mean that the proximity_filter_term comes before or after the q_proximity terms
+
+## Under the hood
+- Upgraded CF CLI to v8.9.0 in api, cms, proxy, proxy-redirect and pattern-library circleci/config.yml files to ensure apps use the Cloud Foundry v3 API during deployment
+- Updated the total property in /v1/schedules/schedule_a/by_size/ to return float value instead of string
+
+# January 28, 2025 (Sprint 27.3)
+
+## Added
+- **Legal Resources:** Added MUR legal citation filters
+
+## Under the hood
+- Added validations to ao_requestor_type, mur_type, primary_subject_id, secondary_subject_id and type filters
+- Upgraded python version tp 3.11 in CMS and API apps
+- Upgraded to Wagtail 6.3
+
+# January 14, 2025 (Sprint 27.2)
+
+## Added
+- **Help for candidates and committees:** Added the new 2025 reporting dates to the Election dates and deadline [page](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/)
+- **Help for candidates and committees:** Published the Candidate and Officeholder Security [pages](https://www.fec.gov/help-candidates-and-committees/making-disbursements/candidate-and-officeholder-security/) related to the new rules 
+- **Legal Resources:** Updated the [regulations](https://www.fec.gov/legal-resources/regulations/) and E&J chronological and [citation index pages](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-part-111/) for the Annual inflation adjustments to limits for 2025
+- **About:** Updated [the new Chair](https://www.fec.gov/about/leadership-and-structure/ellen-l-weintraub/
+) and [Vice Chairman](https://www.fec.gov/about/leadership-and-structure/james-e-trainor-iii/ 
+) for 2025 
+
+## Under the hood
+- Fixed q-exclude filter on AO keyword search
+- Resolved AO pagination bug
+- Added ISO8601 format to calendar endpoint
+- Added proximity search to legal endpoint
+
+
+# January 2, 2025 (Sprint 27.1)
+
+## Changed
+- **API:** Deprecated ao_filter has been removed. Functionality is available through ao_doc_category_id filter. Users should switch to ao_doc_category_id.
+  
+# December 17, 2024 (Sprint 26.i)
+
+## Added
+- **Legal Resources:**  [Petition](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/) for a rulemaking and comments on cotnriubtions through untracebel Electronic Payment Methods REG 2024-08
+- **Legal Resources:**  Final Rules and Explanation and Justification for Form 3Z REG 2024-04. Pages updated: [Chronological Index 2020-2029](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/), 
+[Part 104: Reports by political committees and other persons](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-103-104/#part-104-reports-by-political-committees-and-other-persons) and 
+[Regulations](https://www.fec.gov/legal-resources/regulations/)
+- **Campaign Finance Data:** Added disclaimer to national party datatables
+- **Legal Resources:** Added document date range and penalty by respondent range filters
+
+## Under the hood
+- Added style rules to print pages
+- Upgraded werkzeug and flyway
+- Fixed empty filter bug
+
+
+# November 26, 2024 (Sprint 26.6)
+
+## Added
+- **Homepage:** Added sign up button to test new website features
+
+## Changed
+- **Campaign Finance  Data:** Fixed bug with dropdown scrolling 
+
+## Under the hood
+- Updated report_type,form_type and form_category 
+- Upgraded gevent 
+- Fixed bug on for Filing or Reports datatables where the the loading gif (three animated dots) is not removed when visiting a url with querystring parameters
+- Fixed bug with AO name fields not populating
+- Upgraded Flyway 
+- Fixed bug with 24/48 report form_type
+
+# November 15, 2024 (Sprint 26.5)
+
+## Added
+- **Legal Resources:** Added MUR subject filters to website 
+
+## Changed
+- **Legal Resources:** Updated the AO search templates
+- **Homepage:** Updated .gov banner to fix accordion on homepage
+- **Legal Resources:** Fixed archived MUR url 
+- **API:** Added min/max penalty filters to legal search, updates legal search fields to make the structure of nested fields between document types the same
+
+## Under the hood
+- Fixed bug in CandidateList and CommitteeList when passing q and sort by receipts
+- Removed un-display MUR disposition category
+- Updated Django v4.2.16
+- Added testing for legal search cases
+
+# October 29, 2024 (Sprint 26.4)
+
+## Added
+- **Legal resources:** Added new Subjects filter for MUR data tables.
+- **API:** Added current MURs to the citations endpoint
+- **API:** Added filter by document date 
+
+## Changed
+- **Help for candidates and committees:** Changed the order of the Election results and voting information [page](https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/) to better serve the regulated community ## Under the hood
+- **API:** Fixed current MUR and arch MUR sort issue 
+
+
+# October 15, 2024 (Sprint 26.3)
+
+## Added
+- **API:** Added subject filters for the legal search endpoint
+- **Legal resources:** Added new filter for MUR final disposition on MUR data tables.
+- **API:** Added doc_type filter to citations endpoint
+- **Legal resources:** Added the effective date and FR notice for the Final Rules on Campaign Funds for Candidate and Officeholder Security to the regulations [page](https://www.fec.gov/legal-resources/regulations/) 
+- **Legal resources:** Updated the E&J pages for Campaign Funds for Candidate and Officeholder Security 113.1(g)(10)(i), 113.1(g)(10)(ii), 113.1(g)(10)(iii) and 113.1(g)(10)(iv)) Updates to the following pages
+[Chronological Index 2020-2029](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/), 
+[Part 113: Permitted and Prohibited Uses of Campaign Accounts](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-112-113/#part-113-permitted-and-prohibited-uses-of-campaign-accounts) and [Part 113: Permitted and Prohibited Uses of Campaign Accounts](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/explanations-and-justifications-conversion-tables-appendix-parts-110-300/#part-113-permitted-and-prohibited-uses-of-campaign-accounts) 
+- **About the FEC:** Added option for downloading commissioner photo, if available
+
+## Changed
+- **Help for candidates and committees:** Updated the Political Party Committees Campaign Guide “Keeping party records” pages (updated text and CFR links to eCFR):
+    - [Loans](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/loans/)
+    - [Unpayable debts](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/how-handle-unpayable-debts/)
+    - [Settling debts](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/settling-debts-less-amount-owed/)
+    - [Personal funds advances](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/advances-personal-funds/)
+
+- **Legal resources:** Removed information for the comment period for the NPRM on Political Party Rules II as the comment period [expired.](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/)
+- **Legal Resources:** Updated the legal keyword tooltip
+- **Help for Candidates and Committees:** Resolved issue with modals on date tables
+
+## Under the hood
+- View is added to facilitate MUR sorting
+- Fixed a bug with MUR subjects to display as list
+
+
 # October 1, 2024 (Sprint 26.2)
 
 ## Added
