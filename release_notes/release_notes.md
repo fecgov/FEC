@@ -1,8 +1,9 @@
 # December 17, 2024 (Sprint 26.i)
 ## Added
-- **Legal Resources:** Petition for a rulemaking and comments on contributions through untraceable Electronic Payment Methods REG 2024-08 to https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/
-- **Legal Resources:** Final Rules and Explanation and Justification for Form 3Z REG 2024-04. Pages updated: https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/ ; 
-https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-103-104/#part-104-reports-by-political-committees-and-other-persons ; and https://www.fec.gov/legal-resources/regulations/ 
+- **Legal resources:**  [Petition](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/) for a rulemaking and comments on cotnriubtions through untracebel Electronic Payment Methods REG 2024-08
+- **Legal resources:**  Final Rules and Explanation and Justification for Form 3Z REG 2024-04. Pages updated: [Chronological Index 2020-2029](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/), 
+[Part 104: Reports by political committees and other persons](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-103-104/#part-104-reports-by-political-committees-and-other-persons) and 
+[Regulations](https://www.fec.gov/legal-resources/regulations/)
 - **Campaign Finance Data:** Added disclaimer to national party datatables
 - **Legal Resources:** Added document date range and penalty by respondent range filters
 
@@ -51,8 +52,7 @@ https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/
 - **API:** Added current MURs to the citations endpoint
 - **API:** Added filter by document date 
 ## Changed
-- **H4CC:** Changed the order of the Election results and voting information page to better serve the regulated community https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/
-## Under the hood
+- **Help for candidates and committees:** Changed the order of the Election results and voting information [page](https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/) to better serve the regulated community ## Under the hood
 - **API:** Fixed current MUR and arch MUR sort issue 
 
 
@@ -61,24 +61,22 @@ https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/
 
 - **API:** Added subject filters for the legal search endpoint
 - **Legal resources:** Added new filter for MUR final disposition on MUR data tables.
-- **API:** Added doc_type filter to citations endpoint 
-- **Legal resources:** Added the effective date and FR notice for the Final Rules on Campaign Funds for Candidate and Officeholder Security to https://www.fec.gov/legal-resources/regulations/ 
-- **Legal resources:** Updated the E&J pages for Campaign Funds for Candidate and Officeholder Security (New 113.1(g)(10)(i), 113.1(g)(10)(ii), 113.1(g)(10)(iii), 113.1(g)(10)(iv))
-	- https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/
-	- https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-112-113/#part-113-permitted-and-prohibited-uses-of-campaign-accounts 
-	- https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/explanations-and-justifications-conversion-tables-appendix-parts-110-300/#part-113-permitted-and-prohibited-uses-of-campaign-accounts 
-
+- **API:** Added doc_type filter to citations endpoint
+- **Legal resources:** Added the effective date and FR notice for the Final Rules on Campaign Funds for Candidate and Officeholder Security to the regulations [page](https://www.fec.gov/legal-resources/regulations/) 
+- **Legal resources:** Updated the E&J pages for Campaign Funds for Candidate and Officeholder Security 113.1(g)(10)(i), 113.1(g)(10)(ii), 113.1(g)(10)(iii) and 113.1(g)(10)(iv)) Updates to the following pages
+[Chronological Index 2020-2029](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/chronological-index-2020-2029-ejs/), 
+[Part 113: Permitted and Prohibited Uses of Campaign Accounts](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/citation-index-parts-112-113/#part-113-permitted-and-prohibited-uses-of-campaign-accounts) and [Part 113: Permitted and Prohibited Uses of Campaign Accounts](https://www.fec.gov/legal-resources/regulations/explanations-and-justifications/explanations-and-justifications-conversion-tables-appendix-parts-110-300/#part-113-permitted-and-prohibited-uses-of-campaign-accounts) 
 - **About the FEC:** Added option for downloading commissioner photo, if available
 
 
 ## Changed
-- **H4CC:** Updated the Political Party Committees Campaign Guide “Keeping party records” pages (updated text and CFR links to eCFR):
-	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/loans/
-	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/how-handle-unpayable-debts/
-	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/settling-debts-less-amount-owed/
-	- https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/advances-personal-funds/
+- **Help for candidates and committees:** Updated the Political Party Committees Campaign Guide “Keeping party records” pages (updated text and CFR links to eCFR):
+    - [Loans](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/loans/)
+    - [Unpayable debts](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/how-handle-unpayable-debts/)
+    - [Settling debts](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/settling-debts-less-amount-owed/)
+    - [Personal funds advances](https://www.fec.gov/help-candidates-and-committees/handling-political-party-loans-debts-and-advances/advances-personal-funds/)
 
-- **Legal resources:** Removed information for the comment period for the NPRM on Political Party Rules II as the comment period expired. Page https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/
+- **Legal resources:** Removed information for the comment period for the NPRM on Political Party Rules II as the comment period [expired.](https://www.fec.gov/legal-resources/regulations/pending-rulemaking-matters-comment/)
 - **Legal Resources:** Updated the legal keyword tooltip
 - **Help for Candidates and Committees:** Resolved issue with modals on date tables
 ## Under the hood
