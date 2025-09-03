@@ -1,3 +1,65 @@
+# August 26, 2025 (Sprint 29.2)
+## Under the hood
+- Fix local flyway error happened during pytest
+
+# August 12, 2025 (Sprint 29.1)
+## Added
+
+ - **Legal resources:** Added the 2025 print edition to the regulations page and updated the content on the [page](https://www.fec.gov/legal-resources/regulations/)
+
+## Under the hood
+-  Added contents column in rulemaking view
+# July 29, 2025 (Sprint 28.i)
+## Under the hood
+ -  Add AO unpublished_flg feature
+ - Add migration file for rulemaking views 
+# July 08, 2025 (Sprint 28.6)
+## Under the hood
+ - Fix ao_no sorting bug
+
+# June 24, 2025 (Sprint 28.5)
+## Added
+ - **Legal resources:** Proximity keyword search filter now available for Matters Under Review, Alternative Dispute Resolution and  Admin Fines.
+- **Legal resources:** Design and publish [legal search guide](https://www.fec.gov/introduction-campaign-finance/how-to-research-public-records/) 
+## Changed
+ - **H4CC:** Convert certain party [pages](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/making-independent-expenditures-political-party-committee/) containing coordination information to resource template 
+## Under the hood
+ - Create functions to upload rulemaking data to elasticsearch
+- Upgrade gevent package in both cms and api apps to remediate a snyk vulnerability
+
+# June 10, 2025 (Sprint 28.4)
+## Added
+ - **Legal resources:** Design and publish [legal search guide](https://www.fec.gov/legal-resources/how-to-use-fec-legal-search-systems/) 
+
+## Changed
+ - **H4CC:** Convert certain party [pages](https://www.fec.gov/help-candidates-and-committees/making-disbursements-political-party/making-independent-expenditures-political-party-committee/) containing coordination information to resource template
+# May 27, 2025 (Sprint 28.3)
+## Changed
+- **H4CC:** Improved organization of information on IE reporting on Dates and deadlines pages
+    - [2025](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2025-reporting-dates/24-and-48-hour-reports-independent-expenditures-periods-special-elections-2025/)
+    - [2023-2024](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2023-reporting-dates/24-and-48-hour-reports-independent-expenditures-periods-special-elections-2023/)
+
+
+## Under the hood
+- Added published_flg to ao table.
+# May 13, 2025 (Sprint 28.2)
+## Changed
+- **Main page and About:** Updated [home page](https://www.fec.gov/) and [all commissioners page](https://www.fec.gov/about/leadership-and-structure/commissioners/) after departure of a commissioner.
+
+# April 29, 2025 (Sprint 28.1)
+
+ ## Changed
+- **API**  Resolve inconsistent results when sorting advisory opinions in descending order by issue date.
+-**H4CC:** The How to Report page - Registering a Candidate was updated to reflect to help filers determine if they should be filing a new Form 2 or amending an existing [Form 2 page](https://www.fec.gov/help-candidates-and-committees/filing-reports/registering-candidate/)
+
+# April 15, 2025 (Sprint 27.7)
+## Added
+- **API:** For the legal/search endpoint, add sort by “issue_date" feature for advisory opinions
+
+# March 25, 2025 (Sprint 27.7)
+## Under the hood
+- Switched app instance creation to Flask app factory pattern 
+
 # March 11, 2025 (Sprint 27.6)
 ## Added
 - **Campaign Finance Data:** Added donations tables for Inaugural Committees
