@@ -1,3 +1,77 @@
+# February 24, 2026 (Sprint 30.i)
+## Added
+-**Legal Resources:** Global legal search now includes Rulemaking
+
+## Under the hood
+- Upgrade flyway to v12.0.0 to remediate snyk vulnerability
+
+# February 3, 2026 (Sprint 30.6)
+## Added
+- **API:** Add a Celery task that handles publishing and unpublishing rulemakings to the OpenSearch service, executed by a cron job running every minute and send slack alert to bots# channel at the end of the day.
+
+# January 20, 2026 (Sprint 30.5)
+## Added
+- **Leal resources:** Court case index page with alphabetical listing, search filtering, and case counts includes court case detail page template with opinions and related cases sections, dynamic blocks for displaying active and selected court cases, and ability to add multiple court case numbers to court case pages
+- **About the FEC:** FEC Timeline feature with page/child relationship model and improved timeline layout spacing between images and captions
+
+- **H4CC-** Published the 2026 reporting date pages and prior notices
+    - [2026 Quarterly filers](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/2026-quarterly-filers/)
+    - [2026 Monthly filers](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/2026-monthly-filers/)
+    - [2026 Congressional-pre-election reporting](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/congressional-pre-election-reporting-dates-2026/)
+    - [2026 Pre- and- post-general reports](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/pre-and-post-general-reports-2026/)
+    - [2026 Coordinated communications periods](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/coordinated-communications-periods-main-page-2026/)
+    - [2026 Electioneering communications periods](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/electioneering-communications-periods-main-page-2026/)
+    - [2026 Federal election activity periods](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/federal-election-activity-periods-main-page-2026/)
+    - [2026 24- and 48-hour-reports of independent expenditures periods](https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/24-and-48-hour-reports-independent-expenditures-periods-main-page-2026/)
+
+## Changed
+-**General:** Updated "Government Printing Office" to "Government Publishing Office"
+
+## Under the hood
+- Fixed legal pytests
+- Fixed <br> tag syntax to prevent Wagtail admin errors 
+
+
+# January 06, 2026 (Sprint 30.4)
+- No updates
+- 
+# December 23, 2025 (Sprint 30.3)
+## Added
+-**API-** Add sorting functionality to the is_open_for_comment field in rulemakings endpoint
+
+ ## Changed
+-**API:-** Refactor ElectionsListView to use new ofec_zip_to_district table
+-**API:-** Update the Postgres Docker image to v15.10 to match the current API postgres database version.
+
+## Under the hood
+- Add a new pdf document to an existing archived mur in postgres and upload to website 
+- Add Zip Code to Congressional District data from 2012 to 2026
+
+# December 09, 2025 (Sprint 30.2)
+
+## Changed
+-**API** Fix Form3L version issue
+
+# November 25, 2025 (Sprint 30.1)
+- Lapse in funding
+- 
+# November 11, 2025 (Sprint 29.i)
+- Lapse in funding
+- 
+# October 21, 2025 (Sprint 29.5)
+- Lapse in funding
+
+# October 07, 2025 (Sprint 29.5)
+- Lapse in funding
+- 
+# September 23, 2025 (Sprint 29.4)
+## Changed
+
+- **Legal Resources** Consolidate overlapping mur disposition categories
+- **H4CC** Updating Reporting Example: [Partnership contributions](https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions) 
+
+# September 9, 2025 (Sprint 29.3)
+- No updates
 # August 26, 2025 (Sprint 29.2)
 ## Under the hood
 - Fix local flyway error happened during pytest
