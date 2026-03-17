@@ -1,3 +1,23 @@
+# March 10, 2026 (Sprint 31.1)
+## Added
+- **CMS:** Launched new rulemaking search on the FEC website. This provides fast, comprehensive search and access to FEC rulemaking documents.
+- **CMS:** Add ability to create cross-reference entries for court cases without dedicated pages
+- **API:** Rulemakings endpoint - add testify flag at rulemaking level, admin and comment close date parameters at document level
+- **API:** Enable large and no tier document text search
+- **API:** Clean and fix is_open_for_comment logic and flags
+
+## Changed
+- **CMS:** Simplified court case number sort on court case index page
+- **CMS:** Consolidated commenter type handling and categorization
+- **CMS:** Improved proximity search validation for all legal searches across the website
+- **CMS:** Updated rulemaking document sort logic based on tier precedence
+
+## Under the hood
+- **Database:** Add more columns to rulemaking database
+- **Database:** Upgraded flyway database migration tool to version 12.0.3
+- **CMS:** Fixed court case page search in Wagtail
+- **CMS:** Implemented cache-busting mechanisms for rulemaking API calls
+
 # February 24, 2026 (Sprint 30.i)
 ## Added
 -**Legal Resources:** Global legal search now includes Rulemaking
