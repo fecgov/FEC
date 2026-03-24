@@ -1,3 +1,20 @@
+# March 24, 2026 (Sprint 31.2)
+## Added
+- **CMS:** FECfile+ Eligibility widget to allow users to easily determine if they are eligible to register for the new web-based software for electronic filing.
+- **CMS:** Launched new rulemaking comment feature with improved form functionality and better visibility for rulemaking documents open for comment.
+- **API:** Form 56 integration added to daily refresh process
+
+
+## Changed
+- **CMS:** Legal Resources: Enhancements to global legal search: Auto search upon changing filters, loading gif to give user feedback while search executes, fixed results ordering issues. Support for Back/forward history.
+
+
+## Under the hood
+- **CMS:** Upgraded Wagtail framework to v6.3.8
+- **CMS:** Vue 2 & 3 compatibility improvements
+- **CMS:** Webpack configuration clean up and optimization
+- **API:** Removed unused Node.js packages to reduce dependency size
+
 # March 10, 2026 (Sprint 31.1)
 ## Added
 - **CMS:** Launched new rulemaking search on the FEC website. This provides fast, comprehensive search and access to FEC rulemaking documents.
