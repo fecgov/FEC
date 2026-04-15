@@ -1,3 +1,21 @@
+# April 7, 2026 (Sprint 31.3)
+## Added
+- **API:** Added rulemaking document sort logic based on tier precedence
+
+
+## Changed
+- **CMS:** Improved rulemaking document listings so single-commenter documents show the commenter’s name, while multi-commenter documents are labeled as “Joint comment”.
+- **CMS:** Reduced repetitive text in rulemaking document labels and documents to make rulemaking pages easier to scan.
+- **CMS:** Fixed the global search autosuggest dropdown so it displays above the site navigation.
+- **API:** Penalty filter excludes null values when a max penalty value is entered. This ensures that results returned are exclusively display only MURS with $0 penalties.
+
+
+## Under the hood
+- **API:** Removed unused Slack environment variable
+- **API:** Rulemaking search endpoint is now available without a feature flag
+- **API:** Upgrade flyway from 12.0.3 to 12.1.1
+- **API:** Upgrade ujson from 5.11.0 to 5.12.0
+
 # March 24, 2026 (Sprint 31.2)
 ## Added
 - **CMS:** FECfile+ Eligibility widget to allow users to easily determine if they are eligible to register for the new web-based software for electronic filing.
