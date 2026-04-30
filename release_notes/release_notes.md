@@ -1,3 +1,21 @@
+# April 21, 2026 (Sprint 31.4)
+## Added
+- **API:** Add designated agent to committee endpoint
+- **API:** Add doc_id filter for rulemaking-related API results
+- **API:** Add statement timeout handling for long-running queries, with graceful 504 responses and tests.
+
+
+## Changed
+- **CMS:** Remove rulemaking feature flag references in cms code
+- **CMS:** Add redirects for legacy rulemaking application and document links to the current rulemaking application
+- **API:** Updated MUR document types
+- **API:** Fix null-filter handling for aggregate queries
+
+
+## Under the hood
+- **API:** Upgrade werkzeug python package to remediate snyk vulnerability
+- **CMS:** Upgrade Django from v5.1.15 to v5.2.12
+
 # April 7, 2026 (Sprint 31.3)
 ## Added
 - **API:** Added rulemaking document sort logic based on tier precedence
