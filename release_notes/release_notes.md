@@ -1,3 +1,22 @@
+# May 5, 2026 (Sprint 31.5)
+## Added
+- **API:** Added a new `other` state filter to help find records with foreign, missing, or nonstandard state values.
+- **CMS:** Added redirect for retired legacy sers.fec.gov to the main website’s rulemaking search system.
+
+## Changed
+- **CMS:** On committee profile pages, in the 24–48 hour filings notices section, display only 24–48 hour report types.
+- **CMS:** Updated data tables to show details in expandable rows instead of a side panel.
+- **CMS:** Fixed committee profile pages so they no longer show a 404 error when the committee exists but a selected cycle has no history record.
+
+
+## Under the hood
+- **API:** Fixed backup task failures by using a unique base path for each repo.
+- **API:** Fixed Slack alerts for daily legal case update messages.
+- **API:** Fixed app context handling for background tasks.
+- **API:** Upgraded flyway to address security issues.
+- **API:** Upgraded gitpython to address security issues.
+- **API:** Increased API instances to 12
+
 # April 21, 2026 (Sprint 31.4)
 ## Added
 - **API:** Add designated agent to committee endpoint
