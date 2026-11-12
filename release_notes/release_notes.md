@@ -1,3 +1,57 @@
+# November 4, 2026 (Sprint 33.3)
+## Changed
+- **API:** Restored law and regulation citation suggestions in enforcement searches so users can filter results by citation.
+- **API:** Fixed the process that updates statutes search after download links for U.S. Code FEC titles stopped working.
+
+## Under the hood
+- **CMS and API:** Updated GitPython to version 3.2.1.
+- **API:** Increased memory and processing capacity.
+- **API:** Updated urlib3 to v2.8.0.
+- **API:** Updated certifi package to v2026.10.19
+
+# October 20, 2026 (Sprint 33.2)
+## Changed
+- **CMS:** Removed parentheses around file types and sizes on Reports about the FEC pages.
+- **CMS and API:** Updated financial data tables and contribution searches so records with missing dates are no longer always placed last.
+
+## Under the hood
+- **CMS and API:** Updated GitPython to version 3.1.62.
+- **API:** Updated how independent spending totals are prepared. Spending is grouped as supporting, opposing, or other spending based on reported expenditure type. 
+- **API:** Updated Flyway package to v13.11.1.
+- Updated Nginx buildpack
+
+# October 06, 2026 (Sprint 33.1)
+## Changed
+- **H4CC:** Updated the regulations page with the 2026 printed edition and information about future updates.
+- **CMS:** Removed incorrect messages that a committee had converted to a PAC.
+- **CMS:** Adjusted how contribution, spending, loan, and allocated disbursement tables sort missing values to match updated database behavior.
+- **API:** Updated rulemaking comment availability to use Eastern Time for deadlines and refresh around the clock. 
+- **API:** Fixed rulemaking search so document records are included even when their PDF content is unavailable.
+
+## Under the hood
+- **API:** Updated download responses so monitoring can distinguish requests waiting to be processed from completed downloads. 
+- **API:** Updated Flyway and its supporting software
+- **API:** Added notifications in Slack when AOs are published.
+
+# September 22, 2026 (Sprint 32.i)
+## Added
+- **CMS:** Added a message for committee filing PDFs with 100,000 or more pages. The message explains that the PDF is unavailable and provides an email address for help.
+
+## Changed
+- **H4CC:** Changed out the custom template to the resource template for the following pages:
+Types of nonconnected committees, Who can and can’t contribute to nonconnected PACS, Who can and can’t contribute to SSFs, and Volunteer activity. 
+- **H4CC:** Updated five nonconnected PAC guidance pages to reflect the Technological Modernization rules. 
+
+## Under the hood
+
+- **CMS:** Upgrade wagtail to v7.0.9 to remediate snyk vulnerabilities
+- **CMS:** Upgrade setuptools to v83.0.0 to remediate snyk vulnerabilities
+- **API:** Upgrade gitpython to v3.1.59 to remediate snyk vulnerabilities
+- **API:** Upgrade setuptools to v83.0.0 to remediate snyk vulnerabilities
+- **API:** Upgrade flyway to v13.6.0 to remediate snyk vulnerabilities
+- **API:** Added database support for electronic filing format version 8.5.
+
+
 # September 01, 2026 (Sprint 32.6)
  ## Changed
 - **H4CC:** Removed glossary term “Coordinated Party Expenditure” from the glossary 
