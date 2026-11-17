@@ -1,3 +1,21 @@
+# November 17, 2026 (Sprint 33.4)
+## Added
+- **H4CC:** Added an Election Day banner for November 3rd.
+- **API:** Added independent expenditure totals to the API, grouped by support, oppose, or other spending. Totals update daily and can be filtered by election cycle, office, state, and district. 
+
+## Changed
+- **H4CC:**  Update the [organizational chart](https://www.fec.gov/about/leadership-and-structure/fec-offices/) for staff departures. 
+- **CMS:** Fixed committee profile pages so missing activity information no longer causes a server error. Year selectors now use the committee’s available history.
+- **CMS:** Updated default election year selectors to advance automatically with the election and reporting dates. Election searches now default to 2028, while transaction searches and filer resets retain 2026.
+- **API:** Improved receipts and contribution searches to reduce timeouts when moving through results, including records with missing values.
+- **API:** Remove error caching so that requests can recover when the underlying problem is resolved. 
+
+## Under the hood
+- **CMS:** Updated Django to v5.2.19.
+- **API:** Updated packages used for database maintenance, code checks, and API documentation.
+- **API:** Updated legal search testing and set up instructions for OpenSearch 2.17.
+- Updated Nginx buildpack
+
 # November 4, 2026 (Sprint 33.3)
 ## Changed
 - **API:** Restored law and regulation citation suggestions in enforcement searches so users can filter results by citation.
